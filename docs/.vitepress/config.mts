@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import type { PageSplitSection } from 'vitepress'
+import { readFileSync } from 'node:fs'
 
 const headingRegex = /<h(\d*).*?>(.*?<a.*? href="#.*?".*?>.*?<\/a>)<\/h\1>/gi
 const headingContentRegex = /(.*?)<a.*? href="#(.*?)".*?>.*?<\/a>/i
@@ -8,11 +9,18 @@ function clearHtmlTags(value: string): string {
   return value.replace(/<[^>]*>/g, '').trim()
 }
 
-function splitSearchSections(_path: string, html: string): PageSplitSection[] {
+function articleTitleFromSource(path: string): string {
+  const source = readFileSync(path, 'utf8')
+  const match = source.match(/^title:\s*(?:"([^"]+)"|'([^']+)'|(.+?))\s*$/m)
+  return match?.[1] ?? match?.[2] ?? match?.[3]?.trim() ?? 'Colab Daily'
+}
+
+function splitSearchSections(path: string, html: string): PageSplitSection[] {
+  const articleTitle = articleTitleFromSource(path)
   const result = html.split(headingRegex)
   result.shift()
   const sections: PageSplitSection[] = []
-  const parentTitles: string[] = []
+  const parentTitles: string[] = [articleTitle]
 
   for (let index = 0; index < result.length; index += 3) {
     const level = Number.parseInt(result[index], 10) - 1
@@ -23,7 +31,6 @@ function splitSearchSections(_path: string, html: string): PageSplitSection[] {
     if (!title) continue
 
     if (level === 0) {
-      parentTitles[0] = title
       continue
     }
     if (!text) continue
@@ -32,7 +39,7 @@ function splitSearchSections(_path: string, html: string): PageSplitSection[] {
     parentTitles[level] = title
     sections.push({
       anchor,
-      titles: [...parentTitles.slice(0, level)],
+      titles: [...parentTitles.slice(0, level + 1)],
       text
     })
   }

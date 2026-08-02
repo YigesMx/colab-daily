@@ -115,15 +115,16 @@ function imageUrl(article: DailyArticle) {
           </button>
         </div>
       </div>
-      <label class="control control--sort">
-        <span>排序</span>
-        <select v-model="selectedSort">
-          <option value="rank">按编辑排名</option>
-          <option value="score">按综合分</option>
-          <option value="title">按标题</option>
-        </select>
-      </label>
     </section>
+
+    <label v-if="archive.dates.length" class="control control--sort">
+      <span>排序</span>
+      <select v-model="selectedSort">
+        <option value="rank">按编辑排名</option>
+        <option value="score">按综合分</option>
+        <option value="title">按标题</option>
+      </select>
+    </label>
 
     <div v-if="archive.dates.length" class="result-line" aria-live="polite">
       <span>显示 {{ visibleArticles.length }} / {{ matchingArticles.length }} 篇</span>
@@ -208,7 +209,7 @@ function imageUrl(article: DailyArticle) {
   align-items: end;
   justify-content: space-between;
   gap: 32px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   padding-bottom: 24px;
   border-bottom: 1px solid #2b3341;
 }
@@ -274,18 +275,19 @@ function imageUrl(article: DailyArticle) {
   display: grid;
   gap: 12px;
   padding: 18px 0;
-  border-top: 1px solid #242c39;
   border-bottom: 1px solid #242c39;
 }
 
 .control--sort {
-  grid-template-columns: 70px 190px;
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
   gap: 12px;
-  padding-top: 4px;
+  margin: 12px auto 0;
 }
 
 .control--sort select {
+  width: 190px;
   height: 40px;
 }
 
