@@ -1,0 +1,928 @@
+{
+  "schema_version": 1,
+  "cycle_id": "daily-2026-08-01",
+  "display_date": "2026-08-01",
+  "publication_hash": "02fb1881abbe764ac8b4fafd59d31e138b012d8ab35d6f4ef87132c435ace8c3",
+  "status": "success",
+  "input": {
+    "refine_current": {
+      "path": "crawl_tmp/refine_candidates/current.json",
+      "bytes": 762,
+      "sha256": "a80566382f41fb907cefa3fcd4e6a0b12662bfd94e6bb7d134ab693786ccae31"
+    },
+    "run_manifest": {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-01-g0/run_manifest.json",
+      "bytes": 2477,
+      "sha256": "e0cc818df73aa325f1fa83aa60a2851821ec741e2ac850faa5919cd8ce95cd9e"
+    },
+    "successful_set": {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-01-g0/successful_set.json",
+      "bytes": 15910,
+      "sha256": "99fe0d77c73543df3d841be61a1388e0c592e06052940654789066cd70e5853f",
+      "content_sha256": "4a606b967ca2975db0f7040ab00a1e7c81c5734667df168fca18c3fa4d0e0748"
+    },
+    "consumed_files": [
+      {
+        "candidate_id": "arxiv--2607.28625",
+        "role": "article",
+        "path": "candidates/arxiv--2607.28625/article.md",
+        "bytes": 6265,
+        "sha256": "bfb956a938af5bb0a1a137625991c203d270d5fb052492a20b437ec7fd7628fc"
+      },
+      {
+        "candidate_id": "arxiv--2607.28625",
+        "role": "metadata",
+        "path": "candidates/arxiv--2607.28625/metadata.json",
+        "bytes": 2561,
+        "sha256": "6f9c676ae3d96ea11c01345e2a5dd1b145af533c3019f58af6d30f3d6007f955"
+      },
+      {
+        "candidate_id": "arxiv--2607.28625",
+        "role": "manifest",
+        "path": "candidates/arxiv--2607.28625/manifest.json",
+        "bytes": 2077,
+        "sha256": "5757764b991d539947778c948b26808d942506e79f4c13ec90631b4003d55471"
+      },
+      {
+        "candidate_id": "arxiv--2607.28625",
+        "role": "preview",
+        "path": "candidates/arxiv--2607.28625/assets/preview.png",
+        "bytes": 662677,
+        "sha256": "861b75ccfebf8cd8dee8930486e96db31c9b46c5870041ea8555fe57662c283e"
+      },
+      {
+        "candidate_id": "arxiv--2607.28624",
+        "role": "article",
+        "path": "candidates/arxiv--2607.28624/article.md",
+        "bytes": 5589,
+        "sha256": "9d6ae7591caa6b65412e190333a34e72e20e1d4a6e2f7512a0eb217be23ae20d"
+      },
+      {
+        "candidate_id": "arxiv--2607.28624",
+        "role": "metadata",
+        "path": "candidates/arxiv--2607.28624/metadata.json",
+        "bytes": 1933,
+        "sha256": "4dfb4c0c65f51e0a68933d581f087ccfb5655b627bbc01f80d9a7fa65eea9698"
+      },
+      {
+        "candidate_id": "arxiv--2607.28624",
+        "role": "manifest",
+        "path": "candidates/arxiv--2607.28624/manifest.json",
+        "bytes": 1417,
+        "sha256": "d4860f02e0d2ffa58dec406a4954272e7020329de20d006d84cdc0a9f8da3e61"
+      },
+      {
+        "candidate_id": "arxiv--2607.28624",
+        "role": "preview",
+        "path": "candidates/arxiv--2607.28624/assets/preview.png",
+        "bytes": 382039,
+        "sha256": "8b2dafa217768368a128d760e279542c7b943072a1d88341e110142cfd9846e8"
+      },
+      {
+        "candidate_id": "arxiv--2607.26056",
+        "role": "article",
+        "path": "candidates/arxiv--2607.26056/article.md",
+        "bytes": 5593,
+        "sha256": "39b8625d6c144abe84eeaceda8279e836433884a23ea3b66f8fe129ea9b16149"
+      },
+      {
+        "candidate_id": "arxiv--2607.26056",
+        "role": "metadata",
+        "path": "candidates/arxiv--2607.26056/metadata.json",
+        "bytes": 2676,
+        "sha256": "a352b580e7c41f9686b9a35cb166c79f22c2b5eadbf15416e16c78107f7acef9"
+      },
+      {
+        "candidate_id": "arxiv--2607.26056",
+        "role": "manifest",
+        "path": "candidates/arxiv--2607.26056/manifest.json",
+        "bytes": 2311,
+        "sha256": "a8dc895c18106dcfd20ed34335fb62a819559584d367860aba4b88a5f1998100"
+      },
+      {
+        "candidate_id": "arxiv--2607.26056",
+        "role": "preview",
+        "path": "candidates/arxiv--2607.26056/assets/preview.png",
+        "bytes": 184632,
+        "sha256": "79a6e3cc10dfb9d5503e0efc0625882f27ff2ff5fdf62c4b76eadffdd0279d4b"
+      },
+      {
+        "candidate_id": "url--42a1992e4b242ffc",
+        "role": "article",
+        "path": "candidates/url--42a1992e4b242ffc/article.md",
+        "bytes": 5538,
+        "sha256": "196b9211fb18a2c758211207f971cfeb39090c402e6fbc3f7548b44006cd76ca"
+      },
+      {
+        "candidate_id": "url--42a1992e4b242ffc",
+        "role": "metadata",
+        "path": "candidates/url--42a1992e4b242ffc/metadata.json",
+        "bytes": 2601,
+        "sha256": "8c21b85851f6a8fb9ba928d423464f63f90596f0e5345d3d2c8072bf4b85af09"
+      },
+      {
+        "candidate_id": "url--42a1992e4b242ffc",
+        "role": "manifest",
+        "path": "candidates/url--42a1992e4b242ffc/manifest.json",
+        "bytes": 1193,
+        "sha256": "f0c8daa68630c2e0425f6ff38ffd4904800acbcb9f9401f576d13b368defe216"
+      },
+      {
+        "candidate_id": "url--42a1992e4b242ffc",
+        "role": "preview",
+        "path": "candidates/url--42a1992e4b242ffc/assets/preview.jpg",
+        "bytes": 48006,
+        "sha256": "4ff5b2370370d3931c29fd1abbfb7a117aa5b9c52a3b1d542e3a115b63c06277"
+      },
+      {
+        "candidate_id": "arxiv--2607.28362",
+        "role": "article",
+        "path": "candidates/arxiv--2607.28362/article.md",
+        "bytes": 5717,
+        "sha256": "a1c35db6bb15dd35993b5239653e1eea0636206ed3a6928363aa39bf93de47c5"
+      },
+      {
+        "candidate_id": "arxiv--2607.28362",
+        "role": "metadata",
+        "path": "candidates/arxiv--2607.28362/metadata.json",
+        "bytes": 2822,
+        "sha256": "107953de09e947013836d6fb13e57f62a2941dec0adee7133938daaf181f679b"
+      },
+      {
+        "candidate_id": "arxiv--2607.28362",
+        "role": "manifest",
+        "path": "candidates/arxiv--2607.28362/manifest.json",
+        "bytes": 2269,
+        "sha256": "9dc0a7ec4997b070b284baa4b2ac46ad04b399f1880f5ad052d850db8f866fe0"
+      },
+      {
+        "candidate_id": "arxiv--2607.28362",
+        "role": "preview",
+        "path": "candidates/arxiv--2607.28362/assets/preview.png",
+        "bytes": 1787028,
+        "sha256": "5f3e483a626411049fa96122fc8bdbdebb1fa10a94605b49c1adc6f545e1d938"
+      },
+      {
+        "candidate_id": "arxiv--2607.28560",
+        "role": "article",
+        "path": "candidates/arxiv--2607.28560/article.md",
+        "bytes": 5795,
+        "sha256": "eb55e15a16c5555bb002d38c50554fce8e2f5164fababe57a4fecf73edd2c132"
+      },
+      {
+        "candidate_id": "arxiv--2607.28560",
+        "role": "metadata",
+        "path": "candidates/arxiv--2607.28560/metadata.json",
+        "bytes": 2266,
+        "sha256": "0cf3af3976338d1d0dca0d5959fb4f51f57cf320782bef07899f9c1567fd42d4"
+      },
+      {
+        "candidate_id": "arxiv--2607.28560",
+        "role": "manifest",
+        "path": "candidates/arxiv--2607.28560/manifest.json",
+        "bytes": 10462,
+        "sha256": "e54d5e1bdcd9323b3cd9b9446e08365e74ed92e9d6ae06dd2c2d1f54d5fccb6a"
+      },
+      {
+        "candidate_id": "arxiv--2607.28560",
+        "role": "preview",
+        "path": "candidates/arxiv--2607.28560/assets/x-navdp-pipeline.png",
+        "bytes": 1981653,
+        "sha256": "4b0d8e762dcbd0e50b9f744207e13d40e33e7836efa7806fa5fd127c1e699e44"
+      },
+      {
+        "candidate_id": "arxiv--2607.28596",
+        "role": "article",
+        "path": "candidates/arxiv--2607.28596/article.md",
+        "bytes": 5416,
+        "sha256": "3f935d7793789b1d32d0271c270de0f10d661530d046ea293549afa5f21095fc"
+      },
+      {
+        "candidate_id": "arxiv--2607.28596",
+        "role": "metadata",
+        "path": "candidates/arxiv--2607.28596/metadata.json",
+        "bytes": 1527,
+        "sha256": "ab600e866dbd57407417cfbe922ebf7e83acc8bd17b036448dc56ba267bfa130"
+      },
+      {
+        "candidate_id": "arxiv--2607.28596",
+        "role": "manifest",
+        "path": "candidates/arxiv--2607.28596/manifest.json",
+        "bytes": 5199,
+        "sha256": "7c4b7adde71afd773060b6824e1de8a5b22937651ef37897cead34ff02473629"
+      },
+      {
+        "candidate_id": "arxiv--2607.28596",
+        "role": "preview",
+        "path": "candidates/arxiv--2607.28596/assets/fa-rdp-overview.png",
+        "bytes": 2884623,
+        "sha256": "346ae529441eb95238de06c0b0ee6fb044b898faa3d314e029962ffa887ec412"
+      },
+      {
+        "candidate_id": "arxiv--2607.27703",
+        "role": "article",
+        "path": "candidates/arxiv--2607.27703/article.md",
+        "bytes": 5425,
+        "sha256": "7197b4e209e8365891ad3f08d9539acee8b996e7135af027f20e75c4fbcf9f06"
+      },
+      {
+        "candidate_id": "arxiv--2607.27703",
+        "role": "metadata",
+        "path": "candidates/arxiv--2607.27703/metadata.json",
+        "bytes": 1731,
+        "sha256": "703e52d2577cacf41d2360429417bcc5ebaf924752b915661795a96680f1d8fb"
+      },
+      {
+        "candidate_id": "arxiv--2607.27703",
+        "role": "manifest",
+        "path": "candidates/arxiv--2607.27703/manifest.json",
+        "bytes": 9011,
+        "sha256": "ed8d3db72eb67d031e800b1871fc4022529e48bca603a1f57642eec37baa8f17"
+      },
+      {
+        "candidate_id": "arxiv--2607.27703",
+        "role": "preview",
+        "path": "candidates/arxiv--2607.27703/assets/spatialcli-method.png",
+        "bytes": 913831,
+        "sha256": "61f0589f9b4038ac3527a4a48c7065f6b64b2be5c7a8461f57562ce6a68c8cb9"
+      },
+      {
+        "candidate_id": "arxiv--2607.26637",
+        "role": "article",
+        "path": "candidates/arxiv--2607.26637/article.md",
+        "bytes": 6298,
+        "sha256": "8db4e8b0cb38f608cb44b875252cf5f696c681ac3f5ff94d3daab8eca964d5c4"
+      },
+      {
+        "candidate_id": "arxiv--2607.26637",
+        "role": "metadata",
+        "path": "candidates/arxiv--2607.26637/metadata.json",
+        "bytes": 2036,
+        "sha256": "396ce67cbdd0c1e5b255d71909d3abc6906cd0782ce6b33ffbda53700596b5f6"
+      },
+      {
+        "candidate_id": "arxiv--2607.26637",
+        "role": "manifest",
+        "path": "candidates/arxiv--2607.26637/manifest.json",
+        "bytes": 18075,
+        "sha256": "5c624eb2b1bc1d9c40355009bad78141a0b23f92c4c08f8920d6f72bb16c6e3e"
+      },
+      {
+        "candidate_id": "arxiv--2607.26637",
+        "role": "preview",
+        "path": "candidates/arxiv--2607.26637/assets/filesystem-memory-overview.png",
+        "bytes": 807369,
+        "sha256": "948ded4fc090b76b4f8c42a97a84ca637009106760a50ead5c508485ed60bc8d"
+      },
+      {
+        "candidate_id": "arxiv--2607.28272",
+        "role": "article",
+        "path": "candidates/arxiv--2607.28272/article.md",
+        "bytes": 5109,
+        "sha256": "4d70286e865990a2b1e5ece260fde1650961e0b33662026ce29c38e1ec75e85d"
+      },
+      {
+        "candidate_id": "arxiv--2607.28272",
+        "role": "metadata",
+        "path": "candidates/arxiv--2607.28272/metadata.json",
+        "bytes": 2030,
+        "sha256": "94946cdd8ebe6ac4f28668b5b9bd297c65e433fded9f4d7e14a9ff746393e7e7"
+      },
+      {
+        "candidate_id": "arxiv--2607.28272",
+        "role": "manifest",
+        "path": "candidates/arxiv--2607.28272/manifest.json",
+        "bytes": 10616,
+        "sha256": "39ac1da2d310232c067717e0251b1802f6b5c5fa21ff78588e63d32fba4d9dbf"
+      },
+      {
+        "candidate_id": "arxiv--2607.28272",
+        "role": "preview",
+        "path": "candidates/arxiv--2607.28272/assets/memharness-framework.png",
+        "bytes": 236303,
+        "sha256": "678bcdb18a4ac5f86385059b97d48ea6aa5b8747477b39ae4ba3b484f6031567"
+      },
+      {
+        "candidate_id": "arxiv--2607.27380",
+        "role": "article",
+        "path": "candidates/arxiv--2607.27380/article.md",
+        "bytes": 4038,
+        "sha256": "a13b02f7eb1cd70b34159c7de8af2cead665497cff5e2e9cee701f2a73857187"
+      },
+      {
+        "candidate_id": "arxiv--2607.27380",
+        "role": "metadata",
+        "path": "candidates/arxiv--2607.27380/metadata.json",
+        "bytes": 2129,
+        "sha256": "646289fb080feca42d334216c53528dd2f8f53f5b89d8d8e6f04c75272998035"
+      },
+      {
+        "candidate_id": "arxiv--2607.27380",
+        "role": "manifest",
+        "path": "candidates/arxiv--2607.27380/manifest.json",
+        "bytes": 1408,
+        "sha256": "70e8b2528010c29f6399df84274eaab898a20cd09a9a514a576ab4dec1f1dedc"
+      },
+      {
+        "candidate_id": "arxiv--2607.27380",
+        "role": "preview",
+        "path": "candidates/arxiv--2607.27380/assets/pipeline.png",
+        "bytes": 906532,
+        "sha256": "b5494ae4d139fb0f9c3418b0d687e9ea1f900ffda6916fe485a5ce79298b014b"
+      },
+      {
+        "candidate_id": "arxiv--2607.28611",
+        "role": "article",
+        "path": "candidates/arxiv--2607.28611/article.md",
+        "bytes": 4328,
+        "sha256": "0cd2d4380b3e90094cda1e07b5bbf3c9dda3b39a4765a6dc70c65676b7426714"
+      },
+      {
+        "candidate_id": "arxiv--2607.28611",
+        "role": "metadata",
+        "path": "candidates/arxiv--2607.28611/metadata.json",
+        "bytes": 2371,
+        "sha256": "2b6a56969f68d0ff6152f55d5b8f0d2a2aac65aecbc02d64dc996e8c8ef9282c"
+      },
+      {
+        "candidate_id": "arxiv--2607.28611",
+        "role": "manifest",
+        "path": "candidates/arxiv--2607.28611/manifest.json",
+        "bytes": 1441,
+        "sha256": "c8992f70fc9faed9086514372033274d5f209400495c6a602eff0a60bf4bb72a"
+      },
+      {
+        "candidate_id": "arxiv--2607.28611",
+        "role": "preview",
+        "path": "candidates/arxiv--2607.28611/assets/model-architecture.png",
+        "bytes": 2904483,
+        "sha256": "5875e55611afecc55eef278d36a5911247ebccae18f06adfa8b2b1deed330d89"
+      },
+      {
+        "candidate_id": "arxiv--2607.28227",
+        "role": "article",
+        "path": "candidates/arxiv--2607.28227/article.md",
+        "bytes": 4365,
+        "sha256": "d8d7b951244688c9c15319968e1ada14bb4fb9a6ebf201b6ea35b6c210514140"
+      },
+      {
+        "candidate_id": "arxiv--2607.28227",
+        "role": "metadata",
+        "path": "candidates/arxiv--2607.28227/metadata.json",
+        "bytes": 2480,
+        "sha256": "e19ba6e073a8821067f4866359cdd04f157f14f9ea250ad3f579916029de7063"
+      },
+      {
+        "candidate_id": "arxiv--2607.28227",
+        "role": "manifest",
+        "path": "candidates/arxiv--2607.28227/manifest.json",
+        "bytes": 1424,
+        "sha256": "e601685597fe8d8baac91946e31c1a13064ca9cb369a7d638aaee1423ef81bc7"
+      },
+      {
+        "candidate_id": "arxiv--2607.28227",
+        "role": "preview",
+        "path": "candidates/arxiv--2607.28227/assets/system-overview.png",
+        "bytes": 1424126,
+        "sha256": "088379efba5dd92afdd899ce7282c29cf77eaa5125cc74b1a241014c2a4b5508"
+      },
+      {
+        "candidate_id": "arxiv--2607.28415",
+        "role": "article",
+        "path": "candidates/arxiv--2607.28415/article.md",
+        "bytes": 3831,
+        "sha256": "40b02e3334c096f198e33b5708dea90e74658e7ae468beb71ffdbdb6e2ad1cf6"
+      },
+      {
+        "candidate_id": "arxiv--2607.28415",
+        "role": "metadata",
+        "path": "candidates/arxiv--2607.28415/metadata.json",
+        "bytes": 2082,
+        "sha256": "c017205dcae62cfda675f91dbcf6c631d72ee9458af3a87180d0692848f65cd7"
+      },
+      {
+        "candidate_id": "arxiv--2607.28415",
+        "role": "manifest",
+        "path": "candidates/arxiv--2607.28415/manifest.json",
+        "bytes": 1465,
+        "sha256": "bb876af6432599b83d33fb7eb50b2e85b159782df56eb52942234a97122f3a37"
+      },
+      {
+        "candidate_id": "arxiv--2607.28415",
+        "role": "preview",
+        "path": "candidates/arxiv--2607.28415/assets/latent-distribution-comparison.png",
+        "bytes": 122425,
+        "sha256": "42b8603072814845c932cfa2c4a06f351db2ed40e475d934a2a214da79f80e0d"
+      },
+      {
+        "candidate_id": "arxiv--2607.28474",
+        "role": "article",
+        "path": "candidates/arxiv--2607.28474/article.md",
+        "bytes": 3981,
+        "sha256": "c53ddccc14f98277bb2ad60e113c00ba8336d0cdd113f8fd4c17e1b6a9037555"
+      },
+      {
+        "candidate_id": "arxiv--2607.28474",
+        "role": "metadata",
+        "path": "candidates/arxiv--2607.28474/metadata.json",
+        "bytes": 2398,
+        "sha256": "3feca1bfd70fcf40c73d39934e16fb8c736962abd1c04a790994a78d49376666"
+      },
+      {
+        "candidate_id": "arxiv--2607.28474",
+        "role": "manifest",
+        "path": "candidates/arxiv--2607.28474/manifest.json",
+        "bytes": 1459,
+        "sha256": "af16e1eed3a3d44aa5a65dda6adc41ff8e7e3f219b6f2aaf1980289c3807c144"
+      },
+      {
+        "candidate_id": "arxiv--2607.28474",
+        "role": "preview",
+        "path": "candidates/arxiv--2607.28474/assets/tea-agrivln-example.jpeg",
+        "bytes": 1629555,
+        "sha256": "716ae98a6fa554dd7615af09c3eb533be611fa7aea6e26bc7a5e08b6ad9c99ec"
+      }
+    ]
+  },
+  "managed_day_tree_hash": "4e3dff8620aab7ad2dbc56ce0a72ca4aa3fc4dc16562f37fa66abf2e89c926a6",
+  "managed_tree_entries": [
+    {
+      "path": "docs/daily/2026-08-01/.managed-manifest.json",
+      "bytes": 8909,
+      "sha256": "818d455892cde88de1a8af62ad1f8e0bd8162c302f5ebb020c150233d53f390f"
+    },
+    {
+      "path": "docs/daily/2026-08-01/01-ace-data-0-human-centric-ambient-capture-as-embodied-data-engine.md",
+      "bytes": 6356,
+      "sha256": "117056bf350e51ef77f94e60aacdf802818e674b0c627fc55aa7b70f86bf9b64"
+    },
+    {
+      "path": "docs/daily/2026-08-01/02-phizero-a-world-model-built-around-physical-language.md",
+      "bytes": 5680,
+      "sha256": "e16ffdc5c5ea89626a47261e9c64097df304a01ddc0904c37d8e79df1545c83f"
+    },
+    {
+      "path": "docs/daily/2026-08-01/03-intact-isomorphic-intent-to-action-learning-for-search-free-world-models.md",
+      "bytes": 5684,
+      "sha256": "cf78d954fdf2f62f567a1483a5cd648bd31b8bc1b372d94352b20664ecb72208"
+    },
+    {
+      "path": "docs/daily/2026-08-01/04-gemini-robotics-2-brings-whole-body-intelligence-to-robots.md",
+      "bytes": 5633,
+      "sha256": "43cc5bfa9e60edd5f06f4ab8e608d81c7a51087873cf47ee2879819effa682a2"
+    },
+    {
+      "path": "docs/daily/2026-08-01/05-shadowdancer-teaching-video-world-models-any-action-by-learning-unified-dynamics.md",
+      "bytes": 5808,
+      "sha256": "f78deba7125915fd422abfa82138cf19105fdd924bae9a56c16f488870c497c8"
+    },
+    {
+      "path": "docs/daily/2026-08-01/06-x-navdp-q.md",
+      "bytes": 5877,
+      "sha256": "45caf41c8217ce6e337bf554ded8668486280fc3c0715f212962e856551adb2e"
+    },
+    {
+      "path": "docs/daily/2026-08-01/07-fa-rdp.md",
+      "bytes": 5499,
+      "sha256": "2505c3b90deb66d9f9d6b41077135a70e5b1f3f7ffff219c9756cd1982022f18"
+    },
+    {
+      "path": "docs/daily/2026-08-01/08-spatialcli-vlm.md",
+      "bytes": 5506,
+      "sha256": "3c21eadf59e210f19d607c7a18cad897030e7b942d035ed850f49899bbf7f4e3"
+    },
+    {
+      "path": "docs/daily/2026-08-01/09-agent.md",
+      "bytes": 6370,
+      "sha256": "2f92eff5086a07dff0d13318ba9628613e7307b24222f225e36598d8107f47d2"
+    },
+    {
+      "path": "docs/daily/2026-08-01/10-memharness.md",
+      "bytes": 5187,
+      "sha256": "0f1e6995e738887c17c8eb87eccda47597fe4f5bee7518b9c3bd2f3d89e7bb50"
+    },
+    {
+      "path": "docs/daily/2026-08-01/11-videococo-blender.md",
+      "bytes": 4128,
+      "sha256": "d1c2c46787d97747ab40444abd2f0b741a3c5c8c05e50641fab1e3651976eac3"
+    },
+    {
+      "path": "docs/daily/2026-08-01/12-chimera-transformer.md",
+      "bytes": 4408,
+      "sha256": "7972ddc2c137a4fafccf799671c0637d3774b070506d5047040eeed623031cd7"
+    },
+    {
+      "path": "docs/daily/2026-08-01/13-qwen-ui-agent-gui.md",
+      "bytes": 4448,
+      "sha256": "d1a44a40b8afa55300988cef85931e4e5128709872b204a8c2dbe05eed05997c"
+    },
+    {
+      "path": "docs/daily/2026-08-01/14-qqworld.md",
+      "bytes": 3899,
+      "sha256": "4c0473fb2b4bcfb9a4bac74ac151cfa26b7e97770ff9b7707f72a93bf42c04be"
+    },
+    {
+      "path": "docs/daily/2026-08-01/15-tea-agrivln.md",
+      "bytes": 4060,
+      "sha256": "99f1886e1733c3cfc7e058e39e5da491b6f6c4f4c932e411f09148893910a1a7"
+    },
+    {
+      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.26056/79a6e3cc10dfb9d5503e0efc0625882f27ff2ff5fdf62c4b76eadffdd0279d4b.png",
+      "bytes": 184632,
+      "sha256": "79a6e3cc10dfb9d5503e0efc0625882f27ff2ff5fdf62c4b76eadffdd0279d4b"
+    },
+    {
+      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.26637/948ded4fc090b76b4f8c42a97a84ca637009106760a50ead5c508485ed60bc8d.png",
+      "bytes": 807369,
+      "sha256": "948ded4fc090b76b4f8c42a97a84ca637009106760a50ead5c508485ed60bc8d"
+    },
+    {
+      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.27380/b5494ae4d139fb0f9c3418b0d687e9ea1f900ffda6916fe485a5ce79298b014b.png",
+      "bytes": 906532,
+      "sha256": "b5494ae4d139fb0f9c3418b0d687e9ea1f900ffda6916fe485a5ce79298b014b"
+    },
+    {
+      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.27703/61f0589f9b4038ac3527a4a48c7065f6b64b2be5c7a8461f57562ce6a68c8cb9.png",
+      "bytes": 913831,
+      "sha256": "61f0589f9b4038ac3527a4a48c7065f6b64b2be5c7a8461f57562ce6a68c8cb9"
+    },
+    {
+      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28227/088379efba5dd92afdd899ce7282c29cf77eaa5125cc74b1a241014c2a4b5508.png",
+      "bytes": 1424126,
+      "sha256": "088379efba5dd92afdd899ce7282c29cf77eaa5125cc74b1a241014c2a4b5508"
+    },
+    {
+      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28272/678bcdb18a4ac5f86385059b97d48ea6aa5b8747477b39ae4ba3b484f6031567.png",
+      "bytes": 236303,
+      "sha256": "678bcdb18a4ac5f86385059b97d48ea6aa5b8747477b39ae4ba3b484f6031567"
+    },
+    {
+      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28362/5f3e483a626411049fa96122fc8bdbdebb1fa10a94605b49c1adc6f545e1d938.png",
+      "bytes": 1787028,
+      "sha256": "5f3e483a626411049fa96122fc8bdbdebb1fa10a94605b49c1adc6f545e1d938"
+    },
+    {
+      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28415/42b8603072814845c932cfa2c4a06f351db2ed40e475d934a2a214da79f80e0d.png",
+      "bytes": 122425,
+      "sha256": "42b8603072814845c932cfa2c4a06f351db2ed40e475d934a2a214da79f80e0d"
+    },
+    {
+      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28474/716ae98a6fa554dd7615af09c3eb533be611fa7aea6e26bc7a5e08b6ad9c99ec.jpeg",
+      "bytes": 1629555,
+      "sha256": "716ae98a6fa554dd7615af09c3eb533be611fa7aea6e26bc7a5e08b6ad9c99ec"
+    },
+    {
+      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28560/4b0d8e762dcbd0e50b9f744207e13d40e33e7836efa7806fa5fd127c1e699e44.png",
+      "bytes": 1981653,
+      "sha256": "4b0d8e762dcbd0e50b9f744207e13d40e33e7836efa7806fa5fd127c1e699e44"
+    },
+    {
+      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28596/346ae529441eb95238de06c0b0ee6fb044b898faa3d314e029962ffa887ec412.png",
+      "bytes": 2884623,
+      "sha256": "346ae529441eb95238de06c0b0ee6fb044b898faa3d314e029962ffa887ec412"
+    },
+    {
+      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28611/5875e55611afecc55eef278d36a5911247ebccae18f06adfa8b2b1deed330d89.png",
+      "bytes": 2904483,
+      "sha256": "5875e55611afecc55eef278d36a5911247ebccae18f06adfa8b2b1deed330d89"
+    },
+    {
+      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28624/8b2dafa217768368a128d760e279542c7b943072a1d88341e110142cfd9846e8.png",
+      "bytes": 382039,
+      "sha256": "8b2dafa217768368a128d760e279542c7b943072a1d88341e110142cfd9846e8"
+    },
+    {
+      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28625/861b75ccfebf8cd8dee8930486e96db31c9b46c5870041ea8555fe57662c283e.png",
+      "bytes": 662677,
+      "sha256": "861b75ccfebf8cd8dee8930486e96db31c9b46c5870041ea8555fe57662c283e"
+    },
+    {
+      "path": "docs/public/daily/2026-08-01/assets/url--42a1992e4b242ffc/4ff5b2370370d3931c29fd1abbfb7a117aa5b9c52a3b1d542e3a115b63c06277.jpg",
+      "bytes": 48006,
+      "sha256": "4ff5b2370370d3931c29fd1abbfb7a117aa5b9c52a3b1d542e3a115b63c06277"
+    }
+  ],
+  "build": {
+    "argv": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "vitepress_base": "/colab-daily/",
+    "dependency_install": "not_needed",
+    "started_at": "2026-08-02T09:38:04Z",
+    "completed_at": "2026-08-02T09:38:27Z",
+    "exit_code": 0,
+    "output_summary": "vitepress v1.6.4; client/server bundles built; 16 pages rendered; build complete in 0.98s"
+  },
+  "validation": {
+    "completed_at": "2026-08-02T09:40:24.353639Z",
+    "article_html": [
+      {
+        "candidate_id": "arxiv--2607.28625",
+        "path": "daily/2026-08-01/01-ace-data-0-human-centric-ambient-capture-as-embodied-data-engine.html",
+        "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
+        "sections": [
+          "核心内容",
+          "关键技术与数据",
+          "结果与结论",
+          "来源链接"
+        ],
+        "status": "valid"
+      },
+      {
+        "candidate_id": "arxiv--2607.28624",
+        "path": "daily/2026-08-01/02-phizero-a-world-model-built-around-physical-language.html",
+        "title": "PhiZero: A World Model Built Around Physical Language",
+        "sections": [
+          "核心内容",
+          "关键技术与数据",
+          "结果与结论",
+          "来源链接"
+        ],
+        "status": "valid"
+      },
+      {
+        "candidate_id": "arxiv--2607.26056",
+        "path": "daily/2026-08-01/03-intact-isomorphic-intent-to-action-learning-for-search-free-world-models.html",
+        "title": "INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models",
+        "sections": [
+          "核心内容",
+          "关键技术与数据",
+          "结果与结论",
+          "来源链接"
+        ],
+        "status": "valid"
+      },
+      {
+        "candidate_id": "url--42a1992e4b242ffc",
+        "path": "daily/2026-08-01/04-gemini-robotics-2-brings-whole-body-intelligence-to-robots.html",
+        "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+        "sections": [
+          "核心内容",
+          "关键技术与数据",
+          "结果与结论",
+          "来源链接"
+        ],
+        "status": "valid"
+      },
+      {
+        "candidate_id": "arxiv--2607.28362",
+        "path": "daily/2026-08-01/05-shadowdancer-teaching-video-world-models-any-action-by-learning-unified-dynamics.html",
+        "title": "ShadowDancer: Teaching Video World Models Any Action by Learning Unified Dynamics Representations from a Video and Its Shadow",
+        "sections": [
+          "核心内容",
+          "关键技术与数据",
+          "结果与结论",
+          "来源链接"
+        ],
+        "status": "valid"
+      },
+      {
+        "candidate_id": "arxiv--2607.28560",
+        "path": "daily/2026-08-01/06-x-navdp-q.html",
+        "title": "X-NavDP：用组内 Q 分数重加权把导航扩散策略迁移到新行为与新机体",
+        "sections": [
+          "核心内容",
+          "关键技术与数据",
+          "结果与结论",
+          "来源链接"
+        ],
+        "status": "valid"
+      },
+      {
+        "candidate_id": "arxiv--2607.28596",
+        "path": "daily/2026-08-01/07-fa-rdp.html",
+        "title": "FA-RDP：按接触阶段切换频率的视觉力觉扩散策略",
+        "sections": [
+          "核心内容",
+          "关键技术与数据",
+          "结果与结论",
+          "来源链接"
+        ],
+        "status": "valid"
+      },
+      {
+        "candidate_id": "arxiv--2607.27703",
+        "path": "daily/2026-08-01/08-spatialcli-vlm.html",
+        "title": "SpatialCLI：先学习调用空间工具，再把感知能力内化到 VLM",
+        "sections": [
+          "核心内容",
+          "关键技术与数据",
+          "结果与结论",
+          "来源链接"
+        ],
+        "status": "valid"
+      },
+      {
+        "candidate_id": "arxiv--2607.26637",
+        "path": "daily/2026-08-01/09-agent.html",
+        "title": "文件系统式 Agent 记忆：组织形态会变化，但主要收益是检索经济性",
+        "sections": [
+          "核心内容",
+          "关键技术与数据",
+          "结果与结论",
+          "来源链接"
+        ],
+        "status": "valid"
+      },
+      {
+        "candidate_id": "arxiv--2607.28272",
+        "path": "daily/2026-08-01/10-memharness.html",
+        "title": "MemHarness：把历史经验按当前状态重构，而不是原样回放",
+        "sections": [
+          "核心内容",
+          "关键技术与数据",
+          "结果与结论",
+          "来源链接"
+        ],
+        "status": "valid"
+      },
+      {
+        "candidate_id": "arxiv--2607.27380",
+        "path": "daily/2026-08-01/11-videococo-blender.html",
+        "title": "VideoCoCo：用可执行 Blender 代码约束物理一致的视频生成",
+        "sections": [
+          "核心内容",
+          "关键技术与数据",
+          "结果与结论",
+          "来源链接"
+        ],
+        "status": "valid"
+      },
+      {
+        "candidate_id": "arxiv--2607.28611",
+        "path": "daily/2026-08-01/12-chimera-transformer.html",
+        "title": "Chimera：面向长上下文视觉生成的混合扩散 Transformer 与缩放规律",
+        "sections": [
+          "核心内容",
+          "关键技术与数据",
+          "结果与结论",
+          "来源链接"
+        ],
+        "status": "valid"
+      },
+      {
+        "candidate_id": "arxiv--2607.28227",
+        "path": "daily/2026-08-01/13-qwen-ui-agent-gui.html",
+        "title": "Qwen-UI-Agent：从沙箱训练走向真实设备的统一 GUI 智能体",
+        "sections": [
+          "核心内容",
+          "关键技术与数据",
+          "结果与结论",
+          "来源链接"
+        ],
+        "status": "valid"
+      },
+      {
+        "candidate_id": "arxiv--2607.28415",
+        "path": "daily/2026-08-01/14-qqworld.html",
+        "title": "QQWorld：用分位数匹配修正世界模型潜变量的重尾",
+        "sections": [
+          "核心内容",
+          "关键技术与数据",
+          "结果与结论",
+          "来源链接"
+        ],
+        "status": "valid"
+      },
+      {
+        "candidate_id": "arxiv--2607.28474",
+        "path": "daily/2026-08-01/15-tea-agrivln.html",
+        "title": "TEA-AgriVLN：用可通行性告警修正农业视觉语言导航决策",
+        "sections": [
+          "核心内容",
+          "关键技术与数据",
+          "结果与结论",
+          "来源链接"
+        ],
+        "status": "valid"
+      }
+    ],
+    "internal_links_checked": 53,
+    "external_source_urls_preserved": 49,
+    "preview_assets_checked": 15,
+    "http_checks": [
+      {
+        "kind": "homepage",
+        "url": "/colab-daily/",
+        "status": 200,
+        "media_type": "text/html"
+      },
+      {
+        "kind": "day",
+        "url": "/colab-daily/?date=2026-08-01",
+        "status": 200,
+        "media_type": "text/html"
+      },
+      {
+        "kind": "first_article",
+        "url": "/colab-daily/daily/2026-08-01/01-ace-data-0-human-centric-ambient-capture-as-embodied-data-engine",
+        "status": 200,
+        "media_type": "text/html"
+      },
+      {
+        "kind": "last_article",
+        "url": "/colab-daily/daily/2026-08-01/15-tea-agrivln",
+        "status": 200,
+        "media_type": "text/html"
+      },
+      {
+        "kind": "preview_asset",
+        "url": "/colab-daily/daily/2026-08-01/assets/arxiv--2607.28625/861b75ccfebf8cd8dee8930486e96db31c9b46c5870041ea8555fe57662c283e.png",
+        "status": 200,
+        "media_type": "image/png"
+      },
+      {
+        "kind": "preview_asset",
+        "url": "/colab-daily/daily/2026-08-01/assets/arxiv--2607.28624/8b2dafa217768368a128d760e279542c7b943072a1d88341e110142cfd9846e8.png",
+        "status": 200,
+        "media_type": "image/png"
+      },
+      {
+        "kind": "preview_asset",
+        "url": "/colab-daily/daily/2026-08-01/assets/arxiv--2607.26056/79a6e3cc10dfb9d5503e0efc0625882f27ff2ff5fdf62c4b76eadffdd0279d4b.png",
+        "status": 200,
+        "media_type": "image/png"
+      },
+      {
+        "kind": "preview_asset",
+        "url": "/colab-daily/daily/2026-08-01/assets/url--42a1992e4b242ffc/4ff5b2370370d3931c29fd1abbfb7a117aa5b9c52a3b1d542e3a115b63c06277.jpg",
+        "status": 200,
+        "media_type": "image/jpeg"
+      },
+      {
+        "kind": "preview_asset",
+        "url": "/colab-daily/daily/2026-08-01/assets/arxiv--2607.28362/5f3e483a626411049fa96122fc8bdbdebb1fa10a94605b49c1adc6f545e1d938.png",
+        "status": 200,
+        "media_type": "image/png"
+      },
+      {
+        "kind": "preview_asset",
+        "url": "/colab-daily/daily/2026-08-01/assets/arxiv--2607.28560/4b0d8e762dcbd0e50b9f744207e13d40e33e7836efa7806fa5fd127c1e699e44.png",
+        "status": 200,
+        "media_type": "image/png"
+      },
+      {
+        "kind": "preview_asset",
+        "url": "/colab-daily/daily/2026-08-01/assets/arxiv--2607.28596/346ae529441eb95238de06c0b0ee6fb044b898faa3d314e029962ffa887ec412.png",
+        "status": 200,
+        "media_type": "image/png"
+      },
+      {
+        "kind": "preview_asset",
+        "url": "/colab-daily/daily/2026-08-01/assets/arxiv--2607.27703/61f0589f9b4038ac3527a4a48c7065f6b64b2be5c7a8461f57562ce6a68c8cb9.png",
+        "status": 200,
+        "media_type": "image/png"
+      },
+      {
+        "kind": "preview_asset",
+        "url": "/colab-daily/daily/2026-08-01/assets/arxiv--2607.26637/948ded4fc090b76b4f8c42a97a84ca637009106760a50ead5c508485ed60bc8d.png",
+        "status": 200,
+        "media_type": "image/png"
+      },
+      {
+        "kind": "preview_asset",
+        "url": "/colab-daily/daily/2026-08-01/assets/arxiv--2607.28272/678bcdb18a4ac5f86385059b97d48ea6aa5b8747477b39ae4ba3b484f6031567.png",
+        "status": 200,
+        "media_type": "image/png"
+      },
+      {
+        "kind": "preview_asset",
+        "url": "/colab-daily/daily/2026-08-01/assets/arxiv--2607.27380/b5494ae4d139fb0f9c3418b0d687e9ea1f900ffda6916fe485a5ce79298b014b.png",
+        "status": 200,
+        "media_type": "image/png"
+      },
+      {
+        "kind": "preview_asset",
+        "url": "/colab-daily/daily/2026-08-01/assets/arxiv--2607.28611/5875e55611afecc55eef278d36a5911247ebccae18f06adfa8b2b1deed330d89.png",
+        "status": 200,
+        "media_type": "image/png"
+      },
+      {
+        "kind": "preview_asset",
+        "url": "/colab-daily/daily/2026-08-01/assets/arxiv--2607.28227/088379efba5dd92afdd899ce7282c29cf77eaa5125cc74b1a241014c2a4b5508.png",
+        "status": 200,
+        "media_type": "image/png"
+      },
+      {
+        "kind": "preview_asset",
+        "url": "/colab-daily/daily/2026-08-01/assets/arxiv--2607.28415/42b8603072814845c932cfa2c4a06f351db2ed40e475d934a2a214da79f80e0d.png",
+        "status": 200,
+        "media_type": "image/png"
+      },
+      {
+        "kind": "preview_asset",
+        "url": "/colab-daily/daily/2026-08-01/assets/arxiv--2607.28474/716ae98a6fa554dd7615af09c3eb533be611fa7aea6e26bc7a5e08b6ad9c99ec.jpeg",
+        "status": 200,
+        "media_type": "image/jpeg"
+      }
+    ]
+  },
+  "warnings": [],
+  "delivery": {
+    "git_commit": "not_requested",
+    "git_push": "not_requested",
+    "github_deploy": "not_requested"
+  }
+}
