@@ -9,7 +9,6 @@ const selectedDate = ref(props.archive.dates[0]?.date ?? '')
 const selectedSource = ref('全部')
 const selectedKeyword = ref('全部')
 const selectedSort = ref('rank')
-const searchQuery = ref('')
 
 const currentGroup = computed(() =>
   props.archive.dates.find((group) => group.date === selectedDate.value)
@@ -24,13 +23,12 @@ const keywordFacets = computed(() => [
 ])
 
 const matchingArticles = computed(() => {
-  const query = searchQuery.value.trim().toLocaleLowerCase('zh-CN')
   const articles = (currentGroup.value?.articles ?? []).filter((article) => {
     const sourceMatched = selectedSource.value === '全部' ||
       article.sources.some((source) => source.name === selectedSource.value)
     const keywordMatched = selectedKeyword.value === '全部' ||
       article.keywords.includes(selectedKeyword.value)
-    return sourceMatched && keywordMatched && (!query || searchableText(article).includes(query))
+    return sourceMatched && keywordMatched
   })
 
   return articles.sort((left, right) => {
@@ -47,16 +45,6 @@ watch(selectedDate, () => {
   selectedKeyword.value = '全部'
 })
 
-function searchableText(article: DailyArticle) {
-  return [
-    article.title,
-    article.summary,
-    article.authors.join(' '),
-    article.keywords.join(' '),
-    article.sources.map((source) => source.name).join(' ')
-  ].join(' ').toLocaleLowerCase('zh-CN')
-}
-
 function imageUrl(article: DailyArticle) {
   if (!article.previewImage) return ''
   return withBase(article.previewImage)
@@ -67,38 +55,32 @@ function imageUrl(article: DailyArticle) {
   <main class="daily-index">
     <header class="daily-header">
       <div>
-        <p class="daily-header__eyebrow">CURATED AI INTELLIGENCE</p>
         <h1>Colab Daily</h1>
-        <p class="daily-header__summary">研究、产品与行业动态，每日独立归档。</p>
       </div>
       <div class="daily-header__edition" aria-label="当前日报信息">
-        <strong>{{ selectedDate || '暂无期次' }}</strong>
+        <details class="date-picker">
+          <summary class="date-picker__button">
+            <span>{{ selectedDate || '暂无期次' }}</span>
+            <span class="date-picker__chevron" aria-hidden="true">⌄</span>
+          </summary>
+          <div class="date-picker__menu" role="listbox" aria-label="选择日报日期">
+            <button
+              v-for="group in archive.dates"
+              :key="group.date"
+              type="button"
+              role="option"
+              :aria-selected="selectedDate === group.date"
+              :class="{ 'date-picker__option--active': selectedDate === group.date }"
+              @click="selectedDate = group.date"
+            >
+              <span>{{ group.date }}</span>
+              <small>{{ group.articles.length }} 篇</small>
+            </button>
+          </div>
+        </details>
         <span>{{ currentGroup?.articles.length ?? 0 }} 篇精选</span>
       </div>
     </header>
-
-    <section v-if="archive.dates.length" class="daily-controls" aria-label="日报筛选工具">
-      <label class="control">
-        <span>日期</span>
-        <select v-model="selectedDate">
-          <option v-for="group in archive.dates" :key="group.date" :value="group.date">
-            {{ group.date }}（{{ group.articles.length }}）
-          </option>
-        </select>
-      </label>
-      <label class="control control--search">
-        <span>搜索</span>
-        <input v-model="searchQuery" type="search" placeholder="标题、摘要、作者、来源..." autocomplete="off" />
-      </label>
-      <label class="control">
-        <span>排序</span>
-        <select v-model="selectedSort">
-          <option value="rank">按编辑排名</option>
-          <option value="score">按综合分</option>
-          <option value="title">按标题</option>
-        </select>
-      </label>
-    </section>
 
     <section v-if="archive.dates.length" class="facets" aria-label="聚合筛选">
       <div class="facet-row">
@@ -133,6 +115,14 @@ function imageUrl(article: DailyArticle) {
           </button>
         </div>
       </div>
+      <label class="control control--sort">
+        <span>排序</span>
+        <select v-model="selectedSort">
+          <option value="rank">按编辑排名</option>
+          <option value="score">按综合分</option>
+          <option value="title">按标题</option>
+        </select>
+      </label>
     </section>
 
     <div v-if="archive.dates.length" class="result-line" aria-live="polite">
@@ -143,7 +133,10 @@ function imageUrl(article: DailyArticle) {
     <section v-if="visibleArticles.length" class="article-grid" aria-label="每日文章列表">
       <article v-for="article in visibleArticles" :key="article.candidateId" class="article-card">
         <div class="article-card__topline">
-          <span class="article-card__rank">NO. {{ String(article.rank).padStart(2, '0') }}</span>
+          <span class="article-card__rank" :class="{ 'article-card__rank--top': article.rank <= 5 }">
+            <span v-if="article.rank <= 5" class="article-card__rank-arrow" aria-hidden="true">↑</span>
+            NO. {{ String(article.rank).padStart(2, '0') }}
+          </span>
           <span class="article-card__score" :aria-label="`综合分 ${article.score}`">{{ article.score.toFixed(1) }}</span>
         </div>
         <div class="article-card__preview">
@@ -184,7 +177,7 @@ function imageUrl(article: DailyArticle) {
 
     <section v-else class="empty-state">
       <strong>{{ archive.dates.length ? '没有匹配的文章' : '暂无日报内容' }}</strong>
-      <span v-if="archive.dates.length">请调整来源、关键词或搜索条件。</span>
+      <span v-if="archive.dates.length">请调整来源或关键词筛选条件。</span>
     </section>
   </main>
 </template>
@@ -201,7 +194,6 @@ function imageUrl(article: DailyArticle) {
 }
 
 .daily-header,
-.daily-controls,
 .facets,
 .result-line,
 .article-grid,
@@ -221,26 +213,12 @@ function imageUrl(article: DailyArticle) {
   border-bottom: 1px solid #2b3341;
 }
 
-.daily-header__eyebrow {
-  margin: 0 0 7px;
-  color: #5aa6ff;
-  font-size: 12px;
-  font-weight: 900;
-  letter-spacing: 0.18em;
-}
-
 .daily-header h1 {
   margin: 0;
   color: #f6f8fb;
   font-size: clamp(34px, 5vw, 62px);
   line-height: 0.98;
   letter-spacing: -0.045em;
-}
-
-.daily-header__summary {
-  margin: 12px 0 0;
-  color: #a8b0bf;
-  font-size: 17px;
 }
 
 .daily-header__edition {
@@ -250,23 +228,10 @@ function imageUrl(article: DailyArticle) {
   text-align: right;
 }
 
-.daily-header__edition strong {
-  color: #fbbf24;
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-  font-size: 20px;
-}
-
 .daily-header__edition span {
   color: #8f99aa;
   font-size: 13px;
   font-weight: 800;
-}
-
-.daily-controls {
-  display: grid;
-  grid-template-columns: 220px minmax(280px, 1fr) 190px;
-  gap: 14px;
-  margin-bottom: 20px;
 }
 
 .control {
@@ -284,8 +249,7 @@ function imageUrl(article: DailyArticle) {
   text-transform: uppercase;
 }
 
-.control select,
-.control input {
+.control select {
   width: 100%;
   height: 46px;
   border: 1px solid #303949;
@@ -300,11 +264,8 @@ function imageUrl(article: DailyArticle) {
 }
 
 .control select { padding: 0 36px 0 13px; }
-.control input { padding: 0 15px; }
-.control input::placeholder { color: #747f90; }
 
-.control select:focus-visible,
-.control input:focus-visible {
+.control select:focus-visible {
   border-color: #60a5fa;
   box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.18);
 }
@@ -315,6 +276,106 @@ function imageUrl(article: DailyArticle) {
   padding: 18px 0;
   border-top: 1px solid #242c39;
   border-bottom: 1px solid #242c39;
+}
+
+.control--sort {
+  grid-template-columns: 70px 190px;
+  align-items: center;
+  gap: 12px;
+  padding-top: 4px;
+}
+
+.control--sort select {
+  height: 40px;
+}
+
+.date-picker {
+  position: relative;
+  z-index: 3;
+  min-width: 164px;
+}
+
+.date-picker summary {
+  list-style: none;
+}
+
+.date-picker summary::-webkit-details-marker {
+  display: none;
+}
+
+.date-picker__button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-width: 164px;
+  height: 42px;
+  box-sizing: border-box;
+  padding: 0 12px 0 14px;
+  border: 1px solid rgba(245, 158, 11, 0.58);
+  border-radius: 7px;
+  background: #191e28;
+  color: #fbbf24;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 14px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.date-picker__button:hover,
+.date-picker[open] .date-picker__button {
+  border-color: #fbbf24;
+  background: #24212a;
+}
+
+.date-picker__chevron {
+  color: #f59e0b;
+  font-size: 18px;
+  line-height: 1;
+  transform: translateY(-2px);
+}
+
+.date-picker__menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  display: grid;
+  width: 220px;
+  padding: 6px;
+  border: 1px solid #3c4555;
+  border-radius: 8px;
+  background: #191e28;
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.4);
+}
+
+.date-picker__menu button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 38px;
+  padding: 0 9px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  color: #dbe3ee;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  text-align: left;
+  cursor: pointer;
+}
+
+.date-picker__menu button:hover,
+.date-picker__option--active {
+  background: rgba(245, 158, 11, 0.14) !important;
+  color: #fbbf24 !important;
+}
+
+.date-picker__menu small {
+  color: #8994a5;
+  font-size: 11px;
+  font-weight: 700;
 }
 
 .facet-row {
@@ -425,11 +486,28 @@ function imageUrl(article: DailyArticle) {
 }
 
 .article-card__rank {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   color: #6db2ff;
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 13px;
   font-weight: 900;
   letter-spacing: 0.05em;
+}
+
+.article-card__rank--top {
+  color: #f59e0b;
+  font-size: 15px;
+  font-weight: 950;
+}
+
+.article-card__rank-arrow {
+  color: #f59e0b;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 20px;
+  font-weight: 950;
+  line-height: 0.7;
 }
 
 .article-card__score {
@@ -640,7 +718,10 @@ function imageUrl(article: DailyArticle) {
   .daily-index { padding: 28px 16px 48px; }
   .daily-header { align-items: start; flex-direction: column; gap: 20px; }
   .daily-header__edition { text-align: left; }
-  .daily-controls, .article-grid { grid-template-columns: 1fr; }
+  .article-grid { grid-template-columns: 1fr; }
+  .control--sort { grid-template-columns: 1fr; gap: 7px; }
+  .daily-header__edition { align-items: start; }
+  .date-picker__menu { right: auto; left: 0; }
   .facet-row { grid-template-columns: 1fr; }
   .facet-row h2 { padding-top: 0; }
   .result-line { align-items: start; flex-direction: column; gap: 3px; }

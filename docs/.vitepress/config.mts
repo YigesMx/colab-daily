@@ -1,4 +1,44 @@
 import { defineConfig } from 'vitepress'
+import type { PageSplitSection } from 'vitepress'
+
+const headingRegex = /<h(\d*).*?>(.*?<a.*? href="#.*?".*?>.*?<\/a>)<\/h\1>/gi
+const headingContentRegex = /(.*?)<a.*? href="#(.*?)".*?>.*?<\/a>/i
+
+function clearHtmlTags(value: string): string {
+  return value.replace(/<[^>]*>/g, '').trim()
+}
+
+function splitSearchSections(_path: string, html: string): PageSplitSection[] {
+  const result = html.split(headingRegex)
+  result.shift()
+  const sections: PageSplitSection[] = []
+  const parentTitles: string[] = []
+
+  for (let index = 0; index < result.length; index += 3) {
+    const level = Number.parseInt(result[index], 10) - 1
+    const headingResult = headingContentRegex.exec(result[index + 1])
+    const title = clearHtmlTags(headingResult?.[1] ?? '')
+    const anchor = headingResult?.[2] ?? ''
+    const text = clearHtmlTags(result[index + 2] ?? '')
+    if (!title) continue
+
+    if (level === 0) {
+      parentTitles[0] = title
+      continue
+    }
+    if (!text) continue
+
+    parentTitles.length = level
+    parentTitles[level] = title
+    sections.push({
+      anchor,
+      titles: [...parentTitles.slice(0, level)],
+      text
+    })
+  }
+
+  return sections
+}
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -16,7 +56,13 @@ export default defineConfig({
       label: '本文目录'
     },
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        detailedView: true,
+        miniSearch: {
+          _splitIntoSections: splitSearchSections
+        }
+      }
     }
   }
 })

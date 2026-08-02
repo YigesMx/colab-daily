@@ -37,6 +37,16 @@ body {
   font-weight: 900;
 }
 
+.VPLocalSearchBox .titles .title:not(.main) {
+  color: #f1f5f9;
+  font-weight: 900;
+}
+
+.VPLocalSearchBox .titles .title.main {
+  color: #fbbf24;
+  font-weight: 800;
+}
+
 .VPContent,
 .VPPage,
 .VPDoc {
