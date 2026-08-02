@@ -20,16 +20,15 @@ authors:
 summary: "SpatialCLI 将定位、分割、深度和姿态专家模型包装为空间工具，通过冷启动 SFT 与 agentic RL 学会组合调用，再把成功工具轨迹逐步转写为可追溯感知推理，联合训练有工具与无工具两种能力。"
 keywords:
   - "空间推理"
+  - "多模态感知"
   - "视觉语言模型"
-  - "工具调用"
-  - "能力内化"
 score: 79
 sources:
   - name: "arXiv TeX source"
     url: "https://arxiv.org/src/2607.27703v1"
   - name: "arXiv"
     url: "https://arxiv.org/abs/2607.27703"
-previewImage: "/daily/2026-08-01/assets/arxiv--2607.27703/61f0589f9b4038ac3527a4a48c7065f6b64b2be5c7a8461f57562ce6a68c8cb9.png"
+previewImage: "/daily/2026-08-01/assets/arxiv--2607.27703/preview.png"
 ---
 
 ## 核心内容

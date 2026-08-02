@@ -10,17 +10,15 @@ authors:
   - "Hao Tan"
 summary: "Chimera 以 KDA 线性注意力、周期性 MLA、模态感知短卷积和稀疏 MoE 构成无位置编码的单流视觉扩散骨干，并用 HeteroP 建立跨宽度与深度的超参数迁移及图像、视频计算最优缩放规律。"
 keywords:
-  - "视觉扩散 Transformer"
-  - "混合注意力"
-  - "缩放规律"
-  - "长视频生成"
+  - "视频生成"
+  - "视觉语言模型"
 score: 75
 sources:
   - name: "arXiv source"
     url: "https://arxiv.org/src/2607.28611v1"
   - name: "arXiv"
     url: "https://arxiv.org/abs/2607.28611v1"
-previewImage: "/daily/2026-08-01/assets/arxiv--2607.28611/5875e55611afecc55eef278d36a5911247ebccae18f06adfa8b2b1deed330d89.png"
+previewImage: "/daily/2026-08-01/assets/arxiv--2607.28611/preview.png"
 ---
 
 ## 核心内容

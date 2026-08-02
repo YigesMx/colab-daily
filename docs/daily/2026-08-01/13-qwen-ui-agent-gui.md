@@ -10,17 +10,16 @@ authors:
   - "Steven Hoi"
 summary: "Qwen-UI-Agent 统一移动端、桌面、网页与深度搜索环境中的截图、CLI 和 API 观察及 GUI、CLI、API 动作，通过智能体驱动数据飞轮、动作级强化学习和大规模在线强化学习提升真实设备与长流程执行。"
 keywords:
-  - "GUI 智能体"
-  - "真实设备"
-  - "在线强化学习"
-  - "GUI+CLI"
+  - "智能体系统"
+  - "视觉语言动作"
+  - "视觉语言模型"
 score: 76
 sources:
   - name: "arXiv source"
     url: "https://arxiv.org/src/2607.28227v1"
   - name: "arXiv"
     url: "https://arxiv.org/abs/2607.28227"
-previewImage: "/daily/2026-08-01/assets/arxiv--2607.28227/088379efba5dd92afdd899ce7282c29cf77eaa5125cc74b1a241014c2a4b5508.png"
+previewImage: "/daily/2026-08-01/assets/arxiv--2607.28227/preview.png"
 ---
 
 ## 核心内容

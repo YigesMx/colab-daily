@@ -9,11 +9,9 @@ authors:
   - "Guofeng Zhang"
 summary: "INTACT 在前向 JEPA 上增加共享的条件动作算子，把真实一步转移和部署时目标位移映射到同一动作分布，使四个 LeWM 仿真任务可以直接零搜索控制，并把小规模搜索降为可选的局部验证。"
 keywords:
-  - "world models"
-  - "intent-to-action"
-  - "search-free control"
-  - "JEPA"
-  - "robot control"
+  - "世界模型"
+  - "机器人控制"
+  - "跨本体泛化"
 score: 88
 sources:
   - name: "arXiv TeX source"
@@ -22,7 +20,7 @@ sources:
     url: "https://arxiv.org/abs/2607.26056"
   - name: "Project page"
     url: "https://zju3dv.github.io/INTACT-JEPA/"
-previewImage: "/daily/2026-08-01/assets/arxiv--2607.26056/79a6e3cc10dfb9d5503e0efc0625882f27ff2ff5fdf62c4b76eadffdd0279d4b.png"
+previewImage: "/daily/2026-08-01/assets/arxiv--2607.26056/preview.png"
 ---
 
 ## 核心内容

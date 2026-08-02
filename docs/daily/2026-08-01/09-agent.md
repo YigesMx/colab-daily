@@ -17,17 +17,15 @@ authors:
   - "Jiawei Han"
 summary: "该研究将 Markdown 文件树形式的 Agent 记忆拆为管理、检索和执行角色，在长对话与 ALFWorld 程序性技能上系统改变组织方式、模型能力、规模和工具 harness；结果显示组织稳定降低大规模检索成本，却没有一种目录形态持续提高答案质量。"
 keywords:
-  - "Agent 记忆"
-  - "文件系统"
-  - "长期记忆"
-  - "检索成本"
+  - "Agent记忆"
+  - "智能体系统"
 score: 78
 sources:
   - name: "arXiv TeX source"
     url: "https://arxiv.org/src/2607.26637v1"
   - name: "arXiv"
     url: "https://arxiv.org/abs/2607.26637"
-previewImage: "/daily/2026-08-01/assets/arxiv--2607.26637/948ded4fc090b76b4f8c42a97a84ca637009106760a50ead5c508485ed60bc8d.png"
+previewImage: "/daily/2026-08-01/assets/arxiv--2607.26637/preview.png"
 ---
 
 ## 核心内容

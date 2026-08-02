@@ -7,16 +7,14 @@ authors:
   - "Carolina Parada"
 summary: "Google DeepMind 发布 Gemini Robotics 2、ER 2 和 On-Device 2：分别覆盖全身及双臂 VLA 控制、分钟级具身任务编排与多机器人协作、以及少于 200 个样例的跨本体本地适配，同时公开若干任务成功率和新的安全评测。"
 keywords:
-  - "vision-language-action"
-  - "whole-body control"
-  - "embodied reasoning"
-  - "multi-robot collaboration"
-  - "on-device robotics"
+  - "视觉语言动作"
+  - "机器人控制"
+  - "跨本体泛化"
 score: 87
 sources:
   - name: "Google DeepMind"
     url: "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
-previewImage: "/daily/2026-08-01/assets/url--42a1992e4b242ffc/4ff5b2370370d3931c29fd1abbfb7a117aa5b9c52a3b1d542e3a115b63c06277.jpg"
+previewImage: "/daily/2026-08-01/assets/url--42a1992e4b242ffc/preview.jpg"
 ---
 
 ## 核心内容

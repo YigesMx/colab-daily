@@ -19,17 +19,15 @@ authors:
   - "Pinlong Cai"
 summary: "MemHarness 不把检索到的历史经验直接塞入动作上下文，而让同一个 7B 策略比较经验来源状态与当前历史，重写或拒绝经验后再行动，并以端到端 GRPO 从任务奖励学习这一潜在重构过程。"
 keywords:
-  - "Agent 记忆"
-  - "经验重构"
-  - "强化学习"
-  - "长时程任务"
+  - "Agent记忆"
+  - "智能体系统"
 score: 77
 sources:
   - name: "arXiv TeX source"
     url: "https://arxiv.org/src/2607.28272v1"
   - name: "arXiv"
     url: "https://arxiv.org/abs/2607.28272"
-previewImage: "/daily/2026-08-01/assets/arxiv--2607.28272/678bcdb18a4ac5f86385059b97d48ea6aa5b8747477b39ae4ba3b484f6031567.png"
+previewImage: "/daily/2026-08-01/assets/arxiv--2607.28272/preview.png"
 ---
 
 ## 核心内容

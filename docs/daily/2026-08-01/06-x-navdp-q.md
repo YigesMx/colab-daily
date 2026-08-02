@@ -16,15 +16,15 @@ summary: "X-NavDP 在预训练 NavDP 上进行在线强化学习后训练，通�
 keywords:
   - "机器人导航"
   - "扩散策略"
-  - "强化学习"
-  - "跨机体泛化"
+  - "跨本体泛化"
+  - "机器人控制"
 score: 84
 sources:
   - name: "arXiv TeX source"
     url: "https://arxiv.org/src/2607.28560v1"
   - name: "arXiv"
     url: "https://arxiv.org/abs/2607.28560v1"
-previewImage: "/daily/2026-08-01/assets/arxiv--2607.28560/4b0d8e762dcbd0e50b9f744207e13d40e33e7836efa7806fa5fd127c1e699e44.png"
+previewImage: "/daily/2026-08-01/assets/arxiv--2607.28560/preview.png"
 ---
 
 ## 核心内容

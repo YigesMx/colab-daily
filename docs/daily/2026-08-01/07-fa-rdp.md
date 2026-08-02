@@ -13,17 +13,16 @@ authors:
   - "Chuan Wen"
 summary: "FA-RDP 用共享多频视觉力觉 Transformer、基于多模态程度的频率选择器和流形一致性蒸馏，在接触前保留多种接近轨迹，在接触后切换到单步高频控制以快速响应力反馈。"
 keywords:
-  - "接触丰富操作"
   - "扩散策略"
-  - "视觉力觉控制"
-  - "一致性蒸馏"
+  - "视觉力觉"
+  - "机器人控制"
 score: 84
 sources:
   - name: "arXiv TeX source"
     url: "https://arxiv.org/src/2607.28596v1"
   - name: "arXiv"
     url: "https://arxiv.org/abs/2607.28596v1"
-previewImage: "/daily/2026-08-01/assets/arxiv--2607.28596/346ae529441eb95238de06c0b0ee6fb044b898faa3d314e029962ffa887ec412.png"
+previewImage: "/daily/2026-08-01/assets/arxiv--2607.28596/preview.png"
 ---
 
 ## 核心内容

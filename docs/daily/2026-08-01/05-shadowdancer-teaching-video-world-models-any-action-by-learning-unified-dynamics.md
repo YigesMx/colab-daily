@@ -9,11 +9,9 @@ authors:
   - "Kaipeng Zhang"
 summary: "ShadowDancer 通过同一动力学、不同外观的 shadow pairs 和跨 shadow 预测，把示范视频压缩成统一动力学表示与可复用动作资产，驱动块因果视频世界模型跨场景重放人类、游戏、相机和机器人动作。"
 keywords:
-  - "video world model"
-  - "latent action"
-  - "cross-shadow prediction"
-  - "action transfer"
-  - "interactive simulation"
+  - "世界模型"
+  - "视频生成"
+  - "跨本体泛化"
 score: 85
 sources:
   - name: "arXiv TeX source"
@@ -22,7 +20,7 @@ sources:
     url: "https://arxiv.org/abs/2607.28362"
   - name: "Project page"
     url: "https://ShadowDancer-1.github.io"
-previewImage: "/daily/2026-08-01/assets/arxiv--2607.28362/5f3e483a626411049fa96122fc8bdbdebb1fa10a94605b49c1adc6f545e1d938.png"
+previewImage: "/daily/2026-08-01/assets/arxiv--2607.28362/preview.png"
 ---
 
 ## 核心内容

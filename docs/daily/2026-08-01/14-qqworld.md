@@ -10,16 +10,14 @@ authors:
 summary: "QQWorld 以按秩匹配高斯分位数的目标替换 LeWorldModel 的 Epps-Pulley 正则，使离群潜变量获得随偏差增大的恢复梯度，并以跨批次队列在小 batch 下改善分位数估计。"
 keywords:
   - "世界模型"
-  - "潜变量正则"
-  - "分位数匹配"
-  - "规划"
+  - "空间推理"
 score: 72
 sources:
   - name: "arXiv source"
     url: "https://arxiv.org/src/2607.28415v1"
   - name: "arXiv"
     url: "https://arxiv.org/abs/2607.28415v1"
-previewImage: "/daily/2026-08-01/assets/arxiv--2607.28415/42b8603072814845c932cfa2c4a06f351db2ed40e475d934a2a214da79f80e0d.png"
+previewImage: "/daily/2026-08-01/assets/arxiv--2607.28415/preview.png"
 ---
 
 ## 核心内容

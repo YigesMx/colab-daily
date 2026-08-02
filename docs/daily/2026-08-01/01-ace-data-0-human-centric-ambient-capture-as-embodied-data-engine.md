@@ -22,11 +22,10 @@ authors:
   - "Ziwei Liu"
 summary: "ACE 将真实住宅改造成双尺度、多传感器采集系统，并发布 150 小时、17M 帧、75,000 个交互片段的同步具身数据；配套基准揭示现有触觉、人体与手部运动估计在接触、遮挡、第一视角运动和长时序下的明显缺口。"
 keywords:
-  - "embodied data"
-  - "multimodal capture"
-  - "human-object interaction"
-  - "tactile sensing"
-  - "robot learning benchmark"
+  - "具身数据"
+  - "多模态感知"
+  - "视觉力觉"
+  - "机器人控制"
 score: 91
 sources:
   - name: "arXiv TeX source"
@@ -35,7 +34,7 @@ sources:
     url: "https://arxiv.org/abs/2607.28625v1"
   - name: "Project page"
     url: "https://ace-data-engine.github.io/ACE-Data-0/"
-previewImage: "/daily/2026-08-01/assets/arxiv--2607.28625/861b75ccfebf8cd8dee8930486e96db31c9b46c5870041ea8555fe57662c283e.png"
+previewImage: "/daily/2026-08-01/assets/arxiv--2607.28625/preview.png"
 ---
 
 ## 核心内容

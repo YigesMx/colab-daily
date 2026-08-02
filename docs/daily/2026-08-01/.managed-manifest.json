@@ -1,209 +1,41 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "cycle_id": "daily-2026-08-01",
   "display_date": "2026-08-01",
-  "publication_hash": "02fb1881abbe764ac8b4fafd59d31e138b012d8ab35d6f4ef87132c435ace8c3",
-  "refine_current_sha256": "a80566382f41fb907cefa3fcd4e6a0b12662bfd94e6bb7d134ab693786ccae31",
-  "refine_successful_set_sha256": "99fe0d77c73543df3d841be61a1388e0c592e06052940654789066cd70e5853f",
-  "refine_successful_set_content_sha256": "4a606b967ca2975db0f7040ab00a1e7c81c5734667df168fca18c3fa4d0e0748",
-  "generated_at": "2026-08-02T09:21:06Z",
+  "keyword_postprocess_receipt": ".colab-daily/receipts/daily-2026-08-01/keyword-postprocess.json",
+  "keyword_count": 15,
   "articles": [
-    {
-      "candidate_id": "arxiv--2607.28625",
-      "rank": 1,
-      "path": "docs/daily/2026-08-01/01-ace-data-0-human-centric-ambient-capture-as-embodied-data-engine.md",
-      "bytes": 6356,
-      "sha256": "117056bf350e51ef77f94e60aacdf802818e674b0c627fc55aa7b70f86bf9b64"
-    },
-    {
-      "candidate_id": "arxiv--2607.28624",
-      "rank": 2,
-      "path": "docs/daily/2026-08-01/02-phizero-a-world-model-built-around-physical-language.md",
-      "bytes": 5680,
-      "sha256": "e16ffdc5c5ea89626a47261e9c64097df304a01ddc0904c37d8e79df1545c83f"
-    },
-    {
-      "candidate_id": "arxiv--2607.26056",
-      "rank": 3,
-      "path": "docs/daily/2026-08-01/03-intact-isomorphic-intent-to-action-learning-for-search-free-world-models.md",
-      "bytes": 5684,
-      "sha256": "cf78d954fdf2f62f567a1483a5cd648bd31b8bc1b372d94352b20664ecb72208"
-    },
-    {
-      "candidate_id": "url--42a1992e4b242ffc",
-      "rank": 4,
-      "path": "docs/daily/2026-08-01/04-gemini-robotics-2-brings-whole-body-intelligence-to-robots.md",
-      "bytes": 5633,
-      "sha256": "43cc5bfa9e60edd5f06f4ab8e608d81c7a51087873cf47ee2879819effa682a2"
-    },
-    {
-      "candidate_id": "arxiv--2607.28362",
-      "rank": 5,
-      "path": "docs/daily/2026-08-01/05-shadowdancer-teaching-video-world-models-any-action-by-learning-unified-dynamics.md",
-      "bytes": 5808,
-      "sha256": "f78deba7125915fd422abfa82138cf19105fdd924bae9a56c16f488870c497c8"
-    },
-    {
-      "candidate_id": "arxiv--2607.28560",
-      "rank": 6,
-      "path": "docs/daily/2026-08-01/06-x-navdp-q.md",
-      "bytes": 5877,
-      "sha256": "45caf41c8217ce6e337bf554ded8668486280fc3c0715f212962e856551adb2e"
-    },
-    {
-      "candidate_id": "arxiv--2607.28596",
-      "rank": 7,
-      "path": "docs/daily/2026-08-01/07-fa-rdp.md",
-      "bytes": 5499,
-      "sha256": "2505c3b90deb66d9f9d6b41077135a70e5b1f3f7ffff219c9756cd1982022f18"
-    },
-    {
-      "candidate_id": "arxiv--2607.27703",
-      "rank": 8,
-      "path": "docs/daily/2026-08-01/08-spatialcli-vlm.md",
-      "bytes": 5506,
-      "sha256": "3c21eadf59e210f19d607c7a18cad897030e7b942d035ed850f49899bbf7f4e3"
-    },
-    {
-      "candidate_id": "arxiv--2607.26637",
-      "rank": 9,
-      "path": "docs/daily/2026-08-01/09-agent.md",
-      "bytes": 6370,
-      "sha256": "2f92eff5086a07dff0d13318ba9628613e7307b24222f225e36598d8107f47d2"
-    },
-    {
-      "candidate_id": "arxiv--2607.28272",
-      "rank": 10,
-      "path": "docs/daily/2026-08-01/10-memharness.md",
-      "bytes": 5187,
-      "sha256": "0f1e6995e738887c17c8eb87eccda47597fe4f5bee7518b9c3bd2f3d89e7bb50"
-    },
-    {
-      "candidate_id": "arxiv--2607.27380",
-      "rank": 11,
-      "path": "docs/daily/2026-08-01/11-videococo-blender.md",
-      "bytes": 4128,
-      "sha256": "d1c2c46787d97747ab40444abd2f0b741a3c5c8c05e50641fab1e3651976eac3"
-    },
-    {
-      "candidate_id": "arxiv--2607.28611",
-      "rank": 12,
-      "path": "docs/daily/2026-08-01/12-chimera-transformer.md",
-      "bytes": 4408,
-      "sha256": "7972ddc2c137a4fafccf799671c0637d3774b070506d5047040eeed623031cd7"
-    },
-    {
-      "candidate_id": "arxiv--2607.28227",
-      "rank": 13,
-      "path": "docs/daily/2026-08-01/13-qwen-ui-agent-gui.md",
-      "bytes": 4448,
-      "sha256": "d1a44a40b8afa55300988cef85931e4e5128709872b204a8c2dbe05eed05997c"
-    },
-    {
-      "candidate_id": "arxiv--2607.28415",
-      "rank": 14,
-      "path": "docs/daily/2026-08-01/14-qqworld.md",
-      "bytes": 3899,
-      "sha256": "4c0473fb2b4bcfb9a4bac74ac151cfa26b7e97770ff9b7707f72a93bf42c04be"
-    },
-    {
-      "candidate_id": "arxiv--2607.28474",
-      "rank": 15,
-      "path": "docs/daily/2026-08-01/15-tea-agrivln.md",
-      "bytes": 4060,
-      "sha256": "99f1886e1733c3cfc7e058e39e5da491b6f6c4f4c932e411f09148893910a1a7"
-    }
+    {"candidate_id":"arxiv--2607.28625","rank":1,"path":"docs/daily/2026-08-01/01-ace-data-0-human-centric-ambient-capture-as-embodied-data-engine.md"},
+    {"candidate_id":"arxiv--2607.28624","rank":2,"path":"docs/daily/2026-08-01/02-phizero-a-world-model-built-around-physical-language.md"},
+    {"candidate_id":"arxiv--2607.26056","rank":3,"path":"docs/daily/2026-08-01/03-intact-isomorphic-intent-to-action-learning-for-search-free-world-models.md"},
+    {"candidate_id":"url--42a1992e4b242ffc","rank":4,"path":"docs/daily/2026-08-01/04-gemini-robotics-2-brings-whole-body-intelligence-to-robots.md"},
+    {"candidate_id":"arxiv--2607.28362","rank":5,"path":"docs/daily/2026-08-01/05-shadowdancer-teaching-video-world-models-any-action-by-learning-unified-dynamics.md"},
+    {"candidate_id":"arxiv--2607.28560","rank":6,"path":"docs/daily/2026-08-01/06-x-navdp-q.md"},
+    {"candidate_id":"arxiv--2607.28596","rank":7,"path":"docs/daily/2026-08-01/07-fa-rdp.md"},
+    {"candidate_id":"arxiv--2607.27703","rank":8,"path":"docs/daily/2026-08-01/08-spatialcli-vlm.md"},
+    {"candidate_id":"arxiv--2607.26637","rank":9,"path":"docs/daily/2026-08-01/09-agent.md"},
+    {"candidate_id":"arxiv--2607.28272","rank":10,"path":"docs/daily/2026-08-01/10-memharness.md"},
+    {"candidate_id":"arxiv--2607.27380","rank":11,"path":"docs/daily/2026-08-01/11-videococo-blender.md"},
+    {"candidate_id":"arxiv--2607.28611","rank":12,"path":"docs/daily/2026-08-01/12-chimera-transformer.md"},
+    {"candidate_id":"arxiv--2607.28227","rank":13,"path":"docs/daily/2026-08-01/13-qwen-ui-agent-gui.md"},
+    {"candidate_id":"arxiv--2607.28415","rank":14,"path":"docs/daily/2026-08-01/14-qqworld.md"},
+    {"candidate_id":"arxiv--2607.28474","rank":15,"path":"docs/daily/2026-08-01/15-tea-agrivln.md"}
   ],
   "assets": [
-    {
-      "candidate_id": "arxiv--2607.28625",
-      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28625/861b75ccfebf8cd8dee8930486e96db31c9b46c5870041ea8555fe57662c283e.png",
-      "bytes": 662677,
-      "sha256": "861b75ccfebf8cd8dee8930486e96db31c9b46c5870041ea8555fe57662c283e"
-    },
-    {
-      "candidate_id": "arxiv--2607.28624",
-      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28624/8b2dafa217768368a128d760e279542c7b943072a1d88341e110142cfd9846e8.png",
-      "bytes": 382039,
-      "sha256": "8b2dafa217768368a128d760e279542c7b943072a1d88341e110142cfd9846e8"
-    },
-    {
-      "candidate_id": "arxiv--2607.26056",
-      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.26056/79a6e3cc10dfb9d5503e0efc0625882f27ff2ff5fdf62c4b76eadffdd0279d4b.png",
-      "bytes": 184632,
-      "sha256": "79a6e3cc10dfb9d5503e0efc0625882f27ff2ff5fdf62c4b76eadffdd0279d4b"
-    },
-    {
-      "candidate_id": "url--42a1992e4b242ffc",
-      "path": "docs/public/daily/2026-08-01/assets/url--42a1992e4b242ffc/4ff5b2370370d3931c29fd1abbfb7a117aa5b9c52a3b1d542e3a115b63c06277.jpg",
-      "bytes": 48006,
-      "sha256": "4ff5b2370370d3931c29fd1abbfb7a117aa5b9c52a3b1d542e3a115b63c06277"
-    },
-    {
-      "candidate_id": "arxiv--2607.28362",
-      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28362/5f3e483a626411049fa96122fc8bdbdebb1fa10a94605b49c1adc6f545e1d938.png",
-      "bytes": 1787028,
-      "sha256": "5f3e483a626411049fa96122fc8bdbdebb1fa10a94605b49c1adc6f545e1d938"
-    },
-    {
-      "candidate_id": "arxiv--2607.28560",
-      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28560/4b0d8e762dcbd0e50b9f744207e13d40e33e7836efa7806fa5fd127c1e699e44.png",
-      "bytes": 1981653,
-      "sha256": "4b0d8e762dcbd0e50b9f744207e13d40e33e7836efa7806fa5fd127c1e699e44"
-    },
-    {
-      "candidate_id": "arxiv--2607.28596",
-      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28596/346ae529441eb95238de06c0b0ee6fb044b898faa3d314e029962ffa887ec412.png",
-      "bytes": 2884623,
-      "sha256": "346ae529441eb95238de06c0b0ee6fb044b898faa3d314e029962ffa887ec412"
-    },
-    {
-      "candidate_id": "arxiv--2607.27703",
-      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.27703/61f0589f9b4038ac3527a4a48c7065f6b64b2be5c7a8461f57562ce6a68c8cb9.png",
-      "bytes": 913831,
-      "sha256": "61f0589f9b4038ac3527a4a48c7065f6b64b2be5c7a8461f57562ce6a68c8cb9"
-    },
-    {
-      "candidate_id": "arxiv--2607.26637",
-      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.26637/948ded4fc090b76b4f8c42a97a84ca637009106760a50ead5c508485ed60bc8d.png",
-      "bytes": 807369,
-      "sha256": "948ded4fc090b76b4f8c42a97a84ca637009106760a50ead5c508485ed60bc8d"
-    },
-    {
-      "candidate_id": "arxiv--2607.28272",
-      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28272/678bcdb18a4ac5f86385059b97d48ea6aa5b8747477b39ae4ba3b484f6031567.png",
-      "bytes": 236303,
-      "sha256": "678bcdb18a4ac5f86385059b97d48ea6aa5b8747477b39ae4ba3b484f6031567"
-    },
-    {
-      "candidate_id": "arxiv--2607.27380",
-      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.27380/b5494ae4d139fb0f9c3418b0d687e9ea1f900ffda6916fe485a5ce79298b014b.png",
-      "bytes": 906532,
-      "sha256": "b5494ae4d139fb0f9c3418b0d687e9ea1f900ffda6916fe485a5ce79298b014b"
-    },
-    {
-      "candidate_id": "arxiv--2607.28611",
-      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28611/5875e55611afecc55eef278d36a5911247ebccae18f06adfa8b2b1deed330d89.png",
-      "bytes": 2904483,
-      "sha256": "5875e55611afecc55eef278d36a5911247ebccae18f06adfa8b2b1deed330d89"
-    },
-    {
-      "candidate_id": "arxiv--2607.28227",
-      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28227/088379efba5dd92afdd899ce7282c29cf77eaa5125cc74b1a241014c2a4b5508.png",
-      "bytes": 1424126,
-      "sha256": "088379efba5dd92afdd899ce7282c29cf77eaa5125cc74b1a241014c2a4b5508"
-    },
-    {
-      "candidate_id": "arxiv--2607.28415",
-      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28415/42b8603072814845c932cfa2c4a06f351db2ed40e475d934a2a214da79f80e0d.png",
-      "bytes": 122425,
-      "sha256": "42b8603072814845c932cfa2c4a06f351db2ed40e475d934a2a214da79f80e0d"
-    },
-    {
-      "candidate_id": "arxiv--2607.28474",
-      "path": "docs/public/daily/2026-08-01/assets/arxiv--2607.28474/716ae98a6fa554dd7615af09c3eb533be611fa7aea6e26bc7a5e08b6ad9c99ec.jpeg",
-      "bytes": 1629555,
-      "sha256": "716ae98a6fa554dd7615af09c3eb533be611fa7aea6e26bc7a5e08b6ad9c99ec"
-    }
+    {"candidate_id":"arxiv--2607.28625","path":"docs/public/daily/2026-08-01/assets/arxiv--2607.28625/preview.png"},
+    {"candidate_id":"arxiv--2607.28624","path":"docs/public/daily/2026-08-01/assets/arxiv--2607.28624/preview.png"},
+    {"candidate_id":"arxiv--2607.26056","path":"docs/public/daily/2026-08-01/assets/arxiv--2607.26056/preview.png"},
+    {"candidate_id":"url--42a1992e4b242ffc","path":"docs/public/daily/2026-08-01/assets/url--42a1992e4b242ffc/preview.jpg"},
+    {"candidate_id":"arxiv--2607.28362","path":"docs/public/daily/2026-08-01/assets/arxiv--2607.28362/preview.png"},
+    {"candidate_id":"arxiv--2607.28560","path":"docs/public/daily/2026-08-01/assets/arxiv--2607.28560/preview.png"},
+    {"candidate_id":"arxiv--2607.28596","path":"docs/public/daily/2026-08-01/assets/arxiv--2607.28596/preview.png"},
+    {"candidate_id":"arxiv--2607.27703","path":"docs/public/daily/2026-08-01/assets/arxiv--2607.27703/preview.png"},
+    {"candidate_id":"arxiv--2607.26637","path":"docs/public/daily/2026-08-01/assets/arxiv--2607.26637/preview.png"},
+    {"candidate_id":"arxiv--2607.28272","path":"docs/public/daily/2026-08-01/assets/arxiv--2607.28272/preview.png"},
+    {"candidate_id":"arxiv--2607.27380","path":"docs/public/daily/2026-08-01/assets/arxiv--2607.27380/preview.png"},
+    {"candidate_id":"arxiv--2607.28611","path":"docs/public/daily/2026-08-01/assets/arxiv--2607.28611/preview.png"},
+    {"candidate_id":"arxiv--2607.28227","path":"docs/public/daily/2026-08-01/assets/arxiv--2607.28227/preview.png"},
+    {"candidate_id":"arxiv--2607.28415","path":"docs/public/daily/2026-08-01/assets/arxiv--2607.28415/preview.png"},
+    {"candidate_id":"arxiv--2607.28474","path":"docs/public/daily/2026-08-01/assets/arxiv--2607.28474/preview.jpeg"}
   ]
 }

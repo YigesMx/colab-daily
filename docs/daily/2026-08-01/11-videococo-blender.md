@@ -10,17 +10,15 @@ authors:
   - "Pheng-Ann Heng"
 summary: "VideoCoCo 把文本提示先转成可执行 Blender 程序和逐帧模拟草稿，再由经 3,000 组三元组适配的视频编辑器完成写实化，从而将物理过程推理与视觉呈现解耦。"
 keywords:
-  - "物理视频生成"
-  - "Code-as-CoT"
-  - "可执行模拟"
-  - "视频编辑"
+  - "视频生成"
+  - "空间推理"
 score: 75
 sources:
   - name: "arXiv source"
     url: "https://arxiv.org/src/2607.27380v1"
   - name: "arXiv"
     url: "https://arxiv.org/abs/2607.27380"
-previewImage: "/daily/2026-08-01/assets/arxiv--2607.27380/b5494ae4d139fb0f9c3418b0d687e9ea1f900ffda6916fe485a5ce79298b014b.png"
+previewImage: "/daily/2026-08-01/assets/arxiv--2607.27380/preview.png"
 ---
 
 ## 核心内容

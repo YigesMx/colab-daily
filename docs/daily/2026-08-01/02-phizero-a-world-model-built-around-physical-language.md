@@ -13,11 +13,9 @@ authors:
   - "Zhaoxiang Zhang"
 summary: "PhiZero 用离散“物理语言”把状态转移推理与像素渲染分开：先从首帧和动作意图预测 256 个转移符号，再由视频扩散模型生成未来视频，并在多项物理生成与理解基准上报告领先或有竞争力的结果。"
 keywords:
-  - "physical world model"
-  - "physical language"
-  - "video generation"
-  - "state transition"
-  - "action-conditioned simulation"
+  - "世界模型"
+  - "视频生成"
+  - "机器人控制"
 score: 89
 sources:
   - name: "arXiv TeX source"
@@ -26,7 +24,7 @@ sources:
     url: "https://arxiv.org/abs/2607.28624v1"
   - name: "Project page"
     url: "https://phi-zero.github.io/"
-previewImage: "/daily/2026-08-01/assets/arxiv--2607.28624/8b2dafa217768368a128d760e279542c7b943072a1d88341e110142cfd9846e8.png"
+previewImage: "/daily/2026-08-01/assets/arxiv--2607.28624/preview.png"
 ---
 
 ## 核心内容

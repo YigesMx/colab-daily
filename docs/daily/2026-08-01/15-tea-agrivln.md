@@ -10,17 +10,16 @@ authors:
   - "Xiang Li"
 summary: "TEA-AgriVLN 在 AgriVLN 决策后分割相机图像，用零样本 VLM 按机器人形态判断区域可通行性，并在前进或停止决策与前方地图冲突时触发同一决策器重思考。"
 keywords:
-  - "农业机器人"
+  - "机器人导航"
   - "视觉语言导航"
-  - "可通行性估计"
-  - "决策告警"
+  - "多模态感知"
 score: 67
 sources:
   - name: "arXiv source"
     url: "https://arxiv.org/src/2607.28474v1"
   - name: "arXiv"
     url: "https://arxiv.org/abs/2607.28474v1"
-previewImage: "/daily/2026-08-01/assets/arxiv--2607.28474/716ae98a6fa554dd7615af09c3eb533be611fa7aea6e26bc7a5e08b6ad9c99ec.jpeg"
+previewImage: "/daily/2026-08-01/assets/arxiv--2607.28474/preview.jpeg"
 ---
 
 ## 核心内容
