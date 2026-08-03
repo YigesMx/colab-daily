@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "cycle_id": "daily-2026-08-04",
+  "display_date": "2026-08-04",
+  "status": "success",
+  "repository_root": "candidates_publish",
+  "vitepress_base": "/colab-daily/",
+  "frozen_run": {
+    "run_id": "refine-daily-2026-08-04-g1",
+    "current_path": "crawl_tmp/refine_candidates/current.json",
+    "successful_count": 15,
+    "taxonomy_count": 15
+  },
+  "managed_manifest": "docs/daily/2026-08-04/.managed-manifest.json",
+  "managed_articles": [
+    {
+      "candidate_id": "arxiv--2607.29172",
+      "rank": 1,
+      "path": "docs/daily/2026-08-04/01-clift-gemini-robotics-on-device.md",
+      "bytes": 2851,
+      "preview_image": null
+    },
+    {
+      "candidate_id": "arxiv--2607.29613",
+      "rank": 2,
+      "path": "docs/daily/2026-08-04/02-wcm.md",
+      "bytes": 2360,
+      "preview_image": null
+    },
+    {
+      "candidate_id": "arxiv--2607.29302",
+      "rank": 3,
+      "path": "docs/daily/2026-08-04/03-bwm.md",
+      "bytes": 2261,
+      "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29302/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2607.28993",
+      "rank": 4,
+      "path": "docs/daily/2026-08-04/04-st-wam.md",
+      "bytes": 2426,
+      "preview_image": null
+    },
+    {
+      "candidate_id": "arxiv--2607.29169",
+      "rank": 5,
+      "path": "docs/daily/2026-08-04/05-actfovea-vla.md",
+      "bytes": 2301,
+      "preview_image": null
+    },
+    {
+      "candidate_id": "arxiv--2607.29567",
+      "rank": 6,
+      "path": "docs/daily/2026-08-04/06-transgraspnet.md",
+      "bytes": 2195,
+      "preview_image": null
+    },
+    {
+      "candidate_id": "arxiv--2607.29231",
+      "rank": 7,
+      "path": "docs/daily/2026-08-04/07-tacprint.md",
+      "bytes": 2274,
+      "preview_image": null
+    },
+    {
+      "candidate_id": "arxiv--2607.29285",
+      "rank": 8,
+      "path": "docs/daily/2026-08-04/08-tract.md",
+      "bytes": 2186,
+      "preview_image": null
+    },
+    {
+      "candidate_id": "arxiv--2607.29271",
+      "rank": 9,
+      "path": "docs/daily/2026-08-04/09-mdir.md",
+      "bytes": 2191,
+      "preview_image": null
+    },
+    {
+      "candidate_id": "arxiv--2607.29482",
+      "rank": 10,
+      "path": "docs/daily/2026-08-04/10-temporal-policy.md",
+      "bytes": 2119,
+      "preview_image": null
+    },
+    {
+      "candidate_id": "arxiv--2607.29393",
+      "rank": 11,
+      "path": "docs/daily/2026-08-04/11-aquajepa.md",
+      "bytes": 2219,
+      "preview_image": null
+    },
+    {
+      "candidate_id": "arxiv--2607.29622",
+      "rank": 12,
+      "path": "docs/daily/2026-08-04/12-rayvit.md",
+      "bytes": 2329,
+      "preview_image": null
+    },
+    {
+      "candidate_id": "arxiv--2607.29596",
+      "rank": 13,
+      "path": "docs/daily/2026-08-04/13-fibvla.md",
+      "bytes": 2248,
+      "preview_image": null
+    },
+    {
+      "candidate_id": "arxiv--2607.29600",
+      "rank": 14,
+      "path": "docs/daily/2026-08-04/14-ham-vln.md",
+      "bytes": 2237,
+      "preview_image": null
+    },
+    {
+      "candidate_id": "arxiv--2607.29009",
+      "rank": 15,
+      "path": "docs/daily/2026-08-04/15-d-vlc.md",
+      "bytes": 2435,
+      "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29009/preview.png"
+    }
+  ],
+  "managed_assets": [
+    {
+      "candidate_id": "arxiv--2607.29302",
+      "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.29302/preview.png",
+      "bytes": 165786
+    },
+    {
+      "candidate_id": "arxiv--2607.29009",
+      "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.29009/preview.png",
+      "bytes": 725963
+    }
+  ],
+  "consumed_files": [
+    {
+      "path": "crawl_tmp/refine_candidates/current.json",
+      "bytes": 267
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/run_manifest.json",
+      "bytes": 1036
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/input_set.json",
+      "bytes": 5675
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/successful_set.json",
+      "bytes": 8169
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/keyword_taxonomy.json",
+      "bytes": 9053
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29172/article.md",
+      "bytes": 2851
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29172/metadata.json",
+      "bytes": 1151
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29172/manifest.json",
+      "bytes": 810
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29613/article.md",
+      "bytes": 2360
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29613/metadata.json",
+      "bytes": 1183
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29613/manifest.json",
+      "bytes": 826
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29302/assets/framework.png",
+      "bytes": 165786
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29302/article.md",
+      "bytes": 2229
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29302/metadata.json",
+      "bytes": 1208
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29302/manifest.json",
+      "bytes": 968
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.28993/article.md",
+      "bytes": 2426
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.28993/metadata.json",
+      "bytes": 1081
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.28993/manifest.json",
+      "bytes": 775
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29169/article.md",
+      "bytes": 2301
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29169/metadata.json",
+      "bytes": 1085
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29169/manifest.json",
+      "bytes": 777
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29567/article.md",
+      "bytes": 2195
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29567/metadata.json",
+      "bytes": 1139
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29567/manifest.json",
+      "bytes": 804
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29231/article.md",
+      "bytes": 2274
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29231/metadata.json",
+      "bytes": 1109
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29231/manifest.json",
+      "bytes": 789
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29285/article.md",
+      "bytes": 2186
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29285/metadata.json",
+      "bytes": 1123
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29285/manifest.json",
+      "bytes": 796
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29271/article.md",
+      "bytes": 2191
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29271/metadata.json",
+      "bytes": 1107
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29271/manifest.json",
+      "bytes": 788
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29482/article.md",
+      "bytes": 2119
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29482/metadata.json",
+      "bytes": 1124
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29482/manifest.json",
+      "bytes": 797
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29393/article.md",
+      "bytes": 2219
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29393/metadata.json",
+      "bytes": 1228
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29393/manifest.json",
+      "bytes": 849
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29622/article.md",
+      "bytes": 2329
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29622/metadata.json",
+      "bytes": 1212
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29622/manifest.json",
+      "bytes": 841
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29596/article.md",
+      "bytes": 2248
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29596/metadata.json",
+      "bytes": 1154
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29596/manifest.json",
+      "bytes": 812
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29600/article.md",
+      "bytes": 2237
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29600/metadata.json",
+      "bytes": 1124
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29600/manifest.json",
+      "bytes": 797
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29009/assets/framework0.png",
+      "bytes": 725963
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29009/article.md",
+      "bytes": 2404
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29009/metadata.json",
+      "bytes": 1251
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-04-g1/candidates/arxiv--2607.29009/manifest.json",
+      "bytes": 992
+    }
+  ],
+  "warnings": [],
+  "generated_at": "2026-08-03T21:01:48.883Z",
+  "build": {
+    "argv": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "vitepress_base": "/colab-daily/",
+    "exit_code": 0,
+    "status": "success"
+  },
+  "validation": {
+    "status": "success",
+    "base_path": "/colab-daily/",
+    "rendered_articles": 15,
+    "preview_assets": 2,
+    "http_checks": [
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/",
+        "status": 200,
+        "kind": "daily-index"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/01-clift-gemini-robotics-on-device",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2607.29172"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/02-wcm",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2607.29613"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/03-bwm",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2607.29302"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/04-st-wam",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2607.28993"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/05-actfovea-vla",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2607.29169"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/06-transgraspnet",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2607.29567"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/07-tacprint",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2607.29231"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/08-tract",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2607.29285"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/09-mdir",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2607.29271"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/10-temporal-policy",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2607.29482"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/11-aquajepa",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2607.29393"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/12-rayvit",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2607.29622"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/13-fibvla",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2607.29596"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/14-ham-vln",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2607.29600"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/15-d-vlc",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2607.29009"
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/assets/arxiv--2607.29302/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2607.29302",
+        "bytes": 165786
+      },
+      {
+        "url": "http://127.0.0.1:4175/colab-daily/daily/2026-08-04/assets/arxiv--2607.29009/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2607.29009",
+        "bytes": 725963
+      }
+    ],
+    "warnings": []
+  },
+  "completed_at": "2026-08-03T21:05:50.027Z"
+}
