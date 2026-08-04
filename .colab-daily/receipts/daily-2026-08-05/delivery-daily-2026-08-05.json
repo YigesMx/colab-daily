@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "cycle_id": "daily-2026-08-05",
+  "display_date": "2026-08-05",
+  "local_status": "success",
+  "git_commit": {
+    "status": "success",
+    "commit_sha": "e5e387bfb064a95bffcb0ee26cc5c7ab07d3ee18",
+    "message": "docs: publish 2026-08-05 candidates"
+  },
+  "git_push": {
+    "status": "success",
+    "branch": "main",
+    "remote_transport": "ssh"
+  },
+  "github_deploy": {
+    "status": "success",
+    "verification": "public URL checks passed after push"
+  },
+  "public_url": "https://yigesmx.github.io/colab-daily/",
+  "public_checks": {
+    "homepage": 200,
+    "date_page": 200,
+    "article_pages": 15,
+    "article_pages_ok": 15,
+    "preview_assets": 15,
+    "preview_assets_ok": 15,
+    "article_url_form": "html"
+  },
+  "candidate_count": 15,
+  "asset_count": 15
+}
