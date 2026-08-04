@@ -1,0 +1,494 @@
+{
+  "schema_version": 1,
+  "cycle_id": "daily-2026-08-05",
+  "display_date": "2026-08-05",
+  "status": "success",
+  "repository_root": "candidates_publish",
+  "vitepress_base": "/colab-daily/",
+  "frozen_run": {
+    "run_id": "refine-daily-2026-08-05-g2",
+    "current_path": "crawl_tmp/refine_candidates/current.json",
+    "successful_count": 15,
+    "taxonomy_count": 15
+  },
+  "managed_manifest": "docs/daily/2026-08-05/.managed-manifest.json",
+  "managed_articles": [
+    {
+      "candidate_id": "arxiv--2608.02580",
+      "rank": 1,
+      "path": "docs/daily/2026-08-05/01-ego2robot-scalable-robot-data-synthesis-from-egocentric-human-data.md",
+      "bytes": 2637,
+      "preview_image": "/daily/2026-08-05/assets/arxiv--2608.02580/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.01397",
+      "rank": 2,
+      "path": "docs/daily/2026-08-05/02-sg-wam-self-guided-world-modeling-in-geometry-aware-policy-space.md",
+      "bytes": 2335,
+      "preview_image": "/daily/2026-08-05/assets/arxiv--2608.01397/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.00635",
+      "rank": 3,
+      "path": "docs/daily/2026-08-05/03-flowpilot-real-time-world-action-modeling-for-agile-uav-navigation.md",
+      "bytes": 2334,
+      "preview_image": "/daily/2026-08-05/assets/arxiv--2608.00635/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.01824",
+      "rank": 4,
+      "path": "docs/daily/2026-08-05/04-retouch-empowering-contact-rich-dexterous-manipulation-with-online-refined-tacti.md",
+      "bytes": 2321,
+      "preview_image": "/daily/2026-08-05/assets/arxiv--2608.01824/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.01381",
+      "rank": 5,
+      "path": "docs/daily/2026-08-05/05-dreamtrajectory-trajectory-guided-action-generation-with-world-model-alignment-f.md",
+      "bytes": 2322,
+      "preview_image": "/daily/2026-08-05/assets/arxiv--2608.01381/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.00793",
+      "rank": 6,
+      "path": "docs/daily/2026-08-05/06-dynamicwam-dual-path-motion-conditioning-for-world-action-models-in-dynamic-mani.md",
+      "bytes": 2245,
+      "preview_image": "/daily/2026-08-05/assets/arxiv--2608.00793/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.02547",
+      "rank": 7,
+      "path": "docs/daily/2026-08-05/07-why-does-action-chunking-improve-behavioral-cloning-performance-in-robotic-contr.md",
+      "bytes": 2215,
+      "preview_image": "/daily/2026-08-05/assets/arxiv--2608.02547/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.02257",
+      "rank": 8,
+      "path": "docs/daily/2026-08-05/08-learning-panorama-aware-vla-for-mobile-manipulation-with-whole-body-teleoperatio.md",
+      "bytes": 2250,
+      "preview_image": "/daily/2026-08-05/assets/arxiv--2608.02257/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.02197",
+      "rank": 9,
+      "path": "docs/daily/2026-08-05/09-look-where-it-matters-adaptive-visual-refinement-for-vision-language-action-mode.md",
+      "bytes": 2316,
+      "preview_image": "/daily/2026-08-05/assets/arxiv--2608.02197/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.01826",
+      "rank": 10,
+      "path": "docs/daily/2026-08-05/10-multi-view-unified-camera-fields-geometry-shaped-action-facing-representations-f.md",
+      "bytes": 2333,
+      "preview_image": "/daily/2026-08-05/assets/arxiv--2608.01826/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.02326",
+      "rank": 11,
+      "path": "docs/daily/2026-08-05/11-chainvla-chaining-vision-language-action-queries-through-a-unified-execution-sta.md",
+      "bytes": 2421,
+      "preview_image": "/daily/2026-08-05/assets/arxiv--2608.02326/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.02014",
+      "rank": 12,
+      "path": "docs/daily/2026-08-05/12-mango-grasp-mahalanobis-fields-over-geometry-oriented-3d-gaussians-for-cross-emb.md",
+      "bytes": 2292,
+      "preview_image": "/daily/2026-08-05/assets/arxiv--2608.02014/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.01834",
+      "rank": 13,
+      "path": "docs/daily/2026-08-05/13-teleopit-a-full-embodiment-humanoid-teleoperation-system.md",
+      "bytes": 2140,
+      "preview_image": "/daily/2026-08-05/assets/arxiv--2608.01834/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.01452",
+      "rank": 14,
+      "path": "docs/daily/2026-08-05/14-dynamicmanip-enabling-dynamic-manipulation-from-a-single-static-demonstration.md",
+      "bytes": 2471,
+      "preview_image": "/daily/2026-08-05/assets/arxiv--2608.01452/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.02069",
+      "rank": 15,
+      "path": "docs/daily/2026-08-05/15-open-diffloco-open-source-differentiable-learning-for-deployable-blind-quadruped.md",
+      "bytes": 2131,
+      "preview_image": "/daily/2026-08-05/assets/arxiv--2608.02069/preview.png"
+    }
+  ],
+  "managed_assets": [
+    {
+      "candidate_id": "arxiv--2608.02580",
+      "path": "docs/public/daily/2026-08-05/assets/arxiv--2608.02580/preview.png",
+      "bytes": 1480539
+    },
+    {
+      "candidate_id": "arxiv--2608.01397",
+      "path": "docs/public/daily/2026-08-05/assets/arxiv--2608.01397/preview.png",
+      "bytes": 305180
+    },
+    {
+      "candidate_id": "arxiv--2608.00635",
+      "path": "docs/public/daily/2026-08-05/assets/arxiv--2608.00635/preview.png",
+      "bytes": 2005944
+    },
+    {
+      "candidate_id": "arxiv--2608.01824",
+      "path": "docs/public/daily/2026-08-05/assets/arxiv--2608.01824/preview.png",
+      "bytes": 737224
+    },
+    {
+      "candidate_id": "arxiv--2608.01381",
+      "path": "docs/public/daily/2026-08-05/assets/arxiv--2608.01381/preview.png",
+      "bytes": 340224
+    },
+    {
+      "candidate_id": "arxiv--2608.00793",
+      "path": "docs/public/daily/2026-08-05/assets/arxiv--2608.00793/preview.png",
+      "bytes": 347174
+    },
+    {
+      "candidate_id": "arxiv--2608.02547",
+      "path": "docs/public/daily/2026-08-05/assets/arxiv--2608.02547/preview.png",
+      "bytes": 769046
+    },
+    {
+      "candidate_id": "arxiv--2608.02257",
+      "path": "docs/public/daily/2026-08-05/assets/arxiv--2608.02257/preview.png",
+      "bytes": 368311
+    },
+    {
+      "candidate_id": "arxiv--2608.02197",
+      "path": "docs/public/daily/2026-08-05/assets/arxiv--2608.02197/preview.png",
+      "bytes": 599675
+    },
+    {
+      "candidate_id": "arxiv--2608.01826",
+      "path": "docs/public/daily/2026-08-05/assets/arxiv--2608.01826/preview.png",
+      "bytes": 927564
+    },
+    {
+      "candidate_id": "arxiv--2608.02326",
+      "path": "docs/public/daily/2026-08-05/assets/arxiv--2608.02326/preview.png",
+      "bytes": 365531
+    },
+    {
+      "candidate_id": "arxiv--2608.02014",
+      "path": "docs/public/daily/2026-08-05/assets/arxiv--2608.02014/preview.png",
+      "bytes": 168824
+    },
+    {
+      "candidate_id": "arxiv--2608.01834",
+      "path": "docs/public/daily/2026-08-05/assets/arxiv--2608.01834/preview.png",
+      "bytes": 853549
+    },
+    {
+      "candidate_id": "arxiv--2608.01452",
+      "path": "docs/public/daily/2026-08-05/assets/arxiv--2608.01452/preview.png",
+      "bytes": 1198144
+    },
+    {
+      "candidate_id": "arxiv--2608.02069",
+      "path": "docs/public/daily/2026-08-05/assets/arxiv--2608.02069/preview.png",
+      "bytes": 204140
+    }
+  ],
+  "consumed_files": [
+    {
+      "path": "crawl_tmp/refine_candidates/current.json",
+      "bytes": 322
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/successful_set.json",
+      "bytes": 119425
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/keyword_taxonomy.json",
+      "bytes": 8766
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.02580/article.md",
+      "bytes": 2603
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.02580/assets/preview.png",
+      "bytes": 1480539
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.01397/article.md",
+      "bytes": 2301
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.01397/assets/preview.png",
+      "bytes": 305180
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.00635/article.md",
+      "bytes": 2300
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.00635/assets/preview.png",
+      "bytes": 2005944
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.01824/article.md",
+      "bytes": 2287
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.01824/assets/preview.png",
+      "bytes": 737224
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.01381/article.md",
+      "bytes": 2288
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.01381/assets/preview.png",
+      "bytes": 340224
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.00793/article.md",
+      "bytes": 2211
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.00793/assets/preview.png",
+      "bytes": 347174
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.02547/article.md",
+      "bytes": 2181
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.02547/assets/preview.png",
+      "bytes": 769046
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.02257/article.md",
+      "bytes": 2216
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.02257/assets/preview.png",
+      "bytes": 368311
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.02197/article.md",
+      "bytes": 2282
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.02197/assets/preview.png",
+      "bytes": 599675
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.01826/article.md",
+      "bytes": 2299
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.01826/assets/preview.png",
+      "bytes": 927564
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.02326/article.md",
+      "bytes": 2387
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.02326/assets/preview.png",
+      "bytes": 365531
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.02014/article.md",
+      "bytes": 2258
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.02014/assets/preview.png",
+      "bytes": 168824
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.01834/article.md",
+      "bytes": 2106
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.01834/assets/preview.png",
+      "bytes": 853549
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.01452/article.md",
+      "bytes": 2437
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.01452/assets/preview.png",
+      "bytes": 1198144
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.02069/article.md",
+      "bytes": 2097
+    },
+    {
+      "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-05-g2/candidates/arxiv--2608.02069/assets/preview.png",
+      "bytes": 204140
+    }
+  ],
+  "warnings": [],
+  "build": {
+    "argv": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "vitepress_base": "/colab-daily/",
+    "started_at": "2026-08-04T17:14:26.222Z",
+    "completed_at": "2026-08-04T17:14:29.667Z",
+    "exit_code": 0,
+    "status": "success",
+    "output_summary": "> build\n> vitepress build docs\n\n\n  vitepress v1.6.4\n\nbuild complete in 3.12s.\n- building client + server bundles...\n\u001b[32m✓\u001b[0m building client + server bundles...\n- rendering pages...\n\u001b[32m✓\u001b[0m rendering pages...",
+    "warnings": []
+  },
+  "validation": {
+    "status": "success",
+    "base_path": "/colab-daily/",
+    "rendered_articles": 15,
+    "preview_assets": 15,
+    "http_checks": [
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/",
+        "status": 200,
+        "kind": "homepage",
+        "bytes": 42310
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/?date=2026-08-05",
+        "status": 200,
+        "kind": "date-page",
+        "bytes": 42310
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/01-ego2robot-scalable-robot-data-synthesis-from-egocentric-human-data",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2608.02580",
+        "bytes": 12009
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/15-open-diffloco-open-source-differentiable-learning-for-deployable-blind-quadruped",
+        "status": 200,
+        "kind": "article",
+        "candidate_id": "arxiv--2608.02069",
+        "bytes": 11810
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/assets/arxiv--2608.02580/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2608.02580",
+        "bytes": 1480539
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/assets/arxiv--2608.01397/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2608.01397",
+        "bytes": 305180
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/assets/arxiv--2608.00635/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2608.00635",
+        "bytes": 2005944
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/assets/arxiv--2608.01824/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2608.01824",
+        "bytes": 737224
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/assets/arxiv--2608.01381/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2608.01381",
+        "bytes": 340224
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/assets/arxiv--2608.00793/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2608.00793",
+        "bytes": 347174
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/assets/arxiv--2608.02547/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2608.02547",
+        "bytes": 769046
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/assets/arxiv--2608.02257/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2608.02257",
+        "bytes": 368311
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/assets/arxiv--2608.02197/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2608.02197",
+        "bytes": 599675
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/assets/arxiv--2608.01826/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2608.01826",
+        "bytes": 927564
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/assets/arxiv--2608.02326/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2608.02326",
+        "bytes": 365531
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/assets/arxiv--2608.02014/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2608.02014",
+        "bytes": 168824
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/assets/arxiv--2608.01834/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2608.01834",
+        "bytes": 853549
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/assets/arxiv--2608.01452/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2608.01452",
+        "bytes": 1198144
+      },
+      {
+        "url": "http://127.0.0.1:42173/colab-daily/daily/2026-08-05/assets/arxiv--2608.02069/preview.png",
+        "status": 200,
+        "kind": "preview-asset",
+        "candidate_id": "arxiv--2608.02069",
+        "bytes": 204140
+      }
+    ],
+    "warnings": []
+  },
+  "delivery": {
+    "git_commit": "not_requested",
+    "git_push": "not_requested",
+    "github_deploy": "not_requested"
+  },
+  "completed_at": "2026-08-04T17:14:29.768Z"
+}
