@@ -12,14 +12,14 @@
       "rank": 1,
       "path": "docs/daily/2026-08-04/01-clift-gemini-robotics-on-device.md",
       "bytes": 2851,
-      "preview_image": null
+      "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29172/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29613",
       "rank": 2,
       "path": "docs/daily/2026-08-04/02-wcm.md",
       "bytes": 2360,
-      "preview_image": null
+      "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29613/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29302",
@@ -33,77 +33,77 @@
       "rank": 4,
       "path": "docs/daily/2026-08-04/04-st-wam.md",
       "bytes": 2426,
-      "preview_image": null
+      "preview_image": "/daily/2026-08-04/assets/arxiv--2607.28993/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29169",
       "rank": 5,
       "path": "docs/daily/2026-08-04/05-actfovea-vla.md",
       "bytes": 2301,
-      "preview_image": null
+      "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29169/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29567",
       "rank": 6,
       "path": "docs/daily/2026-08-04/06-transgraspnet.md",
       "bytes": 2195,
-      "preview_image": null
+      "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29567/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29231",
       "rank": 7,
       "path": "docs/daily/2026-08-04/07-tacprint.md",
       "bytes": 2274,
-      "preview_image": null
+      "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29231/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29285",
       "rank": 8,
       "path": "docs/daily/2026-08-04/08-tract.md",
       "bytes": 2186,
-      "preview_image": null
+      "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29285/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29271",
       "rank": 9,
       "path": "docs/daily/2026-08-04/09-mdir.md",
       "bytes": 2191,
-      "preview_image": null
+      "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29271/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29482",
       "rank": 10,
       "path": "docs/daily/2026-08-04/10-temporal-policy.md",
       "bytes": 2119,
-      "preview_image": null
+      "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29482/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29393",
       "rank": 11,
       "path": "docs/daily/2026-08-04/11-aquajepa.md",
       "bytes": 2219,
-      "preview_image": null
+      "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29393/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29622",
       "rank": 12,
       "path": "docs/daily/2026-08-04/12-rayvit.md",
       "bytes": 2329,
-      "preview_image": null
+      "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29622/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29596",
       "rank": 13,
       "path": "docs/daily/2026-08-04/13-fibvla.md",
       "bytes": 2248,
-      "preview_image": null
+      "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29596/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29600",
       "rank": 14,
       "path": "docs/daily/2026-08-04/14-ham-vln.md",
       "bytes": 2237,
-      "preview_image": null
+      "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29600/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29009",
@@ -114,6 +114,71 @@
     }
   ],
   "assets": [
+    {
+      "candidate_id": "arxiv--2607.29172",
+      "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.29172/preview.png",
+      "bytes": 247807
+    },
+    {
+      "candidate_id": "arxiv--2607.29613",
+      "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.29613/preview.png",
+      "bytes": 515658
+    },
+    {
+      "candidate_id": "arxiv--2607.28993",
+      "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.28993/preview.png",
+      "bytes": 600386
+    },
+    {
+      "candidate_id": "arxiv--2607.29169",
+      "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.29169/preview.png",
+      "bytes": 629585
+    },
+    {
+      "candidate_id": "arxiv--2607.29567",
+      "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.29567/preview.png",
+      "bytes": 1265299
+    },
+    {
+      "candidate_id": "arxiv--2607.29231",
+      "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.29231/preview.png",
+      "bytes": 191395
+    },
+    {
+      "candidate_id": "arxiv--2607.29285",
+      "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.29285/preview.png",
+      "bytes": 1064701
+    },
+    {
+      "candidate_id": "arxiv--2607.29271",
+      "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.29271/preview.png",
+      "bytes": 94178
+    },
+    {
+      "candidate_id": "arxiv--2607.29482",
+      "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.29482/preview.png",
+      "bytes": 76623
+    },
+    {
+      "candidate_id": "arxiv--2607.29393",
+      "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.29393/preview.png",
+      "bytes": 276872
+    },
+    {
+      "candidate_id": "arxiv--2607.29622",
+      "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.29622/preview.png",
+      "bytes": 3432542
+    },
+    {
+      "candidate_id": "arxiv--2607.29596",
+      "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.29596/preview.png",
+      "bytes": 468078
+    },
+    {
+      "candidate_id": "arxiv--2607.29600",
+      "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.29600/preview.png",
+      "bytes": 420403
+    },
     {
       "candidate_id": "arxiv--2607.29302",
       "path": "docs/public/daily/2026-08-04/assets/arxiv--2607.29302/preview.png",

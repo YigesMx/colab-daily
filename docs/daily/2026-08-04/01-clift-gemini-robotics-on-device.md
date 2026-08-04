@@ -25,7 +25,7 @@ sources:
     url: "https://arxiv.org/html/2607.29172"
   - name: "arXiv abstract"
     url: "https://arxiv.org/abs/2607.29172v1"
-previewImage: null
+previewImage: "/daily/2026-08-04/assets/arxiv--2607.29172/preview.png"
 ---
 
 ## 核心内容

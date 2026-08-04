@@ -1,0 +1,99 @@
+{
+  "attachments": [
+    {
+      "attachment_id": 18,
+      "bytes": 247807,
+      "candidate_id": "arxiv--2607.29172",
+      "filename": "daily-2026-08-04--arxiv--2607.29172.png",
+      "mime": "image/png"
+    },
+    {
+      "attachment_id": 19,
+      "bytes": 515658,
+      "candidate_id": "arxiv--2607.29613",
+      "filename": "daily-2026-08-04--arxiv--2607.29613.png",
+      "mime": "image/png"
+    },
+    {
+      "attachment_id": 20,
+      "bytes": 600386,
+      "candidate_id": "arxiv--2607.28993",
+      "filename": "daily-2026-08-04--arxiv--2607.28993.png",
+      "mime": "image/png"
+    },
+    {
+      "attachment_id": 21,
+      "bytes": 629585,
+      "candidate_id": "arxiv--2607.29169",
+      "filename": "daily-2026-08-04--arxiv--2607.29169.png",
+      "mime": "image/png"
+    },
+    {
+      "attachment_id": 22,
+      "bytes": 1265299,
+      "candidate_id": "arxiv--2607.29567",
+      "filename": "daily-2026-08-04--arxiv--2607.29567.png",
+      "mime": "image/png"
+    },
+    {
+      "attachment_id": 23,
+      "bytes": 191395,
+      "candidate_id": "arxiv--2607.29231",
+      "filename": "daily-2026-08-04--arxiv--2607.29231.png",
+      "mime": "image/png"
+    },
+    {
+      "attachment_id": 24,
+      "bytes": 1064701,
+      "candidate_id": "arxiv--2607.29285",
+      "filename": "daily-2026-08-04--arxiv--2607.29285.png",
+      "mime": "image/png"
+    },
+    {
+      "attachment_id": 25,
+      "bytes": 94178,
+      "candidate_id": "arxiv--2607.29271",
+      "filename": "daily-2026-08-04--arxiv--2607.29271.png",
+      "mime": "image/png"
+    },
+    {
+      "attachment_id": 26,
+      "bytes": 76623,
+      "candidate_id": "arxiv--2607.29482",
+      "filename": "daily-2026-08-04--arxiv--2607.29482.png",
+      "mime": "image/png"
+    },
+    {
+      "attachment_id": 27,
+      "bytes": 276872,
+      "candidate_id": "arxiv--2607.29393",
+      "filename": "daily-2026-08-04--arxiv--2607.29393.png",
+      "mime": "image/png"
+    },
+    {
+      "attachment_id": 28,
+      "bytes": 3432542,
+      "candidate_id": "arxiv--2607.29622",
+      "filename": "daily-2026-08-04--arxiv--2607.29622.png",
+      "mime": "image/png"
+    },
+    {
+      "attachment_id": 29,
+      "bytes": 468078,
+      "candidate_id": "arxiv--2607.29596",
+      "filename": "daily-2026-08-04--arxiv--2607.29596.png",
+      "mime": "image/png"
+    },
+    {
+      "attachment_id": 30,
+      "bytes": 420403,
+      "candidate_id": "arxiv--2607.29600",
+      "filename": "daily-2026-08-04--arxiv--2607.29600.png",
+      "mime": "image/png"
+    }
+  ],
+  "cycle_id": "daily-2026-08-04",
+  "doc_id": "hZ1B2fvVuyznK3ebgwUSmc",
+  "schema_version": 1,
+  "status": "uploaded"
+}
