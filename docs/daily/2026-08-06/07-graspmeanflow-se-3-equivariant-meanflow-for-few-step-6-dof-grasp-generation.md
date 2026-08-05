@@ -12,7 +12,7 @@ summary: "GraspMeanFlow 以 SE(3) 等变 MeanFlow 学习有限时间段的平均
 keywords:
   - "灵巧抓取"
   - "三维几何"
-  - "实时生成"
+  - "实时控制"
 score: 79
 sources:
   - name: "arXiv PDF"

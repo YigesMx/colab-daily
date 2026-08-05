@@ -14,7 +14,7 @@ summary: "SARF 揭示可打印对抗贴纸会通过动作到视觉注意力劫�
 keywords:
   - "视觉语言动作模型"
   - "机器人安全"
-  - "鲁棒性"
+  - "机器人泛化"
 score: 81
 sources:
   - name: "arXiv PDF"

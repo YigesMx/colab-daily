@@ -14,7 +14,7 @@ summary: "RoboReact 从单个第一视角 RGB-D 观察生成并重定向人形�
 keywords:
   - "具身数据合成"
   - "人形机器人"
-  - "闭环控制"
+  - "机器人操作"
 score: 81
 sources:
   - name: "arXiv PDF"

@@ -16,9 +16,9 @@ authors:
   - "Peiguang Jing"
 summary: "LiLa-WAM 将未来状态预测与动作生成置于紧凑潜空间中，用视觉过渡 token 指定任务，并在单张 24GB GPU 上完成端到端训练。"
 keywords:
-  - "世界动作模型"
+  - "世界模型"
   - "机器人操作"
-  - "轻量化训练"
+  - "实时控制"
 score: 83
 sources:
   - name: "arXiv PDF"

@@ -19,7 +19,7 @@ summary: "BCP 将固定动作执行窗口改为逐步 continue-or-replan 决策�
 keywords:
   - "视觉语言动作模型"
   - "动作分块"
-  - "自适应重规划"
+  - "实时控制"
 score: 81
 sources:
   - name: "arXiv PDF"

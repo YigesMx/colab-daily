@@ -11,7 +11,7 @@ summary: "ValueFormer 用阶段感知的连续价值和错误区间标签，为�
 keywords:
   - "视觉语言动作模型"
   - "强化学习"
-  - "进度估计"
+  - "实时控制"
 score: 78
 sources:
   - name: "arXiv PDF"

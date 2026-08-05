@@ -16,7 +16,7 @@ summary: "EmbodiedVAE 为机器人操作世界模型设计双编码器视频 VAE
 keywords:
   - "世界模型"
   - "机器人操作"
-  - "视频表示"
+  - "三维几何"
 score: 74
 sources:
   - name: "arXiv PDF"

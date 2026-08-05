@@ -9,14 +9,14 @@
       "candidate_id": "arxiv--2608.03701",
       "rank": 1,
       "path": "docs/daily/2026-08-06/01-lila-wam-lightweight-latent-reasoning-world-action-model-for-robotic-manipulatio.md",
-      "bytes": 1958,
+      "bytes": 1949,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03701/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.03387",
       "rank": 2,
       "path": "docs/daily/2026-08-06/02-roboreact-agentic-skill-distillation-from-generated-egocentric-videos-for-genera.md",
-      "bytes": 2023,
+      "bytes": 2026,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03387/preview.png"
     },
     {
@@ -30,14 +30,14 @@
       "candidate_id": "arxiv--2608.03231",
       "rank": 4,
       "path": "docs/daily/2026-08-06/04-structure-aware-robust-fine-tuning-defending-vision-language-action-robots-again.md",
-      "bytes": 1983,
+      "bytes": 1989,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03231/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.03483",
       "rank": 5,
       "path": "docs/daily/2026-08-06/05-continue-or-replan-bernoulli-continuation-policy-learning-for-adaptive-horizon-e.md",
-      "bytes": 2120,
+      "bytes": 2114,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03483/preview.png"
     },
     {
@@ -58,7 +58,7 @@
       "candidate_id": "arxiv--2608.03753",
       "rank": 8,
       "path": "docs/daily/2026-08-06/08-gordon-graph-based-object-centric-rewards-for-decomposition-of-long-horizon-mani.md",
-      "bytes": 1937,
+      "bytes": 1915,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03753/preview.png"
     },
     {
@@ -72,21 +72,21 @@
       "candidate_id": "arxiv--2608.03103",
       "rank": 10,
       "path": "docs/daily/2026-08-06/10-a-hierarchical-approach-to-imitation-learning-for-manipulation-tasks-requiring-t.md",
-      "bytes": 1789,
+      "bytes": 1773,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03103/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.03034",
       "rank": 11,
       "path": "docs/daily/2026-08-06/11-pace-adaptive-budget-allocation-for-time-efficient-embodied-planning.md",
-      "bytes": 2012,
+      "bytes": 1996,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03034/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.03143",
       "rank": 12,
       "path": "docs/daily/2026-08-06/12-from-routes-to-steps-separating-semantic-progress-from-local-execution-in-vision.md",
-      "bytes": 1972,
+      "bytes": 1959,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03143/preview.png"
     },
     {
@@ -100,7 +100,7 @@
       "candidate_id": "arxiv--2608.02834",
       "rank": 14,
       "path": "docs/daily/2026-08-06/14-biconvex-optimization-for-smooth-minimum-time-trajectories-around-convex-obstacl.md",
-      "bytes": 1785,
+      "bytes": 1782,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.02834/preview.png"
     },
     {

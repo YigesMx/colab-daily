@@ -11,9 +11,8 @@ authors:
   - "Giuseppe Averta"
 summary: "GORDON 从无动作视频中构建对象关系图和密集进度奖励，并据奖励曲线自动发现长程操作子任务。"
 keywords:
-  - "长程操作"
   - "强化学习"
-  - "对象中心奖励"
+  - "机器人操作"
 score: 79
 sources:
   - name: "arXiv PDF"

@@ -13,9 +13,9 @@ authors:
   - "Aaron D. Ames"
 summary: "DSMS 将运动重定向从只追求运动学相似改为在可微仿真中同时满足接触、摩擦、碰撞和驱动约束。"
 keywords:
-  - "差分仿真"
-  - "人形机器人"
   - "仿真到现实"
+  - "人形机器人"
+  - "实时控制"
 score: 80
 sources:
   - name: "arXiv PDF"

@@ -14,9 +14,8 @@ authors:
   - "Lin Jiarong"
 summary: "Route2Step 将视觉语言导航中的路线级进度判断与局部动作执行分开，并用无人工时间标注的步骤对齐训练两者。"
 keywords:
-  - "视觉语言导航"
-  - "导航规划"
-  - "进度跟踪"
+  - "任务规划"
+  - "视觉语言动作模型"
 score: 75
 sources:
   - name: "arXiv PDF"

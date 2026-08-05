@@ -23,9 +23,8 @@ authors:
   - "Wei Zhang"
 summary: "PACE 将大语言模型的思考过程与机器人动作执行交错安排，并根据可用执行窗口动态分配推理 token 预算。"
 keywords:
-  - "具身规划"
-  - "智能体"
-  - "实时推理"
+  - "任务规划"
+  - "实时控制"
 score: 75
 sources:
   - name: "arXiv PDF"

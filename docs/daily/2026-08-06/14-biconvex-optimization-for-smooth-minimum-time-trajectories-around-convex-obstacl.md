@@ -9,9 +9,9 @@ authors:
   - "Daniela Rus"
 summary: "该方法把带任意阶导数约束的最短时间避障规划转为双凸优化，通过时变分离平面处理碰撞并改善坏初始化。"
 keywords:
-  - "轨迹规划"
-  - "无人机导航"
-  - "机械臂操作"
+  - "任务规划"
+  - "机器人操作"
+  - "三维几何"
 score: 74
 sources:
   - name: "arXiv PDF"

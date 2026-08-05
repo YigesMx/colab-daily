@@ -11,9 +11,8 @@ authors:
   - "Satyandra K. Gupta"
 summary: "DPA-FTG 将接触丰富拆解任务分成低频扩散策略和高频力条件控制器，以应对扩散去噪延迟与瞬时力变化。"
 keywords:
-  - "力控制"
-  - "模仿学习"
   - "机器人操作"
+  - "实时控制"
 score: 77
 sources:
   - name: "arXiv PDF"
