@@ -10,10 +10,23 @@
   "asset_count": 15,
   "build": {
     "status": "success",
-    "command": ["npm", "run", "build"],
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
     "base": "/colab-daily/",
     "exit_code": 0
   },
-  "http_validation": {"status": "success", "checked_urls": 32, "failed_urls": []},
-  "generated_at": "2026-08-05T16:48:17.122Z"
+  "http_validation": {
+    "status": "success",
+    "checked_urls": 31,
+    "failed_urls": []
+  },
+  "generated_at": "2026-08-05T17:47:03.768135+00:00",
+  "preview_image_correction": {
+    "status": "success",
+    "source": "arXiv HTML figures",
+    "candidate_count": 15
+  }
 }

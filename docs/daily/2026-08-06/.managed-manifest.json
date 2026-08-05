@@ -9,184 +9,355 @@
       "candidate_id": "arxiv--2608.03701",
       "rank": 1,
       "path": "docs/daily/2026-08-06/01-lila-wam-lightweight-latent-reasoning-world-action-model-for-robotic-manipulatio.md",
-      "bytes": 1949,
-      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03701/preview.png"
+      "bytes": 1954,
+      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03701/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03387",
       "rank": 2,
       "path": "docs/daily/2026-08-06/02-roboreact-agentic-skill-distillation-from-generated-egocentric-videos-for-genera.md",
-      "bytes": 2026,
-      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03387/preview.png"
+      "bytes": 2031,
+      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03387/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03727",
       "rank": 3,
       "path": "docs/daily/2026-08-06/03-track4action-distilling-world-centric-3d-tracker-into-vision-language-action-pol.md",
-      "bytes": 2048,
-      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03727/preview.png"
+      "bytes": 2053,
+      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03727/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03231",
       "rank": 4,
       "path": "docs/daily/2026-08-06/04-structure-aware-robust-fine-tuning-defending-vision-language-action-robots-again.md",
-      "bytes": 1989,
-      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03231/preview.png"
+      "bytes": 1994,
+      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03231/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03483",
       "rank": 5,
       "path": "docs/daily/2026-08-06/05-continue-or-replan-bernoulli-continuation-policy-learning-for-adaptive-horizon-e.md",
-      "bytes": 2114,
-      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03483/preview.png"
+      "bytes": 2119,
+      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03483/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03116",
       "rank": 6,
       "path": "docs/daily/2026-08-06/06-shooting-for-contact-contact-implicit-multiple-shooting-for-dynamic-motion-retar.md",
-      "bytes": 1919,
-      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03116/preview.png"
+      "bytes": 1924,
+      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03116/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03295",
       "rank": 7,
       "path": "docs/daily/2026-08-06/07-graspmeanflow-se-3-equivariant-meanflow-for-few-step-6-dof-grasp-generation.md",
-      "bytes": 1818,
-      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03295/preview.png"
+      "bytes": 1823,
+      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03295/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03753",
       "rank": 8,
       "path": "docs/daily/2026-08-06/08-gordon-graph-based-object-centric-rewards-for-decomposition-of-long-horizon-mani.md",
-      "bytes": 1915,
-      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03753/preview.png"
+      "bytes": 1920,
+      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03753/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.02958",
       "rank": 9,
       "path": "docs/daily/2026-08-06/09-valueformer-a-causal-transformer-value-function-with-stage-aware-labels-for-semi.md",
-      "bytes": 1952,
-      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.02958/preview.png"
+      "bytes": 1957,
+      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.02958/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03103",
       "rank": 10,
       "path": "docs/daily/2026-08-06/10-a-hierarchical-approach-to-imitation-learning-for-manipulation-tasks-requiring-t.md",
-      "bytes": 1773,
-      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03103/preview.png"
+      "bytes": 1778,
+      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03103/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03034",
       "rank": 11,
       "path": "docs/daily/2026-08-06/11-pace-adaptive-budget-allocation-for-time-efficient-embodied-planning.md",
-      "bytes": 1996,
-      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03034/preview.png"
+      "bytes": 2001,
+      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03034/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03143",
       "rank": 12,
       "path": "docs/daily/2026-08-06/12-from-routes-to-steps-separating-semantic-progress-from-local-execution-in-vision.md",
-      "bytes": 1959,
-      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03143/preview.png"
+      "bytes": 1964,
+      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03143/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.02990",
       "rank": 13,
       "path": "docs/daily/2026-08-06/13-embodiedvae-disentangled-video-vae-for-efficient-and-controllable-embodied-manip.md",
-      "bytes": 1947,
-      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.02990/preview.png"
+      "bytes": 1952,
+      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.02990/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.02834",
       "rank": 14,
       "path": "docs/daily/2026-08-06/14-biconvex-optimization-for-smooth-minimum-time-trajectories-around-convex-obstacl.md",
-      "bytes": 1782,
-      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.02834/preview.png"
+      "bytes": 1787,
+      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.02834/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03234",
       "rank": 15,
       "path": "docs/daily/2026-08-06/15-learning-context-aware-motion-priors-for-humanoid-control.md",
-      "bytes": 1930,
-      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03234/preview.png"
+      "bytes": 1935,
+      "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03234/preview-main.png"
     }
   ],
   "assets": [
     {
       "candidate_id": "arxiv--2608.03701",
-      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03701/preview.png",
-      "bytes": 398024
+      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03701/preview-main.png",
+      "bytes": 138353
     },
     {
       "candidate_id": "arxiv--2608.03387",
-      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03387/preview.png",
-      "bytes": 565815
+      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03387/preview-main.png",
+      "bytes": 784877
     },
     {
       "candidate_id": "arxiv--2608.03727",
-      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03727/preview.png",
-      "bytes": 551433
+      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03727/preview-main.png",
+      "bytes": 645399
     },
     {
       "candidate_id": "arxiv--2608.03231",
-      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03231/preview.png",
-      "bytes": 658019
+      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03231/preview-main.png",
+      "bytes": 1171783
     },
     {
       "candidate_id": "arxiv--2608.03483",
-      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03483/preview.png",
-      "bytes": 580665
+      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03483/preview-main.png",
+      "bytes": 373946
     },
     {
       "candidate_id": "arxiv--2608.03116",
-      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03116/preview.png",
-      "bytes": 732367
+      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03116/preview-main.png",
+      "bytes": 2904686
     },
     {
       "candidate_id": "arxiv--2608.03295",
-      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03295/preview.png",
-      "bytes": 550239
+      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03295/preview-main.png",
+      "bytes": 386085
     },
     {
       "candidate_id": "arxiv--2608.03753",
-      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03753/preview.png",
-      "bytes": 667276
+      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03753/preview-main.png",
+      "bytes": 390969
     },
     {
       "candidate_id": "arxiv--2608.02958",
-      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.02958/preview.png",
-      "bytes": 825181
+      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.02958/preview-main.png",
+      "bytes": 2231777
     },
     {
       "candidate_id": "arxiv--2608.03103",
-      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03103/preview.png",
-      "bytes": 391763
+      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03103/preview-main.png",
+      "bytes": 655783
     },
     {
       "candidate_id": "arxiv--2608.03034",
-      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03034/preview.png",
-      "bytes": 525618
+      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03034/preview-main.png",
+      "bytes": 2718968
     },
     {
       "candidate_id": "arxiv--2608.03143",
-      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03143/preview.png",
-      "bytes": 570010
+      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03143/preview-main.png",
+      "bytes": 602971
     },
     {
       "candidate_id": "arxiv--2608.02990",
-      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.02990/preview.png",
-      "bytes": 277541
+      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.02990/preview-main.png",
+      "bytes": 758045
     },
     {
       "candidate_id": "arxiv--2608.02834",
-      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.02834/preview.png",
-      "bytes": 667663
+      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.02834/preview-main.png",
+      "bytes": 2353397
     },
     {
       "candidate_id": "arxiv--2608.03234",
-      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03234/preview.png",
-      "bytes": 502434
+      "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03234/preview-main.png",
+      "bytes": 662244
     }
   ],
-  "generated_at": "2026-08-05T16:48:17.114Z"
+  "generated_at": "2026-08-05T17:47:03.767601+00:00",
+  "preview_image_correction": {
+    "purpose": "human-authorized preview-image correction",
+    "source": "arXiv HTML figures",
+    "figures": [
+      {
+        "candidate_id": "arxiv--2608.03701",
+        "rank": 1,
+        "figure": "Figure 2",
+        "source_url": "https://arxiv.org/html/2608.03701v1/x3.png",
+        "description": "LiLa-WAM architecture: visual/task/action tokens, foresight prediction, and action generation.",
+        "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03701/preview-main.png",
+        "bytes": 138353,
+        "width": 571,
+        "height": 213
+      },
+      {
+        "candidate_id": "arxiv--2608.03387",
+        "rank": 2,
+        "figure": "Figure 2",
+        "source_url": "https://arxiv.org/html/2608.03387v1/figuresMain/1.png",
+        "description": "RoboReact pipeline from generated video through refinement to humanoid execution.",
+        "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03387/preview-main.png",
+        "bytes": 784877,
+        "width": 2256,
+        "height": 1000
+      },
+      {
+        "candidate_id": "arxiv--2608.03727",
+        "rank": 3,
+        "figure": "Figure 2",
+        "source_url": "https://arxiv.org/html/2608.03727v1/x2.png",
+        "description": "Track4Action teacher-student distillation and tracker-free deployment overview.",
+        "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03727/preview-main.png",
+        "bytes": 645399,
+        "width": 1139,
+        "height": 459
+      },
+      {
+        "candidate_id": "arxiv--2608.03231",
+        "rank": 4,
+        "figure": "Figure 1",
+        "source_url": "https://arxiv.org/html/2608.03231v1/x1.png",
+        "description": "SARF attack-and-defense motivation and real-robot recovery pipeline.",
+        "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03231/preview-main.png",
+        "bytes": 1171783,
+        "width": 997,
+        "height": 661
+      },
+      {
+        "candidate_id": "arxiv--2608.03483",
+        "rank": 5,
+        "figure": "Figure 2",
+        "source_url": "https://arxiv.org/html/2608.03483v1/x2.png",
+        "description": "Bernoulli-Continuation Policy with frozen VLA action chunks and continue/replan decisions.",
+        "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03483/preview-main.png",
+        "bytes": 373946,
+        "width": 977,
+        "height": 456
+      },
+      {
+        "candidate_id": "arxiv--2608.03116",
+        "rank": 6,
+        "figure": "Figure 1",
+        "source_url": "https://arxiv.org/html/2608.03116v1/Figures/hero.png",
+        "description": "DSMS simulation and Unitree G1 hero results for contact-rich motions.",
+        "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03116/preview-main.png",
+        "bytes": 2904686,
+        "width": 2122,
+        "height": 1134
+      },
+      {
+        "candidate_id": "arxiv--2608.03295",
+        "rank": 7,
+        "figure": "Figure 1",
+        "source_url": "https://arxiv.org/html/2608.03295v1/x1.png",
+        "description": "GraspMeanFlow point-cloud-conditioned SE(3) grasp-generation overview.",
+        "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03295/preview-main.png",
+        "bytes": 386085,
+        "width": 996,
+        "height": 543
+      },
+      {
+        "candidate_id": "arxiv--2608.03753",
+        "rank": 8,
+        "figure": "Figure 2",
+        "source_url": "https://arxiv.org/html/2608.03753v1/x2.png",
+        "description": "GORDON pipeline from action-free video to object-centric rewards and sequential policies.",
+        "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03753/preview-main.png",
+        "bytes": 390969,
+        "width": 793,
+        "height": 251
+      },
+      {
+        "candidate_id": "arxiv--2608.02958",
+        "rank": 9,
+        "figure": "Figure 1",
+        "source_url": "https://arxiv.org/html/2608.02958v1/figures/front-page_fig.png",
+        "description": "ValueFormer alongside a VLA, showing progress values and failure detection.",
+        "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.02958/preview-main.png",
+        "bytes": 2231777,
+        "width": 1432,
+        "height": 1564
+      },
+      {
+        "candidate_id": "arxiv--2608.03103",
+        "rank": 10,
+        "figure": "Figure 2",
+        "source_url": "https://arxiv.org/html/2608.03103v1/fig2-DPA_FTG_Architecture.png",
+        "description": "DPA-FTG two-rate architecture for task selection and force-reactive trajectory generation.",
+        "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03103/preview-main.png",
+        "bytes": 655783,
+        "width": 3763,
+        "height": 5097
+      },
+      {
+        "candidate_id": "arxiv--2608.03034",
+        "rank": 11,
+        "figure": "Figure 1",
+        "source_url": "https://arxiv.org/html/2608.03034v1/pace_overview_v3.png",
+        "description": "PACE interleaved think-act execution and dynamic budget allocation overview.",
+        "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03034/preview-main.png",
+        "bytes": 2718968,
+        "width": 1591,
+        "height": 875
+      },
+      {
+        "candidate_id": "arxiv--2608.03143",
+        "rank": 12,
+        "figure": "Figure 2",
+        "source_url": "https://arxiv.org/html/2608.03143v1/x2.png",
+        "description": "Route2Step separation of instruction analysis, execution state, and local action generation.",
+        "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03143/preview-main.png",
+        "bytes": 602971,
+        "width": 1163,
+        "height": 464
+      },
+      {
+        "candidate_id": "arxiv--2608.02990",
+        "rank": 13,
+        "figure": "Figure 2",
+        "source_url": "https://arxiv.org/html/2608.02990v1/x2.png",
+        "description": "EmbodiedVAE dual-encoder/single-decoder architecture and motion-consistency modules.",
+        "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.02990/preview-main.png",
+        "bytes": 758045,
+        "width": 997,
+        "height": 536
+      },
+      {
+        "candidate_id": "arxiv--2608.02834",
+        "rank": 14,
+        "figure": "Figure 1",
+        "source_url": "https://arxiv.org/html/2608.02834v1/x1.png",
+        "description": "Minimum-time planning applications for dual-arm unloading and drone navigation.",
+        "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.02834/preview-main.png",
+        "bytes": 2353397,
+        "width": 997,
+        "height": 890
+      },
+      {
+        "candidate_id": "arxiv--2608.03234",
+        "rank": 15,
+        "figure": "Figure 2",
+        "source_url": "https://arxiv.org/html/2608.03234v1/x2.png",
+        "description": "Context-Aware Motion Priors relevance-learning and weighted-adaptation pipeline.",
+        "path": "docs/public/daily/2026-08-06/assets/arxiv--2608.03234/preview-main.png",
+        "bytes": 662244,
+        "width": 996,
+        "height": 768
+      }
+    ]
+  }
 }

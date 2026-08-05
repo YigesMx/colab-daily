@@ -22,7 +22,7 @@ sources:
     url: "https://arxiv.org/pdf/2608.03727v1"
   - name: "arXiv abstract"
     url: "https://arxiv.org/abs/2608.03727v1"
-previewImage: "/daily/2026-08-06/assets/arxiv--2608.03727/preview.png"
+previewImage: "/daily/2026-08-06/assets/arxiv--2608.03727/preview-main.png"
 ---
 
 ## 核心内容
