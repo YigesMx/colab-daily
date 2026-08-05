@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "cycle_id": "daily-2026-08-06",
+  "display_date": "2026-08-06",
+  "status": "success",
+  "repository_root": "candidates_publish",
+  "vitepress_base": "/colab-daily/",
+  "managed_manifest": "docs/daily/2026-08-06/.managed-manifest.json",
+  "article_count": 15,
+  "asset_count": 15,
+  "build": {
+    "status": "success",
+    "command": ["npm", "run", "build"],
+    "base": "/colab-daily/",
+    "exit_code": 0
+  },
+  "http_validation": {"status": "success", "checked_urls": 32, "failed_urls": []},
+  "generated_at": "2026-08-05T16:48:17.122Z"
+}
