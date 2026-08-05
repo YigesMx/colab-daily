@@ -2,10 +2,10 @@
   "schema_version": 1,
   "cycle_id": "daily-2026-08-06",
   "local_status": "success",
-  "git_commit": {"status": "pending", "branch": "main"},
-  "git_push": {"status": "pending", "remote": "origin", "branch": "main"},
+  "git_commit": {"status": "success", "commit_sha": "a107d25", "branch": "main"},
+  "git_push": {"status": "success", "remote": "origin", "branch": "main", "commit_sha": "a107d25"},
   "github_pages_deploy": {"status": "unknown", "reason": "Push workflow triggered; no read-only workflow status interface used."},
   "public_url": {"status": "success", "url": "https://yigesmx.github.io/colab-daily/", "http_status": 200},
   "attempts": {"git_commit": 3, "git_push": 3, "public_url": 2},
-  "preview_image_correction": {"status": "local_validated", "source": "arXiv HTML figures", "candidate_count": 15}
+  "preview_image_correction": {"status": "public_validated", "source": "arXiv HTML figures", "candidate_count": 15, "checked_urls": 31}
 }
