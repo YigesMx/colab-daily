@@ -1,0 +1,187 @@
+{
+  "articles": [
+    {
+      "bytes": 2665,
+      "candidate_id": "arxiv--2608.04996",
+      "path": "docs/daily/2026-08-07/01-dreamwam.md",
+      "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04996/preview.png",
+      "rank": 1
+    },
+    {
+      "bytes": 2549,
+      "candidate_id": "arxiv--2608.04657",
+      "path": "docs/daily/2026-08-07/02-mobilewam.md",
+      "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04657/preview.png",
+      "rank": 2
+    },
+    {
+      "bytes": 2554,
+      "candidate_id": "arxiv--2608.05042",
+      "path": "docs/daily/2026-08-07/03-bridgevla.md",
+      "preview_image": "/daily/2026-08-07/assets/arxiv--2608.05042/preview.png",
+      "rank": 3
+    },
+    {
+      "bytes": 2263,
+      "candidate_id": "arxiv--2608.04404",
+      "path": "docs/daily/2026-08-07/04-faster-wam.md",
+      "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04404/preview.png",
+      "rank": 4
+    },
+    {
+      "bytes": 2466,
+      "candidate_id": "arxiv--2608.04196",
+      "path": "docs/daily/2026-08-07/05-simdex.md",
+      "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04196/preview.png",
+      "rank": 5
+    },
+    {
+      "bytes": 2345,
+      "candidate_id": "arxiv--2608.04933",
+      "path": "docs/daily/2026-08-07/06-mimir.md",
+      "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04933/preview.jpg",
+      "rank": 6
+    },
+    {
+      "bytes": 2298,
+      "candidate_id": "arxiv--2608.04633",
+      "path": "docs/daily/2026-08-07/07-mind-vla.md",
+      "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04633/preview.png",
+      "rank": 7
+    },
+    {
+      "bytes": 2512,
+      "candidate_id": "arxiv--2608.04420",
+      "path": "docs/daily/2026-08-07/08-scope.md",
+      "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04420/preview.jpg",
+      "rank": 8
+    },
+    {
+      "bytes": 2213,
+      "candidate_id": "arxiv--2608.03207",
+      "path": "docs/daily/2026-08-07/09-drift-vla.md",
+      "preview_image": "/daily/2026-08-07/assets/arxiv--2608.03207/preview.png",
+      "rank": 9
+    },
+    {
+      "bytes": 2264,
+      "candidate_id": "arxiv--2608.04653",
+      "path": "docs/daily/2026-08-07/10-coco.md",
+      "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04653/preview.png",
+      "rank": 10
+    },
+    {
+      "bytes": 2221,
+      "candidate_id": "arxiv--2608.04825",
+      "path": "docs/daily/2026-08-07/11-dbfly.md",
+      "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04825/preview.png",
+      "rank": 11
+    },
+    {
+      "bytes": 2232,
+      "candidate_id": "arxiv--2608.04510",
+      "path": "docs/daily/2026-08-07/12-guard-vla.md",
+      "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04510/preview.png",
+      "rank": 12
+    },
+    {
+      "bytes": 2265,
+      "candidate_id": "arxiv--2608.04246",
+      "path": "docs/daily/2026-08-07/13-safecast-vla.md",
+      "preview_image": null,
+      "rank": 13
+    },
+    {
+      "bytes": 2362,
+      "candidate_id": "arxiv--2608.04575",
+      "path": "docs/daily/2026-08-07/14-physmind.md",
+      "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04575/preview.png",
+      "rank": 14
+    },
+    {
+      "bytes": 2237,
+      "candidate_id": "arxiv--2608.04842",
+      "path": "docs/daily/2026-08-07/15-rora.md",
+      "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04842/preview.jpeg",
+      "rank": 15
+    }
+  ],
+  "assets": [
+    {
+      "bytes": 541601,
+      "candidate_id": "arxiv--2608.04996",
+      "path": "docs/public/daily/2026-08-07/assets/arxiv--2608.04996/preview.png"
+    },
+    {
+      "bytes": 509366,
+      "candidate_id": "arxiv--2608.04657",
+      "path": "docs/public/daily/2026-08-07/assets/arxiv--2608.04657/preview.png"
+    },
+    {
+      "bytes": 874613,
+      "candidate_id": "arxiv--2608.05042",
+      "path": "docs/public/daily/2026-08-07/assets/arxiv--2608.05042/preview.png"
+    },
+    {
+      "bytes": 278279,
+      "candidate_id": "arxiv--2608.04404",
+      "path": "docs/public/daily/2026-08-07/assets/arxiv--2608.04404/preview.png"
+    },
+    {
+      "bytes": 730009,
+      "candidate_id": "arxiv--2608.04196",
+      "path": "docs/public/daily/2026-08-07/assets/arxiv--2608.04196/preview.png"
+    },
+    {
+      "bytes": 913594,
+      "candidate_id": "arxiv--2608.04933",
+      "path": "docs/public/daily/2026-08-07/assets/arxiv--2608.04933/preview.jpg"
+    },
+    {
+      "bytes": 56665,
+      "candidate_id": "arxiv--2608.04633",
+      "path": "docs/public/daily/2026-08-07/assets/arxiv--2608.04633/preview.png"
+    },
+    {
+      "bytes": 1101082,
+      "candidate_id": "arxiv--2608.04420",
+      "path": "docs/public/daily/2026-08-07/assets/arxiv--2608.04420/preview.jpg"
+    },
+    {
+      "bytes": 474139,
+      "candidate_id": "arxiv--2608.03207",
+      "path": "docs/public/daily/2026-08-07/assets/arxiv--2608.03207/preview.png"
+    },
+    {
+      "bytes": 580854,
+      "candidate_id": "arxiv--2608.04653",
+      "path": "docs/public/daily/2026-08-07/assets/arxiv--2608.04653/preview.png"
+    },
+    {
+      "bytes": 432329,
+      "candidate_id": "arxiv--2608.04825",
+      "path": "docs/public/daily/2026-08-07/assets/arxiv--2608.04825/preview.png"
+    },
+    {
+      "bytes": 713143,
+      "candidate_id": "arxiv--2608.04510",
+      "path": "docs/public/daily/2026-08-07/assets/arxiv--2608.04510/preview.png"
+    },
+    {
+      "bytes": 1365797,
+      "candidate_id": "arxiv--2608.04575",
+      "path": "docs/public/daily/2026-08-07/assets/arxiv--2608.04575/preview.png"
+    },
+    {
+      "bytes": 323898,
+      "candidate_id": "arxiv--2608.04842",
+      "path": "docs/public/daily/2026-08-07/assets/arxiv--2608.04842/preview.jpeg"
+    }
+  ],
+  "cycle_id": "daily-2026-08-07",
+  "display_date": "2026-08-07",
+  "generated_at": "2026-08-06T16:49:34.641665+00:00",
+  "keyword_count": 15,
+  "run_id": "refine-daily-2026-08-07-g2",
+  "schema_version": 1
+}
