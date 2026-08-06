@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "cycle_id": "daily-2026-08-07",
+  "display_date": "2026-08-07",
+  "local_status": "success",
+  "git_commit": {
+    "status": "success",
+    "commit_sha": "7d2d2bdc108a74477c6ca67ab04f0678ee9df349",
+    "message": "docs: publish 2026-08-07 candidates",
+    "managed_articles": 15,
+    "managed_assets": 14
+  },
+  "git_push": {
+    "status": "success",
+    "remote": "origin",
+    "branch": "main",
+    "commit_sha": "7d2d2bdc108a74477c6ca67ab04f0678ee9df349",
+    "transport": "ssh"
+  },
+  "remote_ref": {
+    "status": "success",
+    "ref": "refs/heads/main",
+    "commit_sha": "7d2d2bdc108a74477c6ca67ab04f0678ee9df349"
+  },
+  "github_pages_deploy": {
+    "status": "unknown",
+    "reason": "Push workflow may have been triggered; no read-only workflow status interface used."
+  },
+  "public_url": {
+    "status": "success",
+    "url": "https://yigesmx.github.io/colab-daily/",
+    "http_status": 200,
+    "attempts": 1
+  },
+  "attempts": {
+    "git_commit": 1,
+    "git_push": 1,
+    "remote_ref": 1,
+    "public_url": 1
+  }
+}
