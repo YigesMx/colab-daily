@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.28272"
+category: "Paper"
 date: "2026-08-01"
 rank: 10
 title: "MemHarness：把历史经验按当前状态重构，而不是原样回放"

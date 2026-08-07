@@ -1,106 +1,121 @@
 {
   "articles": [
     {
-      "bytes": 2665,
+      "bytes": 2683,
       "candidate_id": "arxiv--2608.04996",
+      "category": "Paper",
       "path": "docs/daily/2026-08-07/01-dreamwam.md",
       "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04996/preview.png",
       "rank": 1
     },
     {
-      "bytes": 2549,
+      "bytes": 2567,
       "candidate_id": "arxiv--2608.04657",
+      "category": "Paper",
       "path": "docs/daily/2026-08-07/02-mobilewam.md",
       "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04657/preview.png",
       "rank": 2
     },
     {
-      "bytes": 2554,
+      "bytes": 2572,
       "candidate_id": "arxiv--2608.05042",
+      "category": "Paper",
       "path": "docs/daily/2026-08-07/03-bridgevla.md",
       "preview_image": "/daily/2026-08-07/assets/arxiv--2608.05042/preview.png",
       "rank": 3
     },
     {
-      "bytes": 2263,
+      "bytes": 2281,
       "candidate_id": "arxiv--2608.04404",
+      "category": "Paper",
       "path": "docs/daily/2026-08-07/04-faster-wam.md",
       "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04404/preview.png",
       "rank": 4
     },
     {
-      "bytes": 2466,
+      "bytes": 2484,
       "candidate_id": "arxiv--2608.04196",
+      "category": "Paper",
       "path": "docs/daily/2026-08-07/05-simdex.md",
       "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04196/preview.png",
       "rank": 5
     },
     {
-      "bytes": 2345,
+      "bytes": 2363,
       "candidate_id": "arxiv--2608.04933",
+      "category": "Paper",
       "path": "docs/daily/2026-08-07/06-mimir.md",
       "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04933/preview.jpg",
       "rank": 6
     },
     {
-      "bytes": 2298,
+      "bytes": 2316,
       "candidate_id": "arxiv--2608.04633",
+      "category": "Paper",
       "path": "docs/daily/2026-08-07/07-mind-vla.md",
       "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04633/preview.png",
       "rank": 7
     },
     {
-      "bytes": 2512,
+      "bytes": 2530,
       "candidate_id": "arxiv--2608.04420",
+      "category": "Paper",
       "path": "docs/daily/2026-08-07/08-scope.md",
       "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04420/preview.jpg",
       "rank": 8
     },
     {
-      "bytes": 2213,
+      "bytes": 2231,
       "candidate_id": "arxiv--2608.03207",
+      "category": "Paper",
       "path": "docs/daily/2026-08-07/09-drift-vla.md",
       "preview_image": "/daily/2026-08-07/assets/arxiv--2608.03207/preview.png",
       "rank": 9
     },
     {
-      "bytes": 2264,
+      "bytes": 2282,
       "candidate_id": "arxiv--2608.04653",
+      "category": "Paper",
       "path": "docs/daily/2026-08-07/10-coco.md",
       "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04653/preview.png",
       "rank": 10
     },
     {
-      "bytes": 2221,
+      "bytes": 2239,
       "candidate_id": "arxiv--2608.04825",
+      "category": "Paper",
       "path": "docs/daily/2026-08-07/11-dbfly.md",
       "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04825/preview.png",
       "rank": 11
     },
     {
-      "bytes": 2232,
+      "bytes": 2250,
       "candidate_id": "arxiv--2608.04510",
+      "category": "Paper",
       "path": "docs/daily/2026-08-07/12-guard-vla.md",
       "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04510/preview.png",
       "rank": 12
     },
     {
-      "bytes": 2265,
+      "bytes": 2283,
       "candidate_id": "arxiv--2608.04246",
+      "category": "Paper",
       "path": "docs/daily/2026-08-07/13-safecast-vla.md",
       "preview_image": null,
       "rank": 13
     },
     {
-      "bytes": 2362,
+      "bytes": 2380,
       "candidate_id": "arxiv--2608.04575",
+      "category": "Paper",
       "path": "docs/daily/2026-08-07/14-physmind.md",
       "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04575/preview.png",
       "rank": 14
     },
     {
-      "bytes": 2237,
+      "bytes": 2255,
       "candidate_id": "arxiv--2608.04842",
+      "category": "Paper",
       "path": "docs/daily/2026-08-07/15-rora.md",
       "preview_image": "/daily/2026-08-07/assets/arxiv--2608.04842/preview.jpeg",
       "rank": 15

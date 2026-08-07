@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.29393"
+category: "Paper"
 date: "2026-08-04"
 rank: 11
 title: "AquaJEPA：面向水下机器人动力学的动作条件多模态预测表示"

@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.29231"
+category: "Paper"
 date: "2026-08-04"
 rank: 7
 title: "TacPrint：用于人到机器人接触复现的可穿戴指尖触觉传感器"

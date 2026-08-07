@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.26056"
+category: "Paper"
 date: "2026-08-01"
 rank: 3
 title: "INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models"

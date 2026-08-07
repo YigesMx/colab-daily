@@ -9,107 +9,122 @@
   "articles": [
     {
       "candidate_id": "arxiv--2608.02580",
+      "category": "Paper",
       "rank": 1,
       "path": "docs/daily/2026-08-05/01-ego2robot-scalable-robot-data-synthesis-from-egocentric-human-data.md",
-      "bytes": 2637,
+      "bytes": 2655,
       "preview_image": "/daily/2026-08-05/assets/arxiv--2608.02580/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.01397",
+      "category": "Paper",
       "rank": 2,
       "path": "docs/daily/2026-08-05/02-sg-wam-self-guided-world-modeling-in-geometry-aware-policy-space.md",
-      "bytes": 2335,
+      "bytes": 2353,
       "preview_image": "/daily/2026-08-05/assets/arxiv--2608.01397/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.00635",
+      "category": "Paper",
       "rank": 3,
       "path": "docs/daily/2026-08-05/03-flowpilot-real-time-world-action-modeling-for-agile-uav-navigation.md",
-      "bytes": 2334,
+      "bytes": 2352,
       "preview_image": "/daily/2026-08-05/assets/arxiv--2608.00635/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.01824",
+      "category": "Paper",
       "rank": 4,
       "path": "docs/daily/2026-08-05/04-retouch-empowering-contact-rich-dexterous-manipulation-with-online-refined-tacti.md",
-      "bytes": 2321,
+      "bytes": 2339,
       "preview_image": "/daily/2026-08-05/assets/arxiv--2608.01824/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.01381",
+      "category": "Paper",
       "rank": 5,
       "path": "docs/daily/2026-08-05/05-dreamtrajectory-trajectory-guided-action-generation-with-world-model-alignment-f.md",
-      "bytes": 2322,
+      "bytes": 2340,
       "preview_image": "/daily/2026-08-05/assets/arxiv--2608.01381/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.00793",
+      "category": "Paper",
       "rank": 6,
       "path": "docs/daily/2026-08-05/06-dynamicwam-dual-path-motion-conditioning-for-world-action-models-in-dynamic-mani.md",
-      "bytes": 2245,
+      "bytes": 2263,
       "preview_image": "/daily/2026-08-05/assets/arxiv--2608.00793/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.02547",
+      "category": "Paper",
       "rank": 7,
       "path": "docs/daily/2026-08-05/07-why-does-action-chunking-improve-behavioral-cloning-performance-in-robotic-contr.md",
-      "bytes": 2215,
+      "bytes": 2233,
       "preview_image": "/daily/2026-08-05/assets/arxiv--2608.02547/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.02257",
+      "category": "Paper",
       "rank": 8,
       "path": "docs/daily/2026-08-05/08-learning-panorama-aware-vla-for-mobile-manipulation-with-whole-body-teleoperatio.md",
-      "bytes": 2250,
+      "bytes": 2268,
       "preview_image": "/daily/2026-08-05/assets/arxiv--2608.02257/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.02197",
+      "category": "Paper",
       "rank": 9,
       "path": "docs/daily/2026-08-05/09-look-where-it-matters-adaptive-visual-refinement-for-vision-language-action-mode.md",
-      "bytes": 2316,
+      "bytes": 2334,
       "preview_image": "/daily/2026-08-05/assets/arxiv--2608.02197/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.01826",
+      "category": "Paper",
       "rank": 10,
       "path": "docs/daily/2026-08-05/10-multi-view-unified-camera-fields-geometry-shaped-action-facing-representations-f.md",
-      "bytes": 2333,
+      "bytes": 2351,
       "preview_image": "/daily/2026-08-05/assets/arxiv--2608.01826/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.02326",
+      "category": "Paper",
       "rank": 11,
       "path": "docs/daily/2026-08-05/11-chainvla-chaining-vision-language-action-queries-through-a-unified-execution-sta.md",
-      "bytes": 2421,
+      "bytes": 2439,
       "preview_image": "/daily/2026-08-05/assets/arxiv--2608.02326/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.02014",
+      "category": "Paper",
       "rank": 12,
       "path": "docs/daily/2026-08-05/12-mango-grasp-mahalanobis-fields-over-geometry-oriented-3d-gaussians-for-cross-emb.md",
-      "bytes": 2292,
+      "bytes": 2310,
       "preview_image": "/daily/2026-08-05/assets/arxiv--2608.02014/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.01834",
+      "category": "Paper",
       "rank": 13,
       "path": "docs/daily/2026-08-05/13-teleopit-a-full-embodiment-humanoid-teleoperation-system.md",
-      "bytes": 2140,
+      "bytes": 2158,
       "preview_image": "/daily/2026-08-05/assets/arxiv--2608.01834/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.01452",
+      "category": "Paper",
       "rank": 14,
       "path": "docs/daily/2026-08-05/14-dynamicmanip-enabling-dynamic-manipulation-from-a-single-static-demonstration.md",
-      "bytes": 2471,
+      "bytes": 2489,
       "preview_image": "/daily/2026-08-05/assets/arxiv--2608.01452/preview.png"
     },
     {
       "candidate_id": "arxiv--2608.02069",
+      "category": "Paper",
       "rank": 15,
       "path": "docs/daily/2026-08-05/15-open-diffloco-open-source-differentiable-learning-for-deployable-blind-quadruped.md",
-      "bytes": 2131,
+      "bytes": 2149,
       "preview_image": "/daily/2026-08-05/assets/arxiv--2608.02069/preview.png"
     }
   ],

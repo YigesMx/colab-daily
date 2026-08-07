@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.03207"
+category: "Paper"
 date: "2026-08-07"
 rank: 9
 title: "DRIFT：一张贴片如何劫持流匹配 VLA 的首个去噪步骤"

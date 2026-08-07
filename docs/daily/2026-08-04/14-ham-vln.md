@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.29600"
+category: "Paper"
 date: "2026-08-04"
 rank: 14
 title: "HAM-VLN：用分层智能体记忆实现零样本视觉语言导航"

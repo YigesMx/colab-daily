@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.01452"
+category: "Paper"
 date: "2026-08-05"
 rank: 14
 title: "DynamicManip: Enabling Dynamic Manipulation from a Single Static Demonstration"

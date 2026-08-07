@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.03295"
+category: "Paper"
 date: "2026-08-06"
 rank: 7
 title: "GraspMeanFlow: SE(3)-Equivariant MeanFlow for Few-Step 6-DoF Grasp Generation"

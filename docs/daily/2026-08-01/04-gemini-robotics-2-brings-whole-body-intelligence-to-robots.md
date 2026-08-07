@@ -1,5 +1,6 @@
 ---
 candidateId: "url--42a1992e4b242ffc"
+category: "News"
 date: "2026-08-01"
 rank: 4
 title: "Gemini Robotics 2 brings whole body intelligence to robots"

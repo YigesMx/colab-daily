@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.02580"
+category: "Paper"
 date: "2026-08-05"
 rank: 1
 title: "Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data"

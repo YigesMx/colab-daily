@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.04196"
+category: "Paper"
 date: "2026-08-07"
 rank: 5
 title: "SiMDex：从三千二百万第一视角样本中精准挖掘灵巧操作数据"

@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.02990"
+category: "Paper"
 date: "2026-08-06"
 rank: 13
 title: "EmbodiedVAE: Disentangled Video VAE for Efficient and Controllable Embodied Manipulation"

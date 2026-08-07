@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.01824"
+category: "Paper"
 date: "2026-08-05"
 rank: 4
 title: "ReTouch: Empowering Contact-Rich Dexterous Manipulation with Online-Refined Tactile Prediction"

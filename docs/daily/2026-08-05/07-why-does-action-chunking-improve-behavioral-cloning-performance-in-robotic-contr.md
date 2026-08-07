@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.02547"
+category: "Paper"
 date: "2026-08-05"
 rank: 7
 title: "Why Does Action Chunking Improve Behavioral Cloning Performance in Robotic Control?"

@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.02958"
+category: "Paper"
 date: "2026-08-06"
 rank: 9
 title: "ValueFormer: A Causal Transformer Value Function with Stage-Aware Labels for Semi-Autonomous Vision-Language-Action Policies"

@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.28625"
+category: "Paper"
 date: "2026-08-01"
 rank: 1
 title: "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine"

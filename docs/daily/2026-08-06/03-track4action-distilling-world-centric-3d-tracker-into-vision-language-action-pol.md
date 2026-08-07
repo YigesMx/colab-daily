@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.03727"
+category: "Paper"
 date: "2026-08-06"
 rank: 3
 title: "Track4Action: Distilling World-Centric 3D Tracker into Vision-Language-Action Policies"

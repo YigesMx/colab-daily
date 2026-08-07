@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.28362"
+category: "Paper"
 date: "2026-08-01"
 rank: 5
 title: "ShadowDancer: Teaching Video World Models Any Action by Learning Unified Dynamics Representations from a Video and Its Shadow"

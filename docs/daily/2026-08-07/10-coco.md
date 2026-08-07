@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.04653"
+category: "Paper"
 date: "2026-08-07"
 rank: 10
 title: "CoCo：用反事实一致性抑制可控世界模型的统计捷径"

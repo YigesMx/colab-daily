@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.04657"
+category: "Paper"
 date: "2026-08-07"
 rank: 2
 title: "MobileWAM：用因果前瞻链协调移动与操作"

@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.03234"
+category: "Paper"
 date: "2026-08-06"
 rank: 15
 title: "Learning Context-Aware Motion Priors for Humanoid Control"

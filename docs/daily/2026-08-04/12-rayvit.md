@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.29622"
+category: "Paper"
 date: "2026-08-04"
 rank: 12
 title: "RayViT：面向视角鲁棒模仿学习的射线条件视觉表示"

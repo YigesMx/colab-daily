@@ -23,14 +23,20 @@
     "commit_sha": "7d2d2bdc108a74477c6ca67ab04f0678ee9df349"
   },
   "github_pages_deploy": {
-    "status": "unknown",
-    "reason": "Push workflow may have been triggered; no read-only workflow status interface used."
+    "status": "success",
+    "workflow_run_id": 31126752529,
+    "event": "workflow_dispatch",
+    "head_sha": "bad829ec305075c4844a560ab2edef05ff0e18bf",
+    "conclusion": "success"
   },
   "public_url": {
     "status": "success",
     "url": "https://yigesmx.github.io/colab-daily/",
     "http_status": 200,
-    "attempts": 1
+    "attempts": 1,
+    "content_status": "success",
+    "verified_display_date": "2026-08-07",
+    "verified_candidate_id": "arxiv--2608.04996"
   },
   "attempts": {
     "git_commit": 1,

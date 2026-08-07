@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.03387"
+category: "Paper"
 date: "2026-08-06"
 rank: 2
 title: "RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation"

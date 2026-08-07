@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.29302"
+category: "Paper"
 date: "2026-08-04"
 rank: 3
 title: "BWM：低成本高保真的机器人学习世界模拟器"

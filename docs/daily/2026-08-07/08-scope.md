@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.04420"
+category: "Paper"
 date: "2026-08-07"
 rank: 8
 title: "SCOPE：以安全体积认证驱动未知三维环境中的主动观察"

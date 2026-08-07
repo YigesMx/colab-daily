@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.01834"
+category: "Paper"
 date: "2026-08-05"
 rank: 13
 title: "Teleopit: A Full-Embodiment Humanoid Teleoperation System"

@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.04996"
+category: "Paper"
 date: "2026-08-07"
 rank: 1
 title: "DreamWAM：用运动、几何与语义重塑世界动作模型的未来表征"

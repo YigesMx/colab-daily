@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.29285"
+category: "Paper"
 date: "2026-08-04"
 rank: 8
 title: "TRACT：面向接触丰富操作的时序路由动作块"

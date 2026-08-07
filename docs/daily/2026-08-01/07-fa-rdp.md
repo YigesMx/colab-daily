@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.28596"
+category: "Paper"
 date: "2026-08-01"
 rank: 7
 title: "FA-RDP：按接触阶段切换频率的视觉力觉扩散策略"

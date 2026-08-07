@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.28624"
+category: "Paper"
 date: "2026-08-01"
 rank: 2
 title: "PhiZero: A World Model Built Around Physical Language"

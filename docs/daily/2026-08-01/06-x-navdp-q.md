@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.28560"
+category: "Paper"
 date: "2026-08-01"
 rank: 6
 title: "X-NavDP：用组内 Q 分数重加权把导航扩散策略迁移到新行为与新机体"

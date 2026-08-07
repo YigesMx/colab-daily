@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.29009"
+category: "Paper"
 date: "2026-08-04"
 rank: 15
 title: "D-VLC：未知环境中异构具身多机器人系统的去中心化视觉语言协作"

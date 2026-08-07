@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.29596"
+category: "Paper"
 date: "2026-08-04"
 rank: 13
 title: "FibVLA：采用斐波那契采样的高效时序视觉语言动作模型"

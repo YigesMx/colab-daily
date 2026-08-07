@@ -7,107 +7,122 @@
   "articles": [
     {
       "candidate_id": "arxiv--2608.03701",
+      "category": "Paper",
       "rank": 1,
       "path": "docs/daily/2026-08-06/01-lila-wam-lightweight-latent-reasoning-world-action-model-for-robotic-manipulatio.md",
-      "bytes": 1954,
+      "bytes": 1972,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03701/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03387",
+      "category": "Paper",
       "rank": 2,
       "path": "docs/daily/2026-08-06/02-roboreact-agentic-skill-distillation-from-generated-egocentric-videos-for-genera.md",
-      "bytes": 2031,
+      "bytes": 2049,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03387/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03727",
+      "category": "Paper",
       "rank": 3,
       "path": "docs/daily/2026-08-06/03-track4action-distilling-world-centric-3d-tracker-into-vision-language-action-pol.md",
-      "bytes": 2053,
+      "bytes": 2071,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03727/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03231",
+      "category": "Paper",
       "rank": 4,
       "path": "docs/daily/2026-08-06/04-structure-aware-robust-fine-tuning-defending-vision-language-action-robots-again.md",
-      "bytes": 1994,
+      "bytes": 2012,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03231/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03483",
+      "category": "Paper",
       "rank": 5,
       "path": "docs/daily/2026-08-06/05-continue-or-replan-bernoulli-continuation-policy-learning-for-adaptive-horizon-e.md",
-      "bytes": 2119,
+      "bytes": 2137,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03483/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03116",
+      "category": "Paper",
       "rank": 6,
       "path": "docs/daily/2026-08-06/06-shooting-for-contact-contact-implicit-multiple-shooting-for-dynamic-motion-retar.md",
-      "bytes": 1924,
+      "bytes": 1942,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03116/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03295",
+      "category": "Paper",
       "rank": 7,
       "path": "docs/daily/2026-08-06/07-graspmeanflow-se-3-equivariant-meanflow-for-few-step-6-dof-grasp-generation.md",
-      "bytes": 1823,
+      "bytes": 1841,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03295/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03753",
+      "category": "Paper",
       "rank": 8,
       "path": "docs/daily/2026-08-06/08-gordon-graph-based-object-centric-rewards-for-decomposition-of-long-horizon-mani.md",
-      "bytes": 1920,
+      "bytes": 1938,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03753/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.02958",
+      "category": "Paper",
       "rank": 9,
       "path": "docs/daily/2026-08-06/09-valueformer-a-causal-transformer-value-function-with-stage-aware-labels-for-semi.md",
-      "bytes": 1957,
+      "bytes": 1975,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.02958/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03103",
+      "category": "Paper",
       "rank": 10,
       "path": "docs/daily/2026-08-06/10-a-hierarchical-approach-to-imitation-learning-for-manipulation-tasks-requiring-t.md",
-      "bytes": 1778,
+      "bytes": 1796,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03103/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03034",
+      "category": "Paper",
       "rank": 11,
       "path": "docs/daily/2026-08-06/11-pace-adaptive-budget-allocation-for-time-efficient-embodied-planning.md",
-      "bytes": 2001,
+      "bytes": 2019,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03034/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03143",
+      "category": "Paper",
       "rank": 12,
       "path": "docs/daily/2026-08-06/12-from-routes-to-steps-separating-semantic-progress-from-local-execution-in-vision.md",
-      "bytes": 1964,
+      "bytes": 1982,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03143/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.02990",
+      "category": "Paper",
       "rank": 13,
       "path": "docs/daily/2026-08-06/13-embodiedvae-disentangled-video-vae-for-efficient-and-controllable-embodied-manip.md",
-      "bytes": 1952,
+      "bytes": 1970,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.02990/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.02834",
+      "category": "Paper",
       "rank": 14,
       "path": "docs/daily/2026-08-06/14-biconvex-optimization-for-smooth-minimum-time-trajectories-around-convex-obstacl.md",
-      "bytes": 1787,
+      "bytes": 1805,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.02834/preview-main.png"
     },
     {
       "candidate_id": "arxiv--2608.03234",
+      "category": "Paper",
       "rank": 15,
       "path": "docs/daily/2026-08-06/15-learning-context-aware-motion-priors-for-humanoid-control.md",
-      "bytes": 1935,
+      "bytes": 1953,
       "preview_image": "/daily/2026-08-06/assets/arxiv--2608.03234/preview-main.png"
     }
   ],

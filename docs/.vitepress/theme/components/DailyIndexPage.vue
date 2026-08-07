@@ -1,21 +1,21 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
 import { withBase } from 'vitepress'
-import type { DailyArchive, DailyArticle } from '../../data/daily.data'
+import type { ArticleCategory, DailyArchive, DailyArticle } from '../../data/daily.data'
 
 const props = defineProps<{ archive: DailyArchive }>()
 
 const selectedDate = ref(props.archive.dates[0]?.date ?? '')
-const selectedSource = ref('全部')
+const selectedCategory = ref<ArticleCategory | 'all'>('all')
 const selectedKeyword = ref('全部')
 const selectedSort = ref('rank')
 
 const currentGroup = computed(() =>
   props.archive.dates.find((group) => group.date === selectedDate.value)
 )
-const sourceFacets = computed(() => [
-  { name: '全部', count: currentGroup.value?.articles.length ?? 0 },
-  ...(currentGroup.value?.sources ?? [])
+const categoryFacets = computed(() => [
+  { value: 'all' as const, label: '全部', count: currentGroup.value?.articles.length ?? 0 },
+  ...(currentGroup.value?.categories ?? [])
 ])
 const keywordFacets = computed(() => [
   { name: '全部', count: currentGroup.value?.articles.length ?? 0 },
@@ -24,11 +24,11 @@ const keywordFacets = computed(() => [
 
 const matchingArticles = computed(() => {
   const articles = (currentGroup.value?.articles ?? []).filter((article) => {
-    const sourceMatched = selectedSource.value === '全部' ||
-      article.sources.some((source) => source.name === selectedSource.value)
+    const categoryMatched = selectedCategory.value === 'all' ||
+      article.category === selectedCategory.value
     const keywordMatched = selectedKeyword.value === '全部' ||
       article.keywords.includes(selectedKeyword.value)
-    return sourceMatched && keywordMatched
+    return categoryMatched && keywordMatched
   })
 
   return articles.sort((left, right) => {
@@ -41,7 +41,7 @@ const matchingArticles = computed(() => {
 const visibleArticles = computed(() => matchingArticles.value.slice(0, 15))
 
 watch(selectedDate, () => {
-  selectedSource.value = '全部'
+  selectedCategory.value = 'all'
   selectedKeyword.value = '全部'
 })
 
@@ -84,18 +84,18 @@ function imageUrl(article: DailyArticle) {
 
     <section v-if="archive.dates.length" class="facets" aria-label="聚合筛选">
       <div class="facet-row">
-        <h2>来源</h2>
+        <h2>类别</h2>
         <div class="facet-row__options">
           <button
-            v-for="facet in sourceFacets"
-            :key="facet.name"
+            v-for="facet in categoryFacets"
+            :key="facet.value"
             type="button"
             class="facet"
-            :class="{ 'facet--source-active': selectedSource === facet.name }"
-            :aria-pressed="selectedSource === facet.name"
-            @click="selectedSource = facet.name"
+            :class="{ 'facet--category-active': selectedCategory === facet.value }"
+            :aria-pressed="selectedCategory === facet.value"
+            @click="selectedCategory = facet.value"
           >
-            {{ facet.name }} <span>{{ facet.count }}</span>
+            {{ facet.label }} <span>{{ facet.count }}</span>
           </button>
         </div>
       </div>
@@ -178,7 +178,7 @@ function imageUrl(article: DailyArticle) {
 
     <section v-else class="empty-state">
       <strong>{{ archive.dates.length ? '没有匹配的文章' : '暂无日报内容' }}</strong>
-      <span v-if="archive.dates.length">请调整来源或关键词筛选条件。</span>
+      <span v-if="archive.dates.length">请调整类别或关键词筛选条件。</span>
     </section>
   </main>
 </template>
@@ -420,7 +420,7 @@ function imageUrl(article: DailyArticle) {
   font-size: 11px;
 }
 
-.facet--source-active {
+.facet--category-active {
   border-color: #60a5fa;
   background: #3b82f6;
   color: #fff;
@@ -432,7 +432,7 @@ function imageUrl(article: DailyArticle) {
   color: #06251a;
 }
 
-.facet--source-active span,
+.facet--category-active span,
 .facet--keyword-active span {
   color: currentColor;
   opacity: 0.72;

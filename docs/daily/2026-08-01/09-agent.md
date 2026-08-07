@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.26637"
+category: "Paper"
 date: "2026-08-01"
 rank: 9
 title: "文件系统式 Agent 记忆：组织形态会变化，但主要收益是检索经济性"

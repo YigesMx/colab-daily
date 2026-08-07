@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.03103"
+category: "Paper"
 date: "2026-08-06"
 rank: 10
 title: "A Hierarchical Approach to Imitation Learning for Manipulation Tasks Requiring Time Varying Forces"

@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.28415"
+category: "Paper"
 date: "2026-08-01"
 rank: 14
 title: "QQWorld：用分位数匹配修正世界模型潜变量的重尾"

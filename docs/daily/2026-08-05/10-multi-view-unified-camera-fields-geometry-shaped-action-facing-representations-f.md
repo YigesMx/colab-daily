@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.01826"
+category: "Paper"
 date: "2026-08-05"
 rank: 10
 title: "Multi-View Unified Camera Fields: Geometry-Shaped Action-Facing Representations for RGB-Only Multi-Camera VLA Policies"

@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.03483"
+category: "Paper"
 date: "2026-08-06"
 rank: 5
 title: "Continue or Replan? Bernoulli-Continuation Policy Learning for Adaptive Horizon Execution"

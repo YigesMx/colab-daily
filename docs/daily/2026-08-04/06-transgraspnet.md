@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.29567"
+category: "Paper"
 date: "2026-08-04"
 rank: 6
 title: "TransGraspNet：透明实验室器皿的物理与几何一致操作"

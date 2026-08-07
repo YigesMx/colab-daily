@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.03231"
+category: "Paper"
 date: "2026-08-06"
 rank: 4
 title: "Structure-Aware Robust Fine-Tuning: Defending Vision-Language-Action Robots Against Physical Attention Hijacking"

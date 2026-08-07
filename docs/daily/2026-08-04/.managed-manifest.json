@@ -9,107 +9,122 @@
   "articles": [
     {
       "candidate_id": "arxiv--2607.29172",
+      "category": "Paper",
       "rank": 1,
       "path": "docs/daily/2026-08-04/01-clift-gemini-robotics-on-device.md",
-      "bytes": 2851,
+      "bytes": 2921,
       "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29172/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29613",
+      "category": "Paper",
       "rank": 2,
       "path": "docs/daily/2026-08-04/02-wcm.md",
-      "bytes": 2360,
+      "bytes": 2430,
       "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29613/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29302",
+      "category": "Paper",
       "rank": 3,
       "path": "docs/daily/2026-08-04/03-bwm.md",
-      "bytes": 2261,
+      "bytes": 2279,
       "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29302/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.28993",
+      "category": "Paper",
       "rank": 4,
       "path": "docs/daily/2026-08-04/04-st-wam.md",
-      "bytes": 2426,
+      "bytes": 2496,
       "preview_image": "/daily/2026-08-04/assets/arxiv--2607.28993/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29169",
+      "category": "Paper",
       "rank": 5,
       "path": "docs/daily/2026-08-04/05-actfovea-vla.md",
-      "bytes": 2301,
+      "bytes": 2371,
       "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29169/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29567",
+      "category": "Paper",
       "rank": 6,
       "path": "docs/daily/2026-08-04/06-transgraspnet.md",
-      "bytes": 2195,
+      "bytes": 2265,
       "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29567/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29231",
+      "category": "Paper",
       "rank": 7,
       "path": "docs/daily/2026-08-04/07-tacprint.md",
-      "bytes": 2274,
+      "bytes": 2344,
       "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29231/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29285",
+      "category": "Paper",
       "rank": 8,
       "path": "docs/daily/2026-08-04/08-tract.md",
-      "bytes": 2186,
+      "bytes": 2256,
       "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29285/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29271",
+      "category": "Paper",
       "rank": 9,
       "path": "docs/daily/2026-08-04/09-mdir.md",
-      "bytes": 2191,
+      "bytes": 2261,
       "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29271/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29482",
+      "category": "Paper",
       "rank": 10,
       "path": "docs/daily/2026-08-04/10-temporal-policy.md",
-      "bytes": 2119,
+      "bytes": 2189,
       "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29482/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29393",
+      "category": "Paper",
       "rank": 11,
       "path": "docs/daily/2026-08-04/11-aquajepa.md",
-      "bytes": 2219,
+      "bytes": 2289,
       "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29393/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29622",
+      "category": "Paper",
       "rank": 12,
       "path": "docs/daily/2026-08-04/12-rayvit.md",
-      "bytes": 2329,
+      "bytes": 2399,
       "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29622/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29596",
+      "category": "Paper",
       "rank": 13,
       "path": "docs/daily/2026-08-04/13-fibvla.md",
-      "bytes": 2248,
+      "bytes": 2318,
       "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29596/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29600",
+      "category": "Paper",
       "rank": 14,
       "path": "docs/daily/2026-08-04/14-ham-vln.md",
-      "bytes": 2237,
+      "bytes": 2307,
       "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29600/preview.png"
     },
     {
       "candidate_id": "arxiv--2607.29009",
+      "category": "Paper",
       "rank": 15,
       "path": "docs/daily/2026-08-04/15-d-vlc.md",
-      "bytes": 2435,
+      "bytes": 2453,
       "preview_image": "/daily/2026-08-04/assets/arxiv--2607.29009/preview.png"
     }
   ],

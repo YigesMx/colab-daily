@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.04404"
+category: "Paper"
 date: "2026-08-07"
 rank: 4
 title: "Faster-WAM：稀疏复用推理期未来表征"

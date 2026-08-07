@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.04510"
+category: "Paper"
 date: "2026-08-07"
 rank: 12
 title: "GUARD：用条件缓存消融检测扩散式 VLA 是否真正落地"

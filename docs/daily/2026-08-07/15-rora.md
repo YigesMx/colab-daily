@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.04842"
+category: "Paper"
 date: "2026-08-07"
 rank: 15
 title: "RORA：从单段静态视频构建可关节运动的真实感仿真资产"

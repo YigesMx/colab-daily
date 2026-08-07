@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.29172"
+category: "Paper"
 date: "2026-08-04"
 rank: 1
 title: "CLIFT：用非侵入式闭环迭代微调将 Gemini Robotics On-Device 变成专长人形机器人策略"

@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.28993"
+category: "Paper"
 date: "2026-08-04"
 rank: 4
 title: "ST-WAM：面向视觉分布偏移下鲁棒操作的语义时序世界动作模型"

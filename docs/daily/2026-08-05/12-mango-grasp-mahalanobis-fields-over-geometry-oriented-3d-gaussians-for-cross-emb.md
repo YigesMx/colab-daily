@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.02014"
+category: "Paper"
 date: "2026-08-05"
 rank: 12
 title: "MANGO-Grasp: Mahalanobis Fields over Geometry-Oriented 3D Gaussians for Cross-Embodiment Dexterous Grasping"

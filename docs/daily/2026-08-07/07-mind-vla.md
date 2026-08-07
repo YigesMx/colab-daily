@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.04633"
+category: "Paper"
 date: "2026-08-07"
 rank: 7
 title: "Mind-VLA：让三维监督聚焦语言指定的目标物体"

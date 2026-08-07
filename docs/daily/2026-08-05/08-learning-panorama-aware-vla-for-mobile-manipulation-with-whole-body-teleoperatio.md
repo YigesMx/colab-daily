@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.02257"
+category: "Paper"
 date: "2026-08-05"
 rank: 8
 title: "Learning Panorama-Aware VLA for Mobile Manipulation with Whole-Body Teleoperation"

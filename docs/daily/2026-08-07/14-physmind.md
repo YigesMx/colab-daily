@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.04575"
+category: "Paper"
 date: "2026-08-07"
 rank: 14
 title: "PhysMind：把视频重建成可编辑、可执行的物理世界"

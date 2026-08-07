@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.02197"
+category: "Paper"
 date: "2026-08-05"
 rank: 9
 title: "Look Where It Matters: Adaptive Visual Refinement for Vision-Language-Action Models"

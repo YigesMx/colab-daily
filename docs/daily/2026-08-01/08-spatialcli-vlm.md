@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.27703"
+category: "Paper"
 date: "2026-08-01"
 rank: 8
 title: "SpatialCLI：先学习调用空间工具，再把感知能力内化到 VLM"

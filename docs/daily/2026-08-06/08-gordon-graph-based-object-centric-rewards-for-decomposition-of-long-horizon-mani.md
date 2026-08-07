@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.03753"
+category: "Paper"
 date: "2026-08-06"
 rank: 8
 title: "GORDON: Graph-based Object-centric Rewards for Decomposition of Long-Horizon Manipulation"

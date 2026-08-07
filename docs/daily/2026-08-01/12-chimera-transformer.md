@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.28611"
+category: "Paper"
 date: "2026-08-01"
 rank: 12
 title: "Chimera：面向长上下文视觉生成的混合扩散 Transformer 与缩放规律"

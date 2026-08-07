@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.29271"
+category: "Paper"
 date: "2026-08-04"
 rank: 9
 title: "MDIR：面向接触丰富遥操作的任务流形阻抗重定向"

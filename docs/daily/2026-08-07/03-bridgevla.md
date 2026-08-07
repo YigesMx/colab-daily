@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.05042"
+category: "Paper"
 date: "2026-08-07"
 rank: 3
 title: "BridgeVLA++：统一时空记忆的三维视觉语言动作框架"

@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.02069"
+category: "Paper"
 date: "2026-08-05"
 rank: 15
 title: "Open-DiffLoco: Open-Source Differentiable Learning for Deployable Blind Quadruped Locomotion"

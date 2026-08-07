@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.27380"
+category: "Paper"
 date: "2026-08-01"
 rank: 11
 title: "VideoCoCo：用可执行 Blender 代码约束物理一致的视频生成"

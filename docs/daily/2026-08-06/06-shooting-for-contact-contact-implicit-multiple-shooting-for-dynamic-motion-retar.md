@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.03116"
+category: "Paper"
 date: "2026-08-06"
 rank: 6
 title: "Shooting for Contact: Contact-Implicit Multiple Shooting for Dynamic Motion Retargeting"

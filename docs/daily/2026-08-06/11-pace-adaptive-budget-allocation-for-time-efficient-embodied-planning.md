@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.03034"
+category: "Paper"
 date: "2026-08-06"
 rank: 11
 title: "PACE: Adaptive Budget Allocation for Time-Efficient Embodied Planning"

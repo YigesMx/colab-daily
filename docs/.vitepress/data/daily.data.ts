@@ -5,6 +5,8 @@ export interface ArticleSource {
   url: string
 }
 
+export type ArticleCategory = 'Paper' | 'News' | 'Policy'
+
 export interface DailyArticle {
   candidateId: string
   date: string
@@ -15,6 +17,7 @@ export interface DailyArticle {
   keywords: string[]
   score: number
   sources: ArticleSource[]
+  category: ArticleCategory
   previewImage?: string
   url: string
 }
@@ -24,10 +27,16 @@ export interface Facet {
   count: number
 }
 
+export interface CategoryFacet {
+  value: ArticleCategory
+  label: string
+  count: number
+}
+
 export interface DailyGroup {
   date: string
   articles: DailyArticle[]
-  sources: Facet[]
+  categories: CategoryFacet[]
   keywords: Facet[]
 }
 
@@ -46,6 +55,13 @@ function requiredString(value: unknown, field: string, path: string): string {
 function requiredNumber(value: unknown, field: string, path: string): number {
   if (typeof value !== 'number' || !Number.isFinite(value)) {
     throw new Error(`${path}: front matter "${field}" must be a number`)
+  }
+  return value
+}
+
+function requiredCategory(value: unknown, path: string): ArticleCategory {
+  if (value !== 'Paper' && value !== 'News' && value !== 'Policy') {
+    throw new Error(`${path}: front matter "category" must be Paper, News, or Policy`)
   }
   return value
 }
@@ -90,6 +106,20 @@ function parseSources(value: unknown, path: string): ArticleSource[] {
   })
 }
 
+const categoryOptions: ReadonlyArray<{ value: ArticleCategory; label: string }> = [
+  { value: 'Paper', label: 'Paper-论文' },
+  { value: 'News', label: 'News-新闻' },
+  { value: 'Policy', label: 'Policy-政策' }
+]
+
+function categoryFacets(items: DailyArticle[]): CategoryFacet[] {
+  return categoryOptions.map(({ value, label }) => ({
+    value,
+    label,
+    count: items.filter((article) => article.category === value).length
+  }))
+}
+
 function aggregate(items: DailyArticle[], values: (article: DailyArticle) => string[]): Facet[] {
   const counts = new Map<string, number>()
   for (const article of items) {
@@ -116,10 +146,11 @@ export default createContentLoader('daily/*/*.md', {
         keywords: stringList(frontmatter.keywords, 'keywords', url),
         score: requiredNumber(frontmatter.score, 'score', url),
         sources: parseSources(frontmatter.sources, url),
+        category: requiredCategory(frontmatter.category, url),
         url
       }
-       article.previewImage = optionalPreviewImage(frontmatter.previewImage, url)
-       return article
+      article.previewImage = optionalPreviewImage(frontmatter.previewImage, url)
+      return article
     })
 
     const grouped = new Map<string, DailyArticle[]>()
@@ -134,6 +165,12 @@ export default createContentLoader('daily/*/*.md', {
       .map(([date, items]) => {
         if (items.length > 15) {
           throw new Error(`${date}: a daily archive may contain at most 15 articles`)
+        }
+        const newsAndPolicyCount = items.filter(
+          (article) => article.category === 'News' || article.category === 'Policy'
+        ).length
+        if (newsAndPolicyCount > 5) {
+          throw new Error(`${date}: News and Policy articles may total at most 5`)
         }
         const candidateIds = new Set<string>()
         const ranks = new Set<number>()
@@ -154,7 +191,7 @@ export default createContentLoader('daily/*/*.md', {
         return {
           date,
           articles: items,
-          sources: aggregate(items, (article) => article.sources.map((source) => source.name)),
+          categories: categoryFacets(items),
           keywords: aggregate(items, (article) => article.keywords)
         }
       })

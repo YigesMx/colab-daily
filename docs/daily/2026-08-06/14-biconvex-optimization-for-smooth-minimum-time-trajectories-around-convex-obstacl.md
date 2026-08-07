@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.02834"
+category: "Paper"
 date: "2026-08-06"
 rank: 14
 title: "Biconvex Optimization for Smooth Minimum-Time Trajectories around Convex Obstacles"

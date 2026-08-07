@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.00793"
+category: "Paper"
 date: "2026-08-05"
 rank: 6
 title: "DynamicWAM: Dual-Path Motion Conditioning for World-Action Models in Dynamic Manipulation"

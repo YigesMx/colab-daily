@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.28227"
+category: "Paper"
 date: "2026-08-01"
 rank: 13
 title: "Qwen-UI-Agent：从沙箱训练走向真实设备的统一 GUI 智能体"

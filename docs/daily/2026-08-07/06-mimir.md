@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.04933"
+category: "Paper"
 date: "2026-08-07"
 rank: 6
 title: "Mimir：把世界记忆与任务进度绑定到当前具身目标"

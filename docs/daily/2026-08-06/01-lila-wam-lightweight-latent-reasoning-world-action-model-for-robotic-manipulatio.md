@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.03701"
+category: "Paper"
 date: "2026-08-06"
 rank: 1
 title: "LiLa-WAM: Lightweight Latent Reasoning World-Action Model for Robotic Manipulation"

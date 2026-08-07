@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.29169"
+category: "Paper"
 date: "2026-08-04"
 rank: 5
 title: "ActFovea：通过时空视觉动作一致性保护 VLA 策略运行时"

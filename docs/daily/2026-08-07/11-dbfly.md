@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.04825"
+category: "Paper"
 date: "2026-08-07"
 rank: 11
 title: "DBFly：先做空间机动推理，再预测无人机航点"

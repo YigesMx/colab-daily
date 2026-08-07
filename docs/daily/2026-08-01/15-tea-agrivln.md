@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.28474"
+category: "Paper"
 date: "2026-08-01"
 rank: 15
 title: "TEA-AgriVLN：用可通行性告警修正农业视觉语言导航决策"

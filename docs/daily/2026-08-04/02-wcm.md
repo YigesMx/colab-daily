@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.29613"
+category: "Paper"
 date: "2026-08-04"
 rank: 2
 title: "WCM：面向视觉语言动作强化学习的世界批评模型"

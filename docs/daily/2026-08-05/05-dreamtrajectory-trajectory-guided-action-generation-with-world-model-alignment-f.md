@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.01381"
+category: "Paper"
 date: "2026-08-05"
 rank: 5
 title: "DreamTrajectory: Trajectory-Guided Action Generation with World Model Alignment for Mobile Manipulation"

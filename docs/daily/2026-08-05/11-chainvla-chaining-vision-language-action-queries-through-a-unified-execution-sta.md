@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.02326"
+category: "Paper"
 date: "2026-08-05"
 rank: 11
 title: "ChainVLA: Chaining Vision-Language-Action Queries through a Unified Execution State for Long-Horizon Manipulation"

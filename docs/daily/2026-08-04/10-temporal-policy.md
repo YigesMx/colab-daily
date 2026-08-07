@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2607.29482"
+category: "Paper"
 date: "2026-08-04"
 rank: 10
 title: "Temporal Policy：从历史初始化动作生成的机器人示范学习"

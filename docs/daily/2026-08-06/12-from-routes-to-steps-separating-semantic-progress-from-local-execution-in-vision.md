@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.03143"
+category: "Paper"
 date: "2026-08-06"
 rank: 12
 title: "From Routes to Steps: Separating Semantic Progress from Local Execution in Vision-and-Language Navigation"

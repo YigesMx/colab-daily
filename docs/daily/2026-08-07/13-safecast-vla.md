@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.04246"
+category: "Paper"
 date: "2026-08-07"
 rank: 13
 title: "SAFECAST：用视觉语言对比集校准 VLA 的部署期失败风险"

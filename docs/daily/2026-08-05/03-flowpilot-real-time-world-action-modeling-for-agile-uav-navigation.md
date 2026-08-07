@@ -1,5 +1,6 @@
 ---
 candidateId: "arxiv--2608.00635"
+category: "Paper"
 date: "2026-08-05"
 rank: 3
 title: "FlowPilot: Real-Time World-Action Modeling for Agile UAV Navigation"
