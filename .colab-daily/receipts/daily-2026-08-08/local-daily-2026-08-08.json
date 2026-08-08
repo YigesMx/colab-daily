@@ -1,0 +1,848 @@
+{
+  "schema_version": 1,
+  "cycle_id": "daily-2026-08-08",
+  "display_date": "2026-08-08",
+  "status": "success",
+  "repository_root": "candidates_publish",
+  "vitepress_base": "/colab-daily/",
+  "generated_at": "2026-08-08T04:41:15.034Z",
+  "completed_at": "2026-08-08T05:00:06+00:00",
+  "frozen_run": {
+    "run_id": "refine-daily-2026-08-08-g2-fresh5",
+    "current_path": "crawl_tmp/refine_candidates/current.json",
+    "successful_set_path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/successful_set.json",
+    "keyword_taxonomy_path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/keyword_taxonomy.json",
+    "successful_count": 15,
+    "taxonomy_count": 15,
+    "consumed_files": [
+      {
+        "path": "crawl_tmp/refine_candidates/current.json",
+        "bytes": 810
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/successful_set.json",
+        "bytes": 7274
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/input_set.json",
+        "bytes": 6611
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/run_manifest.json",
+        "bytes": 1263
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/keyword_taxonomy.json",
+        "bytes": 7069
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/results.json",
+        "bytes": 3624
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06375/article.md",
+        "bytes": 3908
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06375/metadata.json",
+        "bytes": 3853
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06375/manifest.json",
+        "bytes": 663
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06375/assets/preview.png",
+        "bytes": 3446628
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06374/article.md",
+        "bytes": 3682
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06374/metadata.json",
+        "bytes": 3375
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06374/manifest.json",
+        "bytes": 656
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06374/assets/preview.png",
+        "bytes": 506216
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05999/article.md",
+        "bytes": 3584
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05999/metadata.json",
+        "bytes": 3513
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05999/manifest.json",
+        "bytes": 651
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05999/assets/preview.png",
+        "bytes": 636384
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05369/article.md",
+        "bytes": 3757
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05369/metadata.json",
+        "bytes": 3760
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05369/manifest.json",
+        "bytes": 698
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05369/assets/preview.png",
+        "bytes": 1932920
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05215/article.md",
+        "bytes": 3384
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05215/metadata.json",
+        "bytes": 3497
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05215/manifest.json",
+        "bytes": 655
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05215/assets/preview.png",
+        "bytes": 4029533
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06208/article.md",
+        "bytes": 4685
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06208/metadata.json",
+        "bytes": 2131
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06208/manifest.json",
+        "bytes": 699
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06208/assets/preview.png",
+        "bytes": 413972
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05975/article.md",
+        "bytes": 4402
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05975/metadata.json",
+        "bytes": 1946
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05975/manifest.json",
+        "bytes": 641
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05975/assets/preview.png",
+        "bytes": 70652
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06088/article.md",
+        "bytes": 4569
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06088/metadata.json",
+        "bytes": 2326
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06088/manifest.json",
+        "bytes": 644
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06088/assets/preview.png",
+        "bytes": 98388
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05588/article.md",
+        "bytes": 4478
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05588/metadata.json",
+        "bytes": 2111
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05588/manifest.json",
+        "bytes": 655
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05588/assets/preview.png",
+        "bytes": 383218
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05747/article.md",
+        "bytes": 4709
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05747/metadata.json",
+        "bytes": 2200
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05747/manifest.json",
+        "bytes": 686
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05747/assets/preview.png",
+        "bytes": 2184489
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06197/article.md",
+        "bytes": 4482
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06197/metadata.json",
+        "bytes": 3620
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06197/manifest.json",
+        "bytes": 954
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06197/assets/preview.png",
+        "bytes": 459417
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05987/article.md",
+        "bytes": 4400
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05987/metadata.json",
+        "bytes": 3561
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05987/manifest.json",
+        "bytes": 869
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05987/assets/preview.png",
+        "bytes": 158486
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06257/article.md",
+        "bytes": 4304
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06257/metadata.json",
+        "bytes": 4035
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06257/manifest.json",
+        "bytes": 1030
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.06257/assets/preview.png",
+        "bytes": 982298
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05137/article.md",
+        "bytes": 4020
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05137/metadata.json",
+        "bytes": 3167
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05137/manifest.json",
+        "bytes": 745
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05137/assets/preview.png",
+        "bytes": 1594546
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05792/article.md",
+        "bytes": 4367
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05792/metadata.json",
+        "bytes": 4143
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05792/manifest.json",
+        "bytes": 687
+      },
+      {
+        "path": "crawl_tmp/refine_candidates/runs/refine-daily-2026-08-08-g2-fresh5/candidates/arxiv--2608.05792/assets/preview.png",
+        "bytes": 507083
+      }
+    ]
+  },
+  "managed_manifest": {
+    "path": "docs/daily/2026-08-08/.managed-manifest.json",
+    "bytes": 8536
+  },
+  "managed_articles": [
+    {
+      "candidate_id": "arxiv--2608.06375",
+      "category": "Paper",
+      "rank": 1,
+      "score": 93,
+      "keywords": [
+        "全身移动操作",
+        "未来状态预测"
+      ],
+      "path": "docs/daily/2026-08-08/01-omega-0.md",
+      "bytes": 3960,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.06375/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.06374",
+      "category": "Paper",
+      "rank": 2,
+      "score": 93,
+      "keywords": [
+        "未来状态预测",
+        "视觉语言动作控制"
+      ],
+      "path": "docs/daily/2026-08-08/02-dypes-vla.md",
+      "bytes": 3734,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.06374/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05999",
+      "category": "Paper",
+      "rank": 3,
+      "score": 93,
+      "keywords": [
+        "分层子目标规划",
+        "在线自适应优化"
+      ],
+      "path": "docs/daily/2026-08-08/03-hiroc.md",
+      "bytes": 3636,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05999/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05369",
+      "category": "Paper",
+      "rank": 4,
+      "score": 93,
+      "keywords": [
+        "未来状态预测",
+        "视觉语言动作控制"
+      ],
+      "path": "docs/daily/2026-08-08/04-w2-vla.md",
+      "bytes": 3809,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05369/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05215",
+      "category": "Paper",
+      "rank": 5,
+      "score": 92,
+      "keywords": [
+        "人类视频可供性",
+        "视觉语言动作控制"
+      ],
+      "path": "docs/daily/2026-08-08/05-vlaff.md",
+      "bytes": 3436,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05215/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.06208",
+      "category": "Paper",
+      "rank": 6,
+      "score": 88,
+      "keywords": [
+        "触觉曲面遍历",
+        "在线自适应优化"
+      ],
+      "path": "docs/daily/2026-08-08/06-ergosurf-ergodic-control-for-the-coverage-of-unknown-surfaces.md",
+      "bytes": 4730,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.06208/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05975",
+      "category": "Paper",
+      "rank": 7,
+      "score": 88,
+      "keywords": [
+        "足端接触里程计",
+        "在线自适应优化"
+      ],
+      "path": "docs/daily/2026-08-08/07-trace-learned-proprioceptive-odometry-for-legged-robots-under-unreliable-contact.md",
+      "bytes": 4447,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05975/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.06088",
+      "category": "Paper",
+      "rank": 8,
+      "score": 88,
+      "keywords": [
+        "机器人仿真模糊测试",
+        "空间场景建模与路由"
+      ],
+      "path": "docs/daily/2026-08-08/08-icfuzz-fuzzing-isaac-sim-with-semantic-stage-guidance-and-multi-level-mutation.md",
+      "bytes": 4614,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.06088/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05588",
+      "category": "Paper",
+      "rank": 9,
+      "score": 87,
+      "keywords": [
+        "多智能体路径规划",
+        "在线自适应优化"
+      ],
+      "path": "docs/daily/2026-08-08/09-search-aided-joint-agent-environment-reinforcement-learning-for-robust-lifelong.md",
+      "bytes": 4504,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05588/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05747",
+      "category": "Paper",
+      "rank": 10,
+      "score": 87,
+      "keywords": [
+        "空间场景建模与路由",
+        "视觉语言动作控制"
+      ],
+      "path": "docs/daily/2026-08-08/10-gst-bench-can-vlms-develop-global-spatial-awareness-from-video.md",
+      "bytes": 4753,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05747/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.06197",
+      "category": "Paper",
+      "rank": 11,
+      "score": 84,
+      "keywords": [
+        "工具交互智能体",
+        "在线自适应优化"
+      ],
+      "path": "docs/daily/2026-08-08/11-envace.md",
+      "bytes": 4534,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.06197/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05987",
+      "category": "Paper",
+      "rank": 12,
+      "score": 84,
+      "keywords": [
+        "长程信用分配",
+        "在线自适应优化"
+      ],
+      "path": "docs/daily/2026-08-08/12-agentopsd.md",
+      "bytes": 4452,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05987/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.06257",
+      "category": "Paper",
+      "rank": 13,
+      "score": 83,
+      "keywords": [
+        "权威共享世界状态",
+        "空间场景建模与路由"
+      ],
+      "path": "docs/daily/2026-08-08/13-mass.md",
+      "bytes": 4356,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.06257/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05137",
+      "category": "Paper",
+      "rank": 14,
+      "score": 83,
+      "keywords": [
+        "空间场景建模与路由",
+        "视觉语言动作控制"
+      ],
+      "path": "docs/daily/2026-08-08/14-smartmage-3d.md",
+      "bytes": 4072,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05137/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05792",
+      "category": "Paper",
+      "rank": 15,
+      "score": 83,
+      "keywords": [
+        "通感智能体闭环",
+        "工具交互智能体"
+      ],
+      "path": "docs/daily/2026-08-08/15-ai-aisac.md",
+      "bytes": 4419,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05792/preview.png"
+    }
+  ],
+  "managed_assets": [
+    {
+      "candidate_id": "arxiv--2608.06375",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.06375/preview.png",
+      "bytes": 3446628
+    },
+    {
+      "candidate_id": "arxiv--2608.06374",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.06374/preview.png",
+      "bytes": 506216
+    },
+    {
+      "candidate_id": "arxiv--2608.05999",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05999/preview.png",
+      "bytes": 636384
+    },
+    {
+      "candidate_id": "arxiv--2608.05369",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05369/preview.png",
+      "bytes": 1932920
+    },
+    {
+      "candidate_id": "arxiv--2608.05215",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05215/preview.png",
+      "bytes": 4029533
+    },
+    {
+      "candidate_id": "arxiv--2608.06208",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.06208/preview.png",
+      "bytes": 413972
+    },
+    {
+      "candidate_id": "arxiv--2608.05975",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05975/preview.png",
+      "bytes": 70652
+    },
+    {
+      "candidate_id": "arxiv--2608.06088",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.06088/preview.png",
+      "bytes": 98388
+    },
+    {
+      "candidate_id": "arxiv--2608.05588",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05588/preview.png",
+      "bytes": 383218
+    },
+    {
+      "candidate_id": "arxiv--2608.05747",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05747/preview.png",
+      "bytes": 2184489
+    },
+    {
+      "candidate_id": "arxiv--2608.06197",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.06197/preview.png",
+      "bytes": 459417
+    },
+    {
+      "candidate_id": "arxiv--2608.05987",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05987/preview.png",
+      "bytes": 158486
+    },
+    {
+      "candidate_id": "arxiv--2608.06257",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.06257/preview.png",
+      "bytes": 982298
+    },
+    {
+      "candidate_id": "arxiv--2608.05137",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05137/preview.png",
+      "bytes": 1594546
+    },
+    {
+      "candidate_id": "arxiv--2608.05792",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05792/preview.png",
+      "bytes": 507083
+    }
+  ],
+  "build": {
+    "status": "success",
+    "requested": true,
+    "argv": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "vitepress_base": "/colab-daily/",
+    "exit_code": 0,
+    "started_at": "2026-08-08T04:47:20+00:00",
+    "completed_at": "2026-08-08T04:47:33+00:00",
+    "output_summary": "vitepress v1.6.4 built client/server bundles and rendered pages successfully in 4.03s.",
+    "warnings": []
+  },
+  "http_validation": {
+    "status": "success",
+    "requested": true,
+    "server": {
+      "argv": [
+        "npm",
+        "run",
+        "preview",
+        "--",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "43187"
+      ],
+      "base": "/colab-daily/",
+      "bounded": true,
+      "stopped": true
+    },
+    "checked_urls": 31,
+    "http_200": 31,
+    "homepage_checks": 1,
+    "article_checks": 15,
+    "preview_asset_checks": 15,
+    "day_index_applicable": false,
+    "day_surface": "homepage archive for 2026-08-08",
+    "exact_public_arxiv_tex_urls": [
+      "https://arxiv.org/e-print/2608.06208",
+      "https://arxiv.org/e-print/2608.05975",
+      "https://arxiv.org/e-print/2608.06088",
+      "https://arxiv.org/e-print/2608.05588",
+      "https://arxiv.org/e-print/2608.05747"
+    ],
+    "checks": [
+      {
+        "kind": "homepage-day-archive",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/"
+      },
+      {
+        "candidate_id": "arxiv--2608.06375",
+        "kind": "article-first",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/01-omega-0"
+      },
+      {
+        "candidate_id": "arxiv--2608.06374",
+        "kind": "article",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/02-dypes-vla"
+      },
+      {
+        "candidate_id": "arxiv--2608.05999",
+        "kind": "article",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/03-hiroc"
+      },
+      {
+        "candidate_id": "arxiv--2608.05369",
+        "kind": "article",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/04-w2-vla"
+      },
+      {
+        "candidate_id": "arxiv--2608.05215",
+        "kind": "article",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/05-vlaff"
+      },
+      {
+        "candidate_id": "arxiv--2608.06208",
+        "kind": "article",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/06-ergosurf-ergodic-control-for-the-coverage-of-unknown-surfaces"
+      },
+      {
+        "candidate_id": "arxiv--2608.05975",
+        "kind": "article",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/07-trace-learned-proprioceptive-odometry-for-legged-robots-under-unreliable-contact"
+      },
+      {
+        "candidate_id": "arxiv--2608.06088",
+        "kind": "article",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/08-icfuzz-fuzzing-isaac-sim-with-semantic-stage-guidance-and-multi-level-mutation"
+      },
+      {
+        "candidate_id": "arxiv--2608.05588",
+        "kind": "article",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/09-search-aided-joint-agent-environment-reinforcement-learning-for-robust-lifelong"
+      },
+      {
+        "candidate_id": "arxiv--2608.05747",
+        "kind": "article",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/10-gst-bench-can-vlms-develop-global-spatial-awareness-from-video"
+      },
+      {
+        "candidate_id": "arxiv--2608.06197",
+        "kind": "article",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/11-envace"
+      },
+      {
+        "candidate_id": "arxiv--2608.05987",
+        "kind": "article",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/12-agentopsd"
+      },
+      {
+        "candidate_id": "arxiv--2608.06257",
+        "kind": "article",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/13-mass"
+      },
+      {
+        "candidate_id": "arxiv--2608.05137",
+        "kind": "article",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/14-smartmage-3d"
+      },
+      {
+        "candidate_id": "arxiv--2608.05792",
+        "kind": "article-last",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/15-ai-aisac"
+      },
+      {
+        "bytes": 3446628,
+        "candidate_id": "arxiv--2608.06375",
+        "kind": "preview-asset",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/assets/arxiv--2608.06375/preview.png"
+      },
+      {
+        "bytes": 506216,
+        "candidate_id": "arxiv--2608.06374",
+        "kind": "preview-asset",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/assets/arxiv--2608.06374/preview.png"
+      },
+      {
+        "bytes": 636384,
+        "candidate_id": "arxiv--2608.05999",
+        "kind": "preview-asset",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/assets/arxiv--2608.05999/preview.png"
+      },
+      {
+        "bytes": 1932920,
+        "candidate_id": "arxiv--2608.05369",
+        "kind": "preview-asset",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/assets/arxiv--2608.05369/preview.png"
+      },
+      {
+        "bytes": 4029533,
+        "candidate_id": "arxiv--2608.05215",
+        "kind": "preview-asset",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/assets/arxiv--2608.05215/preview.png"
+      },
+      {
+        "bytes": 413972,
+        "candidate_id": "arxiv--2608.06208",
+        "kind": "preview-asset",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/assets/arxiv--2608.06208/preview.png"
+      },
+      {
+        "bytes": 70652,
+        "candidate_id": "arxiv--2608.05975",
+        "kind": "preview-asset",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/assets/arxiv--2608.05975/preview.png"
+      },
+      {
+        "bytes": 98388,
+        "candidate_id": "arxiv--2608.06088",
+        "kind": "preview-asset",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/assets/arxiv--2608.06088/preview.png"
+      },
+      {
+        "bytes": 383218,
+        "candidate_id": "arxiv--2608.05588",
+        "kind": "preview-asset",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/assets/arxiv--2608.05588/preview.png"
+      },
+      {
+        "bytes": 2184489,
+        "candidate_id": "arxiv--2608.05747",
+        "kind": "preview-asset",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/assets/arxiv--2608.05747/preview.png"
+      },
+      {
+        "bytes": 459417,
+        "candidate_id": "arxiv--2608.06197",
+        "kind": "preview-asset",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/assets/arxiv--2608.06197/preview.png"
+      },
+      {
+        "bytes": 158486,
+        "candidate_id": "arxiv--2608.05987",
+        "kind": "preview-asset",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/assets/arxiv--2608.05987/preview.png"
+      },
+      {
+        "bytes": 982298,
+        "candidate_id": "arxiv--2608.06257",
+        "kind": "preview-asset",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/assets/arxiv--2608.06257/preview.png"
+      },
+      {
+        "bytes": 1594546,
+        "candidate_id": "arxiv--2608.05137",
+        "kind": "preview-asset",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/assets/arxiv--2608.05137/preview.png"
+      },
+      {
+        "bytes": 507083,
+        "candidate_id": "arxiv--2608.05792",
+        "kind": "preview-asset",
+        "status": 200,
+        "url": "http://127.0.0.1:43187/colab-daily/daily/2026-08-08/assets/arxiv--2608.05792/preview.png"
+      }
+    ]
+  },
+  "validation": {
+    "status": "success",
+    "frozen_set_complete": true,
+    "candidate_count": 15,
+    "article_set_exact": true,
+    "asset_set_exact": true,
+    "rank_order_exact": true,
+    "categories_exact": true,
+    "keywords_exact": true,
+    "taxonomy_count": 15,
+    "taxonomy_coverage_complete": true,
+    "front_matter_preserved_with_managed_category_and_preview": true,
+    "rendered_titles_exact": true,
+    "rendered_candidate_ids_exact": true,
+    "required_sections_rendered_for_all_articles": true,
+    "internal_links_and_assets_valid": true,
+    "external_source_url_formats_valid": true,
+    "external_sources_fetched": false,
+    "exact_public_arxiv_tex_urls_valid": true,
+    "local_tex_linkage": false,
+    "file_url_leakage": false,
+    "absolute_local_path_leakage": false,
+    "crawl_tmp_leakage": false,
+    "managed_paths_inside_repository": true,
+    "source_and_target_sizes_verified": true,
+    "quota": {
+      "selection_limit": 15,
+      "total": 15,
+      "paper": 15,
+      "news_policy": 0,
+      "valid": true
+    },
+    "hashes_computed": false
+  },
+  "mismatches": [],
+  "warnings": []
+}

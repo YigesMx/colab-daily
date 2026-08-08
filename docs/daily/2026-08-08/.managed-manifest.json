@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "cycle_id": "daily-2026-08-08",
+  "display_date": "2026-08-08",
+  "run_id": "refine-daily-2026-08-08-g2-fresh5",
+  "generated_at": "2026-08-08T04:41:15.034Z",
+  "keyword_count": 15,
+  "articles": [
+    {
+      "candidate_id": "arxiv--2608.06375",
+      "category": "Paper",
+      "rank": 1,
+      "score": 93,
+      "keywords": [
+        "全身移动操作",
+        "未来状态预测"
+      ],
+      "path": "docs/daily/2026-08-08/01-omega-0.md",
+      "bytes": 3960,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.06375/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.06374",
+      "category": "Paper",
+      "rank": 2,
+      "score": 93,
+      "keywords": [
+        "未来状态预测",
+        "视觉语言动作控制"
+      ],
+      "path": "docs/daily/2026-08-08/02-dypes-vla.md",
+      "bytes": 3734,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.06374/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05999",
+      "category": "Paper",
+      "rank": 3,
+      "score": 93,
+      "keywords": [
+        "分层子目标规划",
+        "在线自适应优化"
+      ],
+      "path": "docs/daily/2026-08-08/03-hiroc.md",
+      "bytes": 3636,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05999/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05369",
+      "category": "Paper",
+      "rank": 4,
+      "score": 93,
+      "keywords": [
+        "未来状态预测",
+        "视觉语言动作控制"
+      ],
+      "path": "docs/daily/2026-08-08/04-w2-vla.md",
+      "bytes": 3809,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05369/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05215",
+      "category": "Paper",
+      "rank": 5,
+      "score": 92,
+      "keywords": [
+        "人类视频可供性",
+        "视觉语言动作控制"
+      ],
+      "path": "docs/daily/2026-08-08/05-vlaff.md",
+      "bytes": 3436,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05215/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.06208",
+      "category": "Paper",
+      "rank": 6,
+      "score": 88,
+      "keywords": [
+        "触觉曲面遍历",
+        "在线自适应优化"
+      ],
+      "path": "docs/daily/2026-08-08/06-ergosurf-ergodic-control-for-the-coverage-of-unknown-surfaces.md",
+      "bytes": 4730,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.06208/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05975",
+      "category": "Paper",
+      "rank": 7,
+      "score": 88,
+      "keywords": [
+        "足端接触里程计",
+        "在线自适应优化"
+      ],
+      "path": "docs/daily/2026-08-08/07-trace-learned-proprioceptive-odometry-for-legged-robots-under-unreliable-contact.md",
+      "bytes": 4447,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05975/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.06088",
+      "category": "Paper",
+      "rank": 8,
+      "score": 88,
+      "keywords": [
+        "机器人仿真模糊测试",
+        "空间场景建模与路由"
+      ],
+      "path": "docs/daily/2026-08-08/08-icfuzz-fuzzing-isaac-sim-with-semantic-stage-guidance-and-multi-level-mutation.md",
+      "bytes": 4614,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.06088/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05588",
+      "category": "Paper",
+      "rank": 9,
+      "score": 87,
+      "keywords": [
+        "多智能体路径规划",
+        "在线自适应优化"
+      ],
+      "path": "docs/daily/2026-08-08/09-search-aided-joint-agent-environment-reinforcement-learning-for-robust-lifelong.md",
+      "bytes": 4504,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05588/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05747",
+      "category": "Paper",
+      "rank": 10,
+      "score": 87,
+      "keywords": [
+        "空间场景建模与路由",
+        "视觉语言动作控制"
+      ],
+      "path": "docs/daily/2026-08-08/10-gst-bench-can-vlms-develop-global-spatial-awareness-from-video.md",
+      "bytes": 4753,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05747/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.06197",
+      "category": "Paper",
+      "rank": 11,
+      "score": 84,
+      "keywords": [
+        "工具交互智能体",
+        "在线自适应优化"
+      ],
+      "path": "docs/daily/2026-08-08/11-envace.md",
+      "bytes": 4534,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.06197/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05987",
+      "category": "Paper",
+      "rank": 12,
+      "score": 84,
+      "keywords": [
+        "长程信用分配",
+        "在线自适应优化"
+      ],
+      "path": "docs/daily/2026-08-08/12-agentopsd.md",
+      "bytes": 4452,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05987/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.06257",
+      "category": "Paper",
+      "rank": 13,
+      "score": 83,
+      "keywords": [
+        "权威共享世界状态",
+        "空间场景建模与路由"
+      ],
+      "path": "docs/daily/2026-08-08/13-mass.md",
+      "bytes": 4356,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.06257/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05137",
+      "category": "Paper",
+      "rank": 14,
+      "score": 83,
+      "keywords": [
+        "空间场景建模与路由",
+        "视觉语言动作控制"
+      ],
+      "path": "docs/daily/2026-08-08/14-smartmage-3d.md",
+      "bytes": 4072,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05137/preview.png"
+    },
+    {
+      "candidate_id": "arxiv--2608.05792",
+      "category": "Paper",
+      "rank": 15,
+      "score": 83,
+      "keywords": [
+        "通感智能体闭环",
+        "工具交互智能体"
+      ],
+      "path": "docs/daily/2026-08-08/15-ai-aisac.md",
+      "bytes": 4419,
+      "preview_image": "/daily/2026-08-08/assets/arxiv--2608.05792/preview.png"
+    }
+  ],
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.06375",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.06375/preview.png",
+      "bytes": 3446628
+    },
+    {
+      "candidate_id": "arxiv--2608.06374",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.06374/preview.png",
+      "bytes": 506216
+    },
+    {
+      "candidate_id": "arxiv--2608.05999",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05999/preview.png",
+      "bytes": 636384
+    },
+    {
+      "candidate_id": "arxiv--2608.05369",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05369/preview.png",
+      "bytes": 1932920
+    },
+    {
+      "candidate_id": "arxiv--2608.05215",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05215/preview.png",
+      "bytes": 4029533
+    },
+    {
+      "candidate_id": "arxiv--2608.06208",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.06208/preview.png",
+      "bytes": 413972
+    },
+    {
+      "candidate_id": "arxiv--2608.05975",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05975/preview.png",
+      "bytes": 70652
+    },
+    {
+      "candidate_id": "arxiv--2608.06088",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.06088/preview.png",
+      "bytes": 98388
+    },
+    {
+      "candidate_id": "arxiv--2608.05588",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05588/preview.png",
+      "bytes": 383218
+    },
+    {
+      "candidate_id": "arxiv--2608.05747",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05747/preview.png",
+      "bytes": 2184489
+    },
+    {
+      "candidate_id": "arxiv--2608.06197",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.06197/preview.png",
+      "bytes": 459417
+    },
+    {
+      "candidate_id": "arxiv--2608.05987",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05987/preview.png",
+      "bytes": 158486
+    },
+    {
+      "candidate_id": "arxiv--2608.06257",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.06257/preview.png",
+      "bytes": 982298
+    },
+    {
+      "candidate_id": "arxiv--2608.05137",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05137/preview.png",
+      "bytes": 1594546
+    },
+    {
+      "candidate_id": "arxiv--2608.05792",
+      "path": "docs/public/daily/2026-08-08/assets/arxiv--2608.05792/preview.png",
+      "bytes": 507083
+    }
+  ]
+}
