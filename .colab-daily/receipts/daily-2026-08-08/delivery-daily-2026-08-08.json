@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "cycle_id": "daily-2026-08-08",
+  "display_date": "2026-08-08",
+  "content_commit_sha": "6e6acc477429f4b5ad4b66170c50132740f2c3d1",
+  "remote": "origin",
+  "branch": "main",
+  "git_commit": "success",
+  "deploy_key_verify": "success",
+  "push": "success",
+  "remote_ref": "success",
+  "remote_ref_commit_sha": "6e6acc477429f4b5ad4b66170c50132740f2c3d1",
+  "deploy": "unknown",
+  "public_url": "https://yigesmx.github.io/colab-daily/",
+  "public_url_status": "stale",
+  "public_url_http_status": 200,
+  "target_article_http_status": 404,
+  "public_content_verified": false,
+  "attempts": 1,
+  "detail": "Push and SSH remote ref are verified. Public Pages still shows 2026-08-07; deployment remains independently retryable.",
+  "credentials_persisted": false
+}
