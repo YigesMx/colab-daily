@@ -2,6 +2,15 @@ import { defineConfig } from 'vitepress'
 import type { PageSplitSection } from 'vitepress'
 import { readFileSync } from 'node:fs'
 
+const vitepressBase = process.env.VITEPRESS_BASE || '/'
+const baseSegments = vitepressBase.split('/').filter(Boolean)
+if (
+  !/^\/(?:[A-Za-z0-9._~-]+\/)*$/.test(vitepressBase) ||
+  baseSegments.some((segment) => segment === '.' || segment === '..')
+) {
+  throw new Error('VITEPRESS_BASE must be an absolute, trailing-slash URL path without escapes')
+}
+
 const headingRegex = /<h(\d*).*?>(.*?<a.*? href="#.*?".*?>.*?<\/a>)<\/h\1>/gi
 const headingContentRegex = /(.*?)<a.*? href="#(.*?)".*?>.*?<\/a>/i
 
@@ -52,7 +61,7 @@ export default defineConfig({
   title: 'Colab Daily',
   titleTemplate: ':title | Colab Daily',
   description: '每日 AI 研究、产品与行业动态精选',
-  base: process.env.VITEPRESS_BASE || '/',
+  base: vitepressBase,
   cleanUrls: true,
   appearance: false,
   lastUpdated: false,

@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
+    "build": "vitepress build docs && npm run validate:dist",
+    "validate:dist": "node scripts/validate-built-site.mjs",
     "preview": "vitepress preview docs"
   },
   "devDependencies": {

@@ -1,53 +1,52 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
 import { withBase } from 'vitepress'
-import type { ArticleCategory, DailyArchive, DailyArticle } from '../../data/daily.data'
+import type { DailyArchive, DailyArticle } from '../../data/daily.data'
 
 const props = defineProps<{ archive: DailyArchive }>()
 
 const selectedDate = ref(props.archive.dates[0]?.date ?? '')
-const selectedCategory = ref<ArticleCategory | 'all'>('all')
 const selectedKeyword = ref('全部')
-const selectedSort = ref('rank')
+const datePicker = ref<HTMLDetailsElement>()
 
 const currentGroup = computed(() =>
   props.archive.dates.find((group) => group.date === selectedDate.value)
 )
-const categoryFacets = computed(() => [
-  { value: 'all' as const, label: '全部', count: currentGroup.value?.articles.length ?? 0 },
-  ...(currentGroup.value?.categories ?? [])
-])
 const keywordFacets = computed(() => [
-  { name: '全部', count: currentGroup.value?.articles.length ?? 0 },
+  { name: '全部', count: currentGroup.value?.articleCount ?? 0 },
   ...(currentGroup.value?.keywords ?? [])
 ])
-
-const matchingArticles = computed(() => {
-  const articles = (currentGroup.value?.articles ?? []).filter((article) => {
-    const categoryMatched = selectedCategory.value === 'all' ||
-      article.category === selectedCategory.value
-    const keywordMatched = selectedKeyword.value === '全部' ||
-      article.keywords.includes(selectedKeyword.value)
-    return categoryMatched && keywordMatched
-  })
-
-  return articles.sort((left, right) => {
-    if (selectedSort.value === 'score') return right.score - left.score || left.rank - right.rank
-    if (selectedSort.value === 'title') return left.title.localeCompare(right.title, 'zh-CN')
-    return left.rank - right.rank
-  })
-})
-
-const visibleArticles = computed(() => matchingArticles.value.slice(0, 15))
+const visibleSections = computed(() =>
+  (currentGroup.value?.sections ?? []).map((section) => ({
+    ...section,
+    articles: section.articles.filter(
+      (article) => selectedKeyword.value === '全部' || article.keywords.includes(selectedKeyword.value)
+    )
+  }))
+)
+const visibleArticleCount = computed(() =>
+  visibleSections.value.reduce((total, section) => total + section.articles.length, 0)
+)
 
 watch(selectedDate, () => {
-  selectedCategory.value = 'all'
   selectedKeyword.value = '全部'
 })
 
-function imageUrl(article: DailyArticle) {
-  if (!article.previewImage) return ''
-  return withBase(article.previewImage)
+function imageUrl(article: DailyArticle): string {
+  return article.previewImage ? withBase(article.previewImage) : ''
+}
+
+function isTopPaper(article: DailyArticle): boolean {
+  return article.category === 'Paper' && article.groupRank <= 3
+}
+
+function selectDate(date: string): void {
+  selectedDate.value = date
+  datePicker.value?.removeAttribute('open')
+}
+
+function scoreLabel(article: DailyArticle): string {
+  return article.scoreKind === 'historical' ? '历史评分' : '组内评分'
 }
 </script>
 
@@ -55,50 +54,34 @@ function imageUrl(article: DailyArticle) {
   <main class="daily-index">
     <header class="daily-header">
       <div>
+        <p class="daily-header__eyebrow">AI RESEARCH BRIEFING</p>
         <h1>Colab Daily</h1>
       </div>
       <div class="daily-header__edition" aria-label="当前日报信息">
-        <details class="date-picker">
+        <details ref="datePicker" class="date-picker">
           <summary class="date-picker__button">
             <span>{{ selectedDate || '暂无期次' }}</span>
             <span class="date-picker__chevron" aria-hidden="true">⌄</span>
           </summary>
-          <div class="date-picker__menu" role="listbox" aria-label="选择日报日期">
+          <div class="date-picker__menu" aria-label="选择日报日期">
             <button
               v-for="group in archive.dates"
               :key="group.date"
               type="button"
-              role="option"
-              :aria-selected="selectedDate === group.date"
+              :aria-pressed="selectedDate === group.date"
               :class="{ 'date-picker__option--active': selectedDate === group.date }"
-              @click="selectedDate = group.date"
+              @click="selectDate(group.date)"
             >
               <span>{{ group.date }}</span>
-              <small>{{ group.articles.length }} 篇</small>
+              <small>{{ group.articleCount }} 篇</small>
             </button>
           </div>
         </details>
-        <span>{{ currentGroup?.articles.length ?? 0 }} 篇精选</span>
+        <span>{{ currentGroup?.articleCount ?? 0 }} 篇精选</span>
       </div>
     </header>
 
-    <section v-if="archive.dates.length" class="facets" aria-label="聚合筛选">
-      <div class="facet-row">
-        <h2>类别</h2>
-        <div class="facet-row__options">
-          <button
-            v-for="facet in categoryFacets"
-            :key="facet.value"
-            type="button"
-            class="facet"
-            :class="{ 'facet--category-active': selectedCategory === facet.value }"
-            :aria-pressed="selectedCategory === facet.value"
-            @click="selectedCategory = facet.value"
-          >
-            {{ facet.label }} <span>{{ facet.count }}</span>
-          </button>
-        </div>
-      </div>
+    <section v-if="archive.dates.length" class="facets" aria-label="关键词筛选">
       <div class="facet-row">
         <h2>关键词</h2>
         <div class="facet-row__options">
@@ -107,7 +90,7 @@ function imageUrl(article: DailyArticle) {
             :key="facet.name"
             type="button"
             class="facet"
-            :class="{ 'facet--keyword-active': selectedKeyword === facet.name }"
+            :class="{ 'facet--active': selectedKeyword === facet.name }"
             :aria-pressed="selectedKeyword === facet.name"
             @click="selectedKeyword = facet.name"
           >
@@ -117,68 +100,112 @@ function imageUrl(article: DailyArticle) {
       </div>
     </section>
 
-    <label v-if="archive.dates.length" class="control control--sort">
-      <span>排序</span>
-      <select v-model="selectedSort">
-        <option value="rank">按编辑排名</option>
-        <option value="score">按综合分</option>
-        <option value="title">按标题</option>
-      </select>
-    </label>
-
     <div v-if="archive.dates.length" class="result-line" aria-live="polite">
-      <span>显示 {{ visibleArticles.length }} / {{ matchingArticles.length }} 篇</span>
-      <span v-if="matchingArticles.length > 15">每期最多展示 15 篇</span>
+      <span v-if="selectedKeyword === '全部'">按类别展示本期 {{ visibleArticleCount }} 篇内容</span>
+      <span v-else>“{{ selectedKeyword }}”匹配 {{ visibleArticleCount }} / {{ currentGroup?.articleCount ?? 0 }} 篇</span>
     </div>
 
-    <section v-if="visibleArticles.length" class="article-grid" aria-label="每日文章列表">
-      <article v-for="article in visibleArticles" :key="article.candidateId" class="article-card">
-        <div class="article-card__topline">
-          <span class="article-card__rank" :class="{ 'article-card__rank--top': article.rank <= 5 }">
-            <span v-if="article.rank <= 5" class="article-card__rank-arrow" aria-hidden="true">↑</span>
-            NO. {{ String(article.rank).padStart(2, '0') }}
+    <div v-if="archive.dates.length" class="category-sections">
+      <section
+        v-for="(section, sectionIndex) in visibleSections"
+        :key="section.category"
+        class="category-section"
+        :class="`category-section--${section.category.toLowerCase()}`"
+        :aria-labelledby="`section-${section.category.toLowerCase()}`"
+        data-daily-section="true"
+        :data-daily-category="section.category"
+        :data-section-order="sectionIndex + 1"
+      >
+        <header class="category-section__header">
+          <div>
+            <span class="category-section__index" aria-hidden="true">
+              {{ String(sectionIndex + 1).padStart(2, '0') }}
+            </span>
+            <div>
+              <p>{{ section.category }}</p>
+              <h2 :id="`section-${section.category.toLowerCase()}`">{{ section.label }}</h2>
+            </div>
+          </div>
+          <span class="category-section__count">
+            {{ section.articles.length }}<small> / {{ currentGroup?.sections.find((item) => item.category === section.category)?.articles.length ?? 0 }}</small>
           </span>
-          <span class="article-card__score" :aria-label="`综合分 ${article.score}`">{{ article.score.toFixed(1) }}</span>
-        </div>
-        <div class="article-card__preview">
-          <img
-            v-if="article.previewImage"
-            :src="imageUrl(article)"
-            :alt="`${article.title} 预览图`"
-            loading="lazy"
-          />
-          <div v-else class="pseudo-cover" aria-hidden="true">
-            <div class="pseudo-cover__grid"></div>
-            <span>COLAB / {{ article.date.slice(5) }}</span>
-            <strong>{{ article.keywords[0] || 'AI' }}</strong>
-            <small>{{ article.candidateId }}</small>
-          </div>
-        </div>
-        <div class="article-card__content">
-          <p class="article-card__authors">{{ article.authors.join(' · ') }}</p>
-          <h2><a :href="withBase(article.url)" class="article-card__link">{{ article.title }}</a></h2>
-          <p class="article-card__summary">{{ article.summary }}</p>
-          <div class="article-card__keywords" aria-label="关键词">
-            <span v-for="keyword in article.keywords.slice(0, 4)" :key="keyword">{{ keyword }}</span>
-          </div>
-        </div>
-        <footer class="article-card__sources" aria-label="原始来源">
-          <a
-            v-for="source in article.sources"
-            :key="`${source.name}-${source.url}`"
-            :href="source.url"
-            target="_blank"
-            rel="noopener noreferrer"
+        </header>
+
+        <div v-if="section.articles.length" class="article-grid">
+          <article
+            v-for="article in section.articles"
+            :key="article.candidateId"
+            class="article-card"
+            :class="{ 'article-card--top': isTopPaper(article) }"
+            :data-card-candidate-id="article.candidateId"
+            :data-card-category="article.category"
+            :data-card-group-rank="article.groupRank"
+            :data-card-emphasis="isTopPaper(article) ? 'true' : 'false'"
+            :data-score-kind="article.scoreKind"
+            :data-score-scale="article.scoreScale"
+            :data-rating-track="article.ratingTrack"
           >
-            {{ source.name }}<span class="sr-only">（新窗口打开）</span>
-          </a>
-        </footer>
-      </article>
-    </section>
+            <div class="article-card__topline">
+              <span
+                class="article-card__rank"
+                :class="{ 'article-card__rank--top': isTopPaper(article) }"
+              >
+                <span v-if="isTopPaper(article)" class="article-card__rank-arrow" aria-hidden="true">↑</span>
+                NO. {{ String(article.groupRank).padStart(2, '0') }}
+              </span>
+              <span
+                class="article-card__score"
+                :aria-label="`${scoreLabel(article)} ${article.groupScore}`"
+                :title="scoreLabel(article)"
+              >
+                {{ article.groupScore.toFixed(1) }}
+              </span>
+            </div>
+            <div class="article-card__preview">
+              <img
+                v-if="article.previewImage"
+                :src="imageUrl(article)"
+                :alt="`${article.title} 预览图`"
+                loading="lazy"
+              />
+              <div v-else class="pseudo-cover" aria-hidden="true">
+                <div class="pseudo-cover__grid"></div>
+                <span>COLAB / {{ article.date.slice(5) }}</span>
+                <strong>{{ article.keywords[0] || 'AI' }}</strong>
+                <small>{{ article.candidateId }}</small>
+              </div>
+            </div>
+            <div class="article-card__content">
+              <p class="article-card__authors">{{ article.authors.join(' · ') }}</p>
+              <h3><a :href="withBase(article.url)" class="article-card__link">{{ article.title }}</a></h3>
+              <p class="article-card__summary">{{ article.summary }}</p>
+              <div class="article-card__keywords" aria-label="关键词">
+                <span v-for="keyword in article.keywords.slice(0, 4)" :key="keyword">{{ keyword }}</span>
+              </div>
+            </div>
+            <footer class="article-card__sources" aria-label="原始来源">
+              <a
+                v-for="source in article.sources"
+                :key="`${source.name}-${source.url}`"
+                :href="source.url"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ source.name }}<span class="sr-only">（新窗口打开）</span>
+              </a>
+            </footer>
+          </article>
+        </div>
+
+        <div v-else class="section-empty">
+          <strong>{{ selectedKeyword === '全部' ? `本期暂无${section.label}内容` : `没有匹配“${selectedKeyword}”的${section.label}内容` }}</strong>
+          <span v-if="selectedKeyword !== '全部'">可选择其他关键词或“全部”查看本组。</span>
+        </div>
+      </section>
+    </div>
 
     <section v-else class="empty-state">
-      <strong>{{ archive.dates.length ? '没有匹配的文章' : '暂无日报内容' }}</strong>
-      <span v-if="archive.dates.length">请调整类别或关键词筛选条件。</span>
+      <strong>暂无日报内容</strong>
     </section>
   </main>
 </template>
@@ -186,7 +213,7 @@ function imageUrl(article: DailyArticle) {
 <style scoped>
 .daily-index {
   min-height: calc(100vh - var(--vp-nav-height));
-  padding: 44px 32px 72px;
+  padding: 44px 32px 80px;
   background:
     radial-gradient(circle at 12% -10%, rgba(59, 130, 246, 0.18), transparent 28%),
     radial-gradient(circle at 92% 12%, rgba(45, 212, 191, 0.09), transparent 22%),
@@ -197,7 +224,7 @@ function imageUrl(article: DailyArticle) {
 .daily-header,
 .facets,
 .result-line,
-.article-grid,
+.category-sections,
 .empty-state {
   max-width: 1500px;
   margin-right: auto;
@@ -209,9 +236,17 @@ function imageUrl(article: DailyArticle) {
   align-items: end;
   justify-content: space-between;
   gap: 32px;
-  margin-bottom: 0;
   padding-bottom: 24px;
   border-bottom: 1px solid #2b3341;
+}
+
+.daily-header__eyebrow {
+  margin: 0 0 9px;
+  color: #60a5fa;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.17em;
 }
 
 .daily-header h1 {
@@ -229,66 +264,10 @@ function imageUrl(article: DailyArticle) {
   text-align: right;
 }
 
-.daily-header__edition span {
+.daily-header__edition > span {
   color: #8f99aa;
   font-size: 13px;
   font-weight: 800;
-}
-
-.control {
-  display: grid;
-  gap: 7px;
-}
-
-.control > span,
-.facet-row h2 {
-  margin: 0;
-  color: #8f99aa;
-  font-size: 12px;
-  font-weight: 900;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.control select {
-  width: 100%;
-  height: 46px;
-  border: 1px solid #303949;
-  border-radius: 7px;
-  outline: none;
-  background: #191e28;
-  color: #e8edf5;
-  font: inherit;
-  font-size: 15px;
-  font-weight: 700;
-  transition: border-color 140ms ease, box-shadow 140ms ease;
-}
-
-.control select { padding: 0 36px 0 13px; }
-
-.control select:focus-visible {
-  border-color: #60a5fa;
-  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.18);
-}
-
-.facets {
-  display: grid;
-  gap: 12px;
-  padding: 18px 0;
-  border-bottom: 1px solid #242c39;
-}
-
-.control--sort {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 12px;
-  margin: 12px auto 0;
-}
-
-.control--sort select {
-  width: 190px;
-  height: 40px;
 }
 
 .date-picker {
@@ -297,13 +276,8 @@ function imageUrl(article: DailyArticle) {
   min-width: 164px;
 }
 
-.date-picker summary {
-  list-style: none;
-}
-
-.date-picker summary::-webkit-details-marker {
-  display: none;
-}
+.date-picker summary { list-style: none; }
+.date-picker summary::-webkit-details-marker { display: none; }
 
 .date-picker__button {
   display: flex;
@@ -343,6 +317,9 @@ function imageUrl(article: DailyArticle) {
   right: 0;
   display: grid;
   width: 220px;
+  max-height: min(360px, calc(100vh - var(--vp-nav-height) - 96px));
+  overflow-y: auto;
+  overscroll-behavior: contain;
   padding: 6px;
   border: 1px solid #3c4555;
   border-radius: 8px;
@@ -380,6 +357,11 @@ function imageUrl(article: DailyArticle) {
   font-weight: 700;
 }
 
+.facets {
+  padding: 18px 0;
+  border-bottom: 1px solid #242c39;
+}
+
 .facet-row {
   display: grid;
   grid-template-columns: 70px minmax(0, 1fr);
@@ -387,7 +369,15 @@ function imageUrl(article: DailyArticle) {
   align-items: start;
 }
 
-.facet-row h2 { padding-top: 8px; }
+.facet-row h2 {
+  margin: 0;
+  padding-top: 8px;
+  color: #8f99aa;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
 
 .facet-row__options {
   display: flex;
@@ -420,33 +410,98 @@ function imageUrl(article: DailyArticle) {
   font-size: 11px;
 }
 
-.facet--category-active {
-  border-color: #60a5fa;
-  background: #3b82f6;
-  color: #fff;
-}
-
-.facet--keyword-active {
+.facet--active {
   border-color: #5ee2b4;
   background: #4fd1a5;
   color: #06251a;
 }
 
-.facet--category-active span,
-.facet--keyword-active span {
+.facet--active span {
   color: currentColor;
   opacity: 0.72;
 }
 
 .result-line {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
   margin-top: 20px;
-  margin-bottom: 14px;
   color: #8f99aa;
   font-size: 13px;
   font-weight: 800;
+}
+
+.category-sections {
+  display: grid;
+  gap: 64px;
+  margin-top: 18px;
+}
+
+.category-section {
+  --section-accent: #60a5fa;
+  --section-glow: rgba(96, 165, 250, 0.12);
+  scroll-margin-top: calc(var(--vp-nav-height) + 20px);
+}
+
+.category-section--news {
+  --section-accent: #5ee2b4;
+  --section-glow: rgba(94, 226, 180, 0.1);
+}
+
+.category-section--policy {
+  --section-accent: #c4a7ff;
+  --section-glow: rgba(196, 167, 255, 0.1);
+}
+
+.category-section__header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 16px;
+  padding: 0 2px 13px;
+  border-bottom: 1px solid color-mix(in srgb, var(--section-accent) 38%, #2b3341);
+}
+
+.category-section__header > div {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.category-section__index {
+  color: var(--section-accent);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+.category-section__header p {
+  margin: 0 0 1px;
+  color: var(--section-accent);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.category-section__header h2 {
+  margin: 0;
+  color: #f2f5f9;
+  font-size: clamp(24px, 3vw, 32px);
+  line-height: 1;
+  letter-spacing: -0.035em;
+}
+
+.category-section__count {
+  color: var(--section-accent);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.category-section__count small {
+  color: #788294;
+  font-size: 12px;
 }
 
 .article-grid {
@@ -462,19 +517,27 @@ function imageUrl(article: DailyArticle) {
   overflow: hidden;
   flex-direction: column;
   border: 1px solid #2b3341;
-  border-top: 3px solid #f59e0b;
+  border-top: 2px solid var(--section-accent);
   border-radius: 9px;
-  background: #191e28;
+  background: linear-gradient(180deg, var(--section-glow), transparent 95px), #191e28;
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.2);
   transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.article-card--top {
+  border-top-width: 3px;
+  border-top-color: #f59e0b;
+  background: linear-gradient(180deg, rgba(245, 158, 11, 0.1), transparent 110px), #191e28;
 }
 
 .article-card:hover {
   transform: translateY(-3px);
   border-color: #465269;
-  border-top-color: #fbbf24;
+  border-top-color: var(--section-accent);
   box-shadow: 0 22px 44px rgba(0, 0, 0, 0.28);
 }
+
+.article-card--top:hover { border-top-color: #fbbf24; }
 
 .article-card:focus-within {
   box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.22), 0 22px 44px rgba(0, 0, 0, 0.28);
@@ -491,7 +554,7 @@ function imageUrl(article: DailyArticle) {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  color: #6db2ff;
+  color: var(--section-accent);
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 13px;
   font-weight: 900;
@@ -514,12 +577,17 @@ function imageUrl(article: DailyArticle) {
 
 .article-card__score {
   padding: 4px 8px;
-  border: 1px solid rgba(245, 158, 11, 0.4);
+  border: 1px solid color-mix(in srgb, var(--section-accent) 42%, transparent);
   border-radius: 999px;
-  color: #fbbf24;
+  color: var(--section-accent);
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 12px;
   font-weight: 900;
+}
+
+.article-card--top .article-card__score {
+  border-color: rgba(245, 158, 11, 0.4);
+  color: #fbbf24;
 }
 
 .article-card__preview {
@@ -548,7 +616,7 @@ function imageUrl(article: DailyArticle) {
   flex-direction: column;
   justify-content: space-between;
   padding: 18px;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.27), transparent 55%), #111722;
+  background: linear-gradient(135deg, var(--section-glow), transparent 55%), #111722;
 }
 
 .pseudo-cover::after {
@@ -557,7 +625,7 @@ function imageUrl(article: DailyArticle) {
   bottom: -45%;
   width: 58%;
   aspect-ratio: 1;
-  border: 30px solid rgba(94, 226, 180, 0.16);
+  border: 30px solid color-mix(in srgb, var(--section-accent) 16%, transparent);
   border-radius: 50%;
   content: '';
 }
@@ -614,7 +682,7 @@ function imageUrl(article: DailyArticle) {
   -webkit-line-clamp: 1;
 }
 
-.article-card h2 {
+.article-card h3 {
   margin: 0;
   color: #edf1f7;
   font-size: 20px;
@@ -673,10 +741,10 @@ function imageUrl(article: DailyArticle) {
 
 .article-card__sources a {
   padding: 5px 9px;
-  border: 1px solid rgba(96, 165, 250, 0.34);
+  border: 1px solid color-mix(in srgb, var(--section-accent) 42%, transparent);
   border-radius: 5px;
-  background: rgba(59, 130, 246, 0.08);
-  color: #8ec5ff;
+  background: var(--section-glow);
+  color: var(--section-accent);
   font-size: 11px;
   font-weight: 900;
   text-decoration: none;
@@ -684,23 +752,36 @@ function imageUrl(article: DailyArticle) {
 
 .article-card__sources a:hover,
 .article-card__sources a:focus-visible {
-  border-color: #60a5fa;
-  background: rgba(59, 130, 246, 0.18);
-  color: #d1e8ff;
+  border-color: var(--section-accent);
+  background: color-mix(in srgb, var(--section-accent) 18%, transparent);
+  color: #edf6ff;
 }
 
-.empty-state {
+.section-empty {
   display: grid;
-  min-height: 260px;
+  min-height: 150px;
   place-content: center;
   gap: 5px;
-  border: 1px dashed #344052;
+  border: 1px dashed color-mix(in srgb, var(--section-accent) 35%, #344052);
   border-radius: 8px;
+  background: linear-gradient(135deg, var(--section-glow), transparent 55%);
   color: #8f99aa;
   text-align: center;
 }
 
-.empty-state strong { color: #e8edf5; font-size: 20px; }
+.section-empty strong { color: #dce3ec; font-size: 17px; }
+.section-empty span { font-size: 13px; }
+
+.empty-state {
+  display: grid;
+  min-height: 260px;
+  margin-top: 24px;
+  place-content: center;
+  border: 1px dashed #344052;
+  border-radius: 8px;
+  color: #e8edf5;
+  text-align: center;
+}
 
 .sr-only {
   position: absolute;
@@ -717,16 +798,28 @@ function imageUrl(article: DailyArticle) {
 }
 
 @media (max-width: 760px) {
-  .daily-index { padding: 28px 16px 48px; }
+  .daily-index { padding: 28px 16px 52px; }
   .daily-header { align-items: start; flex-direction: column; gap: 20px; }
-  .daily-header__edition { text-align: left; }
-  .article-grid { grid-template-columns: 1fr; }
-  .control--sort { grid-template-columns: 1fr; gap: 7px; }
-  .daily-header__edition { align-items: start; }
+  .daily-header__edition { align-items: start; text-align: left; }
   .date-picker__menu { right: auto; left: 0; }
   .facet-row { grid-template-columns: 1fr; }
   .facet-row h2 { padding-top: 0; }
-  .result-line { align-items: start; flex-direction: column; gap: 3px; }
+  .category-sections { gap: 48px; }
+  .category-section__header { align-items: center; }
+  .article-grid { grid-template-columns: 1fr; }
+  .article-card__summary { -webkit-line-clamp: 5; }
+}
+
+@media (max-width: 420px) {
+  .daily-index { padding-right: 12px; padding-left: 12px; }
+  .facet-row__options { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 5px; }
+  .facet { flex: 0 0 auto; }
+  .category-section__header { gap: 12px; }
+  .category-section__index { display: none; }
+  .article-card__preview { margin-right: 14px; margin-left: 14px; }
+  .article-card__topline,
+  .article-card__content,
+  .article-card__sources { padding-right: 14px; padding-left: 14px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
