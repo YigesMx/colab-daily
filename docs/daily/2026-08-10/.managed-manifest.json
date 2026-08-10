@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "cycle_id": "daily-2026-08-10",
+  "display_date": "2026-08-10",
+  "selection_limit": 15,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.01314",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 72,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-10/paper/01-remember-r1.md",
+          "bytes": 6101,
+          "preview_image": "/daily/2026-08-10/assets/arxiv--2608.01314/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": []
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.01314",
+      "path": "docs/public/daily/2026-08-10/assets/arxiv--2608.01314/preview.png",
+      "bytes": 274421
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-10T00:00:00.000Z",
+  "quota_proof": {
+    "selection_limit": 15,
+    "paper_count": 1,
+    "news_count": 0,
+    "policy_count": 0,
+    "selected_total": 1,
+    "news_policy_total": 0,
+    "paper_capacity": 15
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}

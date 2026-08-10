@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "cycle_id": "daily-2026-08-10",
+  "display_date": "2026-08-10",
+  "refine_current_path": "../crawl_tmp/refine_candidates/current.json",
+  "publication_set_path": "../crawl_tmp/refine_candidates/runs/refine-2026-08-10-01/assemblies/assembly-generation-01/publication_set.json",
+  "keyword_taxonomy_path": "../crawl_tmp/refine_candidates/runs/refine-2026-08-10-01/assemblies/assembly-generation-01/keyword_taxonomy.json",
+  "assembly_manifest_path": "../crawl_tmp/refine_candidates/runs/refine-2026-08-10-01/assemblies/assembly-generation-01/manifest.json",
+  "vitepress_base": "/colab-daily/",
+  "build": {
+    "argv": ["npm", "run", "build"],
+    "exit_code": 0,
+    "validation": "vitepress build docs; npm run validate:dist",
+    "http_summary": "validated 91 pages, 90 assets, and 101 rendered local URLs over HTTP"
+  },
+  "managed_day": {
+    "path": "docs/daily/2026-08-10",
+    "groups": {"Paper": 1, "News": 0, "Policy": 0},
+    "paper": [
+      {
+        "candidate_id": "arxiv--2608.01314",
+        "group_rank": 1,
+        "group_score": 72,
+        "score_scale": "paper-v2",
+        "rating_track": "paper",
+        "path": "docs/daily/2026-08-10/paper/01-remember-r1.md",
+        "bytes": 6101,
+        "preview_asset": "docs/public/daily/2026-08-10/assets/arxiv--2608.01314/preview.png",
+        "preview_bytes": 274421
+      }
+    ],
+    "empty_groups": ["News", "Policy"],
+    "manifest": "docs/daily/2026-08-10/.managed-manifest.json"
+  },
+  "checks": {
+    "frozen_identity": true,
+    "schema_v2_group_shape": true,
+    "group_ranks_scores_scales_rating_tracks": true,
+    "taxonomy_keywords": true,
+    "paper_sections_in_order": true,
+    "preview_asset_mapping": true,
+    "filesystem_exact_set": true,
+    "frontmatter_and_link_checks": true,
+    "paper_emphasis": true,
+    "news_policy_not_emphasized": true,
+    "local_http_base_day_first_last_and_assets": true
+  },
+  "warnings": [],
+  "status": "success"
+}
