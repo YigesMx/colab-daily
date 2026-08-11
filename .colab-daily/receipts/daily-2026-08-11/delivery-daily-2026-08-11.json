@@ -24,9 +24,9 @@
     "branch": "main"
   },
   "deploy": {
-    "status": "unknown",
+    "status": "success",
     "public_url": "https://yigesmx.github.io/colab-daily/",
-    "detail": "Push succeeded, but the public report still showed 2026-08-10 during the bounded verification window."
+    "detail": "The public report returned 2026-08-11 with 10 candidates during bounded verification."
   },
   "credentials_recorded": false
 }
