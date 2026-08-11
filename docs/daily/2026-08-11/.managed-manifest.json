@@ -1,0 +1,145 @@
+{
+  "schema_version": 2,
+  "cycle_id": "daily-2026-08-11",
+  "display_date": "2026-08-11",
+  "selection_limit": 15,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.07045",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 89,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-11/paper/01-c2dex-contact-consistent-reconstruction-and-retargeting-for-dexterous-manipulati.md",
+          "bytes": 4665,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.07267",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-11/paper/02-wnm-3d-a-world-navigation-model-with-3d-scene-conditioning-for-closed-loop-vln.md",
+          "bytes": 4335,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.06729",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-11/paper/03-atlasvla-persistent-world-ego-state-modeling-for-vision-language-action-models.md",
+          "bytes": 4086,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.06833",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 87,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-11/paper/04-unordered-landmark-visual-navigation.md",
+          "bytes": 3653,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.07409",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-11/paper/05-unijepa-a-unified-joint-embedding-predictive-architecture-for-task-agnostic-visu.md",
+          "bytes": 4061,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.07075",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-11/paper/06-detection-and-ranging-of-transient-extrinsic-contacts-based-on-6d-dynamic-tactil.md",
+          "bytes": 3656,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.06965",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-11/paper/07-cross-view-action-consistency-for-camera-robust-vision-language-action-policies.md",
+          "bytes": 3779,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.06756",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 84,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-11/paper/08-capek-0-5-an-execution-centric-vision-language-model-for-embodied-intelligence.md",
+          "bytes": 4133,
+          "preview_image": null
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Fmuse-glimmer",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 76,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-11/news/01-meta-is-back-with-muse-glimmer-local-agentic-multimodal-and-open-source.md",
+          "bytes": 4660,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2FMultiverseComputingCAI%2Fefficient-knowledge-distillation",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 69,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-11/news/02-making-knowledge-distillation-cheap-enough-to-run-at-scale.md",
+          "bytes": 4776,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-10T18:58:56Z",
+  "quota_proof": {
+    "selection_limit": 15,
+    "paper_count": 8,
+    "news_count": 2,
+    "policy_count": 0,
+    "selected_total": 10,
+    "news_policy_total": 2,
+    "paper_capacity": 13
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}

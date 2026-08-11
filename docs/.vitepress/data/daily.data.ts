@@ -429,7 +429,11 @@ function manifestGroupScore(value: unknown, path: string): number {
 
 function safeCandidateId(value: unknown, field: string, path: string): string {
   const candidateId = manifestString(value, field, path)
-  if (!/^[A-Za-z0-9][A-Za-z0-9._~-]*$/.test(candidateId) || candidateId === '.' || candidateId === '..') {
+  if (
+    !/^[A-Za-z0-9](?:[A-Za-z0-9._~-]|%[0-9A-Fa-f]{2})*$/.test(candidateId) ||
+    candidateId === '.' ||
+    candidateId === '..'
+  ) {
     throw new Error(`${path}: "${field}" must be a filename-safe CandidateID path segment`)
   }
   return candidateId
