@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "cycle_id": "daily-2026-08-11",
+  "display_date": "2026-08-11",
+  "refine_run_id": "refine-2026-08-11-01",
+  "assembly_generation_id": "assembly-03",
+  "publication_set_path": "../crawl_tmp/refine_candidates/runs/refine-2026-08-11-01/assemblies/assembly-03/publication_set.json",
+  "local_validation": {
+    "status": "success",
+    "candidate_count": 10,
+    "groups": {
+      "Paper": 8,
+      "News": 2,
+      "Policy": 0
+    },
+    "build_exit_code": 0,
+    "http_checks_passed": 5
+  },
+  "git": {
+    "commit_status": "success",
+    "commit_sha": "21f6db8b9d9c604459939706a0ac430e1ee1bf3d",
+    "push_status": "success",
+    "remote": "origin",
+    "branch": "main"
+  },
+  "deploy": {
+    "status": "unknown",
+    "public_url": "https://yigesmx.github.io/colab-daily/",
+    "detail": "Push succeeded, but the public report still showed 2026-08-10 during the bounded verification window."
+  },
+  "credentials_recorded": false
+}
