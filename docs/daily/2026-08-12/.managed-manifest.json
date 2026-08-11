@@ -1,0 +1,200 @@
+{
+  "schema_version": 2,
+  "cycle_id": "daily-2026-08-12",
+  "display_date": "2026-08-12",
+  "selection_limit": 15,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.09853",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 96,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-12/paper/01-rynnvalue.md",
+          "bytes": 5081,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.09298",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 93,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-12/paper/02-worldsimprobe.md",
+          "bytes": 4788,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.09381",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 92,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-12/paper/03-jepa-wam.md",
+          "bytes": 5065,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.09892",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 91,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-12/paper/04-xpolicylab.md",
+          "bytes": 5160,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.08045",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 90,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-12/paper/05-lingjing.md",
+          "bytes": 5232,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.07619",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 89,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-12/paper/06-gwm-vla.md",
+          "bytes": 4974,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.08558",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-12/paper/07-vid2wam.md",
+          "bytes": 5071,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.09771",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 87,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-12/paper/08-slim.md",
+          "bytes": 4642,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.09492",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 87,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-12/paper/09-tempo-wam.md",
+          "bytes": 4827,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.09467",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-12/paper/10-recoverfly.md",
+          "bytes": 5243,
+          "preview_image": null
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Friemann-zeta",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 96,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-12/news/01-anthropic-riemann.md",
+          "bytes": 1430,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F469860.html",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 93,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-12/news/02-triworldbench.md",
+          "bytes": 1158,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F469869.html",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 89,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-12/news/03-cybergym-dognavy.md",
+          "bytes": 1180,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fnemotron-lightning-switchyard-rtx-dgx%2F",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 88,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-12/news/04-nvidia-nemotron.md",
+          "bytes": 1442,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F470674.html",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 82,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-12/news/05-daimon-tactile.md",
+          "bytes": 1146,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-11T18:42:42.388Z",
+  "quota_proof": {
+    "selection_limit": 15,
+    "paper_count": 10,
+    "news_count": 5,
+    "policy_count": 0,
+    "selected_total": 15,
+    "news_policy_total": 5,
+    "paper_capacity": 10
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
