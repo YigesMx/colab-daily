@@ -1,0 +1,252 @@
+{
+  "schema_version": 2,
+  "cycle_id": "daily-2026-08-13",
+  "display_date": "2026-08-13",
+  "selection_limit": 15,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.10107",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 89,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-13/paper/01-4d-wam-4d-consistent-world-modeling-for-autonomous-driving.md",
+          "bytes": 11643,
+          "preview_image": "/daily/2026-08-13/assets/arxiv--2608.10107/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.10166",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 85,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-13/paper/02-marknull-model-agnostic-watermark-removal-in-ai-generated-images-via-on-manifo.md",
+          "bytes": 11744,
+          "preview_image": "/daily/2026-08-13/assets/arxiv--2608.10166/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.10278",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 90,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-13/paper/03-chain-of-spatial-thoughts-modality-agnostic-spatial-grounding-for-vision-langu.md",
+          "bytes": 11658,
+          "preview_image": "/daily/2026-08-13/assets/arxiv--2608.10278/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.10383",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 90,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-13/paper/04-real-world-cooperative-bimanual-dexterous-grasp-of-large-objects-from-single-v.md",
+          "bytes": 11610,
+          "preview_image": "/daily/2026-08-13/assets/arxiv--2608.10383/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.10386",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 87,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-13/paper/05-dreamer-sac-off-policy-learning-in-latent-world-models-for-sample-efficient-au.md",
+          "bytes": 11606,
+          "preview_image": "/daily/2026-08-13/assets/arxiv--2608.10386/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.10413",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 87,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-13/paper/06-drivevla-m0-failure-aware-memory-augmentation-for-autonomous-driving.md",
+          "bytes": 11723,
+          "preview_image": "/daily/2026-08-13/assets/arxiv--2608.10413/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.10600",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-13/paper/07-boost-bridging-semantics-and-motions-for-efficient-skill-transfer.md",
+          "bytes": 10575,
+          "preview_image": "/daily/2026-08-13/assets/arxiv--2608.10600/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.10623",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 89,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-13/paper/08-when-your-state-estimator-has-lost-the-plot-detecting-estimator-failures-via-s.md",
+          "bytes": 10768,
+          "preview_image": "/daily/2026-08-13/assets/arxiv--2608.10623/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.11051",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 87,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-13/paper/09-hui360-a-360-egocentric-dataset-and-baselines-for-human-robot-interaction-anti.md",
+          "bytes": 11626,
+          "preview_image": "/daily/2026-08-13/assets/arxiv--2608.11051/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.11204",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 93,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-13/paper/10-surgical-wam-a-world-action-model-for-data-efficient-surgical-robot-learning.md",
+          "bytes": 11582,
+          "preview_image": "/daily/2026-08-13/assets/arxiv--2608.11204/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgoogle-research%2Famie-video-consultations%2F",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 89,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-13/news/01-amie-our-research-medical-ai-system-demonstrates-real-time-clinical-video-cons.md",
+          "bytes": 1577,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fnvidia-ai-factory-compute%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 77,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-13/news/02-nvidia-ai-factory-compute-is-becoming-an-investable-asset-class.md",
+          "bytes": 2145,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fdeepmind.google%2Fblog%2Fputting-sign-language-ai-into-users-hands%2F",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 79,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-13/news/03-putting-sign-language-ai-into-users-hands.md",
+          "bytes": 1450,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2FLiquidAI%2Flfm2-5-vl-3b",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 83,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-13/news/04-lfm2-5-vl-3b-for-better-and-faster-vision-capabilities-for-the-edge.md",
+          "bytes": 1151,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-12%2F%23story-0001",
+          "category": "Policy",
+          "group_rank": 1,
+          "group_score": 75,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-13/policy/01-house-democrats-set-aug-24-deadline-for-openai-and-anthropic-incident-disclosu.md",
+          "bytes": 2438,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.10107",
+      "path": "docs/public/daily/2026-08-13/assets/arxiv--2608.10107/preview.png",
+      "bytes": 536035
+    },
+    {
+      "candidate_id": "arxiv--2608.10166",
+      "path": "docs/public/daily/2026-08-13/assets/arxiv--2608.10166/preview.png",
+      "bytes": 1191916
+    },
+    {
+      "candidate_id": "arxiv--2608.10278",
+      "path": "docs/public/daily/2026-08-13/assets/arxiv--2608.10278/preview.png",
+      "bytes": 3152096
+    },
+    {
+      "candidate_id": "arxiv--2608.10383",
+      "path": "docs/public/daily/2026-08-13/assets/arxiv--2608.10383/preview.png",
+      "bytes": 6871072
+    },
+    {
+      "candidate_id": "arxiv--2608.10386",
+      "path": "docs/public/daily/2026-08-13/assets/arxiv--2608.10386/preview.png",
+      "bytes": 904044
+    },
+    {
+      "candidate_id": "arxiv--2608.10413",
+      "path": "docs/public/daily/2026-08-13/assets/arxiv--2608.10413/preview.png",
+      "bytes": 1527880
+    },
+    {
+      "candidate_id": "arxiv--2608.10600",
+      "path": "docs/public/daily/2026-08-13/assets/arxiv--2608.10600/preview.png",
+      "bytes": 423953
+    },
+    {
+      "candidate_id": "arxiv--2608.10623",
+      "path": "docs/public/daily/2026-08-13/assets/arxiv--2608.10623/preview.png",
+      "bytes": 3260933
+    },
+    {
+      "candidate_id": "arxiv--2608.11051",
+      "path": "docs/public/daily/2026-08-13/assets/arxiv--2608.11051/preview.png",
+      "bytes": 9274707
+    },
+    {
+      "candidate_id": "arxiv--2608.11204",
+      "path": "docs/public/daily/2026-08-13/assets/arxiv--2608.11204/preview.png",
+      "bytes": 199117
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-13T06:00:00Z",
+  "quota_proof": {
+    "selection_limit": 15,
+    "paper_count": 10,
+    "news_count": 4,
+    "policy_count": 1,
+    "selected_total": 15,
+    "news_policy_total": 5,
+    "paper_capacity": 10
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
