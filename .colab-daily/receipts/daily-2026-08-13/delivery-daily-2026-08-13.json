@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "cycle_id": "daily-2026-08-13",
+  "display_date": "2026-08-13",
+  "refine_run_id": "refine-2026-08-13-retry4",
+  "assembly_generation_id": "assembly-2026-08-13-retry4",
+  "publication_set_path": "crawl_tmp/refine_candidates/runs/refine-2026-08-13-retry4/assemblies/assembly-2026-08-13-retry4/publication_set.json",
+  "local_validation": {
+    "status": "success",
+    "candidate_count": 15,
+    "groups": {
+      "Paper": 10,
+      "News": 4,
+      "Policy": 1
+    }
+  },
+  "git": {
+    "commit_status": "success",
+    "commit_sha": "dec0ff21779b897aed30970dd6b7b4833ac7e40e",
+    "push_status": "success",
+    "remote": "origin",
+    "branch": "main"
+  },
+  "deploy": {
+    "status": "success",
+    "public_url": "https://yigesmx.github.io/colab-daily/",
+    "http_status": 200,
+    "display_date_verified": true,
+    "matched_marker": "4D-WAM",
+    "detail": "Target DisplayDate and cycle marker verified at the public report."
+  },
+  "credentials_recorded": false
+}
