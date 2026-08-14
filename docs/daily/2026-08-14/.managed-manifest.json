@@ -1,0 +1,251 @@
+{
+  "schema_version": 2,
+  "cycle_id": "daily-2026-08-14",
+  "display_date": "2026-08-14",
+  "selection_limit": 15,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.11739",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 95,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-14/paper/01-g0-5-one-autoregressive-stream-for-robot-reasoning-and-action.md",
+          "bytes": 4040,
+          "preview_image": "/daily/2026-08-14/assets/arxiv--2608.11739/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.11671",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 93,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-14/paper/02-stellavla-in-context-structured-demonstration-for-generalizable-vision-languag.md",
+          "bytes": 3514,
+          "preview_image": "/daily/2026-08-14/assets/arxiv--2608.11671/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.11363",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 92,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-14/paper/03-adaptation-of-generalist-robot-policies-with-minimal-data.md",
+          "bytes": 3224,
+          "preview_image": "/daily/2026-08-14/assets/arxiv--2608.11363/preview.jpg"
+        },
+        {
+          "candidate_id": "arxiv--2608.06729",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 90,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-14/paper/04-atlasvla-persistent-world-ego-state-modeling-for-vision-language-action-models.md",
+          "bytes": 3193,
+          "preview_image": "/daily/2026-08-14/assets/arxiv--2608.06729/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.11521",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 89,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-14/paper/05-keep-the-future-drop-the-rollout-rift-for-world-action-models.md",
+          "bytes": 3077,
+          "preview_image": "/daily/2026-08-14/assets/arxiv--2608.11521/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.11605",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-14/paper/06-foresight-without-seeing-latent-futures-for-world-action-models.md",
+          "bytes": 2912,
+          "preview_image": "/daily/2026-08-14/assets/arxiv--2608.11605/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.11246",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 87,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-14/paper/07-towards-the-harness-of-embodied-agents.md",
+          "bytes": 3149,
+          "preview_image": "/daily/2026-08-14/assets/arxiv--2608.11246/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.12063",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-14/paper/08-learning-loco-manipulation-from-smpc-demonstrations-with-sparse-offline-to-onl.md",
+          "bytes": 3117,
+          "preview_image": "/daily/2026-08-14/assets/arxiv--2608.12063/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.11350",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-14/paper/09-self-evolving-embodied-agents-via-skill-harness-evolution.md",
+          "bytes": 3014,
+          "preview_image": "/daily/2026-08-14/assets/arxiv--2608.11350/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.12122",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 85,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-14/paper/10-handedit-a-unified-benchmark-for-egocentric-human-to-robot-dexterous-hand-imag.md",
+          "bytes": 3536,
+          "preview_image": "/daily/2026-08-14/assets/arxiv--2608.12122/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fmultiagent-systems",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 96,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-14/news/01-patterns-and-problems-in-multiagent-systems.md",
+          "bytes": 3751,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Ficml-2026-open-reproductions",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 94,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-14/news/02-what-we-learned-by-reproducing-2-200-papers-from-icml.md",
+          "bytes": 3626,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-13%2F%23story-0008",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 84,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-14/news/03-a-chinese-robot-maker-livestreams-an-hour-of-autonomous-parcel-sorting-with-tw.md",
+          "bytes": 3578,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fopenai.com%2Findex%2Fpreviewing-ultrafast",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 83,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-14/news/04-previewing-ultrafast-mode-gpt-5-6-sol-at-up-to-14x-the-speed.md",
+          "bytes": 2800,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F472067.html",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 83,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-14/news/05-grok-4-6-model-release.md",
+          "bytes": 3581,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.11739",
+      "path": "docs/public/daily/2026-08-14/assets/arxiv--2608.11739/preview.png",
+      "bytes": 880888
+    },
+    {
+      "candidate_id": "arxiv--2608.11671",
+      "path": "docs/public/daily/2026-08-14/assets/arxiv--2608.11671/preview.png",
+      "bytes": 334724
+    },
+    {
+      "candidate_id": "arxiv--2608.11363",
+      "path": "docs/public/daily/2026-08-14/assets/arxiv--2608.11363/preview.jpg",
+      "bytes": 201486
+    },
+    {
+      "candidate_id": "arxiv--2608.06729",
+      "path": "docs/public/daily/2026-08-14/assets/arxiv--2608.06729/preview.png",
+      "bytes": 497055
+    },
+    {
+      "candidate_id": "arxiv--2608.11521",
+      "path": "docs/public/daily/2026-08-14/assets/arxiv--2608.11521/preview.png",
+      "bytes": 27496
+    },
+    {
+      "candidate_id": "arxiv--2608.11605",
+      "path": "docs/public/daily/2026-08-14/assets/arxiv--2608.11605/preview.png",
+      "bytes": 461578
+    },
+    {
+      "candidate_id": "arxiv--2608.11246",
+      "path": "docs/public/daily/2026-08-14/assets/arxiv--2608.11246/preview.png",
+      "bytes": 1389312
+    },
+    {
+      "candidate_id": "arxiv--2608.12063",
+      "path": "docs/public/daily/2026-08-14/assets/arxiv--2608.12063/preview.png",
+      "bytes": 1990436
+    },
+    {
+      "candidate_id": "arxiv--2608.11350",
+      "path": "docs/public/daily/2026-08-14/assets/arxiv--2608.11350/preview.png",
+      "bytes": 906851
+    },
+    {
+      "candidate_id": "arxiv--2608.12122",
+      "path": "docs/public/daily/2026-08-14/assets/arxiv--2608.12122/preview.png",
+      "bytes": 1007791
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-14T16:24:38Z",
+  "quota_proof": {
+    "selection_limit": 15,
+    "paper_count": 10,
+    "news_count": 5,
+    "policy_count": 0,
+    "selected_total": 15,
+    "news_policy_total": 5,
+    "paper_capacity": 10
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
