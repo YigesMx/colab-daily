@@ -1,0 +1,272 @@
+{
+  "schema_version": 2,
+  "cycle_id": "daily-2026-08-15",
+  "display_date": "2026-08-15",
+  "selection_limit": 15,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.13489",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 92,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-15/paper/01-dreamx-phi-1-0-action-conditioned-video-world-model-for-robotic-manipulation.md",
+          "bytes": 3699,
+          "preview_image": "/daily/2026-08-15/assets/arxiv--2608.13489/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.13049",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 91,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-15/paper/02-h2r-bench-benchmarking-human-to-robot-manipulation-video-generation-in-world-mod.md",
+          "bytes": 3548,
+          "preview_image": "/daily/2026-08-15/assets/arxiv--2608.13049/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.13546",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 90,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-15/paper/03-alaya-evoke-from-linear-scaling-supervision-to-endless-world.md",
+          "bytes": 3267,
+          "preview_image": "/daily/2026-08-15/assets/arxiv--2608.13546/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.13552",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 89,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-15/paper/04-playworld-benchmarking-world-models-with-agent-players-over-long-horizon-objecti.md",
+          "bytes": 3391,
+          "preview_image": "/daily/2026-08-15/assets/arxiv--2608.13552/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.12743",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-15/paper/05-spatial-memory-agent-experience-grounded-procedure-memory-for-spatial-intelligen.md",
+          "bytes": 3195,
+          "preview_image": "/daily/2026-08-15/assets/arxiv--2608.12743/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.12313",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 87,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-15/paper/06-ava-encoder-towards-agent-native-video-representation-learning.md",
+          "bytes": 3229,
+          "preview_image": "/daily/2026-08-15/assets/arxiv--2608.12313/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.13505",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-15/paper/07-intern-s2-preview-scientific-agentic-foundation-model.md",
+          "bytes": 3490,
+          "preview_image": "/daily/2026-08-15/assets/arxiv--2608.13505/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.13560",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 85,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-15/paper/08-autodesign-meta-harness-optimization-for-long-horizon-agentic-design.md",
+          "bytes": 3275,
+          "preview_image": "/daily/2026-08-15/assets/arxiv--2608.13560/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.07545",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 84,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-15/paper/09-darwinx-evolving-agent-harnesses-through-natural-selection.md",
+          "bytes": 3177,
+          "preview_image": "/daily/2026-08-15/assets/arxiv--2608.07545/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.06867",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 83,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-15/paper/10-llmrouter-unified-infrastructure-for-developing-evaluating-and-deploying-llm-rou.md",
+          "bytes": 3242,
+          "preview_image": "/daily/2026-08-15/assets/arxiv--2608.06867/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.12990",
+          "category": "Paper",
+          "group_rank": 11,
+          "group_score": 82,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-15/paper/11-lycheememory-v2-efficient-long-term-memory-for-llm-agents-via-semantic-segment-l.md",
+          "bytes": 3398,
+          "preview_image": "/daily/2026-08-15/assets/arxiv--2608.12990/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgemini-models%2Fintroducing-gemini-3-7-flash%2F",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 93,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-15/news/01-introducing-gemini-3-7-flash.md",
+          "bytes": 3075,
+          "preview_image": "/daily/2026-08-15/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgemini-models_2fintroducing-gemini-3-7-flash_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Famazon%2Fstrands-lerobot-streaming-data-loop",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 90,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-15/news/02-record-train-and-deploy-from-one-place-with-strands-agents-lerobot-and-hugging-f.md",
+          "bytes": 3031,
+          "preview_image": "/daily/2026-08-15/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2famazon_2fstrands-lerobot-streaming-data-loop/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F473379.html",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 89,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-15/news/03-qwen3-8-27b.md",
+          "bytes": 2844,
+          "preview_image": "/daily/2026-08-15/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f473379.html/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-14%2F%23story-0002",
+          "category": "Policy",
+          "group_rank": 1,
+          "group_score": 84,
+          "score_scale": "news-policy-v2",
+          "rating_track": "news_policy",
+          "path": "docs/daily/2026-08-15/policy/01-lieu-pitches-ai-kill-switch-act-as-alternative-ai-emergency-ban.md",
+          "bytes": 4066,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.13489",
+      "path": "docs/public/daily/2026-08-15/assets/arxiv--2608.13489/preview.png",
+      "bytes": 922940
+    },
+    {
+      "candidate_id": "arxiv--2608.13049",
+      "path": "docs/public/daily/2026-08-15/assets/arxiv--2608.13049/preview.png",
+      "bytes": 1735441
+    },
+    {
+      "candidate_id": "arxiv--2608.13546",
+      "path": "docs/public/daily/2026-08-15/assets/arxiv--2608.13546/preview.png",
+      "bytes": 139534
+    },
+    {
+      "candidate_id": "arxiv--2608.13552",
+      "path": "docs/public/daily/2026-08-15/assets/arxiv--2608.13552/preview.png",
+      "bytes": 6747297
+    },
+    {
+      "candidate_id": "arxiv--2608.12743",
+      "path": "docs/public/daily/2026-08-15/assets/arxiv--2608.12743/preview.png",
+      "bytes": 720056
+    },
+    {
+      "candidate_id": "arxiv--2608.12313",
+      "path": "docs/public/daily/2026-08-15/assets/arxiv--2608.12313/preview.png",
+      "bytes": 1085811
+    },
+    {
+      "candidate_id": "arxiv--2608.13505",
+      "path": "docs/public/daily/2026-08-15/assets/arxiv--2608.13505/preview.png",
+      "bytes": 4245757
+    },
+    {
+      "candidate_id": "arxiv--2608.13560",
+      "path": "docs/public/daily/2026-08-15/assets/arxiv--2608.13560/preview.png",
+      "bytes": 281736
+    },
+    {
+      "candidate_id": "arxiv--2608.07545",
+      "path": "docs/public/daily/2026-08-15/assets/arxiv--2608.07545/preview.png",
+      "bytes": 530252
+    },
+    {
+      "candidate_id": "arxiv--2608.06867",
+      "path": "docs/public/daily/2026-08-15/assets/arxiv--2608.06867/preview.png",
+      "bytes": 501636
+    },
+    {
+      "candidate_id": "arxiv--2608.12990",
+      "path": "docs/public/daily/2026-08-15/assets/arxiv--2608.12990/preview.png",
+      "bytes": 237225
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgemini-models%2Fintroducing-gemini-3-7-flash%2F",
+      "path": "docs/public/daily/2026-08-15/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgemini-models_2fintroducing-gemini-3-7-flash_2f/preview.png",
+      "bytes": 908634
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Famazon%2Fstrands-lerobot-streaming-data-loop",
+      "path": "docs/public/daily/2026-08-15/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2famazon_2fstrands-lerobot-streaming-data-loop/preview.png",
+      "bytes": 224805
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F473379.html",
+      "path": "docs/public/daily/2026-08-15/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f473379.html/preview.png",
+      "bytes": 248518
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-15T17:43:55.458510Z",
+  "quota_proof": {
+    "selection_limit": 15,
+    "paper_count": 11,
+    "news_count": 3,
+    "policy_count": 1,
+    "selected_total": 15,
+    "news_policy_total": 4,
+    "paper_capacity": 11
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}

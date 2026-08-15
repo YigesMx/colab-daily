@@ -439,6 +439,13 @@ function safeCandidateId(value: unknown, field: string, path: string): string {
   return candidateId
 }
 
+function assetPathKey(candidateId: string): string {
+  // URL-backed CandidateIDs may contain validated percent escapes. Public asset
+  // directories use an unencoded filesystem-safe alias while preserving the
+  // business CandidateID in manifests and rendered article contracts.
+  return candidateId.replace(/%([0-9A-Fa-f]{2})/g, (_match, hex: string) => `_${hex.toLowerCase()}`)
+}
+
 function validateManifestIdentity(
   manifest: Record<string, unknown>,
   date: string,
@@ -529,7 +536,7 @@ function validatePreviewPath(
     throw new Error(`${path}: preview image may not contain a query, fragment, backslash, or encoded path`)
   }
 
-  const prefix = `/daily/${date}/assets/${candidateId}/`
+  const prefix = `/daily/${date}/assets/${assetPathKey(candidateId)}/`
   const filename = previewImage.startsWith(prefix) ? previewImage.slice(prefix.length) : ''
   const extension = filename.includes('.') ? filename.slice(filename.lastIndexOf('.') + 1) : ''
   if (
@@ -569,7 +576,7 @@ function parseManagedAssets(
     if (exactEntries) exactObjectKeys(asset, managedAssetKeys, assetPath)
     const candidateId = safeCandidateId(asset.candidate_id, 'candidate_id', assetPath)
     const path = manifestString(asset.path, 'path', assetPath)
-    const publicPrefix = `docs/public/daily/${date}/assets/${candidateId}/`
+    const publicPrefix = `docs/public/daily/${date}/assets/${assetPathKey(candidateId)}/`
     const filename = path.startsWith(publicPrefix) ? path.slice(publicPrefix.length) : ''
     const previewImage = validatePreviewPath(
       filename ? `/${path.slice('docs/public/'.length)}` : path,
@@ -619,7 +626,7 @@ function parseDetachedLegacyAssets(
       throw new Error(`${assetPath}: candidate_id must match its detached legacy page`)
     }
     const managedPath = manifestString(asset.path, 'path', assetPath)
-    const publicPrefix = `docs/public/daily/${date}/assets/${candidateId}/`
+    const publicPrefix = `docs/public/daily/${date}/assets/${assetPathKey(candidateId)}/`
     const filename = managedPath.startsWith(publicPrefix)
       ? managedPath.slice(publicPrefix.length)
       : ''

@@ -1,0 +1,23 @@
+{
+  "schema_version": 2,
+  "status": "success",
+  "cycle_id": "daily-2026-08-15",
+  "display_date": "2026-08-15",
+  "publication_identity": {
+    "refine_run_id": "refine-20260815-001",
+    "assembly_generation_id": "assembly-20260815-g1",
+    "publication_set_path": "crawl_tmp/refine_candidates/runs/refine-20260815-001/assemblies/assembly-20260815-g1/publication_set.json"
+  },
+  "group_counts": {
+    "Paper": 11,
+    "News": 3,
+    "Policy": 1
+  },
+  "managed_manifest_path": "docs/daily/2026-08-15/.managed-manifest.json",
+  "candidate_count": 15,
+  "asset_count": 14,
+  "build": "success",
+  "http_validation": "success",
+  "build_command": "VITEPRESS_BASE=/colab-daily/ npm run build",
+  "http_validation_result": "validated 161 pages, 124 assets, and 198 rendered local URLs over HTTP"
+}
