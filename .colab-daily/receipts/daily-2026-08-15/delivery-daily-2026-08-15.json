@@ -1,0 +1,30 @@
+{
+  "schema_version": 2,
+  "cycle_id": "daily-2026-08-15",
+  "display_date": "2026-08-15",
+  "publication_identity": {
+    "refine_run_id": "refine-20260815-001",
+    "assembly_generation_id": "assembly-20260815-g1",
+    "publication_set_path": "crawl_tmp/refine_candidates/runs/refine-20260815-001/assemblies/assembly-20260815-g1/publication_set.json"
+  },
+  "local": "success",
+  "git_commit": {
+    "status": "success",
+    "commit_sha": "1ff480767ffd0c3f1671b3b70c4b53c82070a243"
+  },
+  "git_push": {
+    "status": "success",
+    "remote": "origin",
+    "branch": "main",
+    "commit_sha": "1ff480767ffd0c3f1671b3b70c4b53c82070a243"
+  },
+  "deploy": {
+    "status": "success",
+    "public_url": "https://yigesmx.github.io/colab-daily/",
+    "http_status": 200,
+    "display_date_verified": true,
+    "matched_marker": "arxiv--2608.13489",
+    "detail": "Target DisplayDate and cycle marker verified at the public report."
+  },
+  "updated_at": "2026-08-15T17:47:06.343260+00:00"
+}
