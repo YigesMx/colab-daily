@@ -85,7 +85,39 @@ function manifestChecks() {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) fail(`${manifestFile}: invalid display_date`)
     dates.push(date)
 
-    if (manifest.schema_version === 2 && manifest.groups) {
+    if (manifest.schema_version === 3 && manifest.groups) {
+      if (manifest.quota_contract !== 'three-track-v3') {
+        fail(`${manifestFile}: invalid schema v3 quota_contract`)
+      }
+      const groups = manifest.groups ?? {}
+      const count = (category) => groups[category]?.candidates?.length ?? 0
+      const paperCount = count('Paper')
+      const newsCount = count('News')
+      const policyCount = count('Policy')
+      const total = paperCount + newsCount + policyCount
+      if (
+        manifest.selection_limit !== 20 || total > manifest.selection_limit ||
+        paperCount > 10 || policyCount > 5 || newsCount > 10 - policyCount
+      ) fail(`${manifestFile}: invalid schema v3 quotas`)
+      const quotaProof = manifest.quota_proof ?? {}
+      const expectedQuotaProof = {
+        selection_limit: manifest.selection_limit,
+        paper_count: paperCount,
+        news_count: newsCount,
+        policy_count: policyCount,
+        selected_total: total,
+        news_policy_total: newsCount + policyCount,
+        paper_capacity: 10,
+        policy_capacity: 5,
+        news_final_capacity: 10 - policyCount,
+        news_fallback_used: Math.max(0, Math.min(newsCount, 10 - policyCount) - 5)
+      }
+      if (JSON.stringify(quotaProof) !== JSON.stringify(expectedQuotaProof)) {
+        fail(`${manifestFile}: invalid schema v3 quota_proof`)
+      }
+    }
+
+    if ((manifest.schema_version === 2 || manifest.schema_version === 3) && manifest.groups) {
       const reportCandidates = []
       for (const category of ['Paper', 'News', 'Policy']) {
         for (const candidate of manifest.groups[category].candidates) {
@@ -153,6 +185,10 @@ function manifestChecks() {
     assets: [...new Set(assets)],
     dates: [...new Set(dates)],
     reportExpected: [
+      `class="quick-nav"`,
+      `href="#section-paper"`,
+      `href="#section-news"`,
+      `href="#section-policy"`,
       `data-section-order="1"`,
       `data-section-order="2"`,
       `data-section-order="3"`,

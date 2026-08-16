@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, watch } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { withBase } from 'vitepress'
 import type { DailyArchive, DailyArticle } from '../../data/daily.data'
 
@@ -8,6 +8,8 @@ const props = defineProps<{ archive: DailyArchive }>()
 const selectedDate = ref(props.archive.dates[0]?.date ?? '')
 const selectedKeyword = ref('全部')
 const datePicker = ref<HTMLDetailsElement>()
+const activeSection = ref('')
+let sectionObserver: IntersectionObserver | undefined = undefined
 
 const currentGroup = computed(() =>
   props.archive.dates.find((group) => group.date === selectedDate.value)
@@ -32,6 +34,54 @@ watch(selectedDate, () => {
   selectedKeyword.value = '全部'
 })
 
+function validArchiveDate(value: string | null): string | null {
+  return value && props.archive.dates.some((group) => group.date === value) ? value : null
+}
+
+function syncDateToUrl(date: string): void {
+  if (typeof window === 'undefined') return
+  const url = new URL(window.location.href)
+  url.searchParams.set('date', date)
+  window.history.replaceState(window.history.state, '', url)
+}
+
+function syncSectionHash(category: string): void {
+  const hash = `#section-${category.toLowerCase()}`
+  if (!category || window.location.hash === hash) return
+  const url = new URL(window.location.href)
+  url.hash = hash
+  window.history.replaceState(window.history.state, '', url)
+}
+
+function observeSections(): void {
+  sectionObserver?.disconnect()
+  sectionObserver = new IntersectionObserver(
+    (entries) => {
+      const visible = entries
+        .filter((entry) => entry.isIntersecting && entry.intersectionRatio > 0)
+        .sort((left, right) => right.intersectionRatio - left.intersectionRatio)[0]
+      const category = visible?.target.getAttribute('data-daily-category')
+      if (category) {
+        activeSection.value = category
+        syncSectionHash(category)
+      }
+    },
+    { rootMargin: '-30% 0px -55% 0px', threshold: [0, 0.05, 0.2, 0.5, 1] }
+  )
+  document.querySelectorAll<HTMLElement>('.category-section').forEach((element) => sectionObserver?.observe(element))
+}
+
+onMounted(() => {
+  const requestedDate = validArchiveDate(new URLSearchParams(window.location.search).get('date'))
+  if (requestedDate && requestedDate !== selectedDate.value) selectedDate.value = requestedDate
+  else if (selectedDate.value) syncDateToUrl(selectedDate.value)
+  const initialCategory = window.location.hash.replace('#section-', '')
+  if (['paper', 'news', 'policy'].includes(initialCategory)) activeSection.value = initialCategory
+  void nextTick(observeSections)
+})
+
+onBeforeUnmount(() => sectionObserver?.disconnect())
+
 function imageUrl(article: DailyArticle): string {
   return article.previewImage ? withBase(article.previewImage) : ''
 }
@@ -42,7 +92,9 @@ function isTopPaper(article: DailyArticle): boolean {
 
 function selectDate(date: string): void {
   selectedDate.value = date
+  syncDateToUrl(date)
   datePicker.value?.removeAttribute('open')
+  void nextTick(observeSections)
 }
 
 function scoreLabel(article: DailyArticle): string {
@@ -80,6 +132,20 @@ function scoreLabel(article: DailyArticle): string {
         <span>{{ currentGroup?.articleCount ?? 0 }} 篇精选</span>
       </div>
     </header>
+
+    <nav v-if="archive.dates.length" class="quick-nav" aria-label="分组快速导航">
+      <a
+        v-for="section in currentGroup?.sections ?? []"
+        :key="section.category"
+        :href="`#section-${section.category.toLowerCase()}`"
+        class="quick-nav__button"
+        :class="[`quick-nav__button--${section.category.toLowerCase()}`, { 'quick-nav__button--active': activeSection === section.category }]"
+        :aria-current="activeSection === section.category ? 'true' : undefined"
+      >
+        {{ section.label }}
+        <span>{{ section.articles.length }}</span>
+      </a>
+    </nav>
 
     <section v-if="archive.dates.length" class="facets" aria-label="关键词筛选">
       <div class="facet-row">
@@ -222,6 +288,7 @@ function scoreLabel(article: DailyArticle): string {
 }
 
 .daily-header,
+.quick-nav,
 .facets,
 .result-line,
 .category-sections,
@@ -356,6 +423,41 @@ function scoreLabel(article: DailyArticle): string {
   font-size: 11px;
   font-weight: 700;
 }
+
+.quick-nav {
+  display: flex;
+  justify-content: center;
+  padding: 22px 0 0;
+}
+
+.quick-nav__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-width: 132px;
+  min-height: 38px;
+  padding: 0 18px;
+  border: 1px solid #303949;
+  border-radius: 999px;
+  background: #171c25;
+  color: #d6dde8;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 850;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: transform 120ms ease, border-color 120ms ease, background 120ms ease, color 120ms ease;
+}
+
+.quick-nav__button + .quick-nav__button { margin-left: 10px; }
+
+.quick-nav__button:hover { transform: translateY(-1px); border-color: #59667d; color: #fff; }
+.quick-nav__button span { color: #7f8a9b; font-size: 11px; }
+.quick-nav__button--paper.quick-nav__button--active { border-color: #60a5fa; background: rgba(96,165,250,.16); color: #b7d0ff; }
+.quick-nav__button--news.quick-nav__button--active { border-color: #5ee2b4; background: rgba(94,226,180,.14); color: #a7f3d6; }
+.quick-nav__button--policy.quick-nav__button--active { border-color: #c4a7ff; background: rgba(196,167,255,.14); color: #ddd0ff; }
+.quick-nav__button--active span { color: currentColor; opacity: .72; }
 
 .facets {
   padding: 18px 0;
@@ -802,6 +904,9 @@ function scoreLabel(article: DailyArticle): string {
   .daily-header { align-items: start; flex-direction: column; gap: 20px; }
   .daily-header__edition { align-items: start; text-align: left; }
   .date-picker__menu { right: auto; left: 0; }
+  .quick-nav { flex-wrap: wrap; gap: 8px; padding-top: 16px; }
+  .quick-nav__button { flex: 1 1 130px; }
+  .quick-nav__button + .quick-nav__button { margin-left: 0; }
   .facet-row { grid-template-columns: 1fr; }
   .facet-row h2 { padding-top: 0; }
   .category-sections { gap: 48px; }
@@ -823,6 +928,6 @@ function scoreLabel(article: DailyArticle): string {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .article-card, .article-card__preview img, .facet { transition: none; }
+  .article-card, .article-card__preview img, .facet, .quick-nav__button { transition: none; }
 }
 </style>

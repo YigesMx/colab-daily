@@ -62,7 +62,7 @@ export interface DailyArchive {
 }
 
 interface LoadedArticle extends DailyArticle {
-  schemaVersion: 1 | 2
+  schemaVersion: 1 | 2 | 3
   legacyRank?: number
 }
 
@@ -96,11 +96,12 @@ interface ManagedAsset {
 
 interface ManagedDay {
   date: string
-  mode: 'legacy' | 'v2'
+  mode: 'legacy' | 'v2' | 'v3'
   candidates: ManagedCandidate[]
   detachedLegacyPages: DetachedLegacyPage[]
   assets: Map<string, ManagedAsset>
   selectionLimit?: number
+  schemaVersion?: 1 | 2 | 3
 }
 
 interface LegacyOwnershipReceipt {
@@ -111,6 +112,20 @@ const repositoryRoot = fileURLToPath(new URL('../../../', import.meta.url))
 
 const canonicalV2TopLevelKeys = [
   'schema_version',
+  'cycle_id',
+  'display_date',
+  'selection_limit',
+  'groups',
+  'assets',
+  'detached_legacy_pages',
+  'generated_at',
+  'quota_proof',
+  'compatibility_checks'
+] as const
+
+const canonicalV3TopLevelKeys = [
+  'schema_version',
+  'quota_contract',
   'cycle_id',
   'display_date',
   'selection_limit',
@@ -152,34 +167,26 @@ const articleSections: Record<ArticleCategory, readonly string[]> = {
 }
 
 const categoryOptions = [
-  {
-    category: 'Paper',
-    label: '论文',
-    path: 'paper',
-    scoreScale: 'paper-v2',
-    ratingTrack: 'paper'
-  },
-  {
-    category: 'News',
-    label: '新闻',
-    path: 'news',
-    scoreScale: 'news-policy-v2',
-    ratingTrack: 'news_policy'
-  },
-  {
-    category: 'Policy',
-    label: '政策',
-    path: 'policy',
-    scoreScale: 'news-policy-v2',
-    ratingTrack: 'news_policy'
-  }
+  { category: 'Paper', label: '论文', path: 'paper' },
+  { category: 'News', label: '新闻', path: 'news' },
+  { category: 'Policy', label: '政策', path: 'policy' }
 ] as const satisfies ReadonlyArray<{
   category: ArticleCategory
   label: string
   path: string
-  scoreScale: string
-  ratingTrack: string
 }>
+
+const legacyCategoryContracts: Record<ArticleCategory, { scoreScale: string; ratingTrack: string }> = {
+  Paper: { scoreScale: 'paper-v2', ratingTrack: 'paper' },
+  News: { scoreScale: 'news-policy-v2', ratingTrack: 'news_policy' },
+  Policy: { scoreScale: 'news-policy-v2', ratingTrack: 'news_policy' }
+}
+
+const v3CategoryContracts: Record<ArticleCategory, { scoreScale: string; ratingTrack: string }> = {
+  Paper: { scoreScale: 'paper-v2', ratingTrack: 'paper' },
+  News: { scoreScale: 'news-v3', ratingTrack: 'news' },
+  Policy: { scoreScale: 'policy-v3', ratingTrack: 'policy' }
+}
 
 const groupedFields = ['groupRank', 'groupScore', 'scoreScale', 'ratingTrack'] as const
 
@@ -217,10 +224,10 @@ function rejectForbiddenV2Fields(value: unknown, path: string): void {
 
 function validateRankingFieldNames(
   frontmatter: Record<string, unknown>,
-  schemaVersion: 1 | 2,
+  schemaVersion: 1 | 2 | 3,
   path: string
 ): void {
-  if (schemaVersion === 2) {
+  if (schemaVersion !== 1) {
     rejectForbiddenV2Fields(frontmatter, `${path}: front matter`)
     return
   }
@@ -412,10 +419,14 @@ function validateManagedFile(
   }
 }
 
-function manifestSelectionLimit(value: unknown, path: string): number {
+function manifestSelectionLimit(value: unknown, path: string, schemaVersion: 2 | 3): number {
   const limit = manifestPositiveInteger(value, 'selection_limit', path)
-  if (limit > 15) {
-    throw new Error(`${path}: "selection_limit" must be between 1 and 15`)
+  const maximum = schemaVersion === 2 ? 15 : 20
+  if (schemaVersion === 3 && limit !== 20) {
+    throw new Error(`${path}: schema v3 "selection_limit" must be exactly 20`)
+  }
+  if (limit > maximum) {
+    throw new Error(`${path}: "selection_limit" must be between 1 and ${maximum}`)
   }
   return limit
 }
@@ -716,22 +727,31 @@ function parseDetachedLegacyPages(
   return pages
 }
 
-function parseManagedV2(
+function parseManagedGrouped(
   manifest: Record<string, unknown>,
   date: string,
   manifestPath: string
 ): ManagedDay {
-  exactObjectKeys(manifest, canonicalV2TopLevelKeys, manifestPath)
-  if (manifest.schema_version !== 2) {
-    throw new Error(`${manifestPath}: schema_version must be 2`)
+  const schemaVersion = manifest.schema_version
+  if (schemaVersion !== 2 && schemaVersion !== 3) {
+    throw new Error(`${manifestPath}: grouped schema_version must be 2 or 3`)
   }
+  exactObjectKeys(
+    manifest,
+    schemaVersion === 3 ? canonicalV3TopLevelKeys : canonicalV2TopLevelKeys,
+    manifestPath
+  )
+  if (schemaVersion === 3 && manifest.quota_contract !== 'three-track-v3') {
+    throw new Error(`${manifestPath}: schema v3 quota_contract must be three-track-v3`)
+  }
+  const categoryContracts = schemaVersion === 2 ? legacyCategoryContracts : v3CategoryContracts
   validateManifestIdentity(manifest, date, manifestPath, true)
   rejectForbiddenV2Fields(manifest, manifestPath)
   const generatedAt = manifestString(manifest.generated_at, 'generated_at', manifestPath)
   if (Number.isNaN(Date.parse(generatedAt))) {
     throw new Error(`${manifestPath}: generated_at must be a valid timestamp`)
   }
-  const selectionLimit = manifestSelectionLimit(manifest.selection_limit, manifestPath)
+  const selectionLimit = manifestSelectionLimit(manifest.selection_limit, manifestPath, schemaVersion)
   const groups = recordValue(manifest.groups, `${manifestPath}: "groups"`)
   exactObjectKeys(
     groups,
@@ -779,9 +799,10 @@ function parseManagedV2(
       if (declaredCategory !== category) {
         throw new Error(`${candidatePath}: category must match its ${category} group`)
       }
-      if (scoreScale !== categoryOption.scoreScale || ratingTrack !== categoryOption.ratingTrack) {
+      const contract = categoryContracts[category]
+      if (scoreScale !== contract.scoreScale || ratingTrack !== contract.ratingTrack) {
         throw new Error(
-          `${candidatePath}: ${category} must use score_scale ${categoryOption.scoreScale} and rating_track ${categoryOption.ratingTrack}`
+          `${candidatePath}: schema v${schemaVersion} ${category} must use score_scale ${contract.scoreScale} and rating_track ${contract.ratingTrack}`
         )
       }
       if (candidateIds.has(candidateId)) {
@@ -817,30 +838,43 @@ function parseManagedV2(
     (candidate) => candidate.category === 'News' || candidate.category === 'Policy'
   ).length
   const paperCount = candidates.filter((candidate) => candidate.category === 'Paper').length
-  if (
+  const policyCount = candidates.filter((candidate) => candidate.category === 'Policy').length
+  const newsCount = candidates.filter((candidate) => candidate.category === 'News').length
+  if (schemaVersion === 3) {
+    if (candidates.length > selectionLimit || paperCount > 10 || policyCount > 5 || newsCount > 10 - policyCount) {
+      throw new Error(`${manifestPath}: schema v3 candidate totals violate 20/10/5 quotas`)
+    }
+  } else if (
     candidates.length > selectionLimit ||
     newsPolicyCount > Math.min(5, selectionLimit) ||
     paperCount > selectionLimit - newsPolicyCount
   ) {
-    throw new Error(`${manifestPath}: candidate totals violate selection_limit or News/Policy quota`)
+    throw new Error(`${manifestPath}: candidate totals violate legacy selection_limit or News/Policy quota`)
   }
 
+  const v2QuotaProofKeys = [
+    'selection_limit',
+    'paper_count',
+    'news_count',
+    'policy_count',
+    'selected_total',
+    'news_policy_total',
+    'paper_capacity'
+  ] as const
+  const v3QuotaProofKeys = [
+    ...v2QuotaProofKeys,
+    'policy_capacity',
+    'news_final_capacity',
+    'news_fallback_used'
+  ] as const
   const quotaProof = recordValue(manifest.quota_proof, `${manifestPath}: quota_proof`)
   exactObjectKeys(
     quotaProof,
-    [
-      'selection_limit',
-      'paper_count',
-      'news_count',
-      'policy_count',
-      'selected_total',
-      'news_policy_total',
-      'paper_capacity'
-    ],
+    schemaVersion === 3 ? v3QuotaProofKeys : v2QuotaProofKeys,
     `${manifestPath}: quota_proof`
   )
-  const newsCount = candidates.filter((candidate) => candidate.category === 'News').length
-  const policyCount = candidates.filter((candidate) => candidate.category === 'Policy').length
+  const newsFinalCapacity = 10 - policyCount
+  const newsFallbackUsed = Math.max(0, Math.min(newsCount, newsFinalCapacity) - 5)
   if (
     quotaProof.selection_limit !== selectionLimit ||
     quotaProof.paper_count !== paperCount ||
@@ -848,7 +882,14 @@ function parseManagedV2(
     quotaProof.policy_count !== policyCount ||
     quotaProof.selected_total !== candidates.length ||
     quotaProof.news_policy_total !== newsPolicyCount ||
-    quotaProof.paper_capacity !== selectionLimit - newsPolicyCount
+    quotaProof.paper_capacity !== (schemaVersion === 3 ? 10 : selectionLimit - newsPolicyCount) ||
+    (
+      schemaVersion === 3 && (
+        quotaProof.policy_capacity !== 5 ||
+        quotaProof.news_final_capacity !== newsFinalCapacity ||
+        quotaProof.news_fallback_used !== newsFallbackUsed
+      )
+    )
   ) {
     throw new Error(`${manifestPath}: quota_proof does not match the grouped candidate counts`)
   }
@@ -909,7 +950,8 @@ function parseManagedV2(
   }
   return {
     date,
-    mode: 'v2',
+    mode: schemaVersion === 3 ? 'v3' : 'v2',
+    schemaVersion,
     candidates,
     detachedLegacyPages,
     assets,
@@ -1007,8 +1049,8 @@ function discoverManagedDays(): Map<string, ManagedDay> {
       throw new Error(`${manifestPath}: invalid JSON: ${(error as Error).message}`)
     }
     const manifest = recordValue(parsed, manifestPath)
-    if (manifest.schema_version === 2 && hasField(manifest, 'groups')) {
-      managedDays.set(entry.name, parseManagedV2(manifest, entry.name, manifestPath))
+    if ((manifest.schema_version === 2 || manifest.schema_version === 3) && hasField(manifest, 'groups')) {
+      managedDays.set(entry.name, parseManagedGrouped(manifest, entry.name, manifestPath))
       continue
     }
     if (manifest.schema_version === 1) {
@@ -1022,7 +1064,7 @@ function discoverManagedDays(): Map<string, ManagedDay> {
           hasField(manifest, 'keyword_postprocess_receipt') &&
           hasField(manifest, 'articles')
         ) ||
-        manifest.schema_version === 3
+        (manifest.schema_version === 3 && !hasField(manifest, 'groups'))
       )
     ) {
       managedDays.set(entry.name, parseManagedLegacy(manifest, entry.name, manifestPath))
@@ -1102,14 +1144,14 @@ function stringList(value: unknown, field: string, path: string): string[] {
 function articleKeywords(
   value: unknown,
   path: string,
-  schemaVersion: 1 | 2
+  schemaVersion: 1 | 2 | 3
 ): string[] {
   const keywords = stringList(value, 'keywords', path)
   if (
-    schemaVersion === 2 &&
+    schemaVersion !== 1 &&
     (keywords.length < 2 || keywords.length > 5 || new Set(keywords).size !== keywords.length)
   ) {
-    throw new Error(`${path}: schema v2 front matter "keywords" must contain 2-5 unique values`)
+    throw new Error(`${path}: grouped schema front matter "keywords" must contain 2-5 unique values`)
   }
   return keywords
 }
@@ -1225,13 +1267,13 @@ function validateArticleMarkdown(
   source: unknown,
   path: string,
   category: ArticleCategory,
-  schemaVersion: 1 | 2
+  schemaVersion: 1 | 2 | 3
 ): void {
   if (typeof source !== 'string' || !source.trim()) {
     throw new Error(`${path}: Markdown source must be nonempty`)
   }
   validateMarkdownLinks(source, path)
-  if (schemaVersion !== 2) return
+  if (schemaVersion === 1) return
 
   const actual = markdownH2Sections(source, path).map(({ title }) => title)
   const expected = articleSections[category]
@@ -1293,22 +1335,22 @@ function isPublicHttpUrl(value: string): boolean {
   }
 }
 
-function articleSchema(frontmatter: Record<string, unknown>, path: string): 1 | 2 {
+function articleSchema(frontmatter: Record<string, unknown>, path: string): 1 | 2 | 3 {
   const declared = frontmatter.schemaVersion
-  if (declared !== undefined && declared !== 1 && declared !== 2) {
-    throw new Error(`${path}: front matter "schemaVersion" must be 1 or 2`)
+  if (declared !== undefined && declared !== 1 && declared !== 2 && declared !== 3) {
+    throw new Error(`${path}: front matter "schemaVersion" must be 1, 2, or 3`)
   }
 
   const nestedRoute = path.split('/').filter(Boolean).length > 3
   const hasGroupedField = groupedFields.some((field) => hasField(frontmatter, field))
   if (declared === undefined && (nestedRoute || hasGroupedField)) {
-    throw new Error(`${path}: schema v2 articles must declare schemaVersion: 2`)
+    throw new Error(`${path}: grouped schema v2/v3 articles must declare schemaVersion: 2 or 3`)
   }
 
   const schemaVersion = declared ?? 1
   validateRankingFieldNames(frontmatter, schemaVersion, path)
   if (schemaVersion === 1 && hasGroupedField) {
-    throw new Error(`${path}: legacy schema v1 cannot contain schema v2 grouped fields`)
+    throw new Error(`${path}: legacy schema v1 cannot contain grouped v2/v3 fields`)
   }
   return schemaVersion
 }
@@ -1331,7 +1373,7 @@ function validateRoute(article: LoadedArticle): void {
   )?.path
   if (segments.length !== 4 || segments[2] !== expectedCategoryPath) {
     throw new Error(
-      `${article.url}: schema v2 ${article.category} articles must use daily/YYYY-MM-DD/${expectedCategoryPath}/*.md`
+      `${article.url}: grouped schema ${article.category} articles must use daily/YYYY-MM-DD/${expectedCategoryPath}/*.md`
     )
   }
 }
@@ -1342,40 +1384,40 @@ function parseArticle(url: string, rawFrontmatter: unknown, source: unknown): Lo
   const category = requiredCategory(frontmatter.category, url)
   const candidateId = safeCandidateId(frontmatter.candidateId, 'candidateId', url)
   const date = requiredDate(frontmatter.date, url)
-  const categoryOption = categoryOptions.find((option) => option.category === category)!
-  if (schemaVersion === 2) {
+  const categoryContract = (schemaVersion === 2 ? legacyCategoryContracts : v3CategoryContracts)[category]
+  if (schemaVersion !== 1) {
     if (!hasField(frontmatter, 'previewImage')) {
-      throw new Error(`${url}: schema v2 front matter must declare previewImage as a path or null`)
+      throw new Error(`${url}: grouped schema front matter must declare previewImage as a path or null`)
     }
-    if (frontmatter.scoreScale !== categoryOption.scoreScale) {
+    if (frontmatter.scoreScale !== categoryContract.scoreScale) {
       throw new Error(
-        `${url}: schema v2 ${category} articles must use scoreScale: ${categoryOption.scoreScale}`
+        `${url}: schema v${schemaVersion} ${category} articles must use scoreScale: ${categoryContract.scoreScale}`
       )
     }
-    if (frontmatter.ratingTrack !== categoryOption.ratingTrack) {
+    if (frontmatter.ratingTrack !== categoryContract.ratingTrack) {
       throw new Error(
-        `${url}: schema v2 ${category} articles must use ratingTrack: ${categoryOption.ratingTrack}`
+        `${url}: schema v${schemaVersion} ${category} articles must use ratingTrack: ${categoryContract.ratingTrack}`
       )
     }
   }
   const article: LoadedArticle = {
     candidateId,
     date,
-    groupRank: schemaVersion === 2
+    groupRank: schemaVersion !== 1
       ? positiveInteger(frontmatter.groupRank, 'groupRank', url)
       : 0,
     title: requiredString(frontmatter.title, 'title', url),
     authors: stringList(frontmatter.authors, 'authors', url),
     summary: requiredString(frontmatter.summary, 'summary', url),
     keywords: articleKeywords(frontmatter.keywords, url, schemaVersion),
-    groupScore: schemaVersion === 2
+    groupScore: schemaVersion !== 1
       ? boundedGroupScore(frontmatter.groupScore, url)
       : requiredNumber(frontmatter.score, 'score', url),
-    scoreKind: schemaVersion === 2 ? 'group-local' : 'historical',
-    scoreScale: schemaVersion === 2
+    scoreKind: schemaVersion !== 1 ? 'group-local' : 'historical',
+    scoreScale: schemaVersion !== 1
       ? requiredString(frontmatter.scoreScale, 'scoreScale', url)
       : undefined,
-    ratingTrack: schemaVersion === 2
+    ratingTrack: schemaVersion !== 1
       ? requiredString(frontmatter.ratingTrack, 'ratingTrack', url)
       : undefined,
     sources: parseSources(frontmatter.sources, url),
@@ -1391,7 +1433,7 @@ function parseArticle(url: string, rawFrontmatter: unknown, source: unknown): Lo
     date,
     candidateId,
     url,
-    schemaVersion === 2
+    schemaVersion !== 1
   )
   validateRoute(article)
   validateArticleMarkdown(source, url, category, schemaVersion)
@@ -1411,15 +1453,24 @@ function aggregate(items: DailyArticle[], values: (article: DailyArticle) => str
     .map(([name, count]) => ({ name, count }))
 }
 
-function validateDailySet(date: string, items: LoadedArticle[]): void {
+function validateDailySet(date: string, items: LoadedArticle[], mode: ManagedDay['mode']): void {
+  if (mode === 'v3') {
+    const paperCount = items.filter((article) => article.category === 'Paper').length
+    const newsCount = items.filter((article) => article.category === 'News').length
+    const policyCount = items.filter((article) => article.category === 'Policy').length
+    if (items.length > 20 || paperCount > 10 || policyCount > 5 || newsCount > 10 - policyCount) {
+      throw new Error(`${date}: schema v3 articles violate 20/10/5 quotas`)
+    }
+    return
+  }
   if (items.length > 15) {
-    throw new Error(`${date}: a daily archive may contain at most 15 articles`)
+    throw new Error(`${date}: a legacy daily archive may contain at most 15 articles`)
   }
   const newsAndPolicyCount = items.filter(
     (article) => article.category === 'News' || article.category === 'Policy'
   ).length
   if (newsAndPolicyCount > 5) {
-    throw new Error(`${date}: News and Policy articles may total at most 5`)
+    throw new Error(`${date}: legacy News and Policy articles may total at most 5`)
   }
 
   const candidateIds = new Set<string>()
@@ -1436,12 +1487,12 @@ function currentDailySet(
   items: LoadedArticle[],
   managedDay: ManagedDay
 ): LoadedArticle[] {
-  const nestedItems = items.filter((article) => article.schemaVersion === 2)
+  const nestedItems = items.filter((article) => article.schemaVersion !== 1)
   const flatItems = items.filter((article) => article.schemaVersion === 1)
   if (managedDay.mode === 'legacy') {
     if (nestedItems.length) {
       throw new Error(
-        `${date}: nested schema v2 pages require a schema_version 2 managed manifest with exact groups`
+        `${date}: grouped schema pages require a schema_version 2/3 managed manifest with exact groups`
       )
     }
     reconcileManagedArticles(date, flatItems, managedDay.candidates, 'legacy')
@@ -1452,7 +1503,7 @@ function currentDailySet(
   }
 
   reconcileDetachedLegacyPages(date, flatItems, managedDay.detachedLegacyPages)
-  reconcileManagedArticles(date, nestedItems, managedDay.candidates, 'schema v2')
+  reconcileManagedArticles(date, nestedItems, managedDay.candidates, `schema ${managedDay.schemaVersion}`)
   reconcileManagedAssets(date, nestedItems, managedDay.assets)
   reconcileMarkdownDayFiles(date, managedDay)
   reconcilePublicAssetFiles(date, managedDay)
@@ -1491,7 +1542,7 @@ function reconcileManagedArticles(
     if (
       article.candidateId !== candidate.candidateId ||
       article.category !== candidate.category ||
-      (article.schemaVersion === 2 ? article.groupRank : article.legacyRank) !== candidate.groupRank ||
+      (article.schemaVersion !== 1 ? article.groupRank : article.legacyRank) !== candidate.groupRank ||
       (candidate.groupScore !== undefined && article.groupScore !== candidate.groupScore) ||
       (candidate.scoreScale !== undefined && article.scoreScale !== candidate.scoreScale) ||
       (candidate.ratingTrack !== undefined && article.ratingTrack !== candidate.ratingTrack) ||
@@ -1603,7 +1654,7 @@ function reconcilePublicAssetFiles(date: string, managedDay: ManagedDay): void {
 function reconcileMarkdownDayFiles(date: string, managedDay: ManagedDay): void {
   const dayRoot = nodePath.resolve(repositoryRoot, `docs/daily/${date}`)
   const files = new Set<string>()
-  const allowedDirectories = managedDay.mode === 'v2'
+  const allowedDirectories = managedDay.mode !== 'legacy'
     ? new Set(categoryOptions.map(({ path }) => path))
     : new Set<string>()
 
@@ -1742,7 +1793,7 @@ export default createContentLoader('daily/**/*.md', {
       .sort(([left], [right]) => right.localeCompare(left))
       .map(([date, managedDay]) => {
         const currentItems = currentDailySet(date, grouped.get(date) ?? [], managedDay)
-        validateDailySet(date, currentItems)
+        validateDailySet(date, currentItems, managedDay.mode)
         return {
           date,
           articleCount: currentItems.length,
