@@ -1,0 +1,181 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "cycle_id": "daily-2026-08-16",
+  "display_date": "2026-08-16",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.03913",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 82,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-16/paper/01-sparse-weight-decomposition.md",
+          "bytes": 4736,
+          "preview_image": "/daily/2026-08-16/assets/arxiv--2608.03913/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fnews%2Fclaude-text-watermark",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 88,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-16/news/01-claude-text-watermarking.md",
+          "bytes": 2155,
+          "preview_image": "/daily/2026-08-16/assets/url--https_3a_2f_2fwww.anthropic.com_2fnews_2fclaude-text-watermark/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fugm-indosat-nvidia-ai-technology-center%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 82,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-16/news/02-ugm-indosat-nvidia-ai-center.md",
+          "bytes": 2172,
+          "preview_image": "/daily/2026-08-16/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fugm-indosat-nvidia-ai-technology-center_2f/preview.jpg"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F14%2Fibm-partners-with-openai-to-expand-enterprise-ai-deployment-through-global-consulting-business%2F",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 78,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-16/news/03-ibm-openai-enterprise-consulting.md",
+          "bytes": 2115,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F14%2Fmicrosoft-merges-copilot-apps-cuts-underperforming-ai-features%2F",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 77,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-16/news/04-microsoft-consolidates-copilot-apps.md",
+          "bytes": 2030,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F14%2Fopenai-names-new-chief-revenue-officer-in-executive-shake-up-launches-ultrafast-processing-mode%2F",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 76,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-16/news/05-openai-cro-ultrafast-mode.md",
+          "bytes": 2058,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F15%2Frobot-orders-increase-in-q2-as-automation-demand-broadens-across-industries%2F",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 75,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-16/news/06-north-american-robot-orders-q2.md",
+          "bytes": 2095,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F15%2Fother%2Fadmin%2F109184%2F%25e8%258b%25a6%25e7%25ad%2589%25e4%25b8%25a4%25e5%25b9%25b4%25ef%25bc%2581chatgpt%25e6%259d%2580%25e5%2585%25a5linux%25ef%25bc%258ccodex%25e4%25b8%258a%25e6%2589%258b%25e8%2583%25bd%25e6%2594%25b9%25e4%25bd%25a0%25e7%259a%2584%25e4%25bb%25a3%25e7%25a0%2581%2F",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 74,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-16/news/07-chatgpt-linux-codex.md",
+          "bytes": 2326,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F473597.html",
+          "category": "News",
+          "group_rank": 8,
+          "group_score": 73,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-16/news/08-deepseek-harness-plugins.md",
+          "bytes": 2047,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F15%2Fother%2Fadmin%2F109207%2F%25e5%2585%25a8%25e7%2590%2583%25e7%25ac%25ac%25e4%25b8%2580%25ef%25bc%258c%25e7%25a2%25be%25e5%258e%258b%25e8%25b0%25b7%25e6%25ad%258c%25ef%25bc%2581%25e4%25b8%25ad%25e5%259b%25bd%25e7%2589%2588thinking-machines%25e8%25af%259e%25e7%2594%259f%25ef%25bc%258c%25e8%25af%25ad%25e9%259f%25b3%25e8%25b5%259b%25e9%2581%2593%2F",
+          "category": "News",
+          "group_rank": 9,
+          "group_score": 72,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-16/news/09-luna-tts-thinking-machines.md",
+          "bytes": 2899,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F15%2Fstudy-explores-impact-on-trust-when-expressive-humanoid-robots-make-mistakes%2F",
+          "category": "News",
+          "group_rank": 10,
+          "group_score": 70,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-16/news/10-humanoid-robot-trust-mistakes.md",
+          "bytes": 2444,
+          "preview_image": "/daily/2026-08-16/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f15_2fstudy-explores-impact-on-trust-when-expressive-humanoid-robots-make-mistakes_2f/preview.webp"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.03913",
+      "path": "docs/public/daily/2026-08-16/assets/arxiv--2608.03913/preview.png",
+      "bytes": 279459
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fnews%2Fclaude-text-watermark",
+      "path": "docs/public/daily/2026-08-16/assets/url--https_3a_2f_2fwww.anthropic.com_2fnews_2fclaude-text-watermark/preview.png",
+      "bytes": 88253
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fugm-indosat-nvidia-ai-technology-center%2F",
+      "path": "docs/public/daily/2026-08-16/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fugm-indosat-nvidia-ai-technology-center_2f/preview.jpg",
+      "bytes": 142351
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F15%2Fstudy-explores-impact-on-trust-when-expressive-humanoid-robots-make-mistakes%2F",
+      "path": "docs/public/daily/2026-08-16/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f15_2fstudy-explores-impact-on-trust-when-expressive-humanoid-robots-make-mistakes_2f/preview.webp",
+      "bytes": 34052
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-16T11:14:22Z",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 1,
+    "news_count": 10,
+    "policy_count": 0,
+    "selected_total": 11,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 5,
+    "news_final_capacity": 10,
+    "news_fallback_used": 5
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
