@@ -1,0 +1,209 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "cycle_id": "daily-2026-08-17",
+  "display_date": "2026-08-17",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-16-8",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 84,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-17/paper/01-paper-candidate-01.md",
+          "bytes": 3118,
+          "preview_image": "/daily/2026-08-17/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-16-8/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-16-6",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 76,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-17/paper/02-paper-candidate-02.md",
+          "bytes": 2467,
+          "preview_image": "/daily/2026-08-17/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-16-6/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-16-11",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 72,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-17/paper/03-paper-candidate-03.md",
+          "bytes": 3260,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-16-5",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 68,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-17/paper/04-paper-candidate-04.md",
+          "bytes": 3339,
+          "preview_image": "/daily/2026-08-17/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-16-5/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F16%2Fother%2Fadmin%2F109307%2Fanthropic%25e8%2587%25aa%25e6%259b%259d%25e3%2580%258c%25e7%25a7%2581%25e8%2597%258f%25e6%25a0%25b8%25e6%25ad%25a6%25e5%2599%25a8%25e3%2580%258d%25ef%25bc%258cmodel-2%25e6%25af%2594mythos-5%25e6%259b%25b4%25e5%25bc%25ba%25ef%25bc%2581%2F",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 86,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-17/news/01-news-candidate-01.md",
+          "bytes": 2357,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F16%2Fother%2Fadmin%2F109270%2F%25e5%2585%25a8%25e7%2590%2583%25e7%25a8%258b%25e5%25ba%258f%25e5%2591%2598%25e9%2583%25bd%25e5%259c%25a8%25e7%25bb%2599anthropic%25e7%2599%25bd%25e9%2580%2581%25e9%2592%25b1%25ef%25bc%2581%25e5%25ae%2598%25e6%2596%25b9%25e7%25bb%2588%25e4%25ba%258e%25e7%259c%258b%25e4%25b8%258d%25e4%25b8%258b%25e5%258e%25bb%25e4%25ba%2586%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 82,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-17/news/02-news-candidate-02.md",
+          "bytes": 2516,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-16-7",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 78,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-17/news/03-news-candidate-03.md",
+          "bytes": 2250,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-16-3",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 74,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-17/news/04-news-candidate-04.md",
+          "bytes": 3299,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F16%2Fother%2Fadmin%2F109288%2F%25e5%2588%259a%25e5%2588%259a%25ef%25bc%258ccursor%25e5%25bd%25bb%25e5%25ba%2595%25e6%25b6%2588%25e5%25a4%25b1%25ef%25bc%2581%2F",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 72,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-17/news/05-news-candidate-05.md",
+          "bytes": 2289,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F16%2Fother%2Fadmin%2F109319%2F388%25e4%25b8%25aapr%25e5%2585%25a8%25e9%2583%25a8ai%25e6%2593%258d%25e5%2588%2580%25ef%25bc%258c180%25e4%25b8%25aa%25e5%25b7%25b2%25e5%2590%2588%25e5%25b9%25b6%25ef%25bc%2581claude%25e4%25b9%258b%25e7%2588%25b6%25ef%25bc%259a%25e7%25a8%258b%25e5%25ba%258f%25e5%2591%2598%25e5%258f%25aa%25e5%2589%25a9%25e4%25b8%258b%2F",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 70,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-17/news/06-news-candidate-06.md",
+          "bytes": 2992,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-16-10",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 69,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-17/news/07-news-candidate-07.md",
+          "bytes": 3043,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F16%2Fother%2Fadmin%2F109254%2Fopenai%25e7%25a0%2594%25e7%25a9%25b6%25e5%2591%2598%25ef%25bc%259a100%25e4%25bb%25a3%25e7%25a0%2581%25e5%25b7%25b2%25e4%25ba%25a4%25e7%25bb%2599ai%25ef%25bc%2581claude%25e9%2587%258d%25e5%2586%2599python%25e5%25ba%2593%2F",
+          "category": "News",
+          "group_rank": 8,
+          "group_score": 68,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-17/news/08-news-candidate-08.md",
+          "bytes": 2672,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F473972.html",
+          "category": "News",
+          "group_rank": 9,
+          "group_score": 66,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-17/news/09-news-candidate-09.md",
+          "bytes": 2398,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-16-9",
+          "category": "News",
+          "group_rank": 10,
+          "group_score": 64,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-17/news/10-news-candidate-10.md",
+          "bytes": 2401,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-16-8",
+      "path": "docs/public/daily/2026-08-17/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-16-8/preview.png",
+      "bytes": 262752
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-16-6",
+      "path": "docs/public/daily/2026-08-17/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-16-6/preview.png",
+      "bytes": 209747
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-16-5",
+      "path": "docs/public/daily/2026-08-17/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-16-5/preview.png",
+      "bytes": 362545
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-17T05:15:23Z",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 4,
+    "news_count": 10,
+    "policy_count": 0,
+    "selected_total": 14,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 5,
+    "news_final_capacity": 10,
+    "news_fallback_used": 5
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
