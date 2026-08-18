@@ -1,0 +1,25 @@
+{
+  "cycle_id": "daily-2026-08-18",
+  "status": "success",
+  "commit": "e0d2db1",
+  "key_verification": {
+    "status": "success",
+    "command": ".agents/skills/publish_candidates_to_vitepress/scripts/git_with_deploy_key.sh verify"
+  },
+  "push": {
+    "status": "success",
+    "command": ".agents/skills/publish_candidates_to_vitepress/scripts/git_with_deploy_key.sh push",
+    "remote_update": "2f64f47..e0d2db1 HEAD -> main"
+  },
+  "deploy": {
+    "status": "success",
+    "workflow_identity": "unknown",
+    "public_url": "https://yigesmx.github.io/colab-daily/",
+    "verification_attempt": 1,
+    "required_matches": [
+      "2026-08-18",
+      "arxiv--2608.13924",
+      "BICPO-VLA"
+    ]
+  }
+}
