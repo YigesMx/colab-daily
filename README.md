@@ -20,7 +20,7 @@ The parent Colab Daily workspace pushes with a repository-specific SSH deploy ke
 3. Set its mode to `0600`.
 4. Configure this checkout's `origin` as `git@github.com:<OWNER>/<REPOSITORY>.git`.
 5. Set `COLAB_DAILY_DEPLOY_KEY` when the key is not at the parent workspace's `.repo_private_key` path.
-6. Run the parent workspace helper `.agents/skills/publish_candidates_to_vitepress/scripts/git_with_deploy_key.sh verify`, then use its `push` action after a validated commit.
+6. Run the parent workspace helper `.agents/skills/publish-candidates-to-vitepress/scripts/git_with_deploy_key.sh verify`, then use its `push` action after a validated commit.
 
 If only the private key is available, derive the public key in a temporary location before registering it with the repository:
 
