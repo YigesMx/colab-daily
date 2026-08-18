@@ -1,0 +1,340 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "cycle_id": "daily-2026-08-18",
+  "display_date": "2026-08-18",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.13924",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-18/paper/01-bicpo-vla-behavior-identified-continuation-preference-optimization-for-smooth.md",
+          "bytes": 2644,
+          "preview_image": "/daily/2026-08-18/assets/arxiv--2608.13924/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.14379",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-18/paper/02-reflex-enabling-fast-and-predictive-vision-language-action-models-for-reaction.md",
+          "bytes": 2372,
+          "preview_image": "/daily/2026-08-18/assets/arxiv--2608.14379/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.14047",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 84,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-18/paper/03-evolve-vision-language-action-model-into-an-agent-with-on-the-fly-tool-use.md",
+          "bytes": 2334,
+          "preview_image": "/daily/2026-08-18/assets/arxiv--2608.14047/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.14024",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 83,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-18/paper/04-ssp-an-event-matched-syn2sim2phy-cross-domain-evaluation-framework-for-autonom.md",
+          "bytes": 2409,
+          "preview_image": "/daily/2026-08-18/assets/arxiv--2608.14024/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.14028",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 83,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-18/paper/05-advdex-learning-dexterous-manipulation-from-human-demonstrations-via-joint-ali.md",
+          "bytes": 2461,
+          "preview_image": "/daily/2026-08-18/assets/arxiv--2608.14028/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.13723",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 82,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-18/paper/06-graph-mambanav-spatial-temporal-graph-mamba-leveraging-object-relation-knowled.md",
+          "bytes": 2269,
+          "preview_image": "/daily/2026-08-18/assets/arxiv--2608.13723/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.14160",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 82,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-18/paper/07-occplanner-goal-aware-occupancy-conditioned-diffusion-planner-for-pixel-goal-n.md",
+          "bytes": 2281,
+          "preview_image": "/daily/2026-08-18/assets/arxiv--2608.14160/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.13605",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 80,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-18/paper/08-active-perception-for-embodied-disambiguation.md",
+          "bytes": 2322,
+          "preview_image": "/daily/2026-08-18/assets/arxiv--2608.13605/preview.jpg"
+        },
+        {
+          "candidate_id": "arxiv--2608.13901",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 80,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-18/paper/09-ontology-grounded-world-models-for-failure-diagnosis-and-closed-loop-repair-in.md",
+          "bytes": 2322,
+          "preview_image": "/daily/2026-08-18/assets/arxiv--2608.13901/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.14022",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 79,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-18/paper/10-forgewm-progressive-causal-training-for-few-step-action-conditioned-video-worl.md",
+          "bytes": 2313,
+          "preview_image": "/daily/2026-08-18/assets/arxiv--2608.14022/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "site--daily-2026-08-18--news--rank01--7%2589%25a9%25e5%25af%25b9%25e8%25af%259d1%25e7%25a7%2592%2f",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 88,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-18/news/01-openai-16-gpt-5-6-v2-741-1.md",
+          "bytes": 3330,
+          "preview_image": "/daily/2026-08-18/assets/site--daily-2026-08-18--news--rank01--7_2589_25a9_25e5_25af_25b9_25e8_25af_259d1_25e7_25a7_2592_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fsecuring-the-infrastructure-of-intelligence%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 87,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-18/news/02-securing-the-infrastructure-of-intelligence.md",
+          "bytes": 2240,
+          "preview_image": "/daily/2026-08-18/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fsecuring-the-infrastructure-of-intelligence_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fopenai.com%2Findex%2Fthe-defenders-window",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 84,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-18/news/03-the-defender-s-window.md",
+          "bytes": 1739,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-17-13",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 83,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-18/news/04-currentworld-0.md",
+          "bytes": 1981,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "site--daily-2026-08-18--news--rank05--e5%25ae%2589%25e5%2585%25a8%25ef%25bc%258c%25e4%25b8%2580%2f",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 82,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-18/news/05-claude-anthropic-ai-ai.md",
+          "bytes": 3482,
+          "preview_image": "/daily/2026-08-18/assets/site--daily-2026-08-18--news--rank05--e5_25ae_2589_25e5_2585_25a8_25ef_25bc_258c_25e4_25b8_2580_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fopenai.com%2Findex%2Fopenai-joins-ports-pike-project",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 81,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-18/news/06-openai-joins-ports-pike-project.md",
+          "bytes": 1933,
+          "preview_image": "/daily/2026-08-18/assets/url--https_3a_2f_2fopenai.com_2findex_2fopenai-joins-ports-pike-project/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F17%2Fgoogle-to-let-users-disable-visible-watermarks-on-ai-generated-content%2F",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 79,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-18/news/07-google-to-let-users-disable-visible-watermarks-on-ai-generated-content.md",
+          "bytes": 2508,
+          "preview_image": "/daily/2026-08-18/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f17_2fgoogle-to-let-users-disable-visible-watermarks-on-ai-generated-content_2f/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-17-10",
+          "category": "News",
+          "group_rank": 8,
+          "group_score": 78,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-18/news/08-seedance-2-5-1080p-api.md",
+          "bytes": 1677,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fpub.towardsai.net%2Fnemotron-3-5-nvidia-is-open-sourcing-ai-to-protect-its-gpu-monopoly-fb9f66e65056",
+          "category": "News",
+          "group_rank": 9,
+          "group_score": 77,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-18/news/09-nemotron-3-5-nvidia-is-open-sourcing-ai-to-protect-its-gpu-monopoly.md",
+          "bytes": 2229,
+          "preview_image": "/daily/2026-08-18/assets/url--https_3a_2f_2fpub.towardsai.net_2fnemotron-3-5-nvidia-is-open-sourcing-ai-to-protect-its-gpu-monopoly-fb9f66e65056/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-17-7",
+          "category": "News",
+          "group_rank": 10,
+          "group_score": 76,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-18/news/10-roboscience-rex-g1.md",
+          "bytes": 1771,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.13924",
+      "path": "docs/public/daily/2026-08-18/assets/arxiv--2608.13924/preview.png",
+      "bytes": 114254
+    },
+    {
+      "candidate_id": "arxiv--2608.14379",
+      "path": "docs/public/daily/2026-08-18/assets/arxiv--2608.14379/preview.png",
+      "bytes": 698442
+    },
+    {
+      "candidate_id": "arxiv--2608.14047",
+      "path": "docs/public/daily/2026-08-18/assets/arxiv--2608.14047/preview.png",
+      "bytes": 460276
+    },
+    {
+      "candidate_id": "arxiv--2608.14024",
+      "path": "docs/public/daily/2026-08-18/assets/arxiv--2608.14024/preview.png",
+      "bytes": 344621
+    },
+    {
+      "candidate_id": "arxiv--2608.14028",
+      "path": "docs/public/daily/2026-08-18/assets/arxiv--2608.14028/preview.png",
+      "bytes": 163898
+    },
+    {
+      "candidate_id": "arxiv--2608.13723",
+      "path": "docs/public/daily/2026-08-18/assets/arxiv--2608.13723/preview.png",
+      "bytes": 79705
+    },
+    {
+      "candidate_id": "arxiv--2608.14160",
+      "path": "docs/public/daily/2026-08-18/assets/arxiv--2608.14160/preview.png",
+      "bytes": 1285042
+    },
+    {
+      "candidate_id": "arxiv--2608.13605",
+      "path": "docs/public/daily/2026-08-18/assets/arxiv--2608.13605/preview.jpg",
+      "bytes": 481049
+    },
+    {
+      "candidate_id": "arxiv--2608.13901",
+      "path": "docs/public/daily/2026-08-18/assets/arxiv--2608.13901/preview.png",
+      "bytes": 62825
+    },
+    {
+      "candidate_id": "arxiv--2608.14022",
+      "path": "docs/public/daily/2026-08-18/assets/arxiv--2608.14022/preview.png",
+      "bytes": 901331
+    },
+    {
+      "candidate_id": "site--daily-2026-08-18--news--rank01--7%2589%25a9%25e5%25af%25b9%25e8%25af%259d1%25e7%25a7%2592%2f",
+      "path": "docs/public/daily/2026-08-18/assets/site--daily-2026-08-18--news--rank01--7_2589_25a9_25e5_25af_25b9_25e8_25af_259d1_25e7_25a7_2592_2f/preview.png",
+      "bytes": 101896
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fsecuring-the-infrastructure-of-intelligence%2F",
+      "path": "docs/public/daily/2026-08-18/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fsecuring-the-infrastructure-of-intelligence_2f/preview.png",
+      "bytes": 39569
+    },
+    {
+      "candidate_id": "site--daily-2026-08-18--news--rank05--e5%25ae%2589%25e5%2585%25a8%25ef%25bc%258c%25e4%25b8%2580%2f",
+      "path": "docs/public/daily/2026-08-18/assets/site--daily-2026-08-18--news--rank05--e5_25ae_2589_25e5_2585_25a8_25ef_25bc_258c_25e4_25b8_2580_2f/preview.png",
+      "bytes": 24164
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fopenai.com%2Findex%2Fopenai-joins-ports-pike-project",
+      "path": "docs/public/daily/2026-08-18/assets/url--https_3a_2f_2fopenai.com_2findex_2fopenai-joins-ports-pike-project/preview.png",
+      "bytes": 39569
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F17%2Fgoogle-to-let-users-disable-visible-watermarks-on-ai-generated-content%2F",
+      "path": "docs/public/daily/2026-08-18/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f17_2fgoogle-to-let-users-disable-visible-watermarks-on-ai-generated-content_2f/preview.webp",
+      "bytes": 25468
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fpub.towardsai.net%2Fnemotron-3-5-nvidia-is-open-sourcing-ai-to-protect-its-gpu-monopoly-fb9f66e65056",
+      "path": "docs/public/daily/2026-08-18/assets/url--https_3a_2f_2fpub.towardsai.net_2fnemotron-3-5-nvidia-is-open-sourcing-ai-to-protect-its-gpu-monopoly-fb9f66e65056/preview.png",
+      "bytes": 1922797
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-17T16:17:50Z",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 10,
+    "policy_count": 0,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 5,
+    "news_final_capacity": 10,
+    "news_fallback_used": 5
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}

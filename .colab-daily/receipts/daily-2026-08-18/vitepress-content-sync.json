@@ -1,0 +1,36 @@
+{
+  "cycle_id": "daily-2026-08-18",
+  "status": "success",
+  "stage": "local-content-sync",
+  "refine_run_id": "refine-20260818-001",
+  "assembly_generation_id": "assembly-20260818-001",
+  "publication_set_path": "crawl_tmp/refine_candidates/runs/refine-20260818-001/assemblies/assembly-20260818-001/publication_set.json",
+    "counts": {
+    "Paper": 10,
+    "News": 10,
+    "Policy": 0
+    },
+    "asset_count": 16,
+    "local_validation": {
+      "status": "success",
+      "build_command": "VITEPRESS_BASE=/colab-daily/ npm run build",
+      "validated_pages": 206,
+      "validated_assets": 147,
+      "validated_rendered_local_urls": 250
+    },
+    "news_final_capacity": 10,
+    "news_additional_reserve_used_beyond_primary_target": 5,
+    "site_candidate_id_aliases": [
+    {
+      "site_candidate_id": "site--daily-2026-08-18--news--rank01--7%2589%25a9%25e5%25af%25b9%25e8%25af%259d1%25e7%25a7%2592%2f",
+      "business_candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F17%2Fother%2Fadmin%2F109437%2Fopenai%25e6%258f%2590%25e9%2580%259f%25e7%258b%2582%25e9%25a3%259916%25e5%2580%258d%25ef%25bc%2581gpt-5-6%25e5%25a4%259a%25e6%2599%25ba%25e8%2583%25bd%25e4%25bd%2593v2%25e4%25b8%258a%25e7%25ba%25bf%25ef%25bc%258c741%25e8%25bd%25ae%25e6%2580%25aa%25e7%2589%25a9%25e5%25af%25b9%25e8%25af%259d1%25e7%25a7%2592%2F",
+      "reason": "business CandidateID exceeds filesystem NAME_MAX after canonical asset aliasing"
+    },
+    {
+      "site_candidate_id": "site--daily-2026-08-18--news--rank05--e5%25ae%2589%25e5%2585%25a8%25ef%25bc%258c%25e4%25b8%2580%2f",
+      "business_candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F17%2Fother%2Fadmin%2F109419%2F%25e4%25b8%2589%25e4%25b8%25aaclaude%25e4%25ba%2592%25e7%259b%25b8%25e5%25b0%2581%25e5%258f%25b7%25e3%2580%2581%25e6%258a%2595%25e6%25af%2592%25e3%2580%2581%25e6%25a0%25bd%25e8%25b5%2583%25ef%25bc%2581anthropic%25ef%25bc%259a%25e4%25b8%2580%25e4%25b8%25aaai%25e5%25ae%2589%25e5%2585%25a8%25ef%25bc%258c%25e4%25b8%2580%2F",
+      "reason": "business CandidateID exceeds filesystem NAME_MAX after canonical asset aliasing"
+    }
+  ],
+  "managed_manifest": "candidates_publish/docs/daily/2026-08-18/.managed-manifest.json"
+}
