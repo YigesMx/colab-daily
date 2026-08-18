@@ -91,6 +91,7 @@ interface DetachedLegacyPage {
 interface ManagedAsset {
   candidateId: string
   path: string
+  storagePath?: string
   url: string
 }
 
@@ -254,9 +255,10 @@ function recordValue(value: unknown, path: string): Record<string, unknown> {
 function exactObjectKeys(
   record: Record<string, unknown>,
   expectedKeys: readonly string[],
-  path: string
+  path: string,
+  optionalKeys: readonly string[] = []
 ): void {
-  const actualKeys = Object.keys(record)
+  const actualKeys = Object.keys(record).filter((key) => !optionalKeys.includes(key))
   if (
     actualKeys.length !== expectedKeys.length ||
     actualKeys.some((key, index) => key !== expectedKeys[index])
@@ -584,13 +586,16 @@ function parseManagedAssets(
   for (const [index, value] of manifest.assets.entries()) {
     const assetPath = `${manifestPath}: assets[${index}]`
     const asset = recordValue(value, assetPath)
-    if (exactEntries) exactObjectKeys(asset, managedAssetKeys, assetPath)
+    if (exactEntries) exactObjectKeys(asset, managedAssetKeys, assetPath, ['storage_path'])
     const candidateId = safeCandidateId(asset.candidate_id, 'candidate_id', assetPath)
-    const path = manifestString(asset.path, 'path', assetPath)
+    const declaredPath = manifestString(asset.path, 'path', assetPath)
+    const path = typeof (asset as Record<string, unknown>).storage_path === 'string'
+      ? manifestString((asset as Record<string, unknown>).storage_path, 'storage_path', assetPath)
+      : declaredPath
     const publicPrefix = `docs/public/daily/${date}/assets/${assetPathKey(candidateId)}/`
-    const filename = path.startsWith(publicPrefix) ? path.slice(publicPrefix.length) : ''
+    const filename = declaredPath.startsWith(publicPrefix) ? declaredPath.slice(publicPrefix.length) : ''
     const previewImage = validatePreviewPath(
-      filename ? `/${path.slice('docs/public/'.length)}` : path,
+      filename ? `/${declaredPath.slice('docs/public/'.length)}` : declaredPath,
       date,
       candidateId,
       assetPath,
@@ -612,7 +617,7 @@ function parseManagedAssets(
     validateManagedFile(path, declaredBytes, assetPath)
 
     paths.add(path)
-    assets.set(candidateId, { candidateId, path, url: previewImage })
+    assets.set(candidateId, { candidateId, path: declaredPath, storagePath: path, url: previewImage })
   }
   return assets
 }
@@ -1508,7 +1513,12 @@ function currentDailySet(
   reconcileMarkdownDayFiles(date, managedDay)
   reconcilePublicAssetFiles(date, managedDay)
   const articlesByUrl = new Map(nestedItems.map((article) => [article.url, article]))
-  return managedDay.candidates.map((candidate) => articlesByUrl.get(candidate.url)!)
+  const articles = managedDay.candidates.map((candidate) => articlesByUrl.get(candidate.url)!)
+  for (const article of articles) {
+    const asset = managedDay.assets.get(article.candidateId)
+    if (article.previewImage && asset?.storagePath) article.previewImage = `/${asset.storagePath.slice('docs/public/'.length)}`
+  }
+  return articles
 }
 
 function reconcileManagedArticles(
@@ -1645,9 +1655,10 @@ function reconcilePublicAssetFiles(date: string, managedDay: ManagedDay): void {
   for (const page of managedDay.detachedLegacyPages) {
     for (const asset of page.assets) expected.add(asset.path)
   }
-  const expectedDirectories = new Set([...expected].map((path) => nodePath.posix.dirname(path)))
+  const storageExpected = new Set(managedDay.assets.values().map((asset) => asset.storagePath ?? asset.path))
+  const expectedDirectories = new Set([...storageExpected].map((path) => nodePath.posix.dirname(path)))
   const actual = publicAssetFiles(date)
-  assertExactSet(date, 'public asset path', expected, actual.files)
+  assertExactSet(date, 'public asset path', storageExpected, actual.files)
   assertExactSet(date, 'public asset directory', expectedDirectories, actual.directories)
 }
 
@@ -1705,12 +1716,12 @@ function reconcileManagedAssets(
     if (asset?.url !== article.previewImage) {
       throw new Error(`${date}: ${article.url} previewImage is not manifest-owned`)
     }
-    referencedAssets.add(asset.path)
+    referencedAssets.add(asset.storagePath ?? asset.path)
   }
 
   const unreferenced = [...assets.values()]
-    .filter((asset) => !referencedAssets.has(asset.path))
-    .map((asset) => asset.path)
+    .filter((asset) => !referencedAssets.has(asset.storagePath ?? asset.path))
+    .map((asset) => asset.storagePath ?? asset.path)
   if (unreferenced.length) {
     throw new Error(`${date}: manifest contains unreferenced preview assets [${unreferenced.join(', ')}]`)
   }

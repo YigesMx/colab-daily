@@ -1,0 +1,341 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "cycle_id": "daily-2026-08-19",
+  "display_date": "2026-08-19",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.16885",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 89,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-19/paper/01-0--vla-a-hierarchical-robot-foundation-model-with-world-model-guided-t.md",
+          "bytes": 4748,
+          "preview_image": "/daily/2026-08-19/assets/arxiv--2608.16885/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.15875",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-19/paper/02-gigabrain-0-7-scaling-embodied-foundation-models-to-emergent-capabilit.md",
+          "bytes": 4857,
+          "preview_image": "/daily/2026-08-19/assets/arxiv--2608.15875/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.16889",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-19/paper/03-don-t-drop-the-baton-long-horizon-robot-manipulation-via-agentic-subta.md",
+          "bytes": 4559,
+          "preview_image": "/daily/2026-08-19/assets/arxiv--2608.16889/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.16837",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-19/paper/04-haf-adapting-generalist-vlas-to-humanoid-whole-body-loco-manipulation.md",
+          "bytes": 4649,
+          "preview_image": "/daily/2026-08-19/assets/arxiv--2608.16837/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.15680",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 85,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-19/paper/05-robo-dopamine-2-0-history-conditioned-and-ood-aware-process-reward-mod.md",
+          "bytes": 4464,
+          "preview_image": "/daily/2026-08-19/assets/arxiv--2608.15680/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.15816",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 84,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-19/paper/06-vitar-visuo-tactile-residual-adaptation-for-foundation-vla-manipulatio.md",
+          "bytes": 4507,
+          "preview_image": "/daily/2026-08-19/assets/arxiv--2608.15816/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.15897",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 83,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-19/paper/07-tactile-sim2real-without-tactile-simulation-via-bottlenecked-latent-re.md",
+          "bytes": 4598,
+          "preview_image": "/daily/2026-08-19/assets/arxiv--2608.15897/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.16172",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 82,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-19/paper/08-sparkvla-stop-aware-hierarchical-vla-with-adaptive-action-chunking-for.md",
+          "bytes": 4484,
+          "preview_image": "/daily/2026-08-19/assets/arxiv--2608.16172/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.15139",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 81,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-19/paper/09-structrl-structured-action-space-exploration-for-flow-based-vlas.md",
+          "bytes": 4544,
+          "preview_image": "/daily/2026-08-19/assets/arxiv--2608.15139/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.14986",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 80,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-19/paper/10-gaussmemory-task-driven-3d-gaussian-scene-memory-for-long-horizon-robo.md",
+          "bytes": 4781,
+          "preview_image": "/daily/2026-08-19/assets/arxiv--2608.14986/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2073119230132863785",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 85,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-19/news/01-scaling-synworld-v0-5.md",
+          "bytes": 3340,
+          "preview_image": "/daily/2026-08-19/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2073119230132863785/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F474838.html",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 84,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-19/news/02-0.md",
+          "bytes": 3193,
+          "preview_image": "/daily/2026-08-19/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f474838.html/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F18%2Fother%2Fadmin%2F109504%2Ffable-5%25e5%25a4%25ba%25e5%2586%25a0%25ef%25bc%2581%25e5%2585%25a8%25e7%2590%258318%25e5%25a4%25a7%25e9%25a1%25b6%25e5%25b0%2596ai%25e8%2587%25aa%25e4%25b8%25bb%25e7%25a7%2591%25e7%25a0%2594%25e5%25a4%25a7%25e8%25b5%259b%25ef%25bc%258c%25e9%2580%25bc%25e8%25bf%2591%25e4%25ba%25ba%25e7%25b1%25bb%25e6%259e%2581%25e9%2599%2590%2F",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 82,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-19/news/03-fable-5-18-ai.md",
+          "bytes": 4882,
+          "preview_image": "/daily/2026-08-19/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f18_2fother_2fadmin_2f109504_2ffable-5_25e5_25a4_25ba_25e5_2586_25a0_25ef_25bc_2581_25e5_2585_25a8_25e7_2590_258318_25e5_25a4_25a7_25e9_25a1_25b6_25e5_25b0_2596ai_25e8_2587_25aa_25e4_25b8_25bb_25e7_25a7_2591_25e7_25a0_2594_25e5_25a4_25a7_25e8_25b5_259b_25ef_25bc_258c_25e9_2580_25bc_25e8_25bf_2591_25e4_25ba_25ba_25e7_25b1_25bb_25e6_259e_2581_25e9_2599_2590_2f/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2FDharma-AI%2Fgpu-management-pt2",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 82,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-19/news/04-same-cluster-33-points-more-utilization-what-changed-was-the-order.md",
+          "bytes": 3236,
+          "preview_image": "/daily/2026-08-19/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2fDharma-AI_2fgpu-management-pt2/preview.jpeg"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-18-10",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 80,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-19/news/05-tpc-ds-100tb-10.md",
+          "bytes": 2804,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fopenai.com%2Findex%2Fasana",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 79,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-19/news/06-asana-cleared-5-years-of-engineering-work-in-2-weeks-with-codex.md",
+          "bytes": 2475,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-18-3",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 79,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-19/news/07-phizero.md",
+          "bytes": 2807,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Fmulti-vector-encoder",
+          "category": "News",
+          "group_rank": 8,
+          "group_score": 78,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-19/news/08-multi-vector-late-interaction-embedding-models-with-sentence-transform.md",
+          "bytes": 3230,
+          "preview_image": "/daily/2026-08-19/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2fmulti-vector-encoder/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-18-8",
+          "category": "News",
+          "group_rank": 9,
+          "group_score": 78,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-19/news/09-candidate.md",
+          "bytes": 3095,
+          "preview_image": "/daily/2026-08-19/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-18-8/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fopenai.com%2Findex%2Fchatgpt-for-teens",
+          "category": "News",
+          "group_rank": 10,
+          "group_score": 77,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-19/news/10-introducing-chatgpt-for-teens-built-for-learning-backed-by-protections.md",
+          "bytes": 2416,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.16885",
+      "path": "docs/public/daily/2026-08-19/assets/arxiv--2608.16885/preview.png",
+      "bytes": 267197
+    },
+    {
+      "candidate_id": "arxiv--2608.15875",
+      "path": "docs/public/daily/2026-08-19/assets/arxiv--2608.15875/preview.png",
+      "bytes": 366426
+    },
+    {
+      "candidate_id": "arxiv--2608.16889",
+      "path": "docs/public/daily/2026-08-19/assets/arxiv--2608.16889/preview.png",
+      "bytes": 127036
+    },
+    {
+      "candidate_id": "arxiv--2608.16837",
+      "path": "docs/public/daily/2026-08-19/assets/arxiv--2608.16837/preview.png",
+      "bytes": 272074
+    },
+    {
+      "candidate_id": "arxiv--2608.15680",
+      "path": "docs/public/daily/2026-08-19/assets/arxiv--2608.15680/preview.png",
+      "bytes": 480588
+    },
+    {
+      "candidate_id": "arxiv--2608.15816",
+      "path": "docs/public/daily/2026-08-19/assets/arxiv--2608.15816/preview.png",
+      "bytes": 259551
+    },
+    {
+      "candidate_id": "arxiv--2608.15897",
+      "path": "docs/public/daily/2026-08-19/assets/arxiv--2608.15897/preview.png",
+      "bytes": 84473
+    },
+    {
+      "candidate_id": "arxiv--2608.16172",
+      "path": "docs/public/daily/2026-08-19/assets/arxiv--2608.16172/preview.png",
+      "bytes": 153232
+    },
+    {
+      "candidate_id": "arxiv--2608.15139",
+      "path": "docs/public/daily/2026-08-19/assets/arxiv--2608.15139/preview.png",
+      "bytes": 118356
+    },
+    {
+      "candidate_id": "arxiv--2608.14986",
+      "path": "docs/public/daily/2026-08-19/assets/arxiv--2608.14986/preview.png",
+      "bytes": 98793
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2073119230132863785",
+      "path": "docs/public/daily/2026-08-19/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2073119230132863785/preview.png",
+      "bytes": 495639
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F474838.html",
+      "path": "docs/public/daily/2026-08-19/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f474838.html/preview.webp",
+      "bytes": 21558
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F18%2Fother%2Fadmin%2F109504%2Ffable-5%25e5%25a4%25ba%25e5%2586%25a0%25ef%25bc%2581%25e5%2585%25a8%25e7%2590%258318%25e5%25a4%25a7%25e9%25a1%25b6%25e5%25b0%2596ai%25e8%2587%25aa%25e4%25b8%25bb%25e7%25a7%2591%25e7%25a0%2594%25e5%25a4%25a7%25e8%25b5%259b%25ef%25bc%258c%25e9%2580%25bc%25e8%25bf%2591%25e4%25ba%25ba%25e7%25b1%25bb%25e6%259e%2581%25e9%2599%2590%2F",
+      "path": "docs/public/daily/2026-08-19/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f18_2fother_2fadmin_2f109504_2ffable-5_25e5_25a4_25ba_25e5_2586_25a0_25ef_25bc_2581_25e5_2585_25a8_25e7_2590_258318_25e5_25a4_25a7_25e9_25a1_25b6_25e5_25b0_2596ai_25e8_2587_25aa_25e4_25b8_25bb_25e7_25a7_2591_25e7_25a0_2594_25e5_25a4_25a7_25e8_25b5_259b_25ef_25bc_258c_25e9_2580_25bc_25e8_25bf_2591_25e4_25ba_25ba_25e7_25b1_25bb_25e6_259e_2581_25e9_2599_2590_2f/preview.webp",
+      "bytes": 42020,
+      "storage_path": "docs/public/daily/2026-08-19/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f18_2fother_2fadmin_2f109504_2ffabl--bc_25e8_25bf_2591_25e4_25ba_25ba_25e7_25b1_25bb_25e6_259e_2581_25e9_2599_2590_2f/preview.webp"
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2FDharma-AI%2Fgpu-management-pt2",
+      "path": "docs/public/daily/2026-08-19/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2fDharma-AI_2fgpu-management-pt2/preview.jpeg",
+      "bytes": 1529234
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Fmulti-vector-encoder",
+      "path": "docs/public/daily/2026-08-19/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2fmulti-vector-encoder/preview.png",
+      "bytes": 40511
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-18-8",
+      "path": "docs/public/daily/2026-08-19/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-18-8/preview.png",
+      "bytes": 28117
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-18T17:20:00Z",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 10,
+    "policy_count": 0,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 5,
+    "news_final_capacity": 10,
+    "news_fallback_used": 5
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}

@@ -170,7 +170,7 @@ function manifestChecks() {
       }
     }
     for (const asset of manifest.assets ?? []) {
-      assets.push(`/${asset.path.slice('docs/public/'.length)}`)
+      assets.push(`/${(asset.storage_path ?? asset.path).slice('docs/public/'.length)}`)
     }
   }
   const latestReport = reports.sort((left, right) => right.date.localeCompare(left.date))[0]
