@@ -1,0 +1,310 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "cycle_id": "daily-2026-08-20",
+  "display_date": "2026-08-20",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.18077",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 93,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-20/paper/01-hydra-0-action-flow-for-generalist-world-modeling-and-control.md",
+          "bytes": 2683,
+          "preview_image": "/daily/2026-08-20/assets/arxiv--2608.18077/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.17386",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 92,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-20/paper/02-maniguard-a-benchmark-and-data-suite-for-specification-grounded-safety-evaluat.md",
+          "bytes": 2412,
+          "preview_image": "/daily/2026-08-20/assets/arxiv--2608.17386/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.17027",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 91,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-20/paper/03-fetchman-learning-visual-humanoid-loco-manipulation-policies-from-simulated-ex.md",
+          "bytes": 2227,
+          "preview_image": "/daily/2026-08-20/assets/arxiv--2608.17027/preview.jpg"
+        },
+        {
+          "candidate_id": "arxiv--2608.17453",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 90,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-20/paper/04-eatr-stereo-embodiment-aware-routing-of-paired-stereo-evidence-for-humanoid-vi.md",
+          "bytes": 2289,
+          "preview_image": "/daily/2026-08-20/assets/arxiv--2608.17453/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.17423",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 89,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-20/paper/05-prism-grpo-faster-vla-policy-optimization-via-splitting-same-outcome-groups.md",
+          "bytes": 2263,
+          "preview_image": "/daily/2026-08-20/assets/arxiv--2608.17423/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.17163",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-20/paper/06-q-learning-with-world-models.md",
+          "bytes": 1997,
+          "preview_image": "/daily/2026-08-20/assets/arxiv--2608.17163/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.17600",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 87,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-20/paper/07-libero-vifo-benchmarking-the-capability-and-safety-of-visual-cue-following-in.md",
+          "bytes": 2177,
+          "preview_image": "/daily/2026-08-20/assets/arxiv--2608.17600/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.17584",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-20/paper/08-hodagent-towards-on-demand-responsive-humanoids-for-physical-world-human-inter.md",
+          "bytes": 2165,
+          "preview_image": "/daily/2026-08-20/assets/arxiv--2608.17584/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.16978",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 85,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-20/paper/09-vlcp-vision-language-control-policy-closed-loop-code-replanning-for-robot-mani.md",
+          "bytes": 2079,
+          "preview_image": "/daily/2026-08-20/assets/arxiv--2608.16978/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.17512",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 84,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-20/paper/10-embodied-navigator-point-think-memorize-and-align-for-efficient-navigation.md",
+          "bytes": 1990,
+          "preview_image": "/daily/2026-08-20/assets/arxiv--2608.17512/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F19%2Fother%2Fadmin%2F109731%2Fsynapx-wrc-2026%2F",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 87,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-20/news/01-wrc-2026.md",
+          "bytes": 2493,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-19-5",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 84,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-20/news/02-nexcore.md",
+          "bytes": 2050,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F475907.html",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 83,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-20/news/03-2026.md",
+          "bytes": 1862,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-19-2",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 81,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-20/news/04-15-1-wam-diff2vla.md",
+          "bytes": 1983,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F475477.html",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 80,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-20/news/05-5100.md",
+          "bytes": 1859,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F475332.html",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 79,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-20/news/06-ai-for-science.md",
+          "bytes": 1882,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-19-4",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 78,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-20/news/07-news-07.md",
+          "bytes": 1918,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fopenai.com%2Findex%2Freplit",
+          "category": "News",
+          "group_rank": 8,
+          "group_score": 77,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-20/news/08-replit-expands-access-to-software-creation-with-gpt-5-6-luna.md",
+          "bytes": 1641,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2FLiquidAI%2Fqad",
+          "category": "News",
+          "group_rank": 9,
+          "group_score": 75,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-20/news/09-lfm2-5-q4-0-checkpoints-from-quantization-aware-distillation.md",
+          "bytes": 1767,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fopenai.com%2Findex%2Fchatgpt-ads-expands-across-europe",
+          "category": "News",
+          "group_rank": 10,
+          "group_score": 74,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-20/news/10-chatgpt-ads-expands-across-europe.md",
+          "bytes": 1715,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.18077",
+      "path": "docs/public/daily/2026-08-20/assets/arxiv--2608.18077/preview.png",
+      "bytes": 815412
+    },
+    {
+      "candidate_id": "arxiv--2608.17386",
+      "path": "docs/public/daily/2026-08-20/assets/arxiv--2608.17386/preview.png",
+      "bytes": 1159010
+    },
+    {
+      "candidate_id": "arxiv--2608.17027",
+      "path": "docs/public/daily/2026-08-20/assets/arxiv--2608.17027/preview.jpg",
+      "bytes": 7680864
+    },
+    {
+      "candidate_id": "arxiv--2608.17453",
+      "path": "docs/public/daily/2026-08-20/assets/arxiv--2608.17453/preview.png",
+      "bytes": 939646
+    },
+    {
+      "candidate_id": "arxiv--2608.17423",
+      "path": "docs/public/daily/2026-08-20/assets/arxiv--2608.17423/preview.png",
+      "bytes": 393949
+    },
+    {
+      "candidate_id": "arxiv--2608.17163",
+      "path": "docs/public/daily/2026-08-20/assets/arxiv--2608.17163/preview.png",
+      "bytes": 234894
+    },
+    {
+      "candidate_id": "arxiv--2608.17600",
+      "path": "docs/public/daily/2026-08-20/assets/arxiv--2608.17600/preview.png",
+      "bytes": 452470
+    },
+    {
+      "candidate_id": "arxiv--2608.17584",
+      "path": "docs/public/daily/2026-08-20/assets/arxiv--2608.17584/preview.png",
+      "bytes": 429726
+    },
+    {
+      "candidate_id": "arxiv--2608.16978",
+      "path": "docs/public/daily/2026-08-20/assets/arxiv--2608.16978/preview.png",
+      "bytes": 78635
+    },
+    {
+      "candidate_id": "arxiv--2608.17512",
+      "path": "docs/public/daily/2026-08-20/assets/arxiv--2608.17512/preview.png",
+      "bytes": 214675
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-19T17:50:00Z",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 10,
+    "policy_count": 0,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 5,
+    "news_final_capacity": 10,
+    "news_fallback_used": 5
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
