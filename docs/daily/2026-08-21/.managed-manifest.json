@@ -1,0 +1,346 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "cycle_id": "daily-2026-08-21",
+  "display_date": "2026-08-21",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "paper--arxiv--2608.18234",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 89,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-21/paper/01-gigabrain-wbc-0-5-a-behavior-world-model-for-robust.md",
+          "bytes": 3242,
+          "preview_image": "/daily/2026-08-21/assets/paper--arxiv--2608.18234/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.19066",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 87,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-21/paper/02-gs-vla-plug-and-play-viewpoint-canonicalization-for-frozen-vla.md",
+          "bytes": 2508,
+          "preview_image": "/daily/2026-08-21/assets/paper--arxiv--2608.19066/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.18948",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-21/paper/03-roboedit-turning-human-manipulation-videos-into-scalable-robot-experience.md",
+          "bytes": 2484,
+          "preview_image": "/daily/2026-08-21/assets/paper--arxiv--2608.18948/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.18410",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 84,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-21/paper/04-role-conditioned-sub-token-routing-for-efficient-vision-language-action.md",
+          "bytes": 2250,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.18787",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 83,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-21/paper/05-dream2reward-transition-alignment-reward-models-from-positive-demonstrati.md",
+          "bytes": 2496,
+          "preview_image": "/daily/2026-08-21/assets/paper--arxiv--2608.18787/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.18701",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 82,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-21/paper/06-softvtbench-a-deformation-aware-visuo-tactile-dataset-and-benchmark-for.md",
+          "bytes": 2548,
+          "preview_image": "/daily/2026-08-21/assets/paper--arxiv--2608.18701/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.18433",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 81,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-21/paper/07-the-embodiment-gap-in-robot-foundation-models.md",
+          "bytes": 2379,
+          "preview_image": "/daily/2026-08-21/assets/paper--arxiv--2608.18433/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.18618",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 80,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-21/paper/08-labdex-a-hierarchical-benchmark-for-dexterous-manipulation-in-laboratories.md",
+          "bytes": 2247,
+          "preview_image": "/daily/2026-08-21/assets/paper--arxiv--2608.18618/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.18734",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 79,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-21/paper/09-cl4d-contrastive-language-4d-pretraining-for-vision-language-reasoning-in.md",
+          "bytes": 2290,
+          "preview_image": "/daily/2026-08-21/assets/paper--arxiv--2608.18734/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.19085",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 78,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-21/paper/10-da-wam-decision-aligned-future-latents-for-driving-world-models.md",
+          "bytes": 2332,
+          "preview_image": "/daily/2026-08-21/assets/paper--arxiv--2608.19085/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fopenai.com%2Findex%2Foffering-zero-data-retention-for-frontier-models",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 84,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-21/news/01-offering-zero-data-retention-for-frontier-models.md",
+          "bytes": 1978,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fblog.google%2Fproducts-and-platforms%2Fproducts%2Fsearch%2Fback-to-school-study-tools%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 78,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-21/news/02-5-new-ways-to-level-up-your-learning-with-search.md",
+          "bytes": 2393,
+          "preview_image": "/daily/2026-08-21/assets/news--url--https_3a_2f_2fblog.google_2fproducts-and-platforms_2fproducts_2fsearch_2fback-to-school-study-tools_2f/preview.webp"
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F20%2Famazon-rolls-out-free-ai-assistant-alexa-to-all-compatible-fire-tv-devices%2F",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 74,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-21/news/03-amazon-rolls-out-free-ai-assistant-alexa-to-all-compatible.md",
+          "bytes": 2488,
+          "preview_image": "/daily/2026-08-21/assets/news--url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f20_2famazon-rolls-out-free-ai-assistant-alexa-to-all-compatible-fire-tv-devices_2f/preview.webp"
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F20%2Fopenai-faces-access-revocations-in-cybersecurity-program-unveils-new-privacy-focused-safety-system%2F",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 72,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-21/news/04-openai-faces-access-revocations-in-cybersecurity-program-unveils-new-priv.md",
+          "bytes": 2742,
+          "preview_image": "/daily/2026-08-21/assets/news--url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f20_2fopenai-faces-access-revocations-in-cybersecurity-program-unveils-new-privacy-focused-safety-system_2f/preview.webp"
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F476120.html",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 71,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-21/news/05-629.md",
+          "bytes": 2046,
+          "preview_image": "/daily/2026-08-21/assets/news--url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f476120.html/preview.png"
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F476199.html",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 69,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-21/news/06-rsi-18-agent-kimi-k3-harness-opus-5.md",
+          "bytes": 2304,
+          "preview_image": "/daily/2026-08-21/assets/news--url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f476199.html/preview.png"
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F20%2Fbill-gates-backed-terrapower-to-announce-second-nuclear-plant-aimed-at-ai-data-centers%2F",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 68,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-21/news/07-bill-gates-backed-terrapower-to-announce-second-nuclear-plant-aimed.md",
+          "bytes": 2546,
+          "preview_image": "/daily/2026-08-21/assets/news--url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f20_2fbill-gates-backed-terrapower-to-announce-second-nuclear-plant-aimed-at-ai-data-centers_2f/preview.webp"
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F476078.html",
+          "category": "News",
+          "group_rank": 8,
+          "group_score": 65,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-21/news/08-wrc.md",
+          "bytes": 2089,
+          "preview_image": "/daily/2026-08-21/assets/news--url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f476078.html/preview.png"
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F476129.html",
+          "category": "News",
+          "group_rank": 9,
+          "group_score": 64,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-21/news/09-wrc-2026.md",
+          "bytes": 2121,
+          "preview_image": "/daily/2026-08-21/assets/news--url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f476129.html/preview.webp"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "policy--url--https%3A%2F%2Fwww.gov.uk%2Fgovernment%2Fconsultations%2Fgrowing-up-in-the-online-world-a-national-consultation",
+          "category": "Policy",
+          "group_rank": 1,
+          "group_score": 74,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-21/policy/01-growing-up-in-the-online-world-a-national-consultation.md",
+          "bytes": 3159,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "paper--arxiv--2608.18234",
+      "path": "docs/public/daily/2026-08-21/assets/paper--arxiv--2608.18234/preview.png",
+      "bytes": 1622943
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.19066",
+      "path": "docs/public/daily/2026-08-21/assets/paper--arxiv--2608.19066/preview.png",
+      "bytes": 269858
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.18948",
+      "path": "docs/public/daily/2026-08-21/assets/paper--arxiv--2608.18948/preview.png",
+      "bytes": 474876
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.18787",
+      "path": "docs/public/daily/2026-08-21/assets/paper--arxiv--2608.18787/preview.png",
+      "bytes": 530153
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.18701",
+      "path": "docs/public/daily/2026-08-21/assets/paper--arxiv--2608.18701/preview.png",
+      "bytes": 1334178
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.18433",
+      "path": "docs/public/daily/2026-08-21/assets/paper--arxiv--2608.18433/preview.png",
+      "bytes": 260911
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.18618",
+      "path": "docs/public/daily/2026-08-21/assets/paper--arxiv--2608.18618/preview.png",
+      "bytes": 791495
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.18734",
+      "path": "docs/public/daily/2026-08-21/assets/paper--arxiv--2608.18734/preview.png",
+      "bytes": 154544
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.19085",
+      "path": "docs/public/daily/2026-08-21/assets/paper--arxiv--2608.19085/preview.png",
+      "bytes": 148952
+    },
+    {
+      "candidate_id": "news--url--https%3A%2F%2Fblog.google%2Fproducts-and-platforms%2Fproducts%2Fsearch%2Fback-to-school-study-tools%2F",
+      "path": "docs/public/daily/2026-08-21/assets/news--url--https_3a_2f_2fblog.google_2fproducts-and-platforms_2fproducts_2fsearch_2fback-to-school-study-tools_2f/preview.webp",
+      "bytes": 7206
+    },
+    {
+      "candidate_id": "news--url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F20%2Famazon-rolls-out-free-ai-assistant-alexa-to-all-compatible-fire-tv-devices%2F",
+      "path": "docs/public/daily/2026-08-21/assets/news--url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f20_2famazon-rolls-out-free-ai-assistant-alexa-to-all-compatible-fire-tv-devices_2f/preview.webp",
+      "bytes": 10532
+    },
+    {
+      "candidate_id": "news--url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F20%2Fopenai-faces-access-revocations-in-cybersecurity-program-unveils-new-privacy-focused-safety-system%2F",
+      "path": "docs/public/daily/2026-08-21/assets/news--url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f20_2fopenai-faces-access-revocations-in-cybersecurity-program-unveils-new-privacy-focused-safety-system_2f/preview.webp",
+      "bytes": 19442
+    },
+    {
+      "candidate_id": "news--url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F476120.html",
+      "path": "docs/public/daily/2026-08-21/assets/news--url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f476120.html/preview.png",
+      "bytes": 145954
+    },
+    {
+      "candidate_id": "news--url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F476199.html",
+      "path": "docs/public/daily/2026-08-21/assets/news--url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f476199.html/preview.png",
+      "bytes": 204460
+    },
+    {
+      "candidate_id": "news--url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F20%2Fbill-gates-backed-terrapower-to-announce-second-nuclear-plant-aimed-at-ai-data-centers%2F",
+      "path": "docs/public/daily/2026-08-21/assets/news--url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f20_2fbill-gates-backed-terrapower-to-announce-second-nuclear-plant-aimed-at-ai-data-centers_2f/preview.webp",
+      "bytes": 7032
+    },
+    {
+      "candidate_id": "news--url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F476078.html",
+      "path": "docs/public/daily/2026-08-21/assets/news--url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f476078.html/preview.png",
+      "bytes": 405354
+    },
+    {
+      "candidate_id": "news--url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F476129.html",
+      "path": "docs/public/daily/2026-08-21/assets/news--url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f476129.html/preview.webp",
+      "bytes": 48742
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-20T16:44:21Z",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 9,
+    "policy_count": 1,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 5,
+    "news_final_capacity": 9,
+    "news_fallback_used": 4
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
