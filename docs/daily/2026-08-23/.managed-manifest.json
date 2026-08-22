@@ -1,0 +1,214 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "cycle_id": "daily-2026-08-23",
+  "display_date": "2026-08-23",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "paper--arxiv--2607.04434",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 83,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-23/paper/01-robodojo-a-unified-sim-and-real-benchmark-for-generalist-robot.md",
+          "bytes": 4223,
+          "preview_image": "/daily/2026-08-23/assets/paper--arxiv--2607.04434/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2509.05755",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 77,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-23/paper/02-toolleak-red-teaming-coding-agents-from-a-tool-invocation.md",
+          "bytes": 4187,
+          "preview_image": "/daily/2026-08-23/assets/paper--arxiv--2509.05755/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.00267",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 63,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-23/paper/03-loopsbench-from-harness-engineering-to-loop-engineering.md",
+          "bytes": 3594,
+          "preview_image": "/daily/2026-08-23/assets/paper--arxiv--2608.00267/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.20318",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 58,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-23/paper/04-ai4ai-bench-benchmarking-llm-agents-in-algorithmic-design.md",
+          "bytes": 3662,
+          "preview_image": "/daily/2026-08-23/assets/paper--arxiv--2608.20318/preview.webp"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "news--url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F22%2Fother%2Fadmin%2F110103%2F%25e9%259c%2587%25e6%2592%25bc%25ef%25bc%2581openai%25e5%2585%25a8%25e9%259d%25a2%25e5%25bc%2580%25e6%25ba%2590codex-harness%2F",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 83,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-23/news/01-openai-codex-harness.md",
+          "bytes": 2607,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F477016.html",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 76,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-23/news/02-ubtech-wrc-production-line.md",
+          "bytes": 2599,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-22-8%3Fsource%3Drss",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 73,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-23/news/03-freetoken-deepseek-v4-flash.md",
+          "bytes": 2714,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F477094.html",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 72,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-23/news/04-originflow-semg.md",
+          "bytes": 2243,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-22-3%3Fsource%3Drss",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 69,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-23/news/05-amir-salek-anthropic.md",
+          "bytes": 2774,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F21%2Fmeta-launches-ai-powered-mac-app-and-expands-vibe-coded-gaming-platform-pocket%2F",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 66,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-23/news/06-meta-ai-mac-app-pocket.md",
+          "bytes": 2427,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F477155.html",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 64,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-23/news/07-magic-atom-wrc.md",
+          "bytes": 2179,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-22-6%3Fsource%3Drss",
+          "category": "News",
+          "group_rank": 8,
+          "group_score": 64,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-23/news/08-spaceclaw.md",
+          "bytes": 2704,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F477090.html",
+          "category": "News",
+          "group_rank": 9,
+          "group_score": 64,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-23/news/09-deepsoma.md",
+          "bytes": 2444,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F21%2Fgoogle-rolls-out-embeddable-preferred-sources-button-to-help-publishers-facing-ai-traffic-declines%2F",
+          "category": "News",
+          "group_rank": 10,
+          "group_score": 64,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-23/news/10-google-preferred-sources.md",
+          "bytes": 2464,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "paper--arxiv--2607.04434",
+      "path": "docs/public/daily/2026-08-23/assets/paper--arxiv--2607.04434/preview.png",
+      "bytes": 83605
+    },
+    {
+      "candidate_id": "paper--arxiv--2509.05755",
+      "path": "docs/public/daily/2026-08-23/assets/paper--arxiv--2509.05755/preview.png",
+      "bytes": 41836
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.00267",
+      "path": "docs/public/daily/2026-08-23/assets/paper--arxiv--2608.00267/preview.png",
+      "bytes": 288539
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.20318",
+      "path": "docs/public/daily/2026-08-23/assets/paper--arxiv--2608.20318/preview.webp",
+      "bytes": 116600
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-23T00:30:00+08:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 4,
+    "news_count": 10,
+    "policy_count": 0,
+    "selected_total": 14,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 5,
+    "news_final_capacity": 10,
+    "news_fallback_used": 5
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
