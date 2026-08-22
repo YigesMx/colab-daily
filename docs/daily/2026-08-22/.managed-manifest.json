@@ -1,0 +1,320 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "cycle_id": "daily-2026-08-22",
+  "display_date": "2026-08-22",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "paper--arxiv--2608.16885",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-22/paper/01-0-vla-a-hierarchical-robot-foundation-model-with-world-model.md",
+          "bytes": 3933,
+          "preview_image": "/daily/2026-08-22/assets/paper--arxiv--2608.16885/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.19613",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 85,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-22/paper/02-what-matters-for-latent-actions-in-robot-learning.md",
+          "bytes": 3432,
+          "preview_image": "/daily/2026-08-22/assets/paper--arxiv--2608.19613/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.20114",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 84,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-22/paper/03-decowam-decoupled-whole-body-world-action-model-for-legged-m.md",
+          "bytes": 3316,
+          "preview_image": "/daily/2026-08-22/assets/paper--arxiv--2608.20114/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.19574",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 81,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-22/paper/04-hitac-wam-a-hierarchical-tactile-world-action-model-for-cont.md",
+          "bytes": 3047,
+          "preview_image": "/daily/2026-08-22/assets/paper--arxiv--2608.19574/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.19490",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 81,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-22/paper/05-fine-tuning-vlas-with-self-demonstrated-generative-control-f.md",
+          "bytes": 3299,
+          "preview_image": "/daily/2026-08-22/assets/paper--arxiv--2608.19490/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.20308",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 79,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-22/paper/06-dreamhand-repurposing-video-diffusion-models-for-occlusion-r.md",
+          "bytes": 3156,
+          "preview_image": "/daily/2026-08-22/assets/paper--arxiv--2608.20308/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.19891",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 79,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-22/paper/07-eximo-vlm-guided-exploration-of-vla-policies.md",
+          "bytes": 3205,
+          "preview_image": "/daily/2026-08-22/assets/paper--arxiv--2608.19891/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.19589",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 77,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-22/paper/08-orthoskillvla-continual-skill-learning-via-gradient-informed.md",
+          "bytes": 3030,
+          "preview_image": "/daily/2026-08-22/assets/paper--arxiv--2608.19589/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.20251",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 74,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-22/paper/09-video2doortraversal-push-door-traversal-via-simulated-door-t.md",
+          "bytes": 3365,
+          "preview_image": "/daily/2026-08-22/assets/paper--arxiv--2608.20251/preview.png"
+        },
+        {
+          "candidate_id": "paper--arxiv--2608.14022",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 73,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-22/paper/10-forgewm-progressive-causal-training-for-few-step-action-cond.md",
+          "bytes": 3436,
+          "preview_image": "/daily/2026-08-22/assets/paper--arxiv--2608.14022/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fdeepmind.google%2Fblog%2Ffrom-atari-to-eve-online-building-on-15-years-of-ai-research-in-games%2F",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 78,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-22/news/01-from-atari-to-eve-online-building-on-15-years-of-ai-research.md",
+          "bytes": 2918,
+          "preview_image": "/daily/2026-08-22/assets/news--url--https_3a_2f_2fdeepmind.google_2fblog_2ffrom-atari-to-eve-online-building-on-15-years-of-ai-research-in-games_2f/preview.png"
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F476596.html",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 76,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-22/news/02-generalist-ai-gen-1-5-3.md",
+          "bytes": 2438,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fhuggingface.co%2Fblog%2FLiquidAI%2Flfm25-dspark",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 72,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-22/news/03-up-to-3-2x-faster-inference-with-lfm2-5-dspark.md",
+          "bytes": 2420,
+          "preview_image": "/daily/2026-08-22/assets/news--url--https_3a_2f_2fhuggingface.co_2fblog_2fLiquidAI_2flfm25-dspark/preview.png"
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F476532.html",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 70,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-22/news/04-wrc-30.md",
+          "bytes": 2695,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F21%2Fother%2Fadmin%2F110068%2F%25e8%25bd%25af%25e7%25a1%25ac%25e5%2585%25a8%25e6%25a0%2588%25e3%2580%2581%25e5%25a4%25a7%25e8%2584%2591%25e6%25b3%259b%25e5%258c%2596%25ef%25bc%258c%25e6%2598%259f%25e6%25b5%25b7%25e5%259b%25be%25e5%259c%25a8wrc%25e7%25bb%2584%25e4%25ba%2586%25e4%25b8%25aa%25e6%259c%2580%25e5%25bc%25ba%25e6%2589%2593%2F",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 68,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-22/news/05-wrc.md",
+          "bytes": 3281,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F21%2Fother%2Fadmin%2F110076%2Fwrc%25e9%25a6%2596%25e7%25a7%2580%25ef%25bc%2581%25e5%25a4%25a7%25e6%2599%2593%25e6%259c%25ba%25e5%2599%25a8%25e4%25ba%25ba%25e6%2590%25ba%25e5%25bc%2580%25e6%2582%259f%25e4%25b8%2596%25e7%2595%258c%25e6%25a8%25a1%25e5%259e%258b3-1%25e3%2580%2581%25e7%258e%25af%25e5%25a2%2583%25e5%25bc%258f%25e6%2595%25b0%25e9%2587%2587%2F",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 67,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-22/news/06-wrc-3-1.md",
+          "bytes": 3441,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F21%2Fother%2Fadmin%2F110061%2F%25e4%25bb%258e%25e4%25b8%2580%25e6%259d%25a1%25e5%25af%25bc%25e7%259b%25b2%25e8%25b7%25af%25e5%2588%25b0%25e4%25ba%2594%25e7%25a7%258d%25e7%259c%259f%25e5%25ae%259e%25e7%2594%259f%25e6%25b4%25bb%25e6%259c%258d%25e5%258a%25a1%25ef%25bc%258c%25e9%25ab%2598%25e5%25be%25b7%25e5%258a%25a8%25e9%2587%258f%25e6%259c%25ba%25e5%2599%25a8%2F",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 65,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-22/news/07-wrc.md",
+          "bytes": 3480,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F21%2Fother%2Fadmin%2F110054%2F%25e4%25ba%2594%25e4%25b8%2580%25e8%25a7%2586%25e7%2595%258c%25e5%258f%2591%25e5%25b8%2583%25e4%25b8%25a4%25e5%25a4%25a7%25e5%2585%25b7%25e8%25ba%25ab%25e4%25ba%25a7%25e5%2593%2581%25ef%25bc%258c%25e9%25a6%2596%25e6%25ac%25a1%25e6%258a%25ab%25e9%259c%25b2%25e4%25bd%258e%25e7%25a9%25ba-%25e5%25a4%25aa%25e7%25a9%25ba%2F",
+          "category": "News",
+          "group_rank": 8,
+          "group_score": 65,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-22/news/08-aperdata-aperone.md",
+          "bytes": 3415,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F21%2Fother%2Fadmin%2F110081%2F%25e6%2597%25b6%25e7%25a9%25ba%25e5%25bc%25a0%25e9%2587%258f%25e5%25a4%25a9%25e7%259c%25bc%25e4%25ba%25ae%25e7%259b%25b8%25e4%25b8%2596%25e7%2595%258c%25e6%259c%25ba%25e5%2599%25a8%25e4%25ba%25ba%25e5%25a4%25a7%25e4%25bc%259a7d%25e7%25a9%25ba%25e9%2597%25b4%25e6%2584%259f%25e7%259f%25a5%25e5%25bc%2580%2F",
+          "category": "News",
+          "group_rank": 9,
+          "group_score": 64,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-22/news/09-7d.md",
+          "bytes": 3170,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-21-12",
+          "category": "News",
+          "group_rank": 10,
+          "group_score": 62,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-22/news/10-gigabrain-0-7.md",
+          "bytes": 1818,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "paper--arxiv--2608.16885",
+      "path": "docs/public/daily/2026-08-22/assets/paper--arxiv--2608.16885/preview.png",
+      "bytes": 709636
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.19613",
+      "path": "docs/public/daily/2026-08-22/assets/paper--arxiv--2608.19613/preview.png",
+      "bytes": 271998
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.20114",
+      "path": "docs/public/daily/2026-08-22/assets/paper--arxiv--2608.20114/preview.png",
+      "bytes": 254743
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.19574",
+      "path": "docs/public/daily/2026-08-22/assets/paper--arxiv--2608.19574/preview.png",
+      "bytes": 110719
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.19490",
+      "path": "docs/public/daily/2026-08-22/assets/paper--arxiv--2608.19490/preview.png",
+      "bytes": 1772497
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.20308",
+      "path": "docs/public/daily/2026-08-22/assets/paper--arxiv--2608.20308/preview.png",
+      "bytes": 141705
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.19891",
+      "path": "docs/public/daily/2026-08-22/assets/paper--arxiv--2608.19891/preview.png",
+      "bytes": 118729
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.19589",
+      "path": "docs/public/daily/2026-08-22/assets/paper--arxiv--2608.19589/preview.png",
+      "bytes": 688900
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.20251",
+      "path": "docs/public/daily/2026-08-22/assets/paper--arxiv--2608.20251/preview.png",
+      "bytes": 367878
+    },
+    {
+      "candidate_id": "paper--arxiv--2608.14022",
+      "path": "docs/public/daily/2026-08-22/assets/paper--arxiv--2608.14022/preview.png",
+      "bytes": 512982
+    },
+    {
+      "candidate_id": "news--url--https%3A%2F%2Fdeepmind.google%2Fblog%2Ffrom-atari-to-eve-online-building-on-15-years-of-ai-research-in-games%2F",
+      "path": "docs/public/daily/2026-08-22/assets/news--url--https_3a_2f_2fdeepmind.google_2fblog_2ffrom-atari-to-eve-online-building-on-15-years-of-ai-research-in-games_2f/preview.png",
+      "bytes": 716773
+    },
+    {
+      "candidate_id": "news--url--https%3A%2F%2Fhuggingface.co%2Fblog%2FLiquidAI%2Flfm25-dspark",
+      "path": "docs/public/daily/2026-08-22/assets/news--url--https_3a_2f_2fhuggingface.co_2fblog_2fLiquidAI_2flfm25-dspark/preview.png",
+      "bytes": 12815
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-22T22:00:00+08:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 10,
+    "policy_count": 0,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 5,
+    "news_final_capacity": 10,
+    "news_fallback_used": 5
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
