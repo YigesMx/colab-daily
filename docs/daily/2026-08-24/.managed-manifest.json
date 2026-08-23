@@ -1,0 +1,244 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "cycle_id": "daily-2026-08-24",
+  "display_date": "2026-08-24",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-23-5",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-24/paper/01-playworld-agent-player-world-model-benchmark.md",
+          "bytes": 6697,
+          "preview_image": "/daily/2026-08-24/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-23-5/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-23",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 78,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-24/paper/02-envharness-static-worlds-agent-learning.md",
+          "bytes": 6673,
+          "preview_image": "/daily/2026-08-24/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-23/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F478093.html",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 87,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-24/news/01-astra-tennis-humanoid-robot-match.md",
+          "bytes": 2993,
+          "preview_image": "/daily/2026-08-24/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f478093.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F23%2Fother%2Fadmin%2F110126%2F%25e5%2586%258d%25e8%25a7%2581%25ef%25bc%258c%25e6%25b7%25b1%25e5%25a4%259c%25e5%2580%25bc%25e7%258f%25ad%25ef%25bc%2581anthropic%25e8%2587%25aa%25e7%2594%25a8%25e7%25a7%2598%25e7%25b1%258d%25e6%259b%259d%25e5%2585%2589%25ef%25bc%259a%25e5%2587%25ba%25e4%25ba%258b%25e7%259b%25b4%25e6%258e%25a5claude%25ef%25bc%258c4%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 86,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-24/news/02-anthropic-claude-oncall-kit.md",
+          "bytes": 4508,
+          "preview_image": "/daily/2026-08-24/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f23_2fother_2fadmin_2f110126_2f_25e5_2586_258d_25e8_25a7_2581_25ef_25bc_258c_25e6_25b7_25b1_25e5_25a4_259c_25e5_2580_25bc_25e7_258f_25ad_25ef_25bc_2581anthropic_25e8_2587_25aa_25e7_2594_25a8_25e7_25a7_2598_25e7_25b1_258d_25e6_259b_259d_25e5_2585_2589_25ef_25bc_259a_25e5_2587_25ba_25e4_25ba_258b_25e7_259b_25b4_25e6_258e_25a5claude_25ef_25bc_258c4_2f/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F23%2Fother%2Fadmin%2F110215%2F%25e5%2588%259a%25e5%2588%259a%25ef%25bc%258c%25e8%258b%25b1%25e4%25bc%259f%25e8%25be%25beai%25e5%2588%25b7%25e7%2588%2586arc-agi-3%25ef%25bc%2581%25e5%258d%258e%25e4%25ba%25ba%25e7%258f%25ad%25e5%25ba%2595%25e4%25b8%2580%25e5%258f%25a3%25e6%25b0%2594%25e5%25b1%25a0%25e4%25ba%2586183%25e5%2585%25b3%2F",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 85,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-24/news/03-nvidia-avo-arc-agi-3.md",
+          "bytes": 4550,
+          "preview_image": "/daily/2026-08-24/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f23_2fother_2fadmin_2f110215_2f_25e5_2588_259a_25e5_2588_259a_25ef_25bc_258c_25e8_258b_25b1_25e4_25bc_259f_25e8_25be_25beai_25e5_2588_25b7_25e7_2588_2586arc-agi-3_25ef_25bc_2581_25e5_258d_258e_25e4_25ba_25ba_25e7_258f_25ad_25e5_25ba_2595_25e4_25b8_2580_25e5_258f_25a3_25e6_25b0_2594_25e5_25b1_25a0_25e4_25ba_2586183_25e5_2585_25b3_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F478164.html",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 84,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-24/news/04-nvidia-ai-server-price-increase.md",
+          "bytes": 3014,
+          "preview_image": "/daily/2026-08-24/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f478164.html/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F23%2Fother%2Fadmin%2F110248%2F%25e7%25aa%2581%25e5%258f%2591%25ef%25bc%258cgpt-5-6-sol%25e5%25a4%25a7%25e9%2599%258d%25e4%25bb%25b7%25ef%25bc%2581openai%25e6%258a%258a%25e4%25bb%25b7%25e6%25a0%25bc%25e6%2588%2598%25e7%2583%25a7%25e5%2588%25b0%25e6%2597%2597%25e8%2588%25b0%2F",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 82,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-24/news/05-openai-gpt-5-6-sol-price-cut.md",
+          "bytes": 4029,
+          "preview_image": "/daily/2026-08-24/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f23_2fother_2fadmin_2f110248_2f_25e7_25aa_2581_25e5_258f_2591_25ef_25bc_258cgpt-5-6-sol_25e5_25a4_25a7_25e9_2599_258d_25e4_25bb_25b7_25ef_25bc_2581openai_25e6_258a_258a_25e4_25bb_25b7_25e6_25a0_25bc_25e6_2588_2598_25e7_2583_25a7_25e5_2588_25b0_25e6_2597_2597_25e8_2588_25b0_2f/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F23%2Fother%2Fadmin%2F110175%2F%25e5%2588%259a%25e5%2588%259a%25ef%25bc%258c%25e9%2594%2580%25e9%2587%258f%25e7%25ac%25ac%25e4%25b8%2580%25e7%259a%2584%25e6%259c%25ba%25e5%2599%25a8%25e7%258b%2597%25ef%25bc%258c%25e9%2595%25bf%25e5%2587%25ba%25e4%25ba%2586%25e4%25ba%25ba%25e5%25bd%25a2%25ef%25bc%2581%2F",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 79,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-24/news/06-vbot-atom-humanoid-robot-dog.md",
+          "bytes": 4250,
+          "preview_image": "/daily/2026-08-24/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f23_2fother_2fadmin_2f110175_2f_25e5_2588_259a_25e5_2588_259a_25ef_25bc_258c_25e9_2594_2580_25e9_2587_258f_25e7_25ac_25ac_25e4_25b8_2580_25e7_259a_2584_25e6_259c_25ba_25e5_2599_25a8_25e7_258b_2597_25ef_25bc_258c_25e9_2595_25bf_25e5_2587_25ba_25e4_25ba_2586_25e4_25ba_25ba_25e5_25bd_25a2_25ef_25bc_2581_2f/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F23%2Fother%2Fadmin%2F110191%2F25%25e5%25b2%2581%25e5%25b9%25bf%25e5%25b7%259e%25e5%25a5%25b3%25e5%25ad%25a9%25e7%2594%25a8ai%25e9%25aa%258c%25e6%2588%2590%25e4%25ba%2586%25ef%25bc%2581%25e4%25b8%25a4%25e5%25a4%25a7%25e8%258f%25b2%25e5%25b0%2594%25e5%2585%25b9%25e5%25a5%2596%25e5%25be%2597%25e4%25b8%25bb%25e5%25bf%2583%25e8%25a1%2580%25ef%25bc%258c%2F",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 78,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-24/news/07-axiom-math-bounded-prime-gaps.md",
+          "bytes": 4443,
+          "preview_image": "/daily/2026-08-24/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f23_2fother_2fadmin_2f110191_2f25_25e5_25b2_2581_25e5_25b9_25bf_25e5_25b7_259e_25e5_25a5_25b3_25e5_25ad_25a9_25e7_2594_25a8ai_25e9_25aa_258c_25e6_2588_2590_25e4_25ba_2586_25ef_25bc_2581_25e4_25b8_25a4_25e5_25a4_25a7_25e8_258f_25b2_25e5_25b0_2594_25e5_2585_25b9_25e5_25a5_2596_25e5_25be_2597_25e4_25b8_25bb_25e5_25bf_2583_25e8_25a1_2580_25ef_25bc_258c_2f/preview.jpg"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F23%2Fother%2Fadmin%2F110233%2F%25e6%2595%25b0%25e5%25ad%25a6%25e7%259a%2584%25e7%25bb%2588%25e7%25bb%2593%25ef%25bc%259a40%25e4%25bd%258d%25e9%25a1%25b6%25e5%25b0%2596%25e6%2595%25b0%25e5%25ad%25a6%25e5%25ae%25b6%25e9%25bd%2590%25e8%2581%259aopenai%25e7%25a7%2598%25e5%25af%2586%25e4%25bc%259a%25e8%25ae%25ae%2F",
+          "category": "News",
+          "group_rank": 8,
+          "group_score": 75,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-24/news/08-openai-mathematics-meeting.md",
+          "bytes": 4102,
+          "preview_image": "/daily/2026-08-24/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f23_2fother_2fadmin_2f110233_2f_25e6_2595_25b0_25e5_25ad_25a6_25e7_259a_2584_25e7_25bb_2588_25e7_25bb_2593_25ef_25bc_259a40_25e4_25bd_258d_25e9_25a1_25b6_25e5_25b0_2596_25e6_2595_25b0_25e5_25ad_25a6_25e5_25ae_25b6_25e9_25bd_2590_25e8_2581_259aopenai_25e7_25a7_2598_25e5_25af_2586_25e4_25bc_259a_25e8_25ae_25ae_2f/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F478319.html",
+          "category": "News",
+          "group_rank": 9,
+          "group_score": 73,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-24/news/09-wrc-robot-cafe.md",
+          "bytes": 2877,
+          "preview_image": "/daily/2026-08-24/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f478319.html/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F478020.html",
+          "category": "News",
+          "group_rank": 10,
+          "group_score": 70,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-24/news/10-gongshun-biped-humanoid-brain.md",
+          "bytes": 2942,
+          "preview_image": "/daily/2026-08-24/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f478020.html/preview.gif"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-23-5",
+      "path": "docs/public/daily/2026-08-24/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-23-5/preview.png",
+      "bytes": 1734083,
+      "storage_path": "docs/public/daily/2026-08-24/assets/paper-001/preview.png"
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-23",
+      "path": "docs/public/daily/2026-08-24/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-23/preview.png",
+      "bytes": 59423,
+      "storage_path": "docs/public/daily/2026-08-24/assets/paper-002/preview.png"
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F478093.html",
+      "path": "docs/public/daily/2026-08-24/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f478093.html/preview.png",
+      "bytes": 141430,
+      "storage_path": "docs/public/daily/2026-08-24/assets/news-001/preview.png"
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F23%2Fother%2Fadmin%2F110126%2F%25e5%2586%258d%25e8%25a7%2581%25ef%25bc%258c%25e6%25b7%25b1%25e5%25a4%259c%25e5%2580%25bc%25e7%258f%25ad%25ef%25bc%2581anthropic%25e8%2587%25aa%25e7%2594%25a8%25e7%25a7%2598%25e7%25b1%258d%25e6%259b%259d%25e5%2585%2589%25ef%25bc%259a%25e5%2587%25ba%25e4%25ba%258b%25e7%259b%25b4%25e6%258e%25a5claude%25ef%25bc%258c4%2F",
+      "path": "docs/public/daily/2026-08-24/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f23_2fother_2fadmin_2f110126_2f_25e5_2586_258d_25e8_25a7_2581_25ef_25bc_258c_25e6_25b7_25b1_25e5_25a4_259c_25e5_2580_25bc_25e7_258f_25ad_25ef_25bc_2581anthropic_25e8_2587_25aa_25e7_2594_25a8_25e7_25a7_2598_25e7_25b1_258d_25e6_259b_259d_25e5_2585_2589_25ef_25bc_259a_25e5_2587_25ba_25e4_25ba_258b_25e7_259b_25b4_25e6_258e_25a5claude_25ef_25bc_258c4_2f/preview.webp",
+      "bytes": 62166,
+      "storage_path": "docs/public/daily/2026-08-24/assets/news-002/preview.webp"
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F23%2Fother%2Fadmin%2F110215%2F%25e5%2588%259a%25e5%2588%259a%25ef%25bc%258c%25e8%258b%25b1%25e4%25bc%259f%25e8%25be%25beai%25e5%2588%25b7%25e7%2588%2586arc-agi-3%25ef%25bc%2581%25e5%258d%258e%25e4%25ba%25ba%25e7%258f%25ad%25e5%25ba%2595%25e4%25b8%2580%25e5%258f%25a3%25e6%25b0%2594%25e5%25b1%25a0%25e4%25ba%2586183%25e5%2585%25b3%2F",
+      "path": "docs/public/daily/2026-08-24/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f23_2fother_2fadmin_2f110215_2f_25e5_2588_259a_25e5_2588_259a_25ef_25bc_258c_25e8_258b_25b1_25e4_25bc_259f_25e8_25be_25beai_25e5_2588_25b7_25e7_2588_2586arc-agi-3_25ef_25bc_2581_25e5_258d_258e_25e4_25ba_25ba_25e7_258f_25ad_25e5_25ba_2595_25e4_25b8_2580_25e5_258f_25a3_25e6_25b0_2594_25e5_25b1_25a0_25e4_25ba_2586183_25e5_2585_25b3_2f/preview.png",
+      "bytes": 63489,
+      "storage_path": "docs/public/daily/2026-08-24/assets/news-003/preview.png"
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F478164.html",
+      "path": "docs/public/daily/2026-08-24/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f478164.html/preview.webp",
+      "bytes": 13530,
+      "storage_path": "docs/public/daily/2026-08-24/assets/news-004/preview.webp"
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F23%2Fother%2Fadmin%2F110248%2F%25e7%25aa%2581%25e5%258f%2591%25ef%25bc%258cgpt-5-6-sol%25e5%25a4%25a7%25e9%2599%258d%25e4%25bb%25b7%25ef%25bc%2581openai%25e6%258a%258a%25e4%25bb%25b7%25e6%25a0%25bc%25e6%2588%2598%25e7%2583%25a7%25e5%2588%25b0%25e6%2597%2597%25e8%2588%25b0%2F",
+      "path": "docs/public/daily/2026-08-24/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f23_2fother_2fadmin_2f110248_2f_25e7_25aa_2581_25e5_258f_2591_25ef_25bc_258cgpt-5-6-sol_25e5_25a4_25a7_25e9_2599_258d_25e4_25bb_25b7_25ef_25bc_2581openai_25e6_258a_258a_25e4_25bb_25b7_25e6_25a0_25bc_25e6_2588_2598_25e7_2583_25a7_25e5_2588_25b0_25e6_2597_2597_25e8_2588_25b0_2f/preview.webp",
+      "bytes": 29326,
+      "storage_path": "docs/public/daily/2026-08-24/assets/news-005/preview.webp"
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F23%2Fother%2Fadmin%2F110175%2F%25e5%2588%259a%25e5%2588%259a%25ef%25bc%258c%25e9%2594%2580%25e9%2587%258f%25e7%25ac%25ac%25e4%25b8%2580%25e7%259a%2584%25e6%259c%25ba%25e5%2599%25a8%25e7%258b%2597%25ef%25bc%258c%25e9%2595%25bf%25e5%2587%25ba%25e4%25ba%2586%25e4%25ba%25ba%25e5%25bd%25a2%25ef%25bc%2581%2F",
+      "path": "docs/public/daily/2026-08-24/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f23_2fother_2fadmin_2f110175_2f_25e5_2588_259a_25e5_2588_259a_25ef_25bc_258c_25e9_2594_2580_25e9_2587_258f_25e7_25ac_25ac_25e4_25b8_2580_25e7_259a_2584_25e6_259c_25ba_25e5_2599_25a8_25e7_258b_2597_25ef_25bc_258c_25e9_2595_25bf_25e5_2587_25ba_25e4_25ba_2586_25e4_25ba_25ba_25e5_25bd_25a2_25ef_25bc_2581_2f/preview.webp",
+      "bytes": 71126,
+      "storage_path": "docs/public/daily/2026-08-24/assets/news-006/preview.webp"
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F23%2Fother%2Fadmin%2F110191%2F25%25e5%25b2%2581%25e5%25b9%25bf%25e5%25b7%259e%25e5%25a5%25b3%25e5%25ad%25a9%25e7%2594%25a8ai%25e9%25aa%258c%25e6%2588%2590%25e4%25ba%2586%25ef%25bc%2581%25e4%25b8%25a4%25e5%25a4%25a7%25e8%258f%25b2%25e5%25b0%2594%25e5%2585%25b9%25e5%25a5%2596%25e5%25be%2597%25e4%25b8%25bb%25e5%25bf%2583%25e8%25a1%2580%25ef%25bc%258c%2F",
+      "path": "docs/public/daily/2026-08-24/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f23_2fother_2fadmin_2f110191_2f25_25e5_25b2_2581_25e5_25b9_25bf_25e5_25b7_259e_25e5_25a5_25b3_25e5_25ad_25a9_25e7_2594_25a8ai_25e9_25aa_258c_25e6_2588_2590_25e4_25ba_2586_25ef_25bc_2581_25e4_25b8_25a4_25e5_25a4_25a7_25e8_258f_25b2_25e5_25b0_2594_25e5_2585_25b9_25e5_25a5_2596_25e5_25be_2597_25e4_25b8_25bb_25e5_25bf_2583_25e8_25a1_2580_25ef_25bc_258c_2f/preview.jpg",
+      "bytes": 41173,
+      "storage_path": "docs/public/daily/2026-08-24/assets/news-007/preview.jpg"
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F23%2Fother%2Fadmin%2F110233%2F%25e6%2595%25b0%25e5%25ad%25a6%25e7%259a%2584%25e7%25bb%2588%25e7%25bb%2593%25ef%25bc%259a40%25e4%25bd%258d%25e9%25a1%25b6%25e5%25b0%2596%25e6%2595%25b0%25e5%25ad%25a6%25e5%25ae%25b6%25e9%25bd%2590%25e8%2581%259aopenai%25e7%25a7%2598%25e5%25af%2586%25e4%25bc%259a%25e8%25ae%25ae%2F",
+      "path": "docs/public/daily/2026-08-24/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f23_2fother_2fadmin_2f110233_2f_25e6_2595_25b0_25e5_25ad_25a6_25e7_259a_2584_25e7_25bb_2588_25e7_25bb_2593_25ef_25bc_259a40_25e4_25bd_258d_25e9_25a1_25b6_25e5_25b0_2596_25e6_2595_25b0_25e5_25ad_25a6_25e5_25ae_25b6_25e9_25bd_2590_25e8_2581_259aopenai_25e7_25a7_2598_25e5_25af_2586_25e4_25bc_259a_25e8_25ae_25ae_2f/preview.webp",
+      "bytes": 36810,
+      "storage_path": "docs/public/daily/2026-08-24/assets/news-008/preview.webp"
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F478319.html",
+      "path": "docs/public/daily/2026-08-24/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f478319.html/preview.webp",
+      "bytes": 48136,
+      "storage_path": "docs/public/daily/2026-08-24/assets/news-009/preview.webp"
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F478020.html",
+      "path": "docs/public/daily/2026-08-24/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f478020.html/preview.gif",
+      "bytes": 81034,
+      "storage_path": "docs/public/daily/2026-08-24/assets/news-010/preview.gif"
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-24T00:06:51+08:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 2,
+    "news_count": 10,
+    "policy_count": 0,
+    "selected_total": 12,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 5,
+    "news_final_capacity": 10,
+    "news_fallback_used": 5
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
