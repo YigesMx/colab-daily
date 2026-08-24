@@ -1,0 +1,326 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "cycle_id": "daily-2026-08-25",
+  "display_date": "2026-08-25",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.21247",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 91,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-25/paper/01-action-jnd-vla-token-compression.md",
+          "bytes": 3788,
+          "preview_image": "/daily/2026-08-25/assets/arxiv--2608.21247/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.21204",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 89,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-25/paper/02-q-planning-self-improvement.md",
+          "bytes": 3425,
+          "preview_image": "/daily/2026-08-25/assets/arxiv--2608.21204/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.20735",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 87,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-25/paper/03-foretime-vla-future-token.md",
+          "bytes": 3457,
+          "preview_image": "/daily/2026-08-25/assets/arxiv--2608.20735/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.20556",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 84,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-25/paper/04-logic-vla-temporal-logic.md",
+          "bytes": 3407,
+          "preview_image": "/daily/2026-08-25/assets/arxiv--2608.20556/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.21031",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 83,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-25/paper/05-physcap-physics-exploration.md",
+          "bytes": 3260,
+          "preview_image": "/daily/2026-08-25/assets/arxiv--2608.21031/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.20546",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 83,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-25/paper/06-koala-gripper-codesign.md",
+          "bytes": 3278,
+          "preview_image": "/daily/2026-08-25/assets/arxiv--2608.20546/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.20936",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 82,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-25/paper/07-graph-operator-world-models.md",
+          "bytes": 3533,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2608.20948",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 81,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-25/paper/08-neural-primitive-flight-planner.md",
+          "bytes": 3209,
+          "preview_image": "/daily/2026-08-25/assets/arxiv--2608.20948/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.21355",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 80,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-25/paper/09-vitacphys-visual-tactile.md",
+          "bytes": 3299,
+          "preview_image": "/daily/2026-08-25/assets/arxiv--2608.21355/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.20791",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 82,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-25/paper/10-certvla-certified-defense.md",
+          "bytes": 3284,
+          "preview_image": "/daily/2026-08-25/assets/arxiv--2608.20791/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fvera-rubin-nvl72-efficiency-ai-agents%2F",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 92,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-25/news/01-nvidia-vera-rubin-nvl72-efficiency.md",
+          "bytes": 2891,
+          "preview_image": "/daily/2026-08-25/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fvera-rubin-nvl72-efficiency-ai-agents_2f/preview.jpg"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fvera-rubin-lpx-spectrum-x-nvlink-fusion%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 91,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-25/news/02-nvidia-groq-3-lpx-inference.md",
+          "bytes": 2702,
+          "preview_image": "/daily/2026-08-25/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fvera-rubin-lpx-spectrum-x-nvlink-fusion_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-24-15",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 90,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-25/news/03-xiaomi-xring-o3-o100-d100.md",
+          "bytes": 3253,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fnvlink-fusion-xpu-ai-factory%2F",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 89,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-25/news/04-nvidia-nvlink-fusion-xpu.md",
+          "bytes": 2655,
+          "preview_image": "/daily/2026-08-25/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fnvlink-fusion-xpu-ai-factory_2f/preview.jpg"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-24-9",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 89,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-25/news/05-alibaba-damo-liver-ai.md",
+          "bytes": 2815,
+          "preview_image": "/daily/2026-08-25/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-24-9/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-24%2F%23story-0020",
+          "category": "Policy",
+          "group_rank": 1,
+          "group_score": 92,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-25/policy/01-dutch-dpa-uber-algorithmic-fine.md",
+          "bytes": 3103,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-24%2F%23story-0010",
+          "category": "Policy",
+          "group_rank": 2,
+          "group_score": 91,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-25/policy/02-pennsylvania-ai-data-center-eo.md",
+          "bytes": 3314,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-24%2F%23story-0012",
+          "category": "Policy",
+          "group_rank": 3,
+          "group_score": 90,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-25/policy/03-ftc-personalized-pricing-statement.md",
+          "bytes": 2981,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-24%2F%23story-0005",
+          "category": "Policy",
+          "group_rank": 4,
+          "group_score": 89,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-25/policy/04-senate-nvidia-remote-access-bill.md",
+          "bytes": 3239,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-24%2F%23story-0009",
+          "category": "Policy",
+          "group_rank": 5,
+          "group_score": 89,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-25/policy/05-shanghai-ai-compute-plan.md",
+          "bytes": 2831,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.21247",
+      "path": "docs/public/daily/2026-08-25/assets/arxiv--2608.21247/preview.png",
+      "bytes": 190116
+    },
+    {
+      "candidate_id": "arxiv--2608.21204",
+      "path": "docs/public/daily/2026-08-25/assets/arxiv--2608.21204/preview.png",
+      "bytes": 251515
+    },
+    {
+      "candidate_id": "arxiv--2608.20735",
+      "path": "docs/public/daily/2026-08-25/assets/arxiv--2608.20735/preview.png",
+      "bytes": 5050217
+    },
+    {
+      "candidate_id": "arxiv--2608.20556",
+      "path": "docs/public/daily/2026-08-25/assets/arxiv--2608.20556/preview.png",
+      "bytes": 685299
+    },
+    {
+      "candidate_id": "arxiv--2608.21031",
+      "path": "docs/public/daily/2026-08-25/assets/arxiv--2608.21031/preview.png",
+      "bytes": 693840
+    },
+    {
+      "candidate_id": "arxiv--2608.20546",
+      "path": "docs/public/daily/2026-08-25/assets/arxiv--2608.20546/preview.png",
+      "bytes": 462805
+    },
+    {
+      "candidate_id": "arxiv--2608.20948",
+      "path": "docs/public/daily/2026-08-25/assets/arxiv--2608.20948/preview.png",
+      "bytes": 887898
+    },
+    {
+      "candidate_id": "arxiv--2608.21355",
+      "path": "docs/public/daily/2026-08-25/assets/arxiv--2608.21355/preview.png",
+      "bytes": 1305589
+    },
+    {
+      "candidate_id": "arxiv--2608.20791",
+      "path": "docs/public/daily/2026-08-25/assets/arxiv--2608.20791/preview.png",
+      "bytes": 916623
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fvera-rubin-nvl72-efficiency-ai-agents%2F",
+      "path": "docs/public/daily/2026-08-25/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fvera-rubin-nvl72-efficiency-ai-agents_2f/preview.jpg",
+      "bytes": 63251
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fvera-rubin-lpx-spectrum-x-nvlink-fusion%2F",
+      "path": "docs/public/daily/2026-08-25/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fvera-rubin-lpx-spectrum-x-nvlink-fusion_2f/preview.png",
+      "bytes": 367904
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fnvlink-fusion-xpu-ai-factory%2F",
+      "path": "docs/public/daily/2026-08-25/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fnvlink-fusion-xpu-ai-factory_2f/preview.jpg",
+      "bytes": 85905
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-24-9",
+      "path": "docs/public/daily/2026-08-25/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-24-9/preview.png",
+      "bytes": 196039
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-25T00:48:06+08:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 5,
+    "policy_count": 5,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 5,
+    "news_final_capacity": 5,
+    "news_fallback_used": 0
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
