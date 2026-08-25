@@ -1,0 +1,321 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "cycle_id": "daily-2026-08-26",
+  "display_date": "2026-08-26",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.23189",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-26/paper/01-echowm-omnimodal-world-models.md",
+          "bytes": 4544,
+          "preview_image": "/daily/2026-08-26/assets/arxiv--2608.23189/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.23565",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-26/paper/02-reworld-long-horizon-memory.md",
+          "bytes": 4624,
+          "preview_image": "/daily/2026-08-26/assets/arxiv--2608.23565/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.23138",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 87,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-26/paper/03-pointing-vla-spatial-grounding.md",
+          "bytes": 4364,
+          "preview_image": "/daily/2026-08-26/assets/arxiv--2608.23138/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.23224",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 85,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-26/paper/04-town-vla-prompt-authority.md",
+          "bytes": 4480,
+          "preview_image": "/daily/2026-08-26/assets/arxiv--2608.23224/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.22278",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 84,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-26/paper/05-dreammimic-world-model-locomanipulation.md",
+          "bytes": 4460,
+          "preview_image": "/daily/2026-08-26/assets/arxiv--2608.22278/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.22869",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 83,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-26/paper/06-unimem-vla-memory-control.md",
+          "bytes": 4296,
+          "preview_image": "/daily/2026-08-26/assets/arxiv--2608.22869/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.22296",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 82,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-26/paper/07-tonav-quadruped-mobile-manipulation.md",
+          "bytes": 4178,
+          "preview_image": "/daily/2026-08-26/assets/arxiv--2608.22296/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.22678",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 81,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-26/paper/08-raco-uav-vln-inspection.md",
+          "bytes": 4209,
+          "preview_image": "/daily/2026-08-26/assets/arxiv--2608.22678/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.23452",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 80,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-26/paper/09-reward-free-space-robot-adaptation.md",
+          "bytes": 4323,
+          "preview_image": "/daily/2026-08-26/assets/arxiv--2608.23452/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.21407",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 79,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-26/paper/10-mamba-smolvla-action-expert.md",
+          "bytes": 4197,
+          "preview_image": "/daily/2026-08-26/assets/arxiv--2608.21407/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fopenai.com%2Findex%2Fjalapeno-first-results",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 88,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-26/news/01-openai-jalapeno-first-results.md",
+          "bytes": 2335,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fopenai.com%2Findex%2Fthe-full-stack-behind-abundant-intelligence",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 84,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-26/news/02-openai-abundant-intelligence-stack.md",
+          "bytes": 2318,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Fibm-granite%2Fgranite-4-2",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 82,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-26/news/03-granite-42-llm-family.md",
+          "bytes": 3097,
+          "preview_image": "/daily/2026-08-26/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2fibm-granite_2fgranite-4-2/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F25%2Fchinas-galileo-robotics-unveils-galileo-x-embodied-ground-mobility-system%2F",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 79,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-26/news/04-galileo-x-ground-mobility.md",
+          "bytes": 3315,
+          "preview_image": "/daily/2026-08-26/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f25_2fchinas-galileo-robotics-unveils-galileo-x-embodied-ground-mobility-system_2f/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F25%2Fimpossible-metals-reports-its-eureka-ii-recovers-itself-from-the-ocean-fully-autonomously%2F",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 77,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-26/news/05-eureka-ii-autonomous-recovery.md",
+          "bytes": 3043,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-25%2F%23story-0001",
+          "category": "Policy",
+          "group_rank": 1,
+          "group_score": 82,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-26/policy/01-alabama-openai-agent-subpoena.md",
+          "bytes": 3921,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-25%2F%23story-0003",
+          "category": "Policy",
+          "group_rank": 2,
+          "group_score": 80,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-26/policy/02-sec-situational-awareness-subpoenas.md",
+          "bytes": 3916,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-25%2F%23story-0006",
+          "category": "Policy",
+          "group_rank": 3,
+          "group_score": 84,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-26/policy/03-china-agent-payment-rulebook.md",
+          "bytes": 4054,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-25%2F%23story-0017",
+          "category": "Policy",
+          "group_rank": 4,
+          "group_score": 78,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-26/policy/04-australia-data-center-national-cabinet.md",
+          "bytes": 4187,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-25%2F%23story-0016",
+          "category": "Policy",
+          "group_rank": 5,
+          "group_score": 76,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-26/policy/05-uk-ukraine-defense-ai-data.md",
+          "bytes": 4472,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.23189",
+      "path": "docs/public/daily/2026-08-26/assets/arxiv--2608.23189/preview.png",
+      "bytes": 3718977
+    },
+    {
+      "candidate_id": "arxiv--2608.23565",
+      "path": "docs/public/daily/2026-08-26/assets/arxiv--2608.23565/preview.png",
+      "bytes": 1375999
+    },
+    {
+      "candidate_id": "arxiv--2608.23138",
+      "path": "docs/public/daily/2026-08-26/assets/arxiv--2608.23138/preview.png",
+      "bytes": 582235
+    },
+    {
+      "candidate_id": "arxiv--2608.23224",
+      "path": "docs/public/daily/2026-08-26/assets/arxiv--2608.23224/preview.png",
+      "bytes": 307128
+    },
+    {
+      "candidate_id": "arxiv--2608.22278",
+      "path": "docs/public/daily/2026-08-26/assets/arxiv--2608.22278/preview.png",
+      "bytes": 196627
+    },
+    {
+      "candidate_id": "arxiv--2608.22869",
+      "path": "docs/public/daily/2026-08-26/assets/arxiv--2608.22869/preview.png",
+      "bytes": 37407
+    },
+    {
+      "candidate_id": "arxiv--2608.22296",
+      "path": "docs/public/daily/2026-08-26/assets/arxiv--2608.22296/preview.png",
+      "bytes": 458084
+    },
+    {
+      "candidate_id": "arxiv--2608.22678",
+      "path": "docs/public/daily/2026-08-26/assets/arxiv--2608.22678/preview.png",
+      "bytes": 304414
+    },
+    {
+      "candidate_id": "arxiv--2608.23452",
+      "path": "docs/public/daily/2026-08-26/assets/arxiv--2608.23452/preview.png",
+      "bytes": 88283
+    },
+    {
+      "candidate_id": "arxiv--2608.21407",
+      "path": "docs/public/daily/2026-08-26/assets/arxiv--2608.21407/preview.png",
+      "bytes": 245562
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Fibm-granite%2Fgranite-4-2",
+      "path": "docs/public/daily/2026-08-26/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2fibm-granite_2fgranite-4-2/preview.webp",
+      "bytes": 133130
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F25%2Fchinas-galileo-robotics-unveils-galileo-x-embodied-ground-mobility-system%2F",
+      "path": "docs/public/daily/2026-08-26/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f25_2fchinas-galileo-robotics-unveils-galileo-x-embodied-ground-mobility-system_2f/preview.webp",
+      "bytes": 128254
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-26T00:01:22+08:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 5,
+    "policy_count": 5,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 5,
+    "news_final_capacity": 5,
+    "news_fallback_used": 0
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
