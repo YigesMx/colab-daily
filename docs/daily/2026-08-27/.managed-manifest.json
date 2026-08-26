@@ -1,0 +1,346 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "cycle_id": "daily-2026-08-27",
+  "display_date": "2026-08-27",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.24101",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 90,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-27/paper/01-tract-bridging-robot-control-and-visual-predi.md",
+          "bytes": 4455,
+          "preview_image": "/daily/2026-08-27/assets/arxiv--2608.24101/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.15875",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 89,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-27/paper/02-gigabrain-0-7-scaling-embodied-foundation-mod.md",
+          "bytes": 4617,
+          "preview_image": "/daily/2026-08-27/assets/arxiv--2608.15875/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.24885",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 89,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-27/paper/03-do-robotic-world-models-really-follow-actions.md",
+          "bytes": 4548,
+          "preview_image": "/daily/2026-08-27/assets/arxiv--2608.24885/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.24714",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-27/paper/04-gaussianwam-distilling-geometry-and-semantics.md",
+          "bytes": 4235,
+          "preview_image": "/daily/2026-08-27/assets/arxiv--2608.24714/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.24199",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-27/paper/05-nvidia-cosmos-h-dreams-real-time-generative-p.md",
+          "bytes": 4103,
+          "preview_image": "/daily/2026-08-27/assets/arxiv--2608.24199/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.23927",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-27/paper/06-glancewam-sparse-test-time-imagination-for-wo.md",
+          "bytes": 4094,
+          "preview_image": "/daily/2026-08-27/assets/arxiv--2608.23927/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.24882",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 85,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-27/paper/07-latent-action-as-intention-enables-efficient.md",
+          "bytes": 4219,
+          "preview_image": "/daily/2026-08-27/assets/arxiv--2608.24882/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.23831",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 84,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-27/paper/08-learning-to-act-while-waiting-rl-finetuning-o.md",
+          "bytes": 4123,
+          "preview_image": "/daily/2026-08-27/assets/arxiv--2608.23831/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.24042",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 83,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-27/paper/09-hierarchical-skill-retrieval-for-data-efficie.md",
+          "bytes": 4211,
+          "preview_image": "/daily/2026-08-27/assets/arxiv--2608.24042/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.24855",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 82,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-27/paper/10-leflow-generative-latent-flow-planning-for-wo.md",
+          "bytes": 4030,
+          "preview_image": "/daily/2026-08-27/assets/arxiv--2608.24855/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "news-01-064a587aae3c",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 88,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-27/news/01-our-agreement-with-bipartisan-attorneys-gener.md",
+          "bytes": 3528,
+          "preview_image": "/daily/2026-08-27/assets/news-01-064a587aae3c/preview.jpg"
+        },
+        {
+          "candidate_id": "news-02-e6c29eb584bb",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 85,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-27/news/02-openai.md",
+          "bytes": 3361,
+          "preview_image": "/daily/2026-08-27/assets/news-02-e6c29eb584bb/preview.jpg"
+        },
+        {
+          "candidate_id": "news-03-09c61617f894",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 84,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-27/news/03-vera-rubin-deepseek30.md",
+          "bytes": 3489,
+          "preview_image": "/daily/2026-08-27/assets/news-03-09c61617f894/preview.jpg"
+        },
+        {
+          "candidate_id": "news-04-317b859a0095",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 78,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-27/news/04-candidate.md",
+          "bytes": 2985,
+          "preview_image": "/daily/2026-08-27/assets/news-04-317b859a0095/preview.jpg"
+        },
+        {
+          "candidate_id": "news-05-021d8af8bc19",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 77,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-27/news/05-10-hugging-face.md",
+          "bytes": 3895,
+          "preview_image": "/daily/2026-08-27/assets/news-05-021d8af8bc19/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "policy-01-1cac256045ee",
+          "category": "Policy",
+          "group_rank": 1,
+          "group_score": 86,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-27/policy/01-vietnam-writes-ai-rules-into-its-publishing-l.md",
+          "bytes": 4535,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "policy-02-086b158491f6",
+          "category": "Policy",
+          "group_rank": 2,
+          "group_score": 81,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-27/policy/02-albanese-wins-state-buy-in-on-ai-data-center.md",
+          "bytes": 5167,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "policy-03-a5eb9d4cf0c9",
+          "category": "Policy",
+          "group_rank": 3,
+          "group_score": 80,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-27/policy/03-exec-gsa-seeks-device-fingerprinting-for-logi.md",
+          "bytes": 4934,
+          "preview_image": "/daily/2026-08-27/assets/policy-03-a5eb9d4cf0c9/preview.png"
+        },
+        {
+          "candidate_id": "policy-04-d6fa097be66b",
+          "category": "Policy",
+          "group_rank": 4,
+          "group_score": 78,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-27/policy/04-meta-and-state-attorneys-general-discuss-mid.md",
+          "bytes": 6153,
+          "preview_image": "/daily/2026-08-27/assets/policy-04-d6fa097be66b/preview.png"
+        },
+        {
+          "candidate_id": "policy-05-4bcac6e90725",
+          "category": "Policy",
+          "group_rank": 5,
+          "group_score": 62,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-27/policy/05-huawei-pitches-egypt-on-2-000-ascend-ai-chips.md",
+          "bytes": 5169,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.24101",
+      "path": "docs/public/daily/2026-08-27/assets/arxiv--2608.24101/preview.png",
+      "bytes": 775116
+    },
+    {
+      "candidate_id": "arxiv--2608.15875",
+      "path": "docs/public/daily/2026-08-27/assets/arxiv--2608.15875/preview.png",
+      "bytes": 514411
+    },
+    {
+      "candidate_id": "arxiv--2608.24885",
+      "path": "docs/public/daily/2026-08-27/assets/arxiv--2608.24885/preview.png",
+      "bytes": 259405
+    },
+    {
+      "candidate_id": "arxiv--2608.24714",
+      "path": "docs/public/daily/2026-08-27/assets/arxiv--2608.24714/preview.png",
+      "bytes": 4998894
+    },
+    {
+      "candidate_id": "arxiv--2608.24199",
+      "path": "docs/public/daily/2026-08-27/assets/arxiv--2608.24199/preview.png",
+      "bytes": 1116428
+    },
+    {
+      "candidate_id": "arxiv--2608.23927",
+      "path": "docs/public/daily/2026-08-27/assets/arxiv--2608.23927/preview.png",
+      "bytes": 118480
+    },
+    {
+      "candidate_id": "arxiv--2608.24882",
+      "path": "docs/public/daily/2026-08-27/assets/arxiv--2608.24882/preview.png",
+      "bytes": 393710
+    },
+    {
+      "candidate_id": "arxiv--2608.23831",
+      "path": "docs/public/daily/2026-08-27/assets/arxiv--2608.23831/preview.png",
+      "bytes": 543511
+    },
+    {
+      "candidate_id": "arxiv--2608.24042",
+      "path": "docs/public/daily/2026-08-27/assets/arxiv--2608.24042/preview.png",
+      "bytes": 469861
+    },
+    {
+      "candidate_id": "arxiv--2608.24855",
+      "path": "docs/public/daily/2026-08-27/assets/arxiv--2608.24855/preview.png",
+      "bytes": 131943
+    },
+    {
+      "candidate_id": "news-01-064a587aae3c",
+      "path": "docs/public/daily/2026-08-27/assets/news-01-064a587aae3c/preview.jpg",
+      "bytes": 22098
+    },
+    {
+      "candidate_id": "news-02-e6c29eb584bb",
+      "path": "docs/public/daily/2026-08-27/assets/news-02-e6c29eb584bb/preview.jpg",
+      "bytes": 258267
+    },
+    {
+      "candidate_id": "news-03-09c61617f894",
+      "path": "docs/public/daily/2026-08-27/assets/news-03-09c61617f894/preview.jpg",
+      "bytes": 31977
+    },
+    {
+      "candidate_id": "news-04-317b859a0095",
+      "path": "docs/public/daily/2026-08-27/assets/news-04-317b859a0095/preview.jpg",
+      "bytes": 317138
+    },
+    {
+      "candidate_id": "news-05-021d8af8bc19",
+      "path": "docs/public/daily/2026-08-27/assets/news-05-021d8af8bc19/preview.png",
+      "bytes": 220245
+    },
+    {
+      "candidate_id": "policy-03-a5eb9d4cf0c9",
+      "path": "docs/public/daily/2026-08-27/assets/policy-03-a5eb9d4cf0c9/preview.png",
+      "bytes": 37835
+    },
+    {
+      "candidate_id": "policy-04-d6fa097be66b",
+      "path": "docs/public/daily/2026-08-27/assets/policy-04-d6fa097be66b/preview.png",
+      "bytes": 96774
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-27T00:03:23+08:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 5,
+    "policy_count": 5,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 5,
+    "news_final_capacity": 5,
+    "news_fallback_used": 0
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
