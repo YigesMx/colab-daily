@@ -1,0 +1,345 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "cycle_id": "daily-2026-08-28",
+  "display_date": "2026-08-28",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.25659",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 94,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-28/paper/01-gaussiandream-efficient-3d-gaussian-world-modeling-for-robotic-manipul.md",
+          "bytes": 4191,
+          "preview_image": "/daily/2026-08-28/assets/arxiv--2608.25659/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.25308",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 93,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-28/paper/02-v-link-recovering-lost-visual-representations-in-action-dit-for-vision.md",
+          "bytes": 3743,
+          "preview_image": "/daily/2026-08-28/assets/arxiv--2608.25308/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.26058",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 93,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-28/paper/03-one-policy-many-embodiments-unified-camera-centric-action-geometry-pre.md",
+          "bytes": 3745,
+          "preview_image": "/daily/2026-08-28/assets/arxiv--2608.26058/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.26053",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 90,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-28/paper/04-r-3-training-robots-to-reason-in-natural-language-via-reinforcement-le.md",
+          "bytes": 3705,
+          "preview_image": "/daily/2026-08-28/assets/arxiv--2608.26053/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.26067",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 89,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-28/paper/05-streampi-streaming-multimodal-temporal-modeling-for-vision-language-ac.md",
+          "bytes": 3752,
+          "preview_image": "/daily/2026-08-28/assets/arxiv--2608.26067/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.25864",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-28/paper/06-ma-vla-multi-arm-vision-language-action-model-for-collaboration-and-co.md",
+          "bytes": 4096,
+          "preview_image": "/daily/2026-08-28/assets/arxiv--2608.25864/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.25927",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-28/paper/07-code-world-model-coding-agent-as-world-brain.md",
+          "bytes": 3903,
+          "preview_image": "/daily/2026-08-28/assets/arxiv--2608.25927/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.25872",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 84,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-28/paper/08-vista-visually-inferred-spatial-contact-attention-for-contact-rich-man.md",
+          "bytes": 3665,
+          "preview_image": "/daily/2026-08-28/assets/arxiv--2608.25872/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.24959",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 82,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-28/paper/09-gaussvla-geometry-aware-spatial-reasoning-for-vision-language-action-m.md",
+          "bytes": 3777,
+          "preview_image": "/daily/2026-08-28/assets/arxiv--2608.24959/preview.jpg"
+        },
+        {
+          "candidate_id": "arxiv--2608.25585",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 81,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-28/paper/10-ra-vla-retrieval-augmented-vla-for-test-time-adaptation.md",
+          "bytes": 3618,
+          "preview_image": "/daily/2026-08-28/assets/arxiv--2608.25585/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.technologyreview.com%2F2026%2F08%2F26%2F1143013%2Fthe-inside-story-on-why-openai-agents-hacked-hugging-face%2F",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 93,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-28/news/01-the-inside-story-on-why-openai-agents-hacked-hugging-face.md",
+          "bytes": 3738,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F27%2Fother%2Fadmin%2F110897%2F%25e5%25b0%258f%25e9%25b9%258f%25e7%25ac%25ac%25e4%25ba%258c%25e4%25bb%25a3vla%25e5%25a4%25a7%25e6%25a8%25a1%25e5%259e%258b%25e8%25bf%258e%25e6%259d%25a5%25e9%25a6%2596%25e6%25ac%25a1%25e9%2587%258d%25e5%25a4%25a7%25e5%258d%2587%25e7%25ba%25a7%25ef%25bc%258cai%25e5%25bc%2580%25e5%25a7%258b%25e7%2590%2586%25e8%25a7%25a3%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 91,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-28/news/02-vla-ai.md",
+          "bytes": 4771,
+          "preview_image": "/daily/2026-08-28/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f27_2fother_2fadmin_2f110897_2f_25e5_25b0_258f_25e9_25b9_258f_25e7_25ac_25ac_25e4_25ba_258c_25e4_25bb_25a3vla_25e5_25a4_25a7_25e6_25a8_25a1_25e5_259e_258b_25e8_25bf_258e_25e6_259d_25a5_25e9_25a6_2596_25e6_25ac_25a1_25e9_2587_258d_25e5_25a4_25a7_25e5_258d_2587_25e7_25ba_25a7_25ef_25bc_258cai_25e5_25bc_2580_25e5_25a7_258b_25e7_2590_2586_25e8_25a7_25a3_2f/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fnvlink-fusion-nvhbm-custom-high-bandwidth-memory%2F",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 91,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-28/news/03-nvidia-nvlink-fusion-expands-with-nvhbm-custom-high-bandwidth-memory.md",
+          "bytes": 3201,
+          "preview_image": "/daily/2026-08-28/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fnvlink-fusion-nvhbm-custom-high-bandwidth-memory_2f/preview.jpg"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fdeepmind.google%2Fblog%2Fpiloting-the-worlds-first-double-blind-ai-evaluations%2F",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 90,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-28/news/04-piloting-the-world-s-first-double-blind-ai-evaluations.md",
+          "bytes": 3188,
+          "preview_image": "/daily/2026-08-28/assets/url--https_3a_2f_2fdeepmind.google_2fblog_2fpiloting-the-worlds-first-double-blind-ai-evaluations_2f/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F479919.html",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 88,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-28/news/05-glm.md",
+          "bytes": 3266,
+          "preview_image": "/daily/2026-08-28/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f479919.html/preview.webp"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-27%2F%23story-0011",
+          "category": "Policy",
+          "group_rank": 1,
+          "group_score": 95,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-28/policy/01-nrc-moves-to-scrap-radiation-standard-in-nuclear-push-for-ai-data-cent.md",
+          "bytes": 4903,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-27%2F%23story-0002",
+          "category": "Policy",
+          "group_rank": 2,
+          "group_score": 87,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-28/policy/02-u-s-probes-singapore-freight-forwarder-over-nvidia-chip-smuggling.md",
+          "bytes": 4413,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-27%2F%23story-0003",
+          "category": "Policy",
+          "group_rank": 3,
+          "group_score": 83,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-28/policy/03-hawley-opens-senate-investigation-into-flock-s-license-plate-camera-ne.md",
+          "bytes": 5326,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-27%2F%23story-0019",
+          "category": "Policy",
+          "group_rank": 4,
+          "group_score": 81,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-28/policy/04-london-robotaxi-launch-unlikely-this-year-as-regulator-guidance-stalls.md",
+          "bytes": 5038,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-27%2F%23story-0020",
+          "category": "Policy",
+          "group_rank": 5,
+          "group_score": 73,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-28/policy/05-poland-asks-brussels-to-fine-meta-at-least-250-million-euros-290-milli.md",
+          "bytes": 5674,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.25659",
+      "path": "docs/public/daily/2026-08-28/assets/arxiv--2608.25659/preview.png",
+      "storage_path": "docs/public/daily/2026-08-28/assets/arxiv--2608.25659/preview.png",
+      "bytes": 7190621
+    },
+    {
+      "candidate_id": "arxiv--2608.25308",
+      "path": "docs/public/daily/2026-08-28/assets/arxiv--2608.25308/preview.png",
+      "storage_path": "docs/public/daily/2026-08-28/assets/arxiv--2608.25308/preview.png",
+      "bytes": 1222381
+    },
+    {
+      "candidate_id": "arxiv--2608.26058",
+      "path": "docs/public/daily/2026-08-28/assets/arxiv--2608.26058/preview.png",
+      "storage_path": "docs/public/daily/2026-08-28/assets/arxiv--2608.26058/preview.png",
+      "bytes": 349408
+    },
+    {
+      "candidate_id": "arxiv--2608.26053",
+      "path": "docs/public/daily/2026-08-28/assets/arxiv--2608.26053/preview.png",
+      "storage_path": "docs/public/daily/2026-08-28/assets/arxiv--2608.26053/preview.png",
+      "bytes": 439517
+    },
+    {
+      "candidate_id": "arxiv--2608.26067",
+      "path": "docs/public/daily/2026-08-28/assets/arxiv--2608.26067/preview.png",
+      "storage_path": "docs/public/daily/2026-08-28/assets/arxiv--2608.26067/preview.png",
+      "bytes": 271947
+    },
+    {
+      "candidate_id": "arxiv--2608.25864",
+      "path": "docs/public/daily/2026-08-28/assets/arxiv--2608.25864/preview.png",
+      "storage_path": "docs/public/daily/2026-08-28/assets/arxiv--2608.25864/preview.png",
+      "bytes": 2701799
+    },
+    {
+      "candidate_id": "arxiv--2608.25927",
+      "path": "docs/public/daily/2026-08-28/assets/arxiv--2608.25927/preview.png",
+      "storage_path": "docs/public/daily/2026-08-28/assets/arxiv--2608.25927/preview.png",
+      "bytes": 1961285
+    },
+    {
+      "candidate_id": "arxiv--2608.25872",
+      "path": "docs/public/daily/2026-08-28/assets/arxiv--2608.25872/preview.png",
+      "storage_path": "docs/public/daily/2026-08-28/assets/arxiv--2608.25872/preview.png",
+      "bytes": 1461929
+    },
+    {
+      "candidate_id": "arxiv--2608.24959",
+      "path": "docs/public/daily/2026-08-28/assets/arxiv--2608.24959/preview.jpg",
+      "storage_path": "docs/public/daily/2026-08-28/assets/arxiv--2608.24959/preview.jpg",
+      "bytes": 628565
+    },
+    {
+      "candidate_id": "arxiv--2608.25585",
+      "path": "docs/public/daily/2026-08-28/assets/arxiv--2608.25585/preview.png",
+      "storage_path": "docs/public/daily/2026-08-28/assets/arxiv--2608.25585/preview.png",
+      "bytes": 518622
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F27%2Fother%2Fadmin%2F110897%2F%25e5%25b0%258f%25e9%25b9%258f%25e7%25ac%25ac%25e4%25ba%258c%25e4%25bb%25a3vla%25e5%25a4%25a7%25e6%25a8%25a1%25e5%259e%258b%25e8%25bf%258e%25e6%259d%25a5%25e9%25a6%2596%25e6%25ac%25a1%25e9%2587%258d%25e5%25a4%25a7%25e5%258d%2587%25e7%25ba%25a7%25ef%25bc%258cai%25e5%25bc%2580%25e5%25a7%258b%25e7%2590%2586%25e8%25a7%25a3%2F",
+      "path": "docs/public/daily/2026-08-28/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f27_2fother_2fadmin_2f110897_2f_25e5_25b0_258f_25e9_25b9_258f_25e7_25ac_25ac_25e4_25ba_258c_25e4_25bb_25a3vla_25e5_25a4_25a7_25e6_25a8_25a1_25e5_259e_258b_25e8_25bf_258e_25e6_259d_25a5_25e9_25a6_2596_25e6_25ac_25a1_25e9_2587_258d_25e5_25a4_25a7_25e5_258d_2587_25e7_25ba_25a7_25ef_25bc_258cai_25e5_25bc_2580_25e5_25a7_258b_25e7_2590_2586_25e8_25a7_25a3_2f/preview.webp",
+      "storage_path": "docs/public/daily/2026-08-28/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f27_2fother_2fadmin_2f110897_2f_25e--_25ef_25bc_258cai_25e5_25bc_2580_25e5_25a7_258b_25e7_2590_2586_25e8_25a7_25a3_2f/preview.webp",
+      "bytes": 28648
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fnvlink-fusion-nvhbm-custom-high-bandwidth-memory%2F",
+      "path": "docs/public/daily/2026-08-28/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fnvlink-fusion-nvhbm-custom-high-bandwidth-memory_2f/preview.jpg",
+      "storage_path": "docs/public/daily/2026-08-28/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fnvlink-fusion-nvhbm-custom-high-bandwidth-memory_2f/preview.jpg",
+      "bytes": 219722
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fdeepmind.google%2Fblog%2Fpiloting-the-worlds-first-double-blind-ai-evaluations%2F",
+      "path": "docs/public/daily/2026-08-28/assets/url--https_3a_2f_2fdeepmind.google_2fblog_2fpiloting-the-worlds-first-double-blind-ai-evaluations_2f/preview.webp",
+      "storage_path": "docs/public/daily/2026-08-28/assets/url--https_3a_2f_2fdeepmind.google_2fblog_2fpiloting-the-worlds-first-double-blind-ai-evaluations_2f/preview.webp",
+      "bytes": 31082
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F479919.html",
+      "path": "docs/public/daily/2026-08-28/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f479919.html/preview.webp",
+      "storage_path": "docs/public/daily/2026-08-28/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f479919.html/preview.webp",
+      "bytes": 15076
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-28T00:13:58+08:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 5,
+    "policy_count": 5,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 5,
+    "news_final_capacity": 5,
+    "news_fallback_used": 0
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
