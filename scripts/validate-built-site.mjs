@@ -89,15 +89,46 @@ function manifestChecks() {
       if (manifest.quota_contract !== 'three-track-v3') {
         fail(`${manifestFile}: invalid schema v3 quota_contract`)
       }
+      const quotaRevision = manifest.quota_revision
+      const supervisorExceptionRevision = 'supervisor-exception-2026-08-28'
+      const supervisorException = quotaRevision === supervisorExceptionRevision
+      if (
+        quotaRevision !== undefined &&
+        quotaRevision !== 'policy3' &&
+        !supervisorException
+      ) {
+        fail(`${manifestFile}: unsupported schema v3 quota_revision`)
+      }
+      const policyCapacity = quotaRevision === 'policy3' ? 3 : 5
       const groups = manifest.groups ?? {}
       const count = (category) => groups[category]?.candidates?.length ?? 0
       const paperCount = count('Paper')
       const newsCount = count('News')
       const policyCount = count('Policy')
       const total = paperCount + newsCount + policyCount
+      const newsFinalCapacity = supervisorException ? 6 : 10 - policyCount
+      const supervisorCandidateId =
+        'url--https%3A%2F%2Fwww.perceptron.inc%2Fblog%2Fintroducing-isaac-0-5'
+      const hasSupervisorCandidate = Object.values(groups)
+        .some((group) => (group?.candidates ?? []).some((candidate) => candidate.candidate_id === supervisorCandidateId))
       if (
-        manifest.selection_limit !== 20 || total > manifest.selection_limit ||
-        paperCount > 10 || policyCount > 5 || newsCount > 10 - policyCount
+        supervisorException && (
+          date !== '2026-08-28' ||
+          !hasSupervisorCandidate ||
+          total !== 21 ||
+          paperCount !== 10 ||
+          newsCount !== 6 ||
+          policyCount !== 5
+        )
+      ) {
+        fail(`${manifestFile}: invalid supervisor exception contract`)
+      }
+      if (
+        manifest.selection_limit !== 20 ||
+        total > manifest.selection_limit + (supervisorException ? 1 : 0) ||
+        paperCount > 10 ||
+        policyCount > policyCapacity ||
+        newsCount > newsFinalCapacity
       ) fail(`${manifestFile}: invalid schema v3 quotas`)
       const quotaProof = manifest.quota_proof ?? {}
       const expectedQuotaProof = {
@@ -108,9 +139,9 @@ function manifestChecks() {
         selected_total: total,
         news_policy_total: newsCount + policyCount,
         paper_capacity: 10,
-        policy_capacity: 5,
-        news_final_capacity: 10 - policyCount,
-        news_fallback_used: Math.max(0, Math.min(newsCount, 10 - policyCount) - 5)
+        policy_capacity: policyCapacity,
+        news_final_capacity: newsFinalCapacity,
+        news_fallback_used: Math.max(0, Math.min(newsCount, newsFinalCapacity) - 5)
       }
       if (JSON.stringify(quotaProof) !== JSON.stringify(expectedQuotaProof)) {
         fail(`${manifestFile}: invalid schema v3 quota_proof`)

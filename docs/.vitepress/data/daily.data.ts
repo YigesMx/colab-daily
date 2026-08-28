@@ -137,6 +137,10 @@ const canonicalV3TopLevelKeys = [
   'quota_proof',
   'compatibility_checks'
 ] as const
+const optionalV3TopLevelKeys = ['quota_revision'] as const
+const supervisorExceptionRevision = 'supervisor-exception-2026-08-28'
+const supervisorExceptionCandidateId =
+  'url--https%3A%2F%2Fwww.perceptron.inc%2Fblog%2Fintroducing-isaac-0-5'
 
 const canonicalV2CandidateKeys = [
   'candidate_id',
@@ -744,11 +748,24 @@ function parseManagedGrouped(
   exactObjectKeys(
     manifest,
     schemaVersion === 3 ? canonicalV3TopLevelKeys : canonicalV2TopLevelKeys,
-    manifestPath
+    manifestPath,
+    schemaVersion === 3 ? optionalV3TopLevelKeys : []
   )
   if (schemaVersion === 3 && manifest.quota_contract !== 'three-track-v3') {
     throw new Error(`${manifestPath}: schema v3 quota_contract must be three-track-v3`)
   }
+  const quotaRevision = schemaVersion === 3 && hasField(manifest, 'quota_revision')
+    ? manifestString(manifest.quota_revision, 'quota_revision', manifestPath)
+    : undefined
+  if (
+    quotaRevision !== undefined &&
+    quotaRevision !== 'policy3' &&
+    quotaRevision !== supervisorExceptionRevision
+  ) {
+    throw new Error(`${manifestPath}: unsupported schema v3 quota_revision`)
+  }
+  const supervisorException = quotaRevision === supervisorExceptionRevision
+  const policyCapacity = quotaRevision === 'policy3' ? 3 : 5
   const categoryContracts = schemaVersion === 2 ? legacyCategoryContracts : v3CategoryContracts
   validateManifestIdentity(manifest, date, manifestPath, true)
   rejectForbiddenV2Fields(manifest, manifestPath)
@@ -845,9 +862,25 @@ function parseManagedGrouped(
   const paperCount = candidates.filter((candidate) => candidate.category === 'Paper').length
   const policyCount = candidates.filter((candidate) => candidate.category === 'Policy').length
   const newsCount = candidates.filter((candidate) => candidate.category === 'News').length
+  const newsFinalCapacity = supervisorException ? 6 : 10 - policyCount
+  if (supervisorException && (
+    date !== '2026-08-28' ||
+    !candidateIds.has(supervisorExceptionCandidateId) ||
+    candidates.length !== 21 ||
+    paperCount !== 10 ||
+    newsCount !== 6 ||
+    policyCount !== 5
+  )) {
+    throw new Error(`${manifestPath}: invalid supervisor exception contract`)
+  }
   if (schemaVersion === 3) {
-    if (candidates.length > selectionLimit || paperCount > 10 || policyCount > 5 || newsCount > 10 - policyCount) {
-      throw new Error(`${manifestPath}: schema v3 candidate totals violate 20/10/5 quotas`)
+    if (
+      candidates.length > selectionLimit + (supervisorException ? 1 : 0) ||
+      paperCount > 10 ||
+      policyCount > policyCapacity ||
+      newsCount > newsFinalCapacity
+    ) {
+      throw new Error(`${manifestPath}: schema v3 candidate totals violate quota contract`)
     }
   } else if (
     candidates.length > selectionLimit ||
@@ -878,8 +911,11 @@ function parseManagedGrouped(
     schemaVersion === 3 ? v3QuotaProofKeys : v2QuotaProofKeys,
     `${manifestPath}: quota_proof`
   )
-  const newsFinalCapacity = 10 - policyCount
-  const newsFallbackUsed = Math.max(0, Math.min(newsCount, newsFinalCapacity) - 5)
+  const expectedNewsFinalCapacity = supervisorException ? 6 : 10 - policyCount
+  const newsFallbackUsed = Math.max(
+    0,
+    Math.min(newsCount, expectedNewsFinalCapacity) - 5
+  )
   if (
     quotaProof.selection_limit !== selectionLimit ||
     quotaProof.paper_count !== paperCount ||
@@ -890,8 +926,8 @@ function parseManagedGrouped(
     quotaProof.paper_capacity !== (schemaVersion === 3 ? 10 : selectionLimit - newsPolicyCount) ||
     (
       schemaVersion === 3 && (
-        quotaProof.policy_capacity !== 5 ||
-        quotaProof.news_final_capacity !== newsFinalCapacity ||
+        quotaProof.policy_capacity !== policyCapacity ||
+        quotaProof.news_final_capacity !== expectedNewsFinalCapacity ||
         quotaProof.news_fallback_used !== newsFallbackUsed
       )
     )
@@ -1463,8 +1499,17 @@ function validateDailySet(date: string, items: LoadedArticle[], mode: ManagedDay
     const paperCount = items.filter((article) => article.category === 'Paper').length
     const newsCount = items.filter((article) => article.category === 'News').length
     const policyCount = items.filter((article) => article.category === 'Policy').length
-    if (items.length > 20 || paperCount > 10 || policyCount > 5 || newsCount > 10 - policyCount) {
-      throw new Error(`${date}: schema v3 articles violate 20/10/5 quotas`)
+    const supervisorException = date === '2026-08-28' && items.some(
+      (article) => article.candidateId === supervisorExceptionCandidateId
+    )
+    const newsFinalCapacity = supervisorException ? 6 : 10 - policyCount
+    if (
+      items.length > 20 + (supervisorException ? 1 : 0) ||
+      paperCount > 10 ||
+      policyCount > 5 ||
+      newsCount > newsFinalCapacity
+    ) {
+      throw new Error(`${date}: schema v3 articles violate quota contract`)
     }
     return
   }

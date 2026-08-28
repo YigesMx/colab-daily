@@ -175,6 +175,17 @@
           "path": "docs/daily/2026-08-28/news/05-glm.md",
           "bytes": 3266,
           "preview_image": "/daily/2026-08-28/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f479919.html/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.perceptron.inc%2Fblog%2Fintroducing-isaac-0-5",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-28/news/06-introducing-isaac-0-5.md",
+          "bytes": 3512,
+          "preview_image": null
         }
       ]
     },
@@ -325,21 +336,22 @@
     }
   ],
   "detached_legacy_pages": [],
-  "generated_at": "2026-08-28T00:13:58+08:00",
+  "generated_at": "2026-08-28T07:37:16.830Z",
   "quota_proof": {
     "selection_limit": 20,
     "paper_count": 10,
-    "news_count": 5,
+    "news_count": 6,
     "policy_count": 5,
-    "selected_total": 20,
-    "news_policy_total": 10,
+    "selected_total": 21,
+    "news_policy_total": 11,
     "paper_capacity": 10,
     "policy_capacity": 5,
-    "news_final_capacity": 5,
-    "news_fallback_used": 0
+    "news_final_capacity": 6,
+    "news_fallback_used": 1
   },
   "compatibility_checks": {
     "detached_legacy_page_count": 0,
     "detached_legacy_asset_count": 0
-  }
+  },
+  "quota_revision": "supervisor-exception-2026-08-28"
 }
