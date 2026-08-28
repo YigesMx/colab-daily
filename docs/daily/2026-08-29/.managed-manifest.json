@@ -1,0 +1,352 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-08-29",
+  "display_date": "2026-08-29",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.27033",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 93,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-29/paper/01-riemann-an-embodied-world-action-model-for-physical.md",
+          "bytes": 3349,
+          "preview_image": "/daily/2026-08-29/assets/arxiv--2608.27033/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.27406",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 91,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-29/paper/02-clap-cross-embodiment-video-world-models-are-zero.md",
+          "bytes": 3264,
+          "preview_image": "/daily/2026-08-29/assets/arxiv--2608.27406/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.26583",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 90,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-29/paper/03-solo-stable-omni-terrain-long-horizon-perceptive-humanoid.md",
+          "bytes": 3089,
+          "preview_image": "/daily/2026-08-29/assets/arxiv--2608.26583/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.26103",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 89,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-29/paper/04-zero-wam-in-context-world-action-modeling-from.md",
+          "bytes": 3312,
+          "preview_image": "/daily/2026-08-29/assets/arxiv--2608.26103/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.26239",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 87,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-29/paper/05-wall-ss-scaling-long-horizon-world-models-via.md",
+          "bytes": 3391,
+          "preview_image": "/daily/2026-08-29/assets/arxiv--2608.26239/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.26800",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-29/paper/06-rapid-on-robot-learning-for-dynamic-manipulation-skills.md",
+          "bytes": 3176,
+          "preview_image": "/daily/2026-08-29/assets/arxiv--2608.26800/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.26821",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 85,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-29/paper/07-temporalflow-vla-learning-physically-grounded-execution-history-for.md",
+          "bytes": 3352,
+          "preview_image": "/daily/2026-08-29/assets/arxiv--2608.26821/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.27384",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 84,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-29/paper/08-flashvla-streaming-action-decoding-for-fast-and-asynchronous.md",
+          "bytes": 3421,
+          "preview_image": "/daily/2026-08-29/assets/arxiv--2608.27384/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.26947",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 83,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-29/paper/09-4dsynth-controllable-procedural-world-synthesis-for-dynamic-embodied.md",
+          "bytes": 3334,
+          "preview_image": "/daily/2026-08-29/assets/arxiv--2608.26947/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.26673",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 82,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-29/paper/10-predvla-sub-million-parameter-predictive-coding-policy-for.md",
+          "bytes": 3285,
+          "preview_image": "/daily/2026-08-29/assets/arxiv--2608.26673/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F28%2Fother%2Fadmin%2F110967%2F%25e7%25aa%2581%25e5%258f%2591%25ef%25bc%259aopenai%25e9%25a6%2596%25e6%25ac%25a1%25e5%2585%25ac%25e5%25bc%2580%25e5%2585%25a5%25e4%25be%25b5hugging-face%25e5%25ae%258c%25e6%2595%25b4%25e6%258a%25a5%25e5%2591%258a%2F",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 96,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-29/news/01-openai-hugging-face.md",
+          "bytes": 5046,
+          "preview_image": "/daily/2026-08-29/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f28_2fother_2fadmin_2f110967_2f_25e7_25aa_2581_25e5_258f_2591_25ef_25bc_259aopenai_25e9_25a6_2596_25e6_25ac_25a1_25e5_2585_25ac_25e5_25bc_2580_25e5_2585_25a5_25e4_25be_25b5hugging-face_25e5_25ae_258c_25e6_2595_25b4_25e6_258a_25a5_25e5_2591_258a_2f/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F480487.html",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 93,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-29/news/02-claude-5000.md",
+          "bytes": 3336,
+          "preview_image": "/daily/2026-08-29/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f480487.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Ftechnology%2Fdevelopers-tools%2Fbuild-with-gemini-omni-1-1-flash%2F",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 91,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-29/news/03-gemini-omni-flash-lets-you-build-with-more.md",
+          "bytes": 3231,
+          "preview_image": "/daily/2026-08-29/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2ftechnology_2fdevelopers-tools_2fbuild-with-gemini-omni-1-1-flash_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F28%2Fnvidia-expands-amazon-partnership-with-2-million-gpu-deal-while-reportedly-nearing-12-9b-hugging-face-acquisition%2F",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 89,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-29/news/04-nvidia-expands-amazon-partnership-with-million-gpu-deal.md",
+          "bytes": 3330,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F480208.html",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 89,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-29/news/05-3d-abot-recon-12-3d.md",
+          "bytes": 3436,
+          "preview_image": "/daily/2026-08-29/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f480208.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F28%2Fother%2Fadmin%2F110909%2Fclaude%25e8%2587%25aa%25e5%25b7%25b1%25e9%2595%25bf%25e5%2587%25ba%25e6%25b5%258f%25e8%25a7%2588%25e5%2599%25a8%25ef%25bc%2581%25e5%25a1%25ab%25e8%25a1%25a8%25e6%258b%2589%25e6%2595%25b0%25ef%25bc%258c%25e4%25bd%25a0%25e7%259a%2584ai%25e6%2589%2593%25e5%25b7%25a5%25e4%25ba%25ba%25e6%259c%2589%25e5%25b7%25a5%25e4%25bd%258d%2F",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 88,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-29/news/06-claude-ai.md",
+          "bytes": 4521,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2076690728529482565",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 85,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-29/news/07-acteffect.md",
+          "bytes": 3362,
+          "preview_image": "/daily/2026-08-29/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2076690728529482565/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-28%2F%23story-0023",
+          "category": "Policy",
+          "group_rank": 1,
+          "group_score": 90,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-29/policy/01-south-korea-picks-sk-telecom-kt-and-kakao.md",
+          "bytes": 4154,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-28%2F%23story-0005",
+          "category": "Policy",
+          "group_rank": 2,
+          "group_score": 89,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-29/policy/02-trump-declares-grid-emergency-directs-energy-department-to.md",
+          "bytes": 4830,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-28%2F%23story-0006",
+          "category": "Policy",
+          "group_rank": 3,
+          "group_score": 87,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-08-29/policy/03-china-data-administration-brings-more-than-20-compute.md",
+          "bytes": 3946,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.27033",
+      "path": "docs/public/daily/2026-08-29/assets/arxiv--2608.27033/preview.png",
+      "storage_path": "docs/public/daily/2026-08-29/assets/arxiv--2608.27033/preview.png",
+      "bytes": 765083
+    },
+    {
+      "candidate_id": "arxiv--2608.27406",
+      "path": "docs/public/daily/2026-08-29/assets/arxiv--2608.27406/preview.png",
+      "storage_path": "docs/public/daily/2026-08-29/assets/arxiv--2608.27406/preview.png",
+      "bytes": 1769026
+    },
+    {
+      "candidate_id": "arxiv--2608.26583",
+      "path": "docs/public/daily/2026-08-29/assets/arxiv--2608.26583/preview.png",
+      "storage_path": "docs/public/daily/2026-08-29/assets/arxiv--2608.26583/preview.png",
+      "bytes": 3051116
+    },
+    {
+      "candidate_id": "arxiv--2608.26103",
+      "path": "docs/public/daily/2026-08-29/assets/arxiv--2608.26103/preview.png",
+      "storage_path": "docs/public/daily/2026-08-29/assets/arxiv--2608.26103/preview.png",
+      "bytes": 680916
+    },
+    {
+      "candidate_id": "arxiv--2608.26239",
+      "path": "docs/public/daily/2026-08-29/assets/arxiv--2608.26239/preview.png",
+      "storage_path": "docs/public/daily/2026-08-29/assets/arxiv--2608.26239/preview.png",
+      "bytes": 989030
+    },
+    {
+      "candidate_id": "arxiv--2608.26800",
+      "path": "docs/public/daily/2026-08-29/assets/arxiv--2608.26800/preview.png",
+      "storage_path": "docs/public/daily/2026-08-29/assets/arxiv--2608.26800/preview.png",
+      "bytes": 498942
+    },
+    {
+      "candidate_id": "arxiv--2608.26821",
+      "path": "docs/public/daily/2026-08-29/assets/arxiv--2608.26821/preview.png",
+      "storage_path": "docs/public/daily/2026-08-29/assets/arxiv--2608.26821/preview.png",
+      "bytes": 1045814
+    },
+    {
+      "candidate_id": "arxiv--2608.27384",
+      "path": "docs/public/daily/2026-08-29/assets/arxiv--2608.27384/preview.png",
+      "storage_path": "docs/public/daily/2026-08-29/assets/arxiv--2608.27384/preview.png",
+      "bytes": 88449
+    },
+    {
+      "candidate_id": "arxiv--2608.26947",
+      "path": "docs/public/daily/2026-08-29/assets/arxiv--2608.26947/preview.png",
+      "storage_path": "docs/public/daily/2026-08-29/assets/arxiv--2608.26947/preview.png",
+      "bytes": 798477
+    },
+    {
+      "candidate_id": "arxiv--2608.26673",
+      "path": "docs/public/daily/2026-08-29/assets/arxiv--2608.26673/preview.png",
+      "storage_path": "docs/public/daily/2026-08-29/assets/arxiv--2608.26673/preview.png",
+      "bytes": 379274
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F28%2Fother%2Fadmin%2F110967%2F%25e7%25aa%2581%25e5%258f%2591%25ef%25bc%259aopenai%25e9%25a6%2596%25e6%25ac%25a1%25e5%2585%25ac%25e5%25bc%2580%25e5%2585%25a5%25e4%25be%25b5hugging-face%25e5%25ae%258c%25e6%2595%25b4%25e6%258a%25a5%25e5%2591%258a%2F",
+      "path": "docs/public/daily/2026-08-29/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f28_2fother_2fadmin_2f110967_2f_25e7_25aa_2581_25e5_258f_2591_25ef_25bc_259aopenai_25e9_25a6_2596_25e6_25ac_25a1_25e5_2585_25ac_25e5_25bc_2580_25e5_2585_25a5_25e4_25be_25b5hugging-face_25e5_25ae_258c_25e6_2595_25b4_25e6_258a_25a5_25e5_2591_258a_2f/preview.webp",
+      "storage_path": "docs/public/daily/2026-08-29/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f08_2f28_2fother_2fadmin_2f110967_2f_25e--_25b5hugging-face_25e5_25ae_258c_25e6_2595_25b4_25e6_258a_25a5_25e5_2591_258a_2f/preview.webp",
+      "bytes": 123778
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F480487.html",
+      "path": "docs/public/daily/2026-08-29/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f480487.html/preview.png",
+      "storage_path": "docs/public/daily/2026-08-29/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f480487.html/preview.png",
+      "bytes": 325403
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Ftechnology%2Fdevelopers-tools%2Fbuild-with-gemini-omni-1-1-flash%2F",
+      "path": "docs/public/daily/2026-08-29/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2ftechnology_2fdevelopers-tools_2fbuild-with-gemini-omni-1-1-flash_2f/preview.png",
+      "storage_path": "docs/public/daily/2026-08-29/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2ftechnology_2fdevelopers-tools_2fbuild-with-gemini-omni-1-1-flash_2f/preview.png",
+      "bytes": 810854
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F480208.html",
+      "path": "docs/public/daily/2026-08-29/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f480208.html/preview.png",
+      "storage_path": "docs/public/daily/2026-08-29/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f480208.html/preview.png",
+      "bytes": 1093077
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2076690728529482565",
+      "path": "docs/public/daily/2026-08-29/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2076690728529482565/preview.png",
+      "storage_path": "docs/public/daily/2026-08-29/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2076690728529482565/preview.png",
+      "bytes": 133104
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-28T16:09:12+00:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
