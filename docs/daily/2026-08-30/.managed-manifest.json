@@ -1,0 +1,247 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-08-30",
+  "display_date": "2026-08-30",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.24876",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-30/paper/01-recuris-long-horizon-agent-harnesses.md",
+          "bytes": 3297,
+          "preview_image": "/daily/2026-08-30/assets/arxiv--2608.24876/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww-cdn.anthropic.com%2F7b1c44894e980876479947dcdd40716278aeeffd%2Fautomated-alignment-researchers-august-2026.pdf",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-30/paper/02-automated-alignment-researchers.md",
+          "bytes": 3659,
+          "preview_image": "/daily/2026-08-30/assets/url--https_3a_2f_2fwww-cdn.anthropic.com_2f7b1c44894e980876479947dcdd40716278aeeffd_2fautomated-alignment-researchers-august-2026.pdf/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.26701",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 84,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-30/paper/03-gemini-real-world-scientific-research.md",
+          "bytes": 3401,
+          "preview_image": "/daily/2026-08-30/assets/arxiv--2608.26701/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.01949",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 79,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-30/paper/04-steps-agentic-push-recommendation.md",
+          "bytes": 3084,
+          "preview_image": "/daily/2026-08-30/assets/arxiv--2608.01949/preview.png"
+        },
+        {
+          "candidate_id": "doi--10.1126%2Fscience.aeg6829",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 78,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-30/paper/05-rna-pseudoknots-deep-learning.md",
+          "bytes": 2997,
+          "preview_image": "/daily/2026-08-30/assets/doi--10.1126_2fscience.aeg6829/preview.png"
+        },
+        {
+          "candidate_id": "doi--10.1038%2Fs41583-026-01036-2",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 74,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-08-30/paper/06-categorization-baked-into-brain.md",
+          "bytes": 3239,
+          "preview_image": "/daily/2026-08-30/assets/doi--10.1038_2fs41583-026-01036-2/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-29-5",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 93,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-30/news/01-openai-cursor-access.md",
+          "bytes": 2299,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F29%2Fother%2Fadmin%2F111198%2F%25e5%258f%25aa%25e9%2599%258d%25e4%25bb%25b720%25ef%25bc%258c%25e8%25b4%25a6%25e5%258d%2595%25e5%258d%25b4%25e5%25b0%2591%25e5%2585%25ab%25e6%2588%2590%25ef%25bc%2581gpt-5-6%25e6%259d%2580%25e5%2585%25a5claude%25e5%259c%25b0%25e7%259b%2598%25e9%2587%258d%25e7%25ae%2597%25e7%25bc%2596%25e7%25a8%258b%25e8%25b4%25a6%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 90,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-30/news/02-gpt-5-6-kiro-cost.md",
+          "bytes": 3292,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-29-4",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 86,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-30/news/03-anthropic-matx.md",
+          "bytes": 2612,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F29%2Fother%2Fadmin%2F111082%2F%25e9%25bb%2584%25e4%25bb%2581%25e5%258b%258b%25ef%25bc%259a%25e8%258b%25b1%25e4%25bc%259f%25e8%25be%25be%25e5%25b7%25b2%25e5%25ae%259e%25e7%258e%25b0agi%25ef%25bc%2581%2F",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 85,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-30/news/04-jensen-huang-agi.md",
+          "bytes": 2825,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F29%2Fother%2Fadmin%2F111096%2F%25e4%25b8%25a4%25e5%25ae%25b6ai%25e5%25b7%25a8%25e5%25a4%25b4%25ef%25bc%258c%25e5%2590%259e%25e5%2599%25ac%25e5%2585%25a8%25e7%2590%25831-3%25e6%2596%25b0%25e5%25a2%259e%25e7%25ae%2597%25e5%258a%259b%25ef%25bc%2581%25e6%2598%258e%25e5%25b9%25b4%25e9%2580%25bc%25e8%25bf%2591%25e4%25b8%2580%25e5%258d%258a%2F",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 84,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-30/news/05-openai-anthropic-compute.md",
+          "bytes": 3787,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F29%2Fother%2Fadmin%2F111186%2Fopenai%25e6%258a%258acodex%25e5%2581%259a%25e6%2588%2590%25e3%2580%258c%25e6%25b0%25b8%25e5%258a%25a8%25e6%259c%25ba%25e3%2580%258d%25ef%25bc%2581%25e5%2586%2585%25e9%2583%25a8%25e4%25bb%25a3%25e7%25a0%2581%25e6%259b%259d%25e5%2585%2589%25ef%25bc%259a%25e4%25b8%258d%25e5%25bc%25ba%25e5%2588%25b6%25e4%25bc%2591%25e7%259c%25a0%2F",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 83,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-30/news/06-codex-persistent-mode.md",
+          "bytes": 3674,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F29%2Fother%2Fadmin%2F111158%2F%25e5%2588%259a%25e5%2588%259a%25ef%25bc%258c%25e6%259c%25ba%25e5%2599%25a8%25e4%25ba%25ba%25e8%25bf%2590%25e5%258a%25a8%25e4%25bc%259a%25e5%2586%25a0%25e5%2586%259b%25e8%25af%259e%25e7%2594%259f%25ef%25bc%258118%25e9%2587%2591%25e5%258f%258c%25e6%25a6%259c%25e7%25ac%25ac%25e4%25b8%2580%25ef%25bc%258c%25e4%25b9%2592%25e4%25b9%2593%2F",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 82,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-30/news/07-agibot-robot-games.md",
+          "bytes": 3150,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F29%2Fother%2Fadmin%2F111125%2F%25e5%25a5%25a5%25e7%2589%25b9%25e6%259b%25bc%25e8%25bf%2598%25e6%2598%25afceo%25ef%25bc%258copenai%25e5%25b7%25b2%25e7%25bb%258f%25e5%25a7%2593brockman%25e4%25ba%2586%2F",
+          "category": "News",
+          "group_rank": 8,
+          "group_score": 81,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-30/news/08-greg-brockman-openai.md",
+          "bytes": 2997,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-29",
+          "category": "News",
+          "group_rank": 9,
+          "group_score": 80,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-30/news/09-skyproduction-wan-3.md",
+          "bytes": 2001,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F481075.html",
+          "category": "News",
+          "group_rank": 10,
+          "group_score": 79,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-30/news/10-ocr-it-pdf-markdown.md",
+          "bytes": 2175,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.24876",
+      "path": "docs/public/daily/2026-08-30/assets/arxiv--2608.24876/preview.png",
+      "bytes": 272685
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww-cdn.anthropic.com%2F7b1c44894e980876479947dcdd40716278aeeffd%2Fautomated-alignment-researchers-august-2026.pdf",
+      "path": "docs/public/daily/2026-08-30/assets/url--https_3a_2f_2fwww-cdn.anthropic.com_2f7b1c44894e980876479947dcdd40716278aeeffd_2fautomated-alignment-researchers-august-2026.pdf/preview.png",
+      "bytes": 69732
+    },
+    {
+      "candidate_id": "arxiv--2608.26701",
+      "path": "docs/public/daily/2026-08-30/assets/arxiv--2608.26701/preview.png",
+      "bytes": 381857
+    },
+    {
+      "candidate_id": "arxiv--2608.01949",
+      "path": "docs/public/daily/2026-08-30/assets/arxiv--2608.01949/preview.png",
+      "bytes": 192787
+    },
+    {
+      "candidate_id": "doi--10.1126%2Fscience.aeg6829",
+      "path": "docs/public/daily/2026-08-30/assets/doi--10.1126_2fscience.aeg6829/preview.png",
+      "bytes": 710621
+    },
+    {
+      "candidate_id": "doi--10.1038%2Fs41583-026-01036-2",
+      "path": "docs/public/daily/2026-08-30/assets/doi--10.1038_2fs41583-026-01036-2/preview.png",
+      "bytes": 348353
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-30T17:51:26.719208+00:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 6,
+    "news_count": 10,
+    "policy_count": 0,
+    "selected_total": 16,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 10,
+    "news_fallback_used": 5
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
