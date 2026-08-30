@@ -1,0 +1,138 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-08-31",
+  "display_date": "2026-08-31",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": []
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F30%2Fother%2Fadmin%2F111352%2F%25e5%2588%259a%25e5%2588%259a%25ef%25bc%258c%25e8%25b0%25b7%25e6%25ad%258c%25e6%2596%25b0%25e6%25a8%25a1%25e5%259e%258b%25e5%2585%25a8%25e7%2590%2583%25e7%2599%25bb%25e9%25a1%25b6%25ef%25bc%2581%2F",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 74,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-31/news/01-gemini-omni-1-1-flash-arena.md",
+          "bytes": 5873,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F30%2Fother%2Fadmin%2F111273%2F%25e5%25a5%25a5%25e7%2589%25b9%25e6%259b%25bc%25e6%259c%2580%25e5%2590%258e%25e4%25b8%2580%25e6%2588%2598%25ef%25bc%25814%25e4%25b8%25aa%25e6%259c%2588%25e5%2590%258e%25ef%25bc%258c%25e4%25ba%25a4%25e4%25bb%2598agi%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 73,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-31/news/02-altman-agi-astra.md",
+          "bytes": 6221,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F30%2Fother%2Fadmin%2F111315%2Fopenai%25e9%25ab%2598%25e7%25ae%25a1%25ef%25bc%259achatgpt%25e4%25b8%258ecodex%25e5%2590%2588%25e4%25bd%2593%25ef%25bc%258c%25e7%25bb%2588%25e5%25b1%2580%25e6%2598%25af%25e4%25b8%25aa%25e4%25ba%25baagi%2F",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 73,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-31/news/03-tibo-chatgpt-codex-personal-agi.md",
+          "bytes": 6527,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fpub.towardsai.net%2Fswitching-ai-models-in-production-isnt-routing-only-3-parameters-are-spelled-the-same-01863d5848be",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 71,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-31/news/04-sdk-model-switching-not-routing.md",
+          "bytes": 8232,
+          "preview_image": "/daily/2026-08-31/assets/url--https_3a_2f_2fpub.towardsai.net_2fswitching-ai-models-in-production-isnt-routing-only-3-parameters-are-spelled-the-same-01863d5848be/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F30%2Fother%2Fadmin%2F111287%2F%25e7%25bb%2588%25e4%25ba%258e%25ef%25bc%258cclaude-code%25e6%2589%2593%25e9%2580%259a%25e4%25ba%2586%25e6%25a1%258c%25e9%259d%25a2%25e7%25ab%25af%25e4%25b8%258e%25e7%25bb%2588%25e7%25ab%25af%25ef%25bc%2581%2F",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 69,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-31/news/05-claude-code-desktop-resume.md",
+          "bytes": 5616,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-30-6",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 68,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-31/news/06-perplexity-portable-computer.md",
+          "bytes": 7390,
+          "preview_image": "/daily/2026-08-31/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-30-6/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F30%2Fother%2Fadmin%2F111303%2F%25e8%258a%25af%25e7%2589%2587%25e3%2580%2581agent%25e3%2580%2581%25e6%259c%25ba%25e5%2599%25a8%25e4%25ba%25ba%25e5%2585%25a8%25e7%25ba%25bf%25e5%25bc%2580%25e7%2581%25ab%25ef%25bc%2581%25e5%2585%25a8%25e7%2590%2583%25e7%25a1%25ac%25e7%25a7%2591%25e6%258a%2580%25e6%259d%2580%25e8%25bf%259b%25e5%258c%2597%25e4%25ba%25ac%2F",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 68,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-31/news/07-hicool-sutton-robot-academy.md",
+          "bytes": 5218,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-30-2",
+          "category": "News",
+          "group_rank": 8,
+          "group_score": 63,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-08-31/news/08-openai-codex-quota-reset.md",
+          "bytes": 4138,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "url--https%3A%2F%2Fpub.towardsai.net%2Fswitching-ai-models-in-production-isnt-routing-only-3-parameters-are-spelled-the-same-01863d5848be",
+      "path": "docs/public/daily/2026-08-31/assets/url--https_3a_2f_2fpub.towardsai.net_2fswitching-ai-models-in-production-isnt-routing-only-3-parameters-are-spelled-the-same-01863d5848be/preview.png",
+      "bytes": 151717
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-08-30-6",
+      "path": "docs/public/daily/2026-08-31/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-08-30-6/preview.png",
+      "bytes": 528781
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-30T20:28:47.324928+00:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 0,
+    "news_count": 8,
+    "policy_count": 0,
+    "selected_total": 8,
+    "news_policy_total": 8,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 10,
+    "news_fallback_used": 3
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
