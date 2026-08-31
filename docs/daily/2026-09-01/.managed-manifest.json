@@ -1,0 +1,337 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-01",
+  "display_date": "2026-09-01",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.27550",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 84,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-01/paper/01-vlact-representation-centric-pretraining.md",
+          "bytes": 10546,
+          "preview_image": "/daily/2026-09-01/assets/arxiv--2608.27550/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.23478",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 79,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-01/paper/02-act-with-intent-indi.md",
+          "bytes": 10020,
+          "preview_image": "/daily/2026-09-01/assets/arxiv--2608.23478/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.27609",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 74,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-01/paper/03-phr-vla-planning-horizon.md",
+          "bytes": 7140,
+          "preview_image": "/daily/2026-09-01/assets/arxiv--2608.27609/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.28108",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 73,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-01/paper/04-deicticvla-unified-instruction.md",
+          "bytes": 9778,
+          "preview_image": "/daily/2026-09-01/assets/arxiv--2608.28108/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.28140",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 73,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-01/paper/05-contact-guided-locomanipulation.md",
+          "bytes": 8683,
+          "preview_image": "/daily/2026-09-01/assets/arxiv--2608.28140/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.28090",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 72,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-01/paper/06-stay-seated-omnidirectional-sitting.md",
+          "bytes": 9348,
+          "preview_image": "/daily/2026-09-01/assets/arxiv--2608.28090/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.28578",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 72,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-01/paper/07-aero-hand-tendon-driven.md",
+          "bytes": 10120,
+          "preview_image": "/daily/2026-09-01/assets/arxiv--2608.28578/preview.jpg"
+        },
+        {
+          "candidate_id": "arxiv--2608.27549",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 71,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-01/paper/08-code-as-worlds.md",
+          "bytes": 9695,
+          "preview_image": "/daily/2026-09-01/assets/arxiv--2608.27549/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.24115",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 70,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-01/paper/09-ponderpounce-mllm-memory.md",
+          "bytes": 9342,
+          "preview_image": "/daily/2026-09-01/assets/arxiv--2608.24115/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.28075",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 69,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-01/paper/10-plan-along-the-way-tamp.md",
+          "bytes": 9770,
+          "preview_image": "/daily/2026-09-01/assets/arxiv--2608.28075/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F31%2Fperceptron-ai-launches-open-weight-robotics-model-called-isaac-0-5%2F",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 92,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-01/news/01-perceptron-isaac-0-5.md",
+          "bytes": 5642,
+          "preview_image": "/daily/2026-09-01/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f31_2fperceptron-ai-launches-open-weight-robotics-model-called-isaac-0-5_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F31%2Fother%2Fadmin%2F111522%2F%25e7%2599%25be%25e4%25b8%2587%25e5%25b0%258f%25e6%2597%25b6%25e7%259c%259f%25e5%25ae%259e%25e6%2595%25b0%25e6%258d%25ae%25ef%25bc%258c%25e6%259e%2584%25e5%25bb%25ba%25e7%2589%25a9%25e7%2590%2586ai%25e8%25a7%2584%25e6%25a8%25a1%25e5%258c%2596%25e6%2595%25b0%25e6%258d%25ae%25e4%25be%259b%25e7%25bb%2599%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 81,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-01/news/02-mifeng-million-hour-data.md",
+          "bytes": 6152,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2077797169608839340",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 77,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-01/news/03-noe-0-bodiless-pretraining.md",
+          "bytes": 5503,
+          "preview_image": "/daily/2026-09-01/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2077797169608839340/preview.jpg"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F31%2Ffedex-and-dexterity-expand-physical-ai-deployment-for-autonomous-trailer-loading-at-hagerstown-hub%2F",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 74,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-01/news/04-fedex-dexterity-trailer-loading.md",
+          "bytes": 5339,
+          "preview_image": "/daily/2026-09-01/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f31_2ffedex-and-dexterity-expand-physical-ai-deployment-for-autonomous-trailer-loading-at-hagerstown-hub_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F08%2F31%2Fother%2Fadmin%2F111490%2Fopenai%25e5%25ae%2598%25e5%25ae%25a3%25ef%25bc%259a%25e4%25bd%25a0%25e7%259a%2584%25e6%2595%25b0%25e6%258d%25ae%25e4%25b8%2580%25e5%25ad%2597%25e4%25b8%258d%25e7%2595%2599%25ef%25bc%2581anthropic%25e9%259a%2594%25e5%25a4%25a9%25e6%259d%25be%25e5%258f%25a3%25ef%25bc%259a%25e4%25bd%25a0%25e5%258f%25af%25e4%25bb%25a5%2F",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 73,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-01/news/05-openai-anthropic-data-retention.md",
+          "bytes": 6470,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F481923.html",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 69,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-01/news/06-didi-robotaxi-r2.md",
+          "bytes": 4180,
+          "preview_image": "/daily/2026-09-01/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f481923.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F481750.html",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 67,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-01/news/07-lingxi-ross-harness.md",
+          "bytes": 5345,
+          "preview_image": "/daily/2026-09-01/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f481750.html/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-31%2F%23story-0023",
+          "category": "Policy",
+          "group_rank": 1,
+          "group_score": 77,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-01/policy/01-india-semicon-2-chip-scheme.md",
+          "bytes": 5459,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-31%2F%23story-0005",
+          "category": "Policy",
+          "group_rank": 2,
+          "group_score": 76,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-01/policy/02-opm-federal-hiring-ai-guidance.md",
+          "bytes": 8736,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-08-31%2F%23story-0002",
+          "category": "Policy",
+          "group_rank": 3,
+          "group_score": 75,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-01/policy/03-fsb-boe-frontier-ai-g20.md",
+          "bytes": 7004,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.27550",
+      "path": "docs/public/daily/2026-09-01/assets/arxiv--2608.27550/preview.png",
+      "bytes": 301607
+    },
+    {
+      "candidate_id": "arxiv--2608.23478",
+      "path": "docs/public/daily/2026-09-01/assets/arxiv--2608.23478/preview.png",
+      "bytes": 437281
+    },
+    {
+      "candidate_id": "arxiv--2608.27609",
+      "path": "docs/public/daily/2026-09-01/assets/arxiv--2608.27609/preview.png",
+      "bytes": 533846
+    },
+    {
+      "candidate_id": "arxiv--2608.28108",
+      "path": "docs/public/daily/2026-09-01/assets/arxiv--2608.28108/preview.png",
+      "bytes": 1288041
+    },
+    {
+      "candidate_id": "arxiv--2608.28140",
+      "path": "docs/public/daily/2026-09-01/assets/arxiv--2608.28140/preview.png",
+      "bytes": 994917
+    },
+    {
+      "candidate_id": "arxiv--2608.28090",
+      "path": "docs/public/daily/2026-09-01/assets/arxiv--2608.28090/preview.png",
+      "bytes": 596835
+    },
+    {
+      "candidate_id": "arxiv--2608.28578",
+      "path": "docs/public/daily/2026-09-01/assets/arxiv--2608.28578/preview.jpg",
+      "bytes": 466053
+    },
+    {
+      "candidate_id": "arxiv--2608.27549",
+      "path": "docs/public/daily/2026-09-01/assets/arxiv--2608.27549/preview.png",
+      "bytes": 638462
+    },
+    {
+      "candidate_id": "arxiv--2608.24115",
+      "path": "docs/public/daily/2026-09-01/assets/arxiv--2608.24115/preview.png",
+      "bytes": 195857
+    },
+    {
+      "candidate_id": "arxiv--2608.28075",
+      "path": "docs/public/daily/2026-09-01/assets/arxiv--2608.28075/preview.png",
+      "bytes": 584260
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F31%2Fperceptron-ai-launches-open-weight-robotics-model-called-isaac-0-5%2F",
+      "path": "docs/public/daily/2026-09-01/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f31_2fperceptron-ai-launches-open-weight-robotics-model-called-isaac-0-5_2f/preview.png",
+      "bytes": 821058
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2077797169608839340",
+      "path": "docs/public/daily/2026-09-01/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2077797169608839340/preview.jpg",
+      "bytes": 134332
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F08%2F31%2Ffedex-and-dexterity-expand-physical-ai-deployment-for-autonomous-trailer-loading-at-hagerstown-hub%2F",
+      "path": "docs/public/daily/2026-09-01/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f08_2f31_2ffedex-and-dexterity-expand-physical-ai-deployment-for-autonomous-trailer-loading-at-hagerstown-hub_2f/preview.png",
+      "bytes": 1087945
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F481923.html",
+      "path": "docs/public/daily/2026-09-01/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f481923.html/preview.png",
+      "bytes": 559890
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F08%2F481750.html",
+      "path": "docs/public/daily/2026-09-01/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f08_2f481750.html/preview.png",
+      "bytes": 88260
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-08-31T19:31:14.878519+00:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
