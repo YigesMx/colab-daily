@@ -1,0 +1,337 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-02",
+  "display_date": "2026-09-02",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2608.29601",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-02/paper/01-n0-foundation-tactile-intelligence.md",
+          "bytes": 8685,
+          "preview_image": "/daily/2026-09-02/assets/arxiv--2608.29601/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.30237",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 88,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-02/paper/02-motus2-self-evolving-general-world-model-dexterous-manipulat.md",
+          "bytes": 9516,
+          "preview_image": "/daily/2026-09-02/assets/arxiv--2608.30237/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.29242",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 87,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-02/paper/03-anyworld-factorized-egocentric-world-models-cross-embodiment.md",
+          "bytes": 9021,
+          "preview_image": "/daily/2026-09-02/assets/arxiv--2608.29242/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.30935",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 86,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-02/paper/04-lightnav-0-eliciting-vlm-spatial-intelligence-generalist-emb.md",
+          "bytes": 10403,
+          "preview_image": "/daily/2026-09-02/assets/arxiv--2608.30935/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.29749",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 85,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-02/paper/05-driftingvla-native-one-step-vision-language-action-generatio.md",
+          "bytes": 10111,
+          "preview_image": "/daily/2026-09-02/assets/arxiv--2608.29749/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.29487",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 83,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-02/paper/06-blind-dexterity-whole-body-humanoid-manipulation-pure-propri.md",
+          "bytes": 9222,
+          "preview_image": "/daily/2026-09-02/assets/arxiv--2608.29487/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.29078",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 83,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-02/paper/07-dream-deployment-time-demonstration-generation-real-sim-scal.md",
+          "bytes": 10678,
+          "preview_image": "/daily/2026-09-02/assets/arxiv--2608.29078/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.30396",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 83,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-02/paper/08-scaffolding-foundation-models-physical-world-agents-pushes-f.md",
+          "bytes": 11873,
+          "preview_image": "/daily/2026-09-02/assets/arxiv--2608.30396/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.30880",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 83,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-02/paper/09-zeva-context-causal-learning-generalizable-embodied-manipula.md",
+          "bytes": 10690,
+          "preview_image": "/daily/2026-09-02/assets/arxiv--2608.30880/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2608.29769",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 82,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-02/paper/10-learning-agile-perceptive-traversal-sparse-3d-structures-hum.md",
+          "bytes": 10271,
+          "preview_image": "/daily/2026-09-02/assets/arxiv--2608.29769/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F482512.html",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 76,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-02/news/01-minimax-fal-h3-max-ai.md",
+          "bytes": 5591,
+          "preview_image": "/daily/2026-09-02/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f482512.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F01%2Fmusk-confirms-spacex-foundry-to-ease-gas-turbine-bottleneck-powering-ai-data-centers%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 75,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-02/news/02-spacex-turbine-blade-foundry-ai-power.md",
+          "bytes": 5734,
+          "preview_image": "/daily/2026-09-02/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f01_2fmusk-confirms-spacex-foundry-to-ease-gas-turbine-bottleneck-powering-ai-data-centers_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F01%2Fother%2Fadmin%2F111654%2F%25e9%25a6%2596%25e4%25be%258bai%25e8%2587%25aa%25e4%25b8%25bb%25e9%25bb%2591%25e5%25ae%25a2%25e6%2594%25bb%25e5%2587%25bb%25e6%259b%259d%25e5%2585%2589%25ef%25bc%2581claude%25e5%25a4%25b1%25e6%258e%25a7%25ef%25bc%258c%25e5%25be%25b7%25e5%25b7%259e%25e5%25a4%25a7%25e5%25ad%25a6%25e7%2594%259f%25e4%25b8%2580%25e4%25ba%25ba%2F",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 74,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-02/news/03-aisi-rogue-ai-github-attack-mythos5.md",
+          "bytes": 6180,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F01%2Fother%2Fadmin%2F111584%2F%25e5%2588%259a%25e5%2588%259a%25ef%25bc%258c%25e5%2585%25a8%25e6%2596%25b0%25e5%259b%25bd%25e4%25ba%25a7lpu%25e6%258e%25a8%25e7%2590%2586%25e8%258a%25af%25e7%2589%2587%25e9%25a6%2596%25e7%25a7%2580%25ef%25bc%2581%2F",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 73,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-02/news/04-hanxu-uhbm-ulpu-mram-inference-chip.md",
+          "bytes": 6089,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F01%2Fother%2Fadmin%2F111567%2F%25e5%2595%25a5%25ef%25bc%259fchatgpt-work%25e9%2585%258d%25e4%25ba%2586%25e5%258f%25b09%25e6%25a0%25b815g%25e4%25ba%2591%25e7%2594%25b5%25e8%2584%2591%25ef%25bc%258c%25e6%2589%2593%25e5%25b7%25a5%25e4%25ba%25ba%25e7%259a%2584%25e6%25b4%25bb%25e5%25ae%2583%25e9%2583%25bd%25e8%2583%25bd%25e5%25b9%25b2%25e4%25ba%2586%2F",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 72,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-02/news/05-openai-chatgpt-work-cloud-computer.md",
+          "bytes": 5658,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.technologyreview.com%2F2026%2F08%2F31%2F1143180%2Fhugging-face-hack-could-indicate-cultural-issues-at-openai%2F",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 70,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-02/news/06-mit-tr-openai-huggingface-hack-retrospective.md",
+          "bytes": 5016,
+          "preview_image": "/daily/2026-09-02/assets/url--https_3a_2f_2fwww.technologyreview.com_2f2026_2f08_2f31_2f1143180_2fhugging-face-hack-could-indicate-cultural-issues-at-openai_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fpub.towardsai.net%2Fz-ais-models-found-2-436-vulnerabilities-d89f1cc098d6",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 69,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-02/news/07-zai-glm-vulnerability-disclosure-ledger.md",
+          "bytes": 5075,
+          "preview_image": "/daily/2026-09-02/assets/url--https_3a_2f_2fpub.towardsai.net_2fz-ais-models-found-2-436-vulnerabilities-d89f1cc098d6/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-01%2F%23story-0022",
+          "category": "Policy",
+          "group_rank": 1,
+          "group_score": 81,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-02/policy/01-uk-sovereign-ai-procurement-contests.md",
+          "bytes": 7871,
+          "preview_image": "/daily/2026-09-02/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-09-01_2f_23story-0022/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-01%2F%23story-0001",
+          "category": "Policy",
+          "group_rank": 2,
+          "group_score": 79,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-02/policy/02-chatgpt-mil-grok-government-genai-mil.md",
+          "bytes": 7779,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-01%2F%23story-0004",
+          "category": "Policy",
+          "group_rank": 3,
+          "group_score": 78,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-02/policy/03-nara-ai-federal-records-guidance.md",
+          "bytes": 7505,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2608.29601",
+      "path": "docs/public/daily/2026-09-02/assets/arxiv--2608.29601/preview.png",
+      "bytes": 1451306
+    },
+    {
+      "candidate_id": "arxiv--2608.30237",
+      "path": "docs/public/daily/2026-09-02/assets/arxiv--2608.30237/preview.png",
+      "bytes": 258708
+    },
+    {
+      "candidate_id": "arxiv--2608.29242",
+      "path": "docs/public/daily/2026-09-02/assets/arxiv--2608.29242/preview.png",
+      "bytes": 264192
+    },
+    {
+      "candidate_id": "arxiv--2608.30935",
+      "path": "docs/public/daily/2026-09-02/assets/arxiv--2608.30935/preview.png",
+      "bytes": 223377
+    },
+    {
+      "candidate_id": "arxiv--2608.29749",
+      "path": "docs/public/daily/2026-09-02/assets/arxiv--2608.29749/preview.png",
+      "bytes": 99482
+    },
+    {
+      "candidate_id": "arxiv--2608.29487",
+      "path": "docs/public/daily/2026-09-02/assets/arxiv--2608.29487/preview.png",
+      "bytes": 1372844
+    },
+    {
+      "candidate_id": "arxiv--2608.29078",
+      "path": "docs/public/daily/2026-09-02/assets/arxiv--2608.29078/preview.png",
+      "bytes": 572709
+    },
+    {
+      "candidate_id": "arxiv--2608.30396",
+      "path": "docs/public/daily/2026-09-02/assets/arxiv--2608.30396/preview.png",
+      "bytes": 634814
+    },
+    {
+      "candidate_id": "arxiv--2608.30880",
+      "path": "docs/public/daily/2026-09-02/assets/arxiv--2608.30880/preview.png",
+      "bytes": 700300
+    },
+    {
+      "candidate_id": "arxiv--2608.29769",
+      "path": "docs/public/daily/2026-09-02/assets/arxiv--2608.29769/preview.png",
+      "bytes": 921474
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F482512.html",
+      "path": "docs/public/daily/2026-09-02/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f482512.html/preview.png",
+      "bytes": 527652
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F01%2Fmusk-confirms-spacex-foundry-to-ease-gas-turbine-bottleneck-powering-ai-data-centers%2F",
+      "path": "docs/public/daily/2026-09-02/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f01_2fmusk-confirms-spacex-foundry-to-ease-gas-turbine-bottleneck-powering-ai-data-centers_2f/preview.png",
+      "bytes": 43992
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.technologyreview.com%2F2026%2F08%2F31%2F1143180%2Fhugging-face-hack-could-indicate-cultural-issues-at-openai%2F",
+      "path": "docs/public/daily/2026-09-02/assets/url--https_3a_2f_2fwww.technologyreview.com_2f2026_2f08_2f31_2f1143180_2fhugging-face-hack-could-indicate-cultural-issues-at-openai_2f/preview.png",
+      "bytes": 1396627
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fpub.towardsai.net%2Fz-ais-models-found-2-436-vulnerabilities-d89f1cc098d6",
+      "path": "docs/public/daily/2026-09-02/assets/url--https_3a_2f_2fpub.towardsai.net_2fz-ais-models-found-2-436-vulnerabilities-d89f1cc098d6/preview.png",
+      "bytes": 150686
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-01%2F%23story-0022",
+      "path": "docs/public/daily/2026-09-02/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-09-01_2f_23story-0022/preview.png",
+      "bytes": 796363
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-01T19:39:13.150144+00:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
