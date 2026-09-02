@@ -1,0 +1,347 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-03",
+  "display_date": "2026-09-03",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.01596",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 89.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-03/paper/01-facet-0-contact-rich-precise-manipulation.md",
+          "bytes": 9079,
+          "preview_image": "/daily/2026-09-03/assets/arxiv--2609.01596/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.00188",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 88.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-03/paper/02-zimablue-world-action-models-video-pretraining.md",
+          "bytes": 9573,
+          "preview_image": "/daily/2026-09-03/assets/arxiv--2609.00188/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.01560",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 85.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-03/paper/03-h3-world-language-understanding-world-control.md",
+          "bytes": 8258,
+          "preview_image": "/daily/2026-09-03/assets/arxiv--2609.01560/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.01281",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 83.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-03/paper/04-embodiedskills-orchestrate-train-deploy.md",
+          "bytes": 7818,
+          "preview_image": "/daily/2026-09-03/assets/arxiv--2609.01281/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.00111",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 81.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-03/paper/05-qwen-drive-1-0-vision-language-foundation.md",
+          "bytes": 9036,
+          "preview_image": "/daily/2026-09-03/assets/arxiv--2609.00111/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.00908",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 82.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-03/paper/06-knowing-when-to-stop-adaptive-action-chunking.md",
+          "bytes": 6896,
+          "preview_image": "/daily/2026-09-03/assets/arxiv--2609.00908/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.01404",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 81.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-03/paper/07-evaluating-mllms-vla-agents-drones.md",
+          "bytes": 8359,
+          "preview_image": "/daily/2026-09-03/assets/arxiv--2609.01404/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.01215",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 80.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-03/paper/08-refactor-vla-typed-motor-programs.md",
+          "bytes": 8228,
+          "preview_image": "/daily/2026-09-03/assets/arxiv--2609.01215/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.00920",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 78.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-03/paper/09-vernav-verifier-first-low-latency-vln.md",
+          "bytes": 7080,
+          "preview_image": "/daily/2026-09-03/assets/arxiv--2609.00920/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.01518",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 78.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-03/paper/10-fast-resilient-adaptable-loco-manipulation.md",
+          "bytes": 8162,
+          "preview_image": "/daily/2026-09-03/assets/arxiv--2609.01518/preview.jpg"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-02-8",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 89,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-03/news/01-world-labs-atlas-multimodal-world-model.md",
+          "bytes": 5409,
+          "preview_image": "/daily/2026-09-03/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-09-02-8/preview.jpg"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F02%2Fother%2Fadmin%2F111669%2F%25e5%2588%259a%25e5%2588%259a%25ef%25bc%258ca%25e7%25a4%25be%25e8%2587%25aa%25e6%259b%259d%25e3%2580%258c%25e6%259c%2580%25e5%259d%258fclaude%25e3%2580%258d%25ef%25bc%2581150%25e4%25ba%25ba%25e7%25b4%25a7%25e6%2580%25a5%25e8%25bd%25ac%25e5%25b2%2597%25ef%25bc%258c%25e6%2596%25b0%25e5%2593%2581%25e5%25bc%2580%25e5%258f%2591%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 89,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-03/news/02-anthropic-hacker-opus-alignment-disclosure.md",
+          "bytes": 6484,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F482652.html",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 88,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-03/news/03-claude-fable-5-1-mythos-5-1-release.md",
+          "bytes": 5835,
+          "preview_image": "/daily/2026-09-03/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f482652.html/preview.webp"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F02%2Fother%2Fadmin%2F111693%2Frunway%25e6%258a%258a%25e4%25bb%25a3%25e7%25a0%2581%25e5%25b9%25b2%25e6%258e%2589%25e4%25ba%2586%25ef%25bc%2581%25e9%25a6%2596%25e4%25b8%25aa%25e7%2595%258c%25e9%259d%25a2%25e4%25b8%2596%25e7%2595%258c%25e6%25a8%25a1%25e5%259e%258b%25ef%25bc%258cui%25e8%2587%25aa%25e5%25b7%25b1%25e9%2595%25bf%25e5%2587%25ba%25e6%259d%25a5%2F",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 85,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-03/news/04-runway-solaris-interface-world-model.md",
+          "bytes": 5477,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F482855.html",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 81,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-03/news/05-hong-kong-lan-kwai-fong-service-robot.md",
+          "bytes": 4434,
+          "preview_image": "/daily/2026-09-03/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f482855.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgemini-models%2Fintroducing-agentic-video-in-gemini%2F",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 79,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-03/news/06-gemini-agentic-video-understanding.md",
+          "bytes": 4821,
+          "preview_image": "/daily/2026-09-03/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgemini-models_2fintroducing-agentic-video-in-gemini_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F02%2Fcaterpillar-and-fieldai-collaborate-on-physical-ai-for-industrial-jobsites-and-factories%2F",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 76,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-03/news/07-caterpillar-fieldai-industrial-physical-ai.md",
+          "bytes": 4703,
+          "preview_image": "/daily/2026-09-03/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f02_2fcaterpillar-and-fieldai-collaborate-on-physical-ai-for-industrial-jobsites-and-factories_2f/preview.jpg"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-02%2F%23story-0014",
+          "category": "Policy",
+          "group_rank": 1,
+          "group_score": 72,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-03/policy/01-nebraska-dmv-ai-assistant-statewide.md",
+          "bytes": 6232,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-02%2F%23story-0004",
+          "category": "Policy",
+          "group_rank": 2,
+          "group_score": 72,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-03/policy/02-ice-voter-files-ai-procurement.md",
+          "bytes": 6475,
+          "preview_image": "/daily/2026-09-03/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-09-02_2f_23story-0004/preview.jpg"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-02%2F%23story-0013",
+          "category": "Policy",
+          "group_rank": 3,
+          "group_score": 65,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-03/policy/03-musicians-sue-suno-ai-songs.md",
+          "bytes": 6651,
+          "preview_image": "/daily/2026-09-03/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-09-02_2f_23story-0013/preview.jpg"
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.01596",
+      "path": "docs/public/daily/2026-09-03/assets/arxiv--2609.01596/preview.png",
+      "bytes": 1617311
+    },
+    {
+      "candidate_id": "arxiv--2609.00188",
+      "path": "docs/public/daily/2026-09-03/assets/arxiv--2609.00188/preview.png",
+      "bytes": 207528
+    },
+    {
+      "candidate_id": "arxiv--2609.01560",
+      "path": "docs/public/daily/2026-09-03/assets/arxiv--2609.01560/preview.png",
+      "bytes": 2064796
+    },
+    {
+      "candidate_id": "arxiv--2609.01281",
+      "path": "docs/public/daily/2026-09-03/assets/arxiv--2609.01281/preview.png",
+      "bytes": 612162
+    },
+    {
+      "candidate_id": "arxiv--2609.00111",
+      "path": "docs/public/daily/2026-09-03/assets/arxiv--2609.00111/preview.png",
+      "bytes": 520676
+    },
+    {
+      "candidate_id": "arxiv--2609.00908",
+      "path": "docs/public/daily/2026-09-03/assets/arxiv--2609.00908/preview.png",
+      "bytes": 253645
+    },
+    {
+      "candidate_id": "arxiv--2609.01404",
+      "path": "docs/public/daily/2026-09-03/assets/arxiv--2609.01404/preview.png",
+      "bytes": 281579
+    },
+    {
+      "candidate_id": "arxiv--2609.01215",
+      "path": "docs/public/daily/2026-09-03/assets/arxiv--2609.01215/preview.png",
+      "bytes": 65534
+    },
+    {
+      "candidate_id": "arxiv--2609.00920",
+      "path": "docs/public/daily/2026-09-03/assets/arxiv--2609.00920/preview.png",
+      "bytes": 189955
+    },
+    {
+      "candidate_id": "arxiv--2609.01518",
+      "path": "docs/public/daily/2026-09-03/assets/arxiv--2609.01518/preview.jpg",
+      "bytes": 392300
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-02-8",
+      "path": "docs/public/daily/2026-09-03/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-09-02-8/preview.jpg",
+      "bytes": 622827
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F482652.html",
+      "path": "docs/public/daily/2026-09-03/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f482652.html/preview.webp",
+      "bytes": 15336
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F482855.html",
+      "path": "docs/public/daily/2026-09-03/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f482855.html/preview.png",
+      "bytes": 232676
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgemini-models%2Fintroducing-agentic-video-in-gemini%2F",
+      "path": "docs/public/daily/2026-09-03/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgemini-models_2fintroducing-agentic-video-in-gemini_2f/preview.png",
+      "bytes": 884194
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F02%2Fcaterpillar-and-fieldai-collaborate-on-physical-ai-for-industrial-jobsites-and-factories%2F",
+      "path": "docs/public/daily/2026-09-03/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f02_2fcaterpillar-and-fieldai-collaborate-on-physical-ai-for-industrial-jobsites-and-factories_2f/preview.jpg",
+      "bytes": 140164
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-02%2F%23story-0004",
+      "path": "docs/public/daily/2026-09-03/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-09-02_2f_23story-0004/preview.jpg",
+      "bytes": 500446
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-02%2F%23story-0013",
+      "path": "docs/public/daily/2026-09-03/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-09-02_2f_23story-0013/preview.jpg",
+      "bytes": 82365
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-02T18:14:58.567403+00:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
