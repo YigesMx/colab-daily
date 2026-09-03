@@ -1,0 +1,317 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-04",
+  "display_date": "2026-09-04",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.02531",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 85.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-04/paper/01-sa-wam.md",
+          "bytes": 3501,
+          "preview_image": "/daily/2026-09-04/assets/arxiv--2609.02531/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.02159",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 84.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-04/paper/02-world-coherent-decoding.md",
+          "bytes": 2897,
+          "preview_image": "/daily/2026-09-04/assets/arxiv--2609.02159/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.02886",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 84.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-04/paper/03-solarwm.md",
+          "bytes": 3127,
+          "preview_image": "/daily/2026-09-04/assets/arxiv--2609.02886/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.01938",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 83.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-04/paper/04-demomimic.md",
+          "bytes": 2691,
+          "preview_image": "/daily/2026-09-04/assets/arxiv--2609.01938/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.02546",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 82.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-04/paper/05-zeta-vla.md",
+          "bytes": 2754,
+          "preview_image": "/daily/2026-09-04/assets/arxiv--2609.02546/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.02542",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 80.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-04/paper/06-wm-loco.md",
+          "bytes": 2730,
+          "preview_image": "/daily/2026-09-04/assets/arxiv--2609.02542/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.02653",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 79.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-04/paper/07-hint.md",
+          "bytes": 2813,
+          "preview_image": "/daily/2026-09-04/assets/arxiv--2609.02653/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.02341",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 78.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-04/paper/08-vla-bev-forcing.md",
+          "bytes": 2609,
+          "preview_image": "/daily/2026-09-04/assets/arxiv--2609.02341/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.02134",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 77.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-04/paper/09-umr.md",
+          "bytes": 2683,
+          "preview_image": "/daily/2026-09-04/assets/arxiv--2609.02134/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.02350",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 76.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-04/paper/10-lookstep.md",
+          "bytes": 2621,
+          "preview_image": "/daily/2026-09-04/assets/arxiv--2609.02350/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fnvidia-to-acquire-hugging-face%2F",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 88.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-04/news/01-nvidia-hugging-face.md",
+          "bytes": 2625,
+          "preview_image": "/daily/2026-09-04/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fnvidia-to-acquire-hugging-face_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-03-2",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 85.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-04/news/02-gemini-3-8-launch.md",
+          "bytes": 2365,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-03-5",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 83.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-04/news/03-openai-astra-looped-reasoning.md",
+          "bytes": 3173,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-03%2F%23story-0020",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 80.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-04/news/04-uber-wayve-london-robotaxi.md",
+          "bytes": 1929,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F03%2Fother%2Fadmin%2F111886%2F%25e5%2588%259a%25e5%2588%259a%25ef%25bc%258c%25e5%2585%25a8%25e7%2590%2583%25e9%25a6%2596%25e5%258f%25b0%25e3%2580%258c%25e4%25b8%2587%25e5%2585%2583%25e7%25ba%25a7%25e3%2580%258d%25e9%25ab%2598%25e6%2580%25a7%25e8%2583%25bd%25e4%25ba%25ba%25e5%25bd%25a2%25e6%259c%25ba%25e5%2599%25a8%25e4%25ba%25ba%25e8%25af%259e%25e7%2594%259f%2F",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 76.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-04/news/05-sub-10k-humanoid-robot.md",
+          "bytes": 2785,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2078872855220052803",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 73.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-04/news/06-gigaai-thu-behavior-world-model.md",
+          "bytes": 2321,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-03-9",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 72.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-04/news/07-astribot-smoothrl.md",
+          "bytes": 2276,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-03%2F%23story-0002",
+          "category": "Policy",
+          "group_rank": 1,
+          "group_score": 80.0,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-04/policy/01-g20-us-ai-guidelines.md",
+          "bytes": 2748,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-03%2F%23story-0001",
+          "category": "Policy",
+          "group_rank": 2,
+          "group_score": 79.0,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-04/policy/02-us-nyt-openai-copyright.md",
+          "bytes": 2661,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-03%2F%23story-0003",
+          "category": "Policy",
+          "group_rank": 3,
+          "group_score": 78.0,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-04/policy/03-nyc-genai-student-ban.md",
+          "bytes": 2590,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.02531",
+      "path": "docs/public/daily/2026-09-04/assets/arxiv--2609.02531/preview.png",
+      "bytes": 522394
+    },
+    {
+      "candidate_id": "arxiv--2609.02159",
+      "path": "docs/public/daily/2026-09-04/assets/arxiv--2609.02159/preview.png",
+      "bytes": 266938
+    },
+    {
+      "candidate_id": "arxiv--2609.02886",
+      "path": "docs/public/daily/2026-09-04/assets/arxiv--2609.02886/preview.png",
+      "bytes": 1915424
+    },
+    {
+      "candidate_id": "arxiv--2609.01938",
+      "path": "docs/public/daily/2026-09-04/assets/arxiv--2609.01938/preview.png",
+      "bytes": 993847
+    },
+    {
+      "candidate_id": "arxiv--2609.02546",
+      "path": "docs/public/daily/2026-09-04/assets/arxiv--2609.02546/preview.png",
+      "bytes": 1363003
+    },
+    {
+      "candidate_id": "arxiv--2609.02542",
+      "path": "docs/public/daily/2026-09-04/assets/arxiv--2609.02542/preview.png",
+      "bytes": 737601
+    },
+    {
+      "candidate_id": "arxiv--2609.02653",
+      "path": "docs/public/daily/2026-09-04/assets/arxiv--2609.02653/preview.png",
+      "bytes": 882887
+    },
+    {
+      "candidate_id": "arxiv--2609.02341",
+      "path": "docs/public/daily/2026-09-04/assets/arxiv--2609.02341/preview.png",
+      "bytes": 296366
+    },
+    {
+      "candidate_id": "arxiv--2609.02134",
+      "path": "docs/public/daily/2026-09-04/assets/arxiv--2609.02134/preview.png",
+      "bytes": 382972
+    },
+    {
+      "candidate_id": "arxiv--2609.02350",
+      "path": "docs/public/daily/2026-09-04/assets/arxiv--2609.02350/preview.png",
+      "bytes": 700561
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fnvidia-to-acquire-hugging-face%2F",
+      "path": "docs/public/daily/2026-09-04/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fnvidia-to-acquire-hugging-face_2f/preview.png",
+      "bytes": 49895
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-04T01:13:26.688404+08:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
