@@ -1,0 +1,317 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-05",
+  "display_date": "2026-09-05",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.03591",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 87.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-05/paper/01-xr2-bimanual-scaling.md",
+          "bytes": 4152,
+          "preview_image": "/daily/2026-09-05/assets/arxiv--2609.03591/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.03681",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 86.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-05/paper/02-wise-imagination-scheduling.md",
+          "bytes": 3647,
+          "preview_image": "/daily/2026-09-05/assets/arxiv--2609.03681/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.03067",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 84.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-05/paper/03-astro-world-model-rpo.md",
+          "bytes": 3732,
+          "preview_image": "/daily/2026-09-05/assets/arxiv--2609.03067/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.03199",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 84.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-05/paper/04-robotok-data-engine.md",
+          "bytes": 3260,
+          "preview_image": "/daily/2026-09-05/assets/arxiv--2609.03199/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.03497",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 82.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-05/paper/05-bridge-humanoid-codesign.md",
+          "bytes": 3469,
+          "preview_image": "/daily/2026-09-05/assets/arxiv--2609.03497/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.03889",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 81.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-05/paper/06-fwbc-vla-force-aware.md",
+          "bytes": 3610,
+          "preview_image": "/daily/2026-09-05/assets/arxiv--2609.03889/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.03715",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 79.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-05/paper/07-minerva-libero-capacity.md",
+          "bytes": 3353,
+          "preview_image": "/daily/2026-09-05/assets/arxiv--2609.03715/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.04196",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 79.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-05/paper/08-puffin-world.md",
+          "bytes": 3755,
+          "preview_image": "/daily/2026-09-05/assets/arxiv--2609.04196/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.03984",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 78.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-05/paper/09-muldp-quadruped-parkour.md",
+          "bytes": 3018,
+          "preview_image": "/daily/2026-09-05/assets/arxiv--2609.03984/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.04193",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 78.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-05/paper/10-gift-intermediate-features.md",
+          "bytes": 3649,
+          "preview_image": "/daily/2026-09-05/assets/arxiv--2609.04193/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-04-8",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 85.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-05/news/01-meta-humanclaw-open-source.md",
+          "bytes": 3607,
+          "preview_image": "/daily/2026-09-05/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-09-04-8/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F04%2Fother%2Fadmin%2F112026%2Ffable-5-1%25e5%258f%2598%25e8%25ba%25abtoken%25e5%2588%25ba%25e5%25ae%25a2%25ef%25bc%258c%25e5%2587%25a0%25e5%2588%2586%25e9%2592%259f%25e7%2583%25a7%25e5%2585%2589%25e9%25a2%259d%25e5%25ba%25a6%25ef%25bc%2581ai%25e5%259c%2588%25e6%258e%2580%25e8%25b5%25b7%25e3%2580%258c%25e6%25a6%25a8%25e6%25b1%2581%25e9%259d%25a9%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 83.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-05/news/02-claude-fable-5-1.md",
+          "bytes": 3471,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F04%2Fother%2Fadmin%2F111997%2Fclaude%25e5%2590%258e%25e5%258f%25b0%25e6%258e%25a5%25e7%25ae%25a1%25e7%2594%25b5%25e8%2584%2591%25ef%25bc%258c%25e7%259c%259f%25c2%25b7%25e8%25b5%259b%25e5%258d%259a%25e6%259b%25bf%25e8%25ba%25ab%25ef%25bc%2581%25e4%25ba%25ba%25e6%259c%25ba%25e5%25b9%25b6%25e8%25a1%258c%25e6%2597%25b6%25e4%25bb%25a3%25e6%259d%25a5%2F",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 83.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-05/news/03-claude-code-background-computer-use.md",
+          "bytes": 3379,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F04%2Fother%2Fadmin%2F111986%2Fmeta%25e5%258f%2591%25e6%259c%2580%25e5%25bc%25ba%25e6%25a8%25a1%25e5%259e%258b%25e6%2589%2593%25e5%2593%258d%25e4%25bb%25b7%25e6%25a0%25bc%25e6%2588%2598%25ef%25bc%258c%25e5%25b0%258f%25e6%2589%258e%25e5%25af%25b9%25e8%25b0%25b7%25e6%25ad%258c%25e8%25b4%25b4%25e8%2584%25b8%25e5%25bc%2580%25e5%25a4%25a7%25ef%25bc%2581%2F",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 82.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-05/news/04-meta-muse-spark-1-3.md",
+          "bytes": 3013,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F04%2Fworld-labs-unveils-atlas-world-model%2F",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 80.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-05/news/05-world-labs-atlas.md",
+          "bytes": 2756,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-04%2F%23story-0013",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 79.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-05/news/06-openai-astra-reasoning-rebuttal.md",
+          "bytes": 2777,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-04%2F%23story-0017",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 78.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-05/news/07-openai-daybreak-cyber-billion.md",
+          "bytes": 2618,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-04%2F%23story-0021",
+          "category": "Policy",
+          "group_rank": 1,
+          "group_score": 83.0,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-05/policy/01-thailand-data-center-pause.md",
+          "bytes": 3145,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-04%2F%23story-0003",
+          "category": "Policy",
+          "group_rank": 2,
+          "group_score": 79.0,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-05/policy/02-lausd-student-genai-ban.md",
+          "bytes": 3091,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-04%2F%23story-0001",
+          "category": "Policy",
+          "group_rank": 3,
+          "group_score": 76.0,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-05/policy/03-sanders-ban-asi-act.md",
+          "bytes": 3264,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.03591",
+      "path": "docs/public/daily/2026-09-05/assets/arxiv--2609.03591/preview.png",
+      "bytes": 1158402
+    },
+    {
+      "candidate_id": "arxiv--2609.03681",
+      "path": "docs/public/daily/2026-09-05/assets/arxiv--2609.03681/preview.png",
+      "bytes": 652116
+    },
+    {
+      "candidate_id": "arxiv--2609.03067",
+      "path": "docs/public/daily/2026-09-05/assets/arxiv--2609.03067/preview.png",
+      "bytes": 565389
+    },
+    {
+      "candidate_id": "arxiv--2609.03199",
+      "path": "docs/public/daily/2026-09-05/assets/arxiv--2609.03199/preview.png",
+      "bytes": 779739
+    },
+    {
+      "candidate_id": "arxiv--2609.03497",
+      "path": "docs/public/daily/2026-09-05/assets/arxiv--2609.03497/preview.png",
+      "bytes": 6379914
+    },
+    {
+      "candidate_id": "arxiv--2609.03889",
+      "path": "docs/public/daily/2026-09-05/assets/arxiv--2609.03889/preview.png",
+      "bytes": 758124
+    },
+    {
+      "candidate_id": "arxiv--2609.03715",
+      "path": "docs/public/daily/2026-09-05/assets/arxiv--2609.03715/preview.png",
+      "bytes": 56414
+    },
+    {
+      "candidate_id": "arxiv--2609.04196",
+      "path": "docs/public/daily/2026-09-05/assets/arxiv--2609.04196/preview.png",
+      "bytes": 1057639
+    },
+    {
+      "candidate_id": "arxiv--2609.03984",
+      "path": "docs/public/daily/2026-09-05/assets/arxiv--2609.03984/preview.png",
+      "bytes": 381411
+    },
+    {
+      "candidate_id": "arxiv--2609.04193",
+      "path": "docs/public/daily/2026-09-05/assets/arxiv--2609.04193/preview.png",
+      "bytes": 308021
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-04-8",
+      "path": "docs/public/daily/2026-09-05/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-09-04-8/preview.png",
+      "bytes": 3317891
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-05T01:02:21.893524+08:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
