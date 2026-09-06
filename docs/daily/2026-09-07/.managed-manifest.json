@@ -1,0 +1,184 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-07",
+  "display_date": "2026-09-07",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-06-3",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 75.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-07/paper/01-starvla-codebase-september-updates.md",
+          "bytes": 6061,
+          "preview_image": "/daily/2026-09-07/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-09-06-3/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-06",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 58.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-07/paper/02-human-centric-intelligence-survey.md",
+          "bytes": 4197,
+          "preview_image": "/daily/2026-09-07/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-09-06/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F06%2Fother%2Fadmin%2F112379%2F%25e7%25bb%2599%25e5%25a4%25a7%25e6%25a8%25a1%25e5%259e%258b%25e3%2580%258c%25e6%258a%2595%25e6%259c%25ba%25e8%25a7%25a3%25e7%25a0%2581%25e3%2580%258d%25e6%259d%25be%25e7%25bb%2591%25ef%25bc%259a%25e5%2585%258d%25e8%25ae%25ad%25e7%25bb%2583%25ef%25bc%258c%25e5%258d%25b3%25e6%258f%2592%25e5%258d%25b3%25e7%2594%25a8%25e8%25bf%2591%2F",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 56.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-07/paper/03-approximate-speculative-decoding.md",
+          "bytes": 5457,
+          "preview_image": "/daily/2026-09-07/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f09_2f06_2fother_2fadmin_2f112379_2f_25e7_25bb_2599_25e5_25a4_25a7_25e6_25a8_25a1_25e5_259e_258b_25e3_2580_258c_25e6_258a_2595_25e6_259c_25ba_25e8_25a7_25a3_25e7_25a0_2581_25e3_2580_258d_25e6_259d_25be_25e7_25bb_2591_25ef_25bc_259a_25e5_2585_258d_25e8_25ae_25ad_25e7_25bb_2583_25ef_25bc_258c_25e5_258d_25b3_25e6_258f_2592_25e5_258d_25b3_25e7_2594_25a8_25e8_25bf_2591_2f/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F06%2Fother%2Fadmin%2F112353%2F%25e5%2588%259a%25e5%2588%259a%25ef%25bc%258cgpt-6-astra%25e5%2585%25a8%25e9%2587%258f%25e5%25bc%2580%25e6%2594%25be%25ef%25bc%2581%2F",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 86.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-07/news/01-gpt6-astra-general-availability.md",
+          "bytes": 5053,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F06%2Fother%2Fadmin%2F112366%2F%25e5%2588%259a%25e5%2588%259a%25ef%25bc%258cclaude%25e9%25a6%2596%25e6%25ac%25a1%25e8%25af%2581%25e6%2598%258e%25e8%25b4%25b9%25e9%25a9%25ac%25e5%25a4%25a7%25e5%25ae%259a%25e7%2590%2586%25ef%25bc%2581%25e6%25b8%2585%25e5%258d%258e%25e5%25a7%259a%25e7%258f%25ad%25e5%25a4%25a7%25e7%25a5%259e%25e5%2587%25ba%25e6%2589%258b%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 82.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-07/news/02-claude-fermat-last-theorem-lean.md",
+          "bytes": 5174,
+          "preview_image": "/daily/2026-09-07/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f09_2f06_2fother_2fadmin_2f112366_2f_25e5_2588_259a_25e5_2588_259a_25ef_25bc_258cclaude_25e9_25a6_2596_25e6_25ac_25a1_25e8_25af_2581_25e6_2598_258e_25e8_25b4_25b9_25e9_25a9_25ac_25e5_25a4_25a7_25e5_25ae_259a_25e7_2590_2586_25ef_25bc_2581_25e6_25b8_2585_25e5_258d_258e_25e5_25a7_259a_25e7_258f_25ad_25e5_25a4_25a7_25e7_25a5_259e_25e5_2587_25ba_25e6_2589_258b_2f/preview.jpg"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F06%2Fother%2Fadmin%2F112395%2F%25e5%25a4%25a7%25e6%25a8%25a1%25e5%259e%258b%25e8%2592%25b8%25e9%25a6%258f%25e6%2597%25b6%25e4%25bb%25a3%25e7%25bb%2593%25e6%259d%259f%25ef%25bc%2581fable-5-1%25e6%2594%25b9%25e5%2586%2599api%25ef%25bc%258c%25e5%25bd%25bb%25e5%25ba%2595%25e5%2588%2587%25e6%2596%25ad%25e8%2592%25b8%25e9%25a6%258f%25e5%2590%258e%2F",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 81.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-07/news/03-fable51-thinking-block-api-rules.md",
+          "bytes": 4546,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F484897.html",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 73.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-07/news/04-embodied-in-context-learning-scaling.md",
+          "bytes": 4672,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fopenai.com%2Findex%2Fresearch-acceleration-view-inside-openai",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 73.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-07/news/05-openai-research-acceleration.md",
+          "bytes": 2925,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F06%2Fother%2Fadmin%2F112285%2F%25e4%25b8%2580%25e4%25b8%25aa%25e4%25ba%25ba%25ef%25bc%258c%25e4%25b8%2580%25e5%258f%25aa%25e9%25bc%25a0%25e6%25a0%2587%25ef%25bc%2581%25e4%25bb%2596%25e5%2587%25bb%25e9%2580%2580%25e4%25ba%25863103%25e4%25b8%25aaopenai%25e6%2599%25ba%25e8%2583%25bd%25e4%25bd%259342%25e5%25a4%25a9%25e9%259b%2586%25e4%25bd%2593%2F",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 68.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-07/news/06-wiki-editor-vs-3103-openai-agents.md",
+          "bytes": 3578,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-06-2",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 62.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-07/news/07-tao-clarifies-millennium-rumor.md",
+          "bytes": 3945,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F05%2Fguild-introduces-software-factory-an-autonomous-ai-system-for-engineering-work%2F",
+          "category": "News",
+          "group_rank": 8,
+          "group_score": 60.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-07/news/08-guild-software-factory.md",
+          "bytes": 2786,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-06-3",
+      "path": "docs/public/daily/2026-09-07/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-09-06-3/preview.png",
+      "bytes": 945562
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-06",
+      "path": "docs/public/daily/2026-09-07/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-09-06/preview.png",
+      "bytes": 191606
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F06%2Fother%2Fadmin%2F112379%2F%25e7%25bb%2599%25e5%25a4%25a7%25e6%25a8%25a1%25e5%259e%258b%25e3%2580%258c%25e6%258a%2595%25e6%259c%25ba%25e8%25a7%25a3%25e7%25a0%2581%25e3%2580%258d%25e6%259d%25be%25e7%25bb%2591%25ef%25bc%259a%25e5%2585%258d%25e8%25ae%25ad%25e7%25bb%2583%25ef%25bc%258c%25e5%258d%25b3%25e6%258f%2592%25e5%258d%25b3%25e7%2594%25a8%25e8%25bf%2591%2F",
+      "path": "docs/public/daily/2026-09-07/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f09_2f06_2fother_2fadmin_2f112379_2f_25e7_25bb_2599_25e5_25a4_25a7_25e6_25a8_25a1_25e5_259e_258b_25e3_2580_258c_25e6_258a_2595_25e6_259c_25ba_25e8_25a7_25a3_25e7_25a0_2581_25e3_2580_258d_25e6_259d_25be_25e7_25bb_2591_25ef_25bc_259a_25e5_2585_258d_25e8_25ae_25ad_25e7_25bb_2583_25ef_25bc_258c_25e5_258d_25b3_25e6_258f_2592_25e5_258d_25b3_25e7_2594_25a8_25e8_25bf_2591_2f/preview.png",
+      "bytes": 365451,
+      "storage_path": "docs/public/daily/2026-09-07/assets/paper-003/preview.png"
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F06%2Fother%2Fadmin%2F112366%2F%25e5%2588%259a%25e5%2588%259a%25ef%25bc%258cclaude%25e9%25a6%2596%25e6%25ac%25a1%25e8%25af%2581%25e6%2598%258e%25e8%25b4%25b9%25e9%25a9%25ac%25e5%25a4%25a7%25e5%25ae%259a%25e7%2590%2586%25ef%25bc%2581%25e6%25b8%2585%25e5%258d%258e%25e5%25a7%259a%25e7%258f%25ad%25e5%25a4%25a7%25e7%25a5%259e%25e5%2587%25ba%25e6%2589%258b%2F",
+      "path": "docs/public/daily/2026-09-07/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f09_2f06_2fother_2fadmin_2f112366_2f_25e5_2588_259a_25e5_2588_259a_25ef_25bc_258cclaude_25e9_25a6_2596_25e6_25ac_25a1_25e8_25af_2581_25e6_2598_258e_25e8_25b4_25b9_25e9_25a9_25ac_25e5_25a4_25a7_25e5_25ae_259a_25e7_2590_2586_25ef_25bc_2581_25e6_25b8_2585_25e5_258d_258e_25e5_25a7_259a_25e7_258f_25ad_25e5_25a4_25a7_25e7_25a5_259e_25e5_2587_25ba_25e6_2589_258b_2f/preview.jpg",
+      "bytes": 99731,
+      "storage_path": "docs/public/daily/2026-09-07/assets/news-002/preview.jpg"
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-07T01:46:07.383721+08:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 3,
+    "news_count": 8,
+    "policy_count": 0,
+    "selected_total": 11,
+    "news_policy_total": 8,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 10,
+    "news_fallback_used": 3
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
