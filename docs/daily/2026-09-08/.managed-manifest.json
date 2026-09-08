@@ -1,0 +1,312 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-08",
+  "display_date": "2026-09-08",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.04355",
+          "category": "Paper",
+          "group_rank": 1,
+          "group_score": 83.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-08/paper/01-vla-precision-real-world-online-rl.md",
+          "bytes": 3837,
+          "preview_image": "/daily/2026-09-08/assets/arxiv--2609.04355/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.04911",
+          "category": "Paper",
+          "group_rank": 2,
+          "group_score": 81.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-08/paper/02-tourphysics-world-models.md",
+          "bytes": 3146,
+          "preview_image": "/daily/2026-09-08/assets/arxiv--2609.04911/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.05266",
+          "category": "Paper",
+          "group_rank": 3,
+          "group_score": 80.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-08/paper/03-tacpac-tactile-action-correction.md",
+          "bytes": 3064,
+          "preview_image": "/daily/2026-09-08/assets/arxiv--2609.05266/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.04893",
+          "category": "Paper",
+          "group_rank": 4,
+          "group_score": 79.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-08/paper/04-latent-semantic-scaffolding-vla.md",
+          "bytes": 3063,
+          "preview_image": "/daily/2026-09-08/assets/arxiv--2609.04893/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.05260",
+          "category": "Paper",
+          "group_rank": 5,
+          "group_score": 77.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-08/paper/05-one-word-different-action-benchmark.md",
+          "bytes": 2798,
+          "preview_image": "/daily/2026-09-08/assets/arxiv--2609.05260/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.05324",
+          "category": "Paper",
+          "group_rank": 6,
+          "group_score": 75.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-08/paper/06-robospa-vla-benchmark.md",
+          "bytes": 2730,
+          "preview_image": "/daily/2026-09-08/assets/arxiv--2609.05324/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.05178",
+          "category": "Paper",
+          "group_rank": 7,
+          "group_score": 74.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-08/paper/07-libero-recover-failure-recovery.md",
+          "bytes": 2663,
+          "preview_image": "/daily/2026-09-08/assets/arxiv--2609.05178/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.05369",
+          "category": "Paper",
+          "group_rank": 8,
+          "group_score": 74.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-08/paper/08-neuro-symbolic-procedural-reasoning.md",
+          "bytes": 2966,
+          "preview_image": "/daily/2026-09-08/assets/arxiv--2609.05369/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.05401",
+          "category": "Paper",
+          "group_rank": 9,
+          "group_score": 73.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-08/paper/09-robormbench-paraphrase-fragility.md",
+          "bytes": 2747,
+          "preview_image": "/daily/2026-09-08/assets/arxiv--2609.05401/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.05416",
+          "category": "Paper",
+          "group_rank": 10,
+          "group_score": 73.0,
+          "score_scale": "paper-v2",
+          "rating_track": "paper",
+          "path": "docs/daily/2026-09-08/paper/10-worldsculpt-compositional-worlds.md",
+          "bytes": 3001,
+          "preview_image": "/daily/2026-09-08/assets/arxiv--2609.05416/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F485056.html",
+          "category": "News",
+          "group_rank": 1,
+          "group_score": 84.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-08/news/01-hidream-o1-embodied-world-model.md",
+          "bytes": 3369,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F07%2Fother%2Fadmin%2F112536%2F%25e7%25aa%2581%25e5%258f%2591%25ef%25bc%2581claude%25e9%25bb%258e%25e6%259b%25bc%25e7%258c%259c%25e6%2583%25b3%25e6%259c%2580%25e5%25a4%25a7%25e7%25aa%2581%25e7%25a0%25b4%25ef%25bc%258c%25e5%25b7%25b2%25e8%25a2%25ab%25e4%25ba%25ba%25e7%25b1%25bb%25e6%2595%25b0%25e5%25ad%25a6%25e5%25ae%25b6%25e9%25aa%258c%25e8%25af%2581%2F",
+          "category": "News",
+          "group_rank": 2,
+          "group_score": 84.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-08/news/02-claude-riemann-zeros-record-verified.md",
+          "bytes": 3805,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F485108.html",
+          "category": "News",
+          "group_rank": 3,
+          "group_score": 78.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-08/news/03-mostik-hidden-state-bridge-qwen-glm-arcagi3.md",
+          "bytes": 3479,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F07%2Fother%2Fadmin%2F112464%2F%25e7%25aa%2581%25e5%258f%2591%25ef%25bc%258copenai-gpt-6%25e8%25b7%2591%25e5%2588%2586%25e4%25bd%259c%25e5%25bc%258a%25e8%25a2%25ab%25e6%258a%2593%25e5%258c%2585%25e4%25ba%2586%25ef%25bc%2581%2F",
+          "category": "News",
+          "group_rank": 4,
+          "group_score": 77.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-08/news/04-gpt6-astra-benchmark-data-changes.md",
+          "bytes": 2561,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F485525.html",
+          "category": "News",
+          "group_rank": 5,
+          "group_score": 72.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-08/news/05-benmo-d1-modular-wheel-legged-robot.md",
+          "bytes": 2986,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F07%2Fother%2Fadmin%2F112478%2F%25e8%25b0%25b7%25e6%25ad%258c%25e8%25ae%25a9ai%25e4%25ba%2592%25e6%2580%25bc%25e5%2587%25a0%25e5%25a4%25a9%25ef%25bc%2581%25e5%25b0%258f%25e6%25a8%25a1%25e5%259e%258b%25e7%25ab%259f%25e5%25a4%258d%25e7%258e%25b03%25e9%2581%2593%25e5%258d%259a%25e5%25a3%25ab%25e7%25ba%25a7%25e9%259a%25be%25e9%25a2%2598%2F",
+          "category": "News",
+          "group_rank": 6,
+          "group_score": 72.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-08/news/06-google-teamwork-gemini-flash-phd-math.md",
+          "bytes": 4249,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-07-9",
+          "category": "News",
+          "group_rank": 7,
+          "group_score": 70.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-08/news/07-llada-diffusion-text-to-image.md",
+          "bytes": 2414,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F09%2F07%2Fother%2Fadmin%2F112425%2Fai%25e7%25a7%2591%25e5%25ad%25a6%25e5%25ae%25b6%25e5%2586%25b2%25e5%2587%25ba%25e5%25b1%258f%25e5%25b9%2595%25ef%25bc%2581mit%25e6%2595%2599%25e6%258e%2588%25e6%2589%25944%25e5%25bc%25a0%25e7%2585%25a7%25e7%2589%2587%25ef%25bc%258c3%25e4%25b8%25aagrok%25e4%25b8%2580%25e5%25b0%258f%25e6%2597%25b6%25e9%2580%25a0%25e5%2587%25ba%2F",
+          "category": "News",
+          "group_rank": 8,
+          "group_score": 69.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-08/news/08-mit-grok-bots-3d-print-parts.md",
+          "bytes": 4180,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2080308162654107165",
+          "category": "News",
+          "group_rank": 9,
+          "group_score": 69.0,
+          "score_scale": "news-v3",
+          "rating_track": "news",
+          "path": "docs/daily/2026-09-08/news/09-yuandian-openbridge-zeroth-bridge.md",
+          "bytes": 2887,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fdigital-strategy.ec.europa.eu%2Fen%2Fevents%2Fapply-ai-summit",
+          "category": "Policy",
+          "group_rank": 1,
+          "group_score": 61.0,
+          "score_scale": "policy-v3",
+          "rating_track": "policy",
+          "path": "docs/daily/2026-09-08/policy/01-eu-apply-ai-summit.md",
+          "bytes": 3658,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.04355",
+      "path": "docs/public/daily/2026-09-08/assets/arxiv--2609.04355/preview.png",
+      "bytes": 818557
+    },
+    {
+      "candidate_id": "arxiv--2609.04911",
+      "path": "docs/public/daily/2026-09-08/assets/arxiv--2609.04911/preview.png",
+      "bytes": 1943548
+    },
+    {
+      "candidate_id": "arxiv--2609.05266",
+      "path": "docs/public/daily/2026-09-08/assets/arxiv--2609.05266/preview.png",
+      "bytes": 513260
+    },
+    {
+      "candidate_id": "arxiv--2609.04893",
+      "path": "docs/public/daily/2026-09-08/assets/arxiv--2609.04893/preview.png",
+      "bytes": 175343
+    },
+    {
+      "candidate_id": "arxiv--2609.05260",
+      "path": "docs/public/daily/2026-09-08/assets/arxiv--2609.05260/preview.png",
+      "bytes": 251688
+    },
+    {
+      "candidate_id": "arxiv--2609.05324",
+      "path": "docs/public/daily/2026-09-08/assets/arxiv--2609.05324/preview.png",
+      "bytes": 1165967
+    },
+    {
+      "candidate_id": "arxiv--2609.05178",
+      "path": "docs/public/daily/2026-09-08/assets/arxiv--2609.05178/preview.png",
+      "bytes": 1113992
+    },
+    {
+      "candidate_id": "arxiv--2609.05369",
+      "path": "docs/public/daily/2026-09-08/assets/arxiv--2609.05369/preview.png",
+      "bytes": 573421
+    },
+    {
+      "candidate_id": "arxiv--2609.05401",
+      "path": "docs/public/daily/2026-09-08/assets/arxiv--2609.05401/preview.png",
+      "bytes": 245748
+    },
+    {
+      "candidate_id": "arxiv--2609.05416",
+      "path": "docs/public/daily/2026-09-08/assets/arxiv--2609.05416/preview.png",
+      "bytes": 801748
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-08T12:37:10.466649+08:00",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 9,
+    "policy_count": 1,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 9,
+    "news_fallback_used": 4
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
