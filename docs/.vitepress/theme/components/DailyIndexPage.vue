@@ -220,6 +220,7 @@ function scoreLabel(article: DailyArticle): string {
                 NO. {{ String(article.groupRank).padStart(2, '0') }}
               </span>
               <span
+                v-if="article.groupScore !== undefined"
                 class="article-card__score"
                 :aria-label="`${scoreLabel(article)} ${article.groupScore}`"
                 :title="scoreLabel(article)"

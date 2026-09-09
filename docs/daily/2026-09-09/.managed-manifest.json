@@ -1,0 +1,223 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-09",
+  "display_date": "2026-09-09",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.05533",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-09/paper/01-9de69b41d5263628.md",
+          "bytes": 9969,
+          "preview_image": "/daily/2026-09-09/assets/arxiv--2609.05533/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.01281",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-09/paper/02-e0d04bac91ff5998.md",
+          "bytes": 9295,
+          "preview_image": "/daily/2026-09-09/assets/arxiv--2609.01281/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.04010",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-09/paper/03-f87eaa69881ba099.md",
+          "bytes": 9800,
+          "preview_image": "/daily/2026-09-09/assets/arxiv--2609.04010/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.03756",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-09/paper/04-cc9aa35999ec0c40.md",
+          "bytes": 9173,
+          "preview_image": "/daily/2026-09-09/assets/arxiv--2609.03756/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.04482",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-09/paper/05-481b63c9869d116e.md",
+          "bytes": 9765,
+          "preview_image": "/daily/2026-09-09/assets/arxiv--2609.04482/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "news--deepmind-alphagenome-atlas",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-09/news/01-0f469371090c81d5.md",
+          "bytes": 6997,
+          "preview_image": "/daily/2026-09-09/assets/news--deepmind-alphagenome-atlas/preview.png"
+        },
+        {
+          "candidate_id": "news--openai-navier-stokes",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-09/news/02-d280b5a739a81bfb.md",
+          "bytes": 6930,
+          "preview_image": "/daily/2026-09-09/assets/news--openai-navier-stokes/preview.png"
+        },
+        {
+          "candidate_id": "news--pachocki-alien-mind-essay",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-09/news/03-2ca8f2fcaba93384.md",
+          "bytes": 7187,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--xpeng-anyworld",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-09/news/04-214bf81c773ceea5.md",
+          "bytes": 6579,
+          "preview_image": "/daily/2026-09-09/assets/news--xpeng-anyworld/preview.png"
+        },
+        {
+          "candidate_id": "news--openai-agent-german-wiki",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-09/news/05-8e0174e9d77aaab1.md",
+          "bytes": 5257,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "news--qbitai-wang-yunhe-first-model",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-09/news/06-9f7a30fe205f1146.md",
+          "bytes": 5999,
+          "preview_image": "/daily/2026-09-09/assets/news--qbitai-wang-yunhe-first-model/preview.png"
+        },
+        {
+          "candidate_id": "news--zhihu-gpt6-action-efficiency",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-09/news/07-3cae89860aa77445.md",
+          "bytes": 9648,
+          "preview_image": "/daily/2026-09-09/assets/news--zhihu-gpt6-action-efficiency/preview.png"
+        },
+        {
+          "candidate_id": "news--ai-designed-lung-drug",
+          "category": "News",
+          "group_rank": 8,
+          "path": "docs/daily/2026-09-09/news/08-b1a67a1dd6319c87.md",
+          "bytes": 6082,
+          "preview_image": "/daily/2026-09-09/assets/news--ai-designed-lung-drug/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "policy--china-spc-ai-deepfake-rules",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-09/policy/01-e4cef6c161e8f76b.md",
+          "bytes": 13573,
+          "preview_image": "/daily/2026-09-09/assets/policy--china-spc-ai-deepfake-rules/preview.png"
+        },
+        {
+          "candidate_id": "policy--australia-algorithmic-feed-switch",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-09/policy/02-9a105f3541f80dfe.md",
+          "bytes": 11412,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.05533",
+      "path": "docs/public/daily/2026-09-09/assets/arxiv--2609.05533/preview.png",
+      "bytes": 224160
+    },
+    {
+      "candidate_id": "arxiv--2609.01281",
+      "path": "docs/public/daily/2026-09-09/assets/arxiv--2609.01281/preview.png",
+      "bytes": 439601
+    },
+    {
+      "candidate_id": "arxiv--2609.04010",
+      "path": "docs/public/daily/2026-09-09/assets/arxiv--2609.04010/preview.png",
+      "bytes": 168097
+    },
+    {
+      "candidate_id": "arxiv--2609.03756",
+      "path": "docs/public/daily/2026-09-09/assets/arxiv--2609.03756/preview.png",
+      "bytes": 66180
+    },
+    {
+      "candidate_id": "arxiv--2609.04482",
+      "path": "docs/public/daily/2026-09-09/assets/arxiv--2609.04482/preview.png",
+      "bytes": 1172158
+    },
+    {
+      "candidate_id": "news--deepmind-alphagenome-atlas",
+      "path": "docs/public/daily/2026-09-09/assets/news--deepmind-alphagenome-atlas/preview.png",
+      "bytes": 232390
+    },
+    {
+      "candidate_id": "news--openai-navier-stokes",
+      "path": "docs/public/daily/2026-09-09/assets/news--openai-navier-stokes/preview.png",
+      "bytes": 1532612
+    },
+    {
+      "candidate_id": "news--xpeng-anyworld",
+      "path": "docs/public/daily/2026-09-09/assets/news--xpeng-anyworld/preview.png",
+      "bytes": 897613
+    },
+    {
+      "candidate_id": "news--qbitai-wang-yunhe-first-model",
+      "path": "docs/public/daily/2026-09-09/assets/news--qbitai-wang-yunhe-first-model/preview.png",
+      "bytes": 670311
+    },
+    {
+      "candidate_id": "news--zhihu-gpt6-action-efficiency",
+      "path": "docs/public/daily/2026-09-09/assets/news--zhihu-gpt6-action-efficiency/preview.png",
+      "bytes": 262282
+    },
+    {
+      "candidate_id": "news--ai-designed-lung-drug",
+      "path": "docs/public/daily/2026-09-09/assets/news--ai-designed-lung-drug/preview.png",
+      "bytes": 325995
+    },
+    {
+      "candidate_id": "policy--china-spc-ai-deepfake-rules",
+      "path": "docs/public/daily/2026-09-09/assets/policy--china-spc-ai-deepfake-rules/preview.png",
+      "bytes": 638297
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-09T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 5,
+    "news_count": 8,
+    "policy_count": 2,
+    "selected_total": 15,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 8,
+    "news_fallback_used": 3
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}

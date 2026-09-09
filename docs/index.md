@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 每日精选
+title: 每日报告
 ---
 
 <script setup>

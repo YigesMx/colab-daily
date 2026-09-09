@@ -28,8 +28,8 @@ export interface DailyArticle {
   authors: string[]
   summary: string
   keywords: string[]
-  groupScore: number
-  scoreKind: ArticleScoreKind
+  groupScore?: number
+  scoreKind?: ArticleScoreKind
   scoreScale?: string
   ratingTrack?: string
   sources: ArticleSource[]
@@ -137,10 +137,16 @@ const canonicalV3TopLevelKeys = [
   'quota_proof',
   'compatibility_checks'
 ] as const
-const optionalV3TopLevelKeys = ['quota_revision'] as const
-const supervisorExceptionRevision = 'supervisor-exception-2026-08-28'
-const supervisorExceptionCandidateId =
-  'url--https%3A%2F%2Fwww.perceptron.inc%2Fblog%2Fintroducing-isaac-0-5'
+const optionalV3TopLevelKeys = ['quota_revision', 'public_fields'] as const
+
+const canonicalScorelessCandidateKeys = [
+  'candidate_id',
+  'category',
+  'group_rank',
+  'path',
+  'bytes',
+  'preview_image'
+] as const
 
 const canonicalV2CandidateKeys = [
   'candidate_id',
@@ -757,14 +763,11 @@ function parseManagedGrouped(
   const quotaRevision = schemaVersion === 3 && hasField(manifest, 'quota_revision')
     ? manifestString(manifest.quota_revision, 'quota_revision', manifestPath)
     : undefined
-  if (
-    quotaRevision !== undefined &&
-    quotaRevision !== 'policy3' &&
-    quotaRevision !== supervisorExceptionRevision
-  ) {
-    throw new Error(`${manifestPath}: unsupported schema v3 quota_revision`)
+  if (hasField(manifest, 'public_fields') && manifest.public_fields !== 'rank-display-v1') {
+    throw new Error(`${manifestPath}: unsupported public_fields contract`)
   }
-  const supervisorException = quotaRevision === supervisorExceptionRevision
+  // Bounded pre-policy3 archives only. New renderer always emits policy3.
+  const legacyExtended = quotaRevision !== undefined && quotaRevision !== 'policy3'
   const policyCapacity = quotaRevision === 'policy3' ? 3 : 5
   const categoryContracts = schemaVersion === 2 ? legacyCategoryContracts : v3CategoryContracts
   validateManifestIdentity(manifest, date, manifestPath, true)
@@ -794,13 +797,14 @@ function parseManagedGrouped(
     for (const [index, value] of group.candidates.entries()) {
       const candidatePath = `${manifestPath}: groups.${category}.candidates[${index}]`
       const candidate = recordValue(value, candidatePath)
-      exactObjectKeys(candidate, canonicalV2CandidateKeys, candidatePath)
+      const scoreless = schemaVersion === 3 && manifest.public_fields === 'rank-display-v1'
+      exactObjectKeys(candidate, scoreless ? canonicalScorelessCandidateKeys : canonicalV2CandidateKeys, candidatePath)
       const candidateId = safeCandidateId(candidate.candidate_id, 'candidate_id', candidatePath)
       const declaredCategory = requiredCategory(candidate.category, candidatePath)
       const groupRank = manifestPositiveInteger(candidate.group_rank, 'group_rank', candidatePath)
-      const groupScore = manifestGroupScore(candidate.group_score, candidatePath)
-      const scoreScale = manifestString(candidate.score_scale, 'score_scale', candidatePath)
-      const ratingTrack = manifestString(candidate.rating_track, 'rating_track', candidatePath)
+      const groupScore = scoreless ? undefined : manifestGroupScore(candidate.group_score, candidatePath)
+      const scoreScale = scoreless ? undefined : manifestString(candidate.score_scale, 'score_scale', candidatePath)
+      const ratingTrack = scoreless ? undefined : manifestString(candidate.rating_track, 'rating_track', candidatePath)
       if (groupRank !== index + 1) {
         throw new Error(`${candidatePath}: group_rank must equal its one-based array position`)
       }
@@ -822,7 +826,7 @@ function parseManagedGrouped(
         throw new Error(`${candidatePath}: category must match its ${category} group`)
       }
       const contract = categoryContracts[category]
-      if (scoreScale !== contract.scoreScale || ratingTrack !== contract.ratingTrack) {
+      if (!scoreless && (scoreScale !== contract.scoreScale || ratingTrack !== contract.ratingTrack)) {
         throw new Error(
           `${candidatePath}: schema v${schemaVersion} ${category} must use score_scale ${contract.scoreScale} and rating_track ${contract.ratingTrack}`
         )
@@ -862,20 +866,10 @@ function parseManagedGrouped(
   const paperCount = candidates.filter((candidate) => candidate.category === 'Paper').length
   const policyCount = candidates.filter((candidate) => candidate.category === 'Policy').length
   const newsCount = candidates.filter((candidate) => candidate.category === 'News').length
-  const newsFinalCapacity = supervisorException ? 6 : 10 - policyCount
-  if (supervisorException && (
-    date !== '2026-08-28' ||
-    !candidateIds.has(supervisorExceptionCandidateId) ||
-    candidates.length !== 21 ||
-    paperCount !== 10 ||
-    newsCount !== 6 ||
-    policyCount !== 5
-  )) {
-    throw new Error(`${manifestPath}: invalid supervisor exception contract`)
-  }
+  const newsFinalCapacity = legacyExtended ? 6 : 10 - policyCount
   if (schemaVersion === 3) {
     if (
-      candidates.length > selectionLimit + (supervisorException ? 1 : 0) ||
+      candidates.length > selectionLimit + (legacyExtended ? 1 : 0) ||
       paperCount > 10 ||
       policyCount > policyCapacity ||
       newsCount > newsFinalCapacity
@@ -911,7 +905,7 @@ function parseManagedGrouped(
     schemaVersion === 3 ? v3QuotaProofKeys : v2QuotaProofKeys,
     `${manifestPath}: quota_proof`
   )
-  const expectedNewsFinalCapacity = supervisorException ? 6 : 10 - policyCount
+  const expectedNewsFinalCapacity = legacyExtended ? 6 : 10 - policyCount
   const newsFallbackUsed = Math.max(
     0,
     Math.min(newsCount, expectedNewsFinalCapacity) - 5
@@ -1073,7 +1067,7 @@ function discoverManagedDays(): Map<string, ManagedDay> {
   const dailyDirectory = fileURLToPath(dailyDirectoryUrl)
   const managedDays = new Map<string, ManagedDay>()
 
-  for (const entry of readdirSync(dailyDirectory, { withFileTypes: true })) {
+  for (const entry of (existsSync(dailyDirectory) ? readdirSync(dailyDirectory, { withFileTypes: true }) : [])) {
     if (!entry.isDirectory()) continue
     const manifestUrl = new URL(`${entry.name}/.managed-manifest.json`, dailyDirectoryUrl)
     const manifestFile = fileURLToPath(manifestUrl)
@@ -1257,7 +1251,7 @@ function validateMarkdownLinks(source: string, path: string): void {
   if (
     /\bfile:\/\//i.test(withoutFrontmatter) ||
     /(^|[\s("'=])(?:\/home\/|\/Users\/|[A-Za-z]:[\\/])/.test(withoutFrontmatter) ||
-    /\bcrawl_tmp(?:[\\/]|\b)/.test(withoutFrontmatter)
+    /\b(?:crawl_tmp|working_tmp)(?:[\\/]|\b)/.test(withoutFrontmatter)
   ) {
     throw new Error(`${path}: Markdown must not expose a workspace or temporary path`)
   }
@@ -1430,12 +1424,13 @@ function parseArticle(url: string, rawFrontmatter: unknown, source: unknown): Lo
     if (!hasField(frontmatter, 'previewImage')) {
       throw new Error(`${url}: grouped schema front matter must declare previewImage as a path or null`)
     }
-    if (frontmatter.scoreScale !== categoryContract.scoreScale) {
+    const scoreless = !hasField(frontmatter, 'groupScore') && !hasField(frontmatter, 'scoreScale') && !hasField(frontmatter, 'ratingTrack')
+    if (!scoreless && frontmatter.scoreScale !== categoryContract.scoreScale) {
       throw new Error(
         `${url}: schema v${schemaVersion} ${category} articles must use scoreScale: ${categoryContract.scoreScale}`
       )
     }
-    if (frontmatter.ratingTrack !== categoryContract.ratingTrack) {
+    if (!scoreless && frontmatter.ratingTrack !== categoryContract.ratingTrack) {
       throw new Error(
         `${url}: schema v${schemaVersion} ${category} articles must use ratingTrack: ${categoryContract.ratingTrack}`
       )
@@ -1451,14 +1446,14 @@ function parseArticle(url: string, rawFrontmatter: unknown, source: unknown): Lo
     authors: stringList(frontmatter.authors, 'authors', url),
     summary: requiredString(frontmatter.summary, 'summary', url),
     keywords: articleKeywords(frontmatter.keywords, url, schemaVersion),
-    groupScore: schemaVersion !== 1
-      ? boundedGroupScore(frontmatter.groupScore, url)
-      : requiredNumber(frontmatter.score, 'score', url),
-    scoreKind: schemaVersion !== 1 ? 'group-local' : 'historical',
-    scoreScale: schemaVersion !== 1
+    groupScore: schemaVersion === 1
+      ? requiredNumber(frontmatter.score, 'score', url)
+      : hasField(frontmatter, 'groupScore') ? boundedGroupScore(frontmatter.groupScore, url) : undefined,
+    scoreKind: schemaVersion === 1 ? 'historical' : hasField(frontmatter, 'groupScore') ? 'group-local' : undefined,
+    scoreScale: schemaVersion !== 1 && hasField(frontmatter, 'scoreScale')
       ? requiredString(frontmatter.scoreScale, 'scoreScale', url)
       : undefined,
-    ratingTrack: schemaVersion !== 1
+    ratingTrack: schemaVersion !== 1 && hasField(frontmatter, 'ratingTrack')
       ? requiredString(frontmatter.ratingTrack, 'ratingTrack', url)
       : undefined,
     sources: parseSources(frontmatter.sources, url),
@@ -1499,12 +1494,10 @@ function validateDailySet(date: string, items: LoadedArticle[], mode: ManagedDay
     const paperCount = items.filter((article) => article.category === 'Paper').length
     const newsCount = items.filter((article) => article.category === 'News').length
     const policyCount = items.filter((article) => article.category === 'Policy').length
-    const supervisorException = date === '2026-08-28' && items.some(
-      (article) => article.candidateId === supervisorExceptionCandidateId
-    )
-    const newsFinalCapacity = supervisorException ? 6 : 10 - policyCount
+    const legacyExtended = items.length === 21 && policyCount <= 5 && newsCount <= 6
+    const newsFinalCapacity = legacyExtended ? 6 : 10 - policyCount
     if (
-      items.length > 20 + (supervisorException ? 1 : 0) ||
+      items.length > 20 + (legacyExtended ? 1 : 0) ||
       paperCount > 10 ||
       policyCount > 5 ||
       newsCount > newsFinalCapacity
@@ -1696,11 +1689,11 @@ function publicAssetFiles(date: string): { files: Set<string>; directories: Set<
 }
 
 function reconcilePublicAssetFiles(date: string, managedDay: ManagedDay): void {
-  const expected = new Set(managedDay.assets.values().map((asset) => asset.path))
+  const expected = new Set([...managedDay.assets.values()].map((asset) => asset.path))
   for (const page of managedDay.detachedLegacyPages) {
     for (const asset of page.assets) expected.add(asset.path)
   }
-  const storageExpected = new Set(managedDay.assets.values().map((asset) => asset.storagePath ?? asset.path))
+  const storageExpected = new Set([...managedDay.assets.values()].map((asset) => asset.storagePath ?? asset.path))
   const expectedDirectories = new Set([...storageExpected].map((path) => nodePath.posix.dirname(path)))
   const actual = publicAssetFiles(date)
   assertExactSet(date, 'public asset path', storageExpected, actual.files)

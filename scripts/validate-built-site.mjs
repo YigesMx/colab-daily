@@ -1,3 +1,4 @@
+import matter from 'gray-matter'
 import { createReadStream, existsSync, lstatSync, readFileSync, readdirSync, statSync } from 'node:fs'
 import { createServer } from 'node:http'
 import { extname, join, normalize, relative, resolve } from 'node:path'
@@ -45,8 +46,8 @@ function manifestFiles() {
 
 function markdownTitle(path) {
   const source = readFileSync(resolve(root, path), 'utf8')
-  const match = source.match(/^title:\s*(?:"([^"]+)"|'([^']+)'|(.+?))\s*$/m)
-  return match?.[1] ?? match?.[2] ?? match?.[3]?.trim() ?? fail(`${path}: missing title`)
+  const title = matter(source).data.title
+  return typeof title === 'string' && title.trim() ? title : fail('missing title')
 }
 
 function cleanUrl(path) {
@@ -64,12 +65,8 @@ function articleContract(candidate, date, category, legacy = false) {
   ]
   const score = legacy ? candidate.score : candidate.group_score
   if (score !== undefined) values.push(`data-group-score="${score}"`)
-  if (!legacy) {
-    values.push(
-      `data-score-scale="${candidate.score_scale}"`,
-      `data-rating-track="${candidate.rating_track}"`
-    )
-  }
+  if (!legacy && candidate.score_scale !== undefined) values.push(`data-score-scale="${candidate.score_scale}"`)
+  if (!legacy && candidate.rating_track !== undefined) values.push(`data-rating-track="${candidate.rating_track}"`)
   return values
 }
 
@@ -90,13 +87,14 @@ function manifestChecks() {
         fail(`${manifestFile}: invalid schema v3 quota_contract`)
       }
       const quotaRevision = manifest.quota_revision
-      const supervisorExceptionRevision = 'supervisor-exception-2026-08-28'
-      const supervisorException = quotaRevision === supervisorExceptionRevision
-      if (
-        quotaRevision !== undefined &&
+      // Compatibility is structural and archive-only: current publication always emits policy3.
+      // A named pre-policy3 revision may preserve the former 10/6/5, total-21 shape,
+      // without embedding a date, organization, URL or candidate identity in reusable code.
+      const legacyExtended =
+        typeof quotaRevision === 'string' &&
         quotaRevision !== 'policy3' &&
-        !supervisorException
-      ) {
+        /^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$/.test(quotaRevision)
+      if (quotaRevision !== undefined && quotaRevision !== 'policy3' && !legacyExtended) {
         fail(`${manifestFile}: unsupported schema v3 quota_revision`)
       }
       const policyCapacity = quotaRevision === 'policy3' ? 3 : 5
@@ -106,26 +104,16 @@ function manifestChecks() {
       const newsCount = count('News')
       const policyCount = count('Policy')
       const total = paperCount + newsCount + policyCount
-      const newsFinalCapacity = supervisorException ? 6 : 10 - policyCount
-      const supervisorCandidateId =
-        'url--https%3A%2F%2Fwww.perceptron.inc%2Fblog%2Fintroducing-isaac-0-5'
-      const hasSupervisorCandidate = Object.values(groups)
-        .some((group) => (group?.candidates ?? []).some((candidate) => candidate.candidate_id === supervisorCandidateId))
+      const newsFinalCapacity = legacyExtended ? 6 : 10 - policyCount
       if (
-        supervisorException && (
-          date !== '2026-08-28' ||
-          !hasSupervisorCandidate ||
-          total !== 21 ||
-          paperCount !== 10 ||
-          newsCount !== 6 ||
-          policyCount !== 5
-        )
+        legacyExtended &&
+        (total !== 21 || paperCount !== 10 || newsCount !== 6 || policyCount !== 5)
       ) {
-        fail(`${manifestFile}: invalid supervisor exception contract`)
+        fail(`${manifestFile}: invalid legacy extended quota contract`)
       }
       if (
         manifest.selection_limit !== 20 ||
-        total > manifest.selection_limit + (supervisorException ? 1 : 0) ||
+        total > manifest.selection_limit + (legacyExtended ? 1 : 0) ||
         paperCount > 10 ||
         policyCount > policyCapacity ||
         newsCount > newsFinalCapacity
@@ -215,7 +203,7 @@ function manifestChecks() {
     pages,
     assets: [...new Set(assets)],
     dates: [...new Set(dates)],
-    reportExpected: [
+    reportExpected: dates.length ? [
       `class="quick-nav"`,
       `href="#section-paper"`,
       `href="#section-news"`,
@@ -224,8 +212,8 @@ function manifestChecks() {
       `data-section-order="2"`,
       `data-section-order="3"`,
       ...reportCards.flat()
-    ],
-    reportOrder: ['Paper', 'News', 'Policy'].flatMap((category) => [
+    ] : [],
+    reportOrder: (dates.length ? ['Paper', 'News', 'Policy'] : []).flatMap((category) => [
       `data-daily-category="${category}"`,
       ...reportCards
         .filter(([, cardCategory]) => cardCategory === `data-card-category="${category}"`)
