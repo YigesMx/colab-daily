@@ -1,0 +1,293 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-10",
+  "display_date": "2026-09-10",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.05588",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-10/paper/01-3aa5f418f66fe285.md",
+          "bytes": 4936,
+          "preview_image": "/daily/2026-09-10/assets/arxiv--2609.05588/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.07398",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-10/paper/02-19fe673d68304a0f.md",
+          "bytes": 4848,
+          "preview_image": "/daily/2026-09-10/assets/arxiv--2609.07398/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.05832",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-10/paper/03-2bb1b8c80a3f87b9.md",
+          "bytes": 3395,
+          "preview_image": "/daily/2026-09-10/assets/arxiv--2609.05832/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.05892",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-10/paper/04-3cef01d0f82bfcc9.md",
+          "bytes": 3618,
+          "preview_image": "/daily/2026-09-10/assets/arxiv--2609.05892/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.05324",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-10/paper/05-94244ce27e094668.md",
+          "bytes": 3338,
+          "preview_image": "/daily/2026-09-10/assets/arxiv--2609.05324/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.05515",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-10/paper/06-c561f00eb1639812.md",
+          "bytes": 3186,
+          "preview_image": "/daily/2026-09-10/assets/arxiv--2609.05515/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.05994",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-10/paper/07-d60aadf48c5da4db.md",
+          "bytes": 3228,
+          "preview_image": "/daily/2026-09-10/assets/arxiv--2609.05994/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.06055",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-09-10/paper/08-f1bda1e7632c12de.md",
+          "bytes": 3711,
+          "preview_image": "/daily/2026-09-10/assets/arxiv--2609.06055/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.05594",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-09-10/paper/09-5b2fc6b3dd0405aa.md",
+          "bytes": 3310,
+          "preview_image": "/daily/2026-09-10/assets/arxiv--2609.05594/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.06009",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-09-10/paper/10-1c3e4fe3e6839de3.md",
+          "bytes": 3364,
+          "preview_image": "/daily/2026-09-10/assets/arxiv--2609.06009/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "news--gpt-fable",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-10/news/01-a71ea98d7203a626.md",
+          "bytes": 4948,
+          "preview_image": "/daily/2026-09-10/assets/news--gpt-fable/preview.png"
+        },
+        {
+          "candidate_id": "news--300-act-scaling",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-10/news/02-43c1410eee72cf75.md",
+          "bytes": 4911,
+          "preview_image": "/daily/2026-09-10/assets/news--300-act-scaling/preview.png"
+        },
+        {
+          "candidate_id": "news--what-openai-latest-controversy-tells-abo",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-10/news/03-2ff79b9b040627af.md",
+          "bytes": 4688,
+          "preview_image": "/daily/2026-09-10/assets/news--what-openai-latest-controversy-tells-abo/preview.png"
+        },
+        {
+          "candidate_id": "news--joyai",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-10/news/04-46d1746ef3e5ecbf.md",
+          "bytes": 5145,
+          "preview_image": "/daily/2026-09-10/assets/news--joyai/preview.png"
+        },
+        {
+          "candidate_id": "news--wwwqbitaicom-18bbd6a0",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-10/news/05-05c150b23139f808.md",
+          "bytes": 4711,
+          "preview_image": "/daily/2026-09-10/assets/news--wwwqbitaicom-18bbd6a0/preview.png"
+        },
+        {
+          "candidate_id": "news--ola",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-10/news/06-f04cfa6762eaa59f.md",
+          "bytes": 4203,
+          "preview_image": "/daily/2026-09-10/assets/news--ola/preview.png"
+        },
+        {
+          "candidate_id": "news--zhuanlanzhih-19ac183a",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-10/news/07-f999b366be156da6.md",
+          "bytes": 5354,
+          "preview_image": "/daily/2026-09-10/assets/news--zhuanlanzhih-19ac183a/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "policy--nsa-fbi-and-cisa-accuse-six",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-10/policy/01-ccaf7ae7b2f4844f.md",
+          "bytes": 7381,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "policy--bill-would-ban-superintelligent-and-requ",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-10/policy/02-7eedaf128ff24ee3.md",
+          "bytes": 6204,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "policy--energy-department-finalizes-billion-loan",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-10/policy/03-835f8428f88e1944.md",
+          "bytes": 6541,
+          "preview_image": "/daily/2026-09-10/assets/policy--energy-department-finalizes-billion-loan/preview.png"
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.05588",
+      "path": "docs/public/daily/2026-09-10/assets/arxiv--2609.05588/preview.png",
+      "bytes": 316725
+    },
+    {
+      "candidate_id": "arxiv--2609.07398",
+      "path": "docs/public/daily/2026-09-10/assets/arxiv--2609.07398/preview.png",
+      "bytes": 2116138
+    },
+    {
+      "candidate_id": "arxiv--2609.05832",
+      "path": "docs/public/daily/2026-09-10/assets/arxiv--2609.05832/preview.png",
+      "bytes": 624688
+    },
+    {
+      "candidate_id": "arxiv--2609.05892",
+      "path": "docs/public/daily/2026-09-10/assets/arxiv--2609.05892/preview.png",
+      "bytes": 619180
+    },
+    {
+      "candidate_id": "arxiv--2609.05324",
+      "path": "docs/public/daily/2026-09-10/assets/arxiv--2609.05324/preview.png",
+      "bytes": 1553340
+    },
+    {
+      "candidate_id": "arxiv--2609.05515",
+      "path": "docs/public/daily/2026-09-10/assets/arxiv--2609.05515/preview.png",
+      "bytes": 985638
+    },
+    {
+      "candidate_id": "arxiv--2609.05994",
+      "path": "docs/public/daily/2026-09-10/assets/arxiv--2609.05994/preview.png",
+      "bytes": 1155044
+    },
+    {
+      "candidate_id": "arxiv--2609.06055",
+      "path": "docs/public/daily/2026-09-10/assets/arxiv--2609.06055/preview.png",
+      "bytes": 672133
+    },
+    {
+      "candidate_id": "arxiv--2609.05594",
+      "path": "docs/public/daily/2026-09-10/assets/arxiv--2609.05594/preview.png",
+      "bytes": 2470252
+    },
+    {
+      "candidate_id": "arxiv--2609.06009",
+      "path": "docs/public/daily/2026-09-10/assets/arxiv--2609.06009/preview.png",
+      "bytes": 3143746
+    },
+    {
+      "candidate_id": "news--gpt-fable",
+      "path": "docs/public/daily/2026-09-10/assets/news--gpt-fable/preview.png",
+      "bytes": 254901
+    },
+    {
+      "candidate_id": "news--300-act-scaling",
+      "path": "docs/public/daily/2026-09-10/assets/news--300-act-scaling/preview.png",
+      "bytes": 262718
+    },
+    {
+      "candidate_id": "news--what-openai-latest-controversy-tells-abo",
+      "path": "docs/public/daily/2026-09-10/assets/news--what-openai-latest-controversy-tells-abo/preview.png",
+      "bytes": 10447729
+    },
+    {
+      "candidate_id": "news--joyai",
+      "path": "docs/public/daily/2026-09-10/assets/news--joyai/preview.png",
+      "bytes": 1998998
+    },
+    {
+      "candidate_id": "news--wwwqbitaicom-18bbd6a0",
+      "path": "docs/public/daily/2026-09-10/assets/news--wwwqbitaicom-18bbd6a0/preview.png",
+      "bytes": 451856
+    },
+    {
+      "candidate_id": "news--ola",
+      "path": "docs/public/daily/2026-09-10/assets/news--ola/preview.png",
+      "bytes": 95187
+    },
+    {
+      "candidate_id": "news--zhuanlanzhih-19ac183a",
+      "path": "docs/public/daily/2026-09-10/assets/news--zhuanlanzhih-19ac183a/preview.png",
+      "bytes": 356355
+    },
+    {
+      "candidate_id": "policy--energy-department-finalizes-billion-loan",
+      "path": "docs/public/daily/2026-09-10/assets/policy--energy-department-finalizes-billion-loan/preview.png",
+      "bytes": 561902
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-10T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
