@@ -1,0 +1,283 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-12",
+  "display_date": "2026-09-12",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.10706",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-12/paper/01-b9a2dc3bbd738ff9.md",
+          "bytes": 8299,
+          "preview_image": "/daily/2026-09-12/assets/arxiv--2609.10706/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.10915",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-12/paper/02-11bc618383bf0189.md",
+          "bytes": 7758,
+          "preview_image": "/daily/2026-09-12/assets/arxiv--2609.10915/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.11920",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-12/paper/03-78d2173a1edafb21.md",
+          "bytes": 7982,
+          "preview_image": "/daily/2026-09-12/assets/arxiv--2609.11920/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.11697",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-12/paper/04-66326318a97df7ea.md",
+          "bytes": 8093,
+          "preview_image": "/daily/2026-09-12/assets/arxiv--2609.11697/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.11753",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-12/paper/05-bcb2ca549776fad8.md",
+          "bytes": 8709,
+          "preview_image": "/daily/2026-09-12/assets/arxiv--2609.11753/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.11553",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-12/paper/06-aad42bfa6a6740dd.md",
+          "bytes": 8651,
+          "preview_image": "/daily/2026-09-12/assets/arxiv--2609.11553/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.10905",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-12/paper/07-3de673481f203a7d.md",
+          "bytes": 8192,
+          "preview_image": "/daily/2026-09-12/assets/arxiv--2609.10905/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.11929",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-09-12/paper/08-b0d44a1b6fcc9b86.md",
+          "bytes": 9972,
+          "preview_image": "/daily/2026-09-12/assets/arxiv--2609.11929/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.11775",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-09-12/paper/09-333b8e2d2a85ef64.md",
+          "bytes": 9086,
+          "preview_image": "/daily/2026-09-12/assets/arxiv--2609.11775/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.11875",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-09-12/paper/10-1eb3916760ebeb40.md",
+          "bytes": 8441,
+          "preview_image": "/daily/2026-09-12/assets/arxiv--2609.11875/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--aiera.com.cn-3e7957d8a03706346c7974bdd1b2c10e",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-12/news/01-4f42f3143a5a1014.md",
+          "bytes": 7318,
+          "preview_image": "/daily/2026-09-12/assets/url--aiera.com.cn-3e7957d8a03706346c7974bdd1b2c10e/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F487092.html",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-12/news/02-3f4e242cf1331d8e.md",
+          "bytes": 6809,
+          "preview_image": "/daily/2026-09-12/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f487092.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-1309c4d9afb8375702b7d7d63b75fc6b",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-12/news/03-48324842dc6fbb2e.md",
+          "bytes": 6751,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-cb5db62edf42ad74c0bdf7acc7621809",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-12/news/04-30846c17b9c3970d.md",
+          "bytes": 6495,
+          "preview_image": "/daily/2026-09-12/assets/url--aiera.com.cn-cb5db62edf42ad74c0bdf7acc7621809/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-15b48d660900d559135d7f43675b3ca5",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-12/news/05-333de430a8586de7.md",
+          "bytes": 6539,
+          "preview_image": "/daily/2026-09-12/assets/url--aiera.com.cn-15b48d660900d559135d7f43675b3ca5/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F11%2Fopenai-adds-safety-researcher-to-board-as-astra-demand-forces-pro-subscription-pause%2F",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-12/news/06-4a68168c69610e5f.md",
+          "bytes": 6992,
+          "preview_image": "/daily/2026-09-12/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f11_2fopenai-adds-safety-researcher-to-board-as-astra-demand-forces-pro-subscription-pause_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-11%2F%23story-0006",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-12/news/07-9a4ff0209040e854.md",
+          "bytes": 6994,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-11%2F%23story-0016",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-12/policy/01-3838ac46373dc2e9.md",
+          "bytes": 7771,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-11%2F%23story-0004",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-12/policy/02-441d90a5a02d70ef.md",
+          "bytes": 10295,
+          "preview_image": "/daily/2026-09-12/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-09-11_2f_23story-0004/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-11%2F%23story-0001",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-12/policy/03-1590fd544dde2ab9.md",
+          "bytes": 9172,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.10706",
+      "path": "docs/public/daily/2026-09-12/assets/arxiv--2609.10706/preview.png",
+      "bytes": 1097046
+    },
+    {
+      "candidate_id": "arxiv--2609.10915",
+      "path": "docs/public/daily/2026-09-12/assets/arxiv--2609.10915/preview.png",
+      "bytes": 490895
+    },
+    {
+      "candidate_id": "arxiv--2609.11920",
+      "path": "docs/public/daily/2026-09-12/assets/arxiv--2609.11920/preview.png",
+      "bytes": 3301161
+    },
+    {
+      "candidate_id": "arxiv--2609.11697",
+      "path": "docs/public/daily/2026-09-12/assets/arxiv--2609.11697/preview.png",
+      "bytes": 275991
+    },
+    {
+      "candidate_id": "arxiv--2609.11753",
+      "path": "docs/public/daily/2026-09-12/assets/arxiv--2609.11753/preview.png",
+      "bytes": 527442
+    },
+    {
+      "candidate_id": "arxiv--2609.11553",
+      "path": "docs/public/daily/2026-09-12/assets/arxiv--2609.11553/preview.png",
+      "bytes": 790131
+    },
+    {
+      "candidate_id": "arxiv--2609.10905",
+      "path": "docs/public/daily/2026-09-12/assets/arxiv--2609.10905/preview.png",
+      "bytes": 1281596
+    },
+    {
+      "candidate_id": "arxiv--2609.11929",
+      "path": "docs/public/daily/2026-09-12/assets/arxiv--2609.11929/preview.png",
+      "bytes": 1014017
+    },
+    {
+      "candidate_id": "arxiv--2609.11775",
+      "path": "docs/public/daily/2026-09-12/assets/arxiv--2609.11775/preview.png",
+      "bytes": 142572
+    },
+    {
+      "candidate_id": "arxiv--2609.11875",
+      "path": "docs/public/daily/2026-09-12/assets/arxiv--2609.11875/preview.png",
+      "bytes": 6051715
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-3e7957d8a03706346c7974bdd1b2c10e",
+      "path": "docs/public/daily/2026-09-12/assets/url--aiera.com.cn-3e7957d8a03706346c7974bdd1b2c10e/preview.png",
+      "bytes": 3753533
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F487092.html",
+      "path": "docs/public/daily/2026-09-12/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f487092.html/preview.png",
+      "bytes": 478617
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-cb5db62edf42ad74c0bdf7acc7621809",
+      "path": "docs/public/daily/2026-09-12/assets/url--aiera.com.cn-cb5db62edf42ad74c0bdf7acc7621809/preview.png",
+      "bytes": 425209
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-15b48d660900d559135d7f43675b3ca5",
+      "path": "docs/public/daily/2026-09-12/assets/url--aiera.com.cn-15b48d660900d559135d7f43675b3ca5/preview.png",
+      "bytes": 1650031
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F11%2Fopenai-adds-safety-researcher-to-board-as-astra-demand-forces-pro-subscription-pause%2F",
+      "path": "docs/public/daily/2026-09-12/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f11_2fopenai-adds-safety-researcher-to-board-as-astra-demand-forces-pro-subscription-pause_2f/preview.png",
+      "bytes": 939583
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-11%2F%23story-0004",
+      "path": "docs/public/daily/2026-09-12/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-09-11_2f_23story-0004/preview.png",
+      "bytes": 9196903
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-12T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
