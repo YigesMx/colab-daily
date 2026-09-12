@@ -1,0 +1,172 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-13",
+  "display_date": "2026-09-13",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": []
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F487653.html",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-13/news/01-fc9d4c0ecf3df0dd.md",
+          "bytes": 3524,
+          "preview_image": "/daily/2026-09-13/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f487653.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-a7286d43735f8d46d1467486d0e3882e",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-13/news/02-3cb2e0a197e34421.md",
+          "bytes": 3736,
+          "preview_image": "/daily/2026-09-13/assets/url--aiera.com.cn-a7286d43735f8d46d1467486d0e3882e/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F487752.html",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-13/news/03-477dc58e057d29d3.md",
+          "bytes": 3449,
+          "preview_image": "/daily/2026-09-13/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f487752.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F487796.html",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-13/news/04-7f2696604c50b0b0.md",
+          "bytes": 3610,
+          "preview_image": "/daily/2026-09-13/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f487796.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F487701.html",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-13/news/05-bfeeabb899e2f785.md",
+          "bytes": 2852,
+          "preview_image": "/daily/2026-09-13/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f487701.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-27d0bd005b93c91b351775890c2b6f85",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-13/news/06-d3467cdc2f21c333.md",
+          "bytes": 3486,
+          "preview_image": "/daily/2026-09-13/assets/url--aiera.com.cn-27d0bd005b93c91b351775890c2b6f85/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-21ca442ee5c925a908d72091a500526a",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-13/news/07-98604cc2b610b41a.md",
+          "bytes": 3467,
+          "preview_image": "/daily/2026-09-13/assets/url--aiera.com.cn-21ca442ee5c925a908d72091a500526a/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-b025b156e1baad1dc92e43f78ba09242",
+          "category": "News",
+          "group_rank": 8,
+          "path": "docs/daily/2026-09-13/news/08-e6b3b9f4f87d79a0.md",
+          "bytes": 3334,
+          "preview_image": "/daily/2026-09-13/assets/url--aiera.com.cn-b025b156e1baad1dc92e43f78ba09242/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-1c56a69458becbbec142dcef52c622d5",
+          "category": "News",
+          "group_rank": 9,
+          "path": "docs/daily/2026-09-13/news/09-4f40c5f45d8ccae8.md",
+          "bytes": 3532,
+          "preview_image": "/daily/2026-09-13/assets/url--aiera.com.cn-1c56a69458becbbec142dcef52c622d5/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F12%2Fhusqvarna-gets-fcc-conditional-approval-for-advanced-robotic-lawn-mowers-in-the-us%2F",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-13/policy/01-987d765dcfae45ba.md",
+          "bytes": 4961,
+          "preview_image": "/daily/2026-09-13/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f12_2fhusqvarna-gets-fcc-conditional-approval-for-advanced-robotic-lawn-mowers-in-the-us_2f/preview.png"
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F487653.html",
+      "path": "docs/public/daily/2026-09-13/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f487653.html/preview.png",
+      "bytes": 412148
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-a7286d43735f8d46d1467486d0e3882e",
+      "path": "docs/public/daily/2026-09-13/assets/url--aiera.com.cn-a7286d43735f8d46d1467486d0e3882e/preview.png",
+      "bytes": 99643
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F487752.html",
+      "path": "docs/public/daily/2026-09-13/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f487752.html/preview.png",
+      "bytes": 203725
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F487796.html",
+      "path": "docs/public/daily/2026-09-13/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f487796.html/preview.png",
+      "bytes": 635320
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F487701.html",
+      "path": "docs/public/daily/2026-09-13/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f487701.html/preview.png",
+      "bytes": 123246
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-27d0bd005b93c91b351775890c2b6f85",
+      "path": "docs/public/daily/2026-09-13/assets/url--aiera.com.cn-27d0bd005b93c91b351775890c2b6f85/preview.png",
+      "bytes": 305952
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-21ca442ee5c925a908d72091a500526a",
+      "path": "docs/public/daily/2026-09-13/assets/url--aiera.com.cn-21ca442ee5c925a908d72091a500526a/preview.png",
+      "bytes": 315318
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-b025b156e1baad1dc92e43f78ba09242",
+      "path": "docs/public/daily/2026-09-13/assets/url--aiera.com.cn-b025b156e1baad1dc92e43f78ba09242/preview.png",
+      "bytes": 582781
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-1c56a69458becbbec142dcef52c622d5",
+      "path": "docs/public/daily/2026-09-13/assets/url--aiera.com.cn-1c56a69458becbbec142dcef52c622d5/preview.png",
+      "bytes": 235403
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F12%2Fhusqvarna-gets-fcc-conditional-approval-for-advanced-robotic-lawn-mowers-in-the-us%2F",
+      "path": "docs/public/daily/2026-09-13/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f12_2fhusqvarna-gets-fcc-conditional-approval-for-advanced-robotic-lawn-mowers-in-the-us_2f/preview.png",
+      "bytes": 88797
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-13T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 0,
+    "news_count": 9,
+    "policy_count": 1,
+    "selected_total": 10,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 9,
+    "news_fallback_used": 4
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
