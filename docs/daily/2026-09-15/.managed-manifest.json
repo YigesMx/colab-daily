@@ -1,0 +1,263 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-15",
+  "display_date": "2026-09-15",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.12641",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-15/paper/01-4bb0ccf702a600f6.md",
+          "bytes": 3521,
+          "preview_image": "/daily/2026-09-15/assets/arxiv--2609.12641/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.13053",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-15/paper/02-9015b4e60a400330.md",
+          "bytes": 3145,
+          "preview_image": "/daily/2026-09-15/assets/arxiv--2609.13053/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.12316",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-15/paper/03-7ff949976990c4fb.md",
+          "bytes": 2729,
+          "preview_image": "/daily/2026-09-15/assets/arxiv--2609.12316/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.12549",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-15/paper/04-3948802d9d43d3ad.md",
+          "bytes": 2677,
+          "preview_image": "/daily/2026-09-15/assets/arxiv--2609.12549/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.12036",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-15/paper/05-cddf03272d62ad2f.md",
+          "bytes": 3053,
+          "preview_image": "/daily/2026-09-15/assets/arxiv--2609.12036/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.12441",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-15/paper/06-b057ccb19029fb7a.md",
+          "bytes": 2682,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2609.12258",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-15/paper/07-eeeaa2b2e0588d23.md",
+          "bytes": 2722,
+          "preview_image": "/daily/2026-09-15/assets/arxiv--2609.12258/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.12245",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-09-15/paper/08-cb19fb2bacc69288.md",
+          "bytes": 2503,
+          "preview_image": "/daily/2026-09-15/assets/arxiv--2609.12245/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.12541",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-09-15/paper/09-e93a67cd8eaa98a1.md",
+          "bytes": 2590,
+          "preview_image": "/daily/2026-09-15/assets/arxiv--2609.12541/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.12347",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-09-15/paper/10-fb3eabe01d26b143.md",
+          "bytes": 2510,
+          "preview_image": "/daily/2026-09-15/assets/arxiv--2609.12347/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2082770917495780664",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-15/news/01-bb547acf0572bea7.md",
+          "bytes": 2944,
+          "preview_image": "/daily/2026-09-15/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2082770917495780664/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2082898482738771810",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-15/news/02-95bfd090955cedcc.md",
+          "bytes": 3127,
+          "preview_image": "/daily/2026-09-15/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2082898482738771810/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-c7cfa0a237d17c9e6f205d2d745e218e",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-15/news/03-ad56d2efb2965688.md",
+          "bytes": 2905,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F488725.html",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-15/news/04-c3e60f9ab4b5cd68.md",
+          "bytes": 2510,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F488699.html",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-15/news/05-fd62e4a51a61cdb8.md",
+          "bytes": 2167,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F14%2Fstellantis-pro-one-uqi-robotics-develop-autonomous-box-on-wheels-for-last-mile-delivery%2F",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-15/news/06-2c276d0c692aa929.md",
+          "bytes": 2621,
+          "preview_image": "/daily/2026-09-15/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f14_2fstellantis-pro-one-uqi-robotics-develop-autonomous-box-on-wheels-for-last-mile-delivery_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-6d12233d294be6c5aef956b3e8c8ecbe",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-15/news/07-24e11b4557321682.md",
+          "bytes": 2832,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-14%2F%23story-0018",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-15/policy/01-d6d9c0b0b1173015.md",
+          "bytes": 2834,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-14%2F%23story-0009",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-15/policy/02-8b26e01789de3dbd.md",
+          "bytes": 2887,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-14%2F%23story-0004",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-15/policy/03-28979a66411ba639.md",
+          "bytes": 2841,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.12641",
+      "path": "docs/public/daily/2026-09-15/assets/arxiv--2609.12641/preview.png",
+      "bytes": 381285
+    },
+    {
+      "candidate_id": "arxiv--2609.13053",
+      "path": "docs/public/daily/2026-09-15/assets/arxiv--2609.13053/preview.png",
+      "bytes": 528646
+    },
+    {
+      "candidate_id": "arxiv--2609.12316",
+      "path": "docs/public/daily/2026-09-15/assets/arxiv--2609.12316/preview.png",
+      "bytes": 336606
+    },
+    {
+      "candidate_id": "arxiv--2609.12549",
+      "path": "docs/public/daily/2026-09-15/assets/arxiv--2609.12549/preview.png",
+      "bytes": 681454
+    },
+    {
+      "candidate_id": "arxiv--2609.12036",
+      "path": "docs/public/daily/2026-09-15/assets/arxiv--2609.12036/preview.png",
+      "bytes": 1044254
+    },
+    {
+      "candidate_id": "arxiv--2609.12258",
+      "path": "docs/public/daily/2026-09-15/assets/arxiv--2609.12258/preview.png",
+      "bytes": 5046369
+    },
+    {
+      "candidate_id": "arxiv--2609.12245",
+      "path": "docs/public/daily/2026-09-15/assets/arxiv--2609.12245/preview.png",
+      "bytes": 298103
+    },
+    {
+      "candidate_id": "arxiv--2609.12541",
+      "path": "docs/public/daily/2026-09-15/assets/arxiv--2609.12541/preview.png",
+      "bytes": 501059
+    },
+    {
+      "candidate_id": "arxiv--2609.12347",
+      "path": "docs/public/daily/2026-09-15/assets/arxiv--2609.12347/preview.png",
+      "bytes": 198346
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2082770917495780664",
+      "path": "docs/public/daily/2026-09-15/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2082770917495780664/preview.png",
+      "bytes": 255227
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2082898482738771810",
+      "path": "docs/public/daily/2026-09-15/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2082898482738771810/preview.png",
+      "bytes": 184043
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F14%2Fstellantis-pro-one-uqi-robotics-develop-autonomous-box-on-wheels-for-last-mile-delivery%2F",
+      "path": "docs/public/daily/2026-09-15/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f14_2fstellantis-pro-one-uqi-robotics-develop-autonomous-box-on-wheels-for-last-mile-delivery_2f/preview.png",
+      "bytes": 74442
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-15T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
