@@ -1,0 +1,278 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-16",
+  "display_date": "2026-09-16",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.15213",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-16/paper/01-3dce36badeda1d41.md",
+          "bytes": 4275,
+          "preview_image": "/daily/2026-09-16/assets/arxiv--2609.15213/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.13812",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-16/paper/02-53201bd077f68bb1.md",
+          "bytes": 3522,
+          "preview_image": "/daily/2026-09-16/assets/arxiv--2609.13812/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.13851",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-16/paper/03-4a4ba28b49b3a113.md",
+          "bytes": 3449,
+          "preview_image": "/daily/2026-09-16/assets/arxiv--2609.13851/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.15870",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-16/paper/04-9fad18e1842be242.md",
+          "bytes": 3274,
+          "preview_image": "/daily/2026-09-16/assets/arxiv--2609.15870/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.15162",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-16/paper/05-0fdf34c3892d92df.md",
+          "bytes": 2930,
+          "preview_image": "/daily/2026-09-16/assets/arxiv--2609.15162/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.15770",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-16/paper/06-8f0ddc28910bbec6.md",
+          "bytes": 2852,
+          "preview_image": "/daily/2026-09-16/assets/arxiv--2609.15770/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.14156",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-16/paper/07-f3781aab322c8134.md",
+          "bytes": 3105,
+          "preview_image": "/daily/2026-09-16/assets/arxiv--2609.14156/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.13290",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-09-16/paper/08-2933af9d75b07657.md",
+          "bytes": 3116,
+          "preview_image": "/daily/2026-09-16/assets/arxiv--2609.13290/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.15382",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-09-16/paper/09-13f954e0b7a8d974.md",
+          "bytes": 2915,
+          "preview_image": "/daily/2026-09-16/assets/arxiv--2609.15382/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.15861",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-09-16/paper/10-b5aae32d87f59672.md",
+          "bytes": 2766,
+          "preview_image": "/daily/2026-09-16/assets/arxiv--2609.15861/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F489460.html",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-16/news/01-a3c2ba33381573ef.md",
+          "bytes": 3013,
+          "preview_image": "/daily/2026-09-16/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f489460.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F15%2Fagility-robotics-unveils-digit-5-with-higher-payload-faster-charging-and-new-safety-system%2F",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-16/news/02-8a3ee1134828f4b5.md",
+          "bytes": 3293,
+          "preview_image": "/daily/2026-09-16/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f15_2fagility-robotics-unveils-digit-5-with-higher-payload-faster-charging-and-new-safety-system_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F15%2Fubtech-opens-humanoid-robot-factory-with-10000-unit-capacity-that-uses-robots-as-workers%2F",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-16/news/03-828b6efe715e45a8.md",
+          "bytes": 2772,
+          "preview_image": "/daily/2026-09-16/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f15_2fubtech-opens-humanoid-robot-factory-with-10000-unit-capacity-that-uses-robots-as-workers_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F489698.html",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-16/news/04-5d784752b363e4e5.md",
+          "bytes": 2611,
+          "preview_image": "/daily/2026-09-16/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f489698.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-15-10",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-16/news/05-0efecf244776d5d6.md",
+          "bytes": 3076,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-2decc4c5f80a12d37eb25de71ba6407a",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-16/news/06-d0090919ace0381f.md",
+          "bytes": 3389,
+          "preview_image": "/daily/2026-09-16/assets/url--aiera.com.cn-2decc4c5f80a12d37eb25de71ba6407a/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-15-9",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-16/news/07-ffa1a01a94b67350.md",
+          "bytes": 2161,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.miit.gov.cn%2Fzwgk%2Fzcjd%2Fart%2F2026%2Fart_7fcfa72ae2ab46469faa7b61c5261079.html",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-16/policy/01-3671112f134c4341.md",
+          "bytes": 3755,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-15%2F%23story-0007",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-16/policy/02-1619827ab77393b6.md",
+          "bytes": 2891,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-15%2F%23story-0015",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-16/policy/03-a1ea4582e82a4940.md",
+          "bytes": 3070,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.15213",
+      "path": "docs/public/daily/2026-09-16/assets/arxiv--2609.15213/preview.png",
+      "bytes": 976959
+    },
+    {
+      "candidate_id": "arxiv--2609.13812",
+      "path": "docs/public/daily/2026-09-16/assets/arxiv--2609.13812/preview.png",
+      "bytes": 124561
+    },
+    {
+      "candidate_id": "arxiv--2609.13851",
+      "path": "docs/public/daily/2026-09-16/assets/arxiv--2609.13851/preview.png",
+      "bytes": 563305
+    },
+    {
+      "candidate_id": "arxiv--2609.15870",
+      "path": "docs/public/daily/2026-09-16/assets/arxiv--2609.15870/preview.png",
+      "bytes": 473671
+    },
+    {
+      "candidate_id": "arxiv--2609.15162",
+      "path": "docs/public/daily/2026-09-16/assets/arxiv--2609.15162/preview.png",
+      "bytes": 511655
+    },
+    {
+      "candidate_id": "arxiv--2609.15770",
+      "path": "docs/public/daily/2026-09-16/assets/arxiv--2609.15770/preview.png",
+      "bytes": 248092
+    },
+    {
+      "candidate_id": "arxiv--2609.14156",
+      "path": "docs/public/daily/2026-09-16/assets/arxiv--2609.14156/preview.png",
+      "bytes": 1239923
+    },
+    {
+      "candidate_id": "arxiv--2609.13290",
+      "path": "docs/public/daily/2026-09-16/assets/arxiv--2609.13290/preview.png",
+      "bytes": 772789
+    },
+    {
+      "candidate_id": "arxiv--2609.15382",
+      "path": "docs/public/daily/2026-09-16/assets/arxiv--2609.15382/preview.png",
+      "bytes": 350111
+    },
+    {
+      "candidate_id": "arxiv--2609.15861",
+      "path": "docs/public/daily/2026-09-16/assets/arxiv--2609.15861/preview.png",
+      "bytes": 1581060
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F489460.html",
+      "path": "docs/public/daily/2026-09-16/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f489460.html/preview.png",
+      "bytes": 198238
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F15%2Fagility-robotics-unveils-digit-5-with-higher-payload-faster-charging-and-new-safety-system%2F",
+      "path": "docs/public/daily/2026-09-16/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f15_2fagility-robotics-unveils-digit-5-with-higher-payload-faster-charging-and-new-safety-system_2f/preview.png",
+      "bytes": 3147529
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F15%2Fubtech-opens-humanoid-robot-factory-with-10000-unit-capacity-that-uses-robots-as-workers%2F",
+      "path": "docs/public/daily/2026-09-16/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f15_2fubtech-opens-humanoid-robot-factory-with-10000-unit-capacity-that-uses-robots-as-workers_2f/preview.png",
+      "bytes": 126171
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F489698.html",
+      "path": "docs/public/daily/2026-09-16/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f489698.html/preview.png",
+      "bytes": 195598
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-2decc4c5f80a12d37eb25de71ba6407a",
+      "path": "docs/public/daily/2026-09-16/assets/url--aiera.com.cn-2decc4c5f80a12d37eb25de71ba6407a/preview.png",
+      "bytes": 295006
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-16T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
