@@ -1,0 +1,273 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-18",
+  "display_date": "2026-09-18",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.18197",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-18/paper/01-f623020cd5eee47e.md",
+          "bytes": 3769,
+          "preview_image": "/daily/2026-09-18/assets/arxiv--2609.18197/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.18084",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-18/paper/02-d6925d7f8073ebb0.md",
+          "bytes": 3491,
+          "preview_image": "/daily/2026-09-18/assets/arxiv--2609.18084/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.19142",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-18/paper/03-6651e6196c8483a9.md",
+          "bytes": 3343,
+          "preview_image": "/daily/2026-09-18/assets/arxiv--2609.19142/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.18514",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-18/paper/04-6f56d6b9c09dd332.md",
+          "bytes": 3403,
+          "preview_image": "/daily/2026-09-18/assets/arxiv--2609.18514/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.18207",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-18/paper/05-f9a134d19ba40e44.md",
+          "bytes": 3053,
+          "preview_image": "/daily/2026-09-18/assets/arxiv--2609.18207/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.18259",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-18/paper/06-13f3612f79a56e77.md",
+          "bytes": 3101,
+          "preview_image": "/daily/2026-09-18/assets/arxiv--2609.18259/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.19138",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-18/paper/07-193e52a6337b99e0.md",
+          "bytes": 3181,
+          "preview_image": "/daily/2026-09-18/assets/arxiv--2609.19138/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.18016",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-09-18/paper/08-01bfd0da0a9dabe5.md",
+          "bytes": 3003,
+          "preview_image": "/daily/2026-09-18/assets/arxiv--2609.18016/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.18732",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-09-18/paper/09-fb0dbe415917607c.md",
+          "bytes": 3165,
+          "preview_image": "/daily/2026-09-18/assets/arxiv--2609.18732/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.18430",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-09-18/paper/10-bb0f2a7e1af7fb0c.md",
+          "bytes": 3349,
+          "preview_image": "/daily/2026-09-18/assets/arxiv--2609.18430/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fopenai.com%2Findex%2Fmodel-misalignment-reporting-framework",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-18/news/01-1630053abce5de68.md",
+          "bytes": 2489,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-7a432d15d958a382",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-18/news/02-ef0dc323de174d57.md",
+          "bytes": 3831,
+          "preview_image": "/daily/2026-09-18/assets/url--aiera.com.cn-7a432d15d958a382/preview.png"
+        },
+        {
+          "candidate_id": "url--theaiinsider.tech-65ce246610ee5121",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-18/news/03-0f87abd9c7b5a6e0.md",
+          "bytes": 2607,
+          "preview_image": "/daily/2026-09-18/assets/url--theaiinsider.tech-65ce246610ee5121/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-40386c817430b67d",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-18/news/04-6caa89f6ad31e6fb.md",
+          "bytes": 3138,
+          "preview_image": "/daily/2026-09-18/assets/url--aiera.com.cn-40386c817430b67d/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F491357.html",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-18/news/05-bdc125e2f2a4e726.md",
+          "bytes": 3039,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-1fbf1642823b1204",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-18/news/06-d304f512bb6e8ded.md",
+          "bytes": 3503,
+          "preview_image": "/daily/2026-09-18/assets/url--aiera.com.cn-1fbf1642823b1204/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F491391.html",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-18/news/07-34627f2fa03c53d3.md",
+          "bytes": 2790,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-17%2F%23story-0014",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-18/policy/01-2bd9c344700472d9.md",
+          "bytes": 3591,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-17%2F%23story-0015",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-18/policy/02-b1cd9ae10ce47fe1.md",
+          "bytes": 3483,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--digital-strategy.ec.europa.eu-89895447064d59b6",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-18/policy/03-d6ddb5848451ced2.md",
+          "bytes": 3371,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.18197",
+      "path": "docs/public/daily/2026-09-18/assets/arxiv--2609.18197/preview.png",
+      "bytes": 423321
+    },
+    {
+      "candidate_id": "arxiv--2609.18084",
+      "path": "docs/public/daily/2026-09-18/assets/arxiv--2609.18084/preview.png",
+      "bytes": 376163
+    },
+    {
+      "candidate_id": "arxiv--2609.19142",
+      "path": "docs/public/daily/2026-09-18/assets/arxiv--2609.19142/preview.png",
+      "bytes": 445371
+    },
+    {
+      "candidate_id": "arxiv--2609.18514",
+      "path": "docs/public/daily/2026-09-18/assets/arxiv--2609.18514/preview.png",
+      "bytes": 709973
+    },
+    {
+      "candidate_id": "arxiv--2609.18207",
+      "path": "docs/public/daily/2026-09-18/assets/arxiv--2609.18207/preview.png",
+      "bytes": 628218
+    },
+    {
+      "candidate_id": "arxiv--2609.18259",
+      "path": "docs/public/daily/2026-09-18/assets/arxiv--2609.18259/preview.png",
+      "bytes": 576756
+    },
+    {
+      "candidate_id": "arxiv--2609.19138",
+      "path": "docs/public/daily/2026-09-18/assets/arxiv--2609.19138/preview.png",
+      "bytes": 564778
+    },
+    {
+      "candidate_id": "arxiv--2609.18016",
+      "path": "docs/public/daily/2026-09-18/assets/arxiv--2609.18016/preview.png",
+      "bytes": 580646
+    },
+    {
+      "candidate_id": "arxiv--2609.18732",
+      "path": "docs/public/daily/2026-09-18/assets/arxiv--2609.18732/preview.png",
+      "bytes": 7397113
+    },
+    {
+      "candidate_id": "arxiv--2609.18430",
+      "path": "docs/public/daily/2026-09-18/assets/arxiv--2609.18430/preview.png",
+      "bytes": 827955
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-7a432d15d958a382",
+      "path": "docs/public/daily/2026-09-18/assets/url--aiera.com.cn-7a432d15d958a382/preview.png",
+      "bytes": 583064
+    },
+    {
+      "candidate_id": "url--theaiinsider.tech-65ce246610ee5121",
+      "path": "docs/public/daily/2026-09-18/assets/url--theaiinsider.tech-65ce246610ee5121/preview.png",
+      "bytes": 275701
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-40386c817430b67d",
+      "path": "docs/public/daily/2026-09-18/assets/url--aiera.com.cn-40386c817430b67d/preview.png",
+      "bytes": 149749
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-1fbf1642823b1204",
+      "path": "docs/public/daily/2026-09-18/assets/url--aiera.com.cn-1fbf1642823b1204/preview.png",
+      "bytes": 752604
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-18T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
