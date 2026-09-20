@@ -1,0 +1,153 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-21",
+  "display_date": "2026-09-21",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": []
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F19%2Fwaymo-plans-fully-autonomous-ride-hailing-service-in-singapore-for-2028%2F",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-21/news/01-bff1e61af57b2241.md",
+          "bytes": 3865,
+          "preview_image": "/daily/2026-09-21/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f19_2fwaymo-plans-fully-autonomous-ride-hailing-service-in-singapore-for-2028_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-a1adec08e8f2118ce77c38b7d9b5cd05",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-21/news/02-6a0a68ceda2a2ed0.md",
+          "bytes": 3963,
+          "preview_image": "/daily/2026-09-21/assets/url--aiera.com.cn-a1adec08e8f2118ce77c38b7d9b5cd05/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F492912.html",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-21/news/03-a5a1f85d908c8fc2.md",
+          "bytes": 4016,
+          "preview_image": "/daily/2026-09-21/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f492912.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F492939.html",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-21/news/04-b5fe39cac6f3a3c9.md",
+          "bytes": 3391,
+          "preview_image": "/daily/2026-09-21/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f492939.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F492946.html",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-21/news/05-71746b35045786df.md",
+          "bytes": 3591,
+          "preview_image": "/daily/2026-09-21/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f492946.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-68bfe45527dc5d31c60a03d16ef34952",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-21/news/06-4dd793c2f3a743e1.md",
+          "bytes": 3307,
+          "preview_image": "/daily/2026-09-21/assets/url--aiera.com.cn-68bfe45527dc5d31c60a03d16ef34952/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F492973.html",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-21/news/07-2375acb594192f40.md",
+          "bytes": 3035,
+          "preview_image": "/daily/2026-09-21/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f492973.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-d989cefd7f6eb3cb7e312d5824601c69",
+          "category": "News",
+          "group_rank": 8,
+          "path": "docs/daily/2026-09-21/news/08-ea8caec69cdcc503.md",
+          "bytes": 3409,
+          "preview_image": "/daily/2026-09-21/assets/url--aiera.com.cn-d989cefd7f6eb3cb7e312d5824601c69/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-20-10",
+          "category": "News",
+          "group_rank": 9,
+          "path": "docs/daily/2026-09-21/news/09-6a9b1fdbb7595ad7.md",
+          "bytes": 2424,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F19%2Fwaymo-plans-fully-autonomous-ride-hailing-service-in-singapore-for-2028%2F",
+      "path": "docs/public/daily/2026-09-21/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f19_2fwaymo-plans-fully-autonomous-ride-hailing-service-in-singapore-for-2028_2f/preview.png",
+      "bytes": 1004178
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-a1adec08e8f2118ce77c38b7d9b5cd05",
+      "path": "docs/public/daily/2026-09-21/assets/url--aiera.com.cn-a1adec08e8f2118ce77c38b7d9b5cd05/preview.png",
+      "bytes": 202475
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F492912.html",
+      "path": "docs/public/daily/2026-09-21/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f492912.html/preview.png",
+      "bytes": 227465
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F492939.html",
+      "path": "docs/public/daily/2026-09-21/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f492939.html/preview.png",
+      "bytes": 349772
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F492946.html",
+      "path": "docs/public/daily/2026-09-21/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f492946.html/preview.png",
+      "bytes": 689830
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-68bfe45527dc5d31c60a03d16ef34952",
+      "path": "docs/public/daily/2026-09-21/assets/url--aiera.com.cn-68bfe45527dc5d31c60a03d16ef34952/preview.png",
+      "bytes": 319555
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F492973.html",
+      "path": "docs/public/daily/2026-09-21/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f492973.html/preview.png",
+      "bytes": 348766
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-d989cefd7f6eb3cb7e312d5824601c69",
+      "path": "docs/public/daily/2026-09-21/assets/url--aiera.com.cn-d989cefd7f6eb3cb7e312d5824601c69/preview.png",
+      "bytes": 402338
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-21T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 0,
+    "news_count": 9,
+    "policy_count": 0,
+    "selected_total": 9,
+    "news_policy_total": 9,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 10,
+    "news_fallback_used": 4
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
