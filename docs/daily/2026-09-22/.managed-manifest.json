@@ -1,0 +1,283 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-22",
+  "display_date": "2026-09-22",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.21461",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-22/paper/01-85c9774e605edafd.md",
+          "bytes": 3306,
+          "preview_image": "/daily/2026-09-22/assets/arxiv--2609.21461/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.21983",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-22/paper/02-6724b78ccfa4cddf.md",
+          "bytes": 2630,
+          "preview_image": "/daily/2026-09-22/assets/arxiv--2609.21983/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.22085",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-22/paper/03-38bbfd845b804f6c.md",
+          "bytes": 2649,
+          "preview_image": "/daily/2026-09-22/assets/arxiv--2609.22085/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.21112",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-22/paper/04-d0702887d046fd07.md",
+          "bytes": 2478,
+          "preview_image": "/daily/2026-09-22/assets/arxiv--2609.21112/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.21572",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-22/paper/05-1391303d8e0e0448.md",
+          "bytes": 2425,
+          "preview_image": "/daily/2026-09-22/assets/arxiv--2609.21572/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.21447",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-22/paper/06-d4f1e61828f24ae2.md",
+          "bytes": 2355,
+          "preview_image": "/daily/2026-09-22/assets/arxiv--2609.21447/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.21948",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-22/paper/07-822060dd98e164a2.md",
+          "bytes": 2481,
+          "preview_image": "/daily/2026-09-22/assets/arxiv--2609.21948/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.21449",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-09-22/paper/08-ec6cae609a6f6434.md",
+          "bytes": 2865,
+          "preview_image": "/daily/2026-09-22/assets/arxiv--2609.21449/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.20980",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-09-22/paper/09-a5651852a78de569.md",
+          "bytes": 2278,
+          "preview_image": "/daily/2026-09-22/assets/arxiv--2609.20980/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.21597",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-09-22/paper/10-c1445092e04d1032.md",
+          "bytes": 2327,
+          "preview_image": "/daily/2026-09-22/assets/arxiv--2609.21597/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-21-11",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-22/news/01-8f69e3caf82a3f95.md",
+          "bytes": 2183,
+          "preview_image": "/daily/2026-09-22/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-09-21-11/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2085435111592481307",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-22/news/02-8faa9485da777f64.md",
+          "bytes": 2482,
+          "preview_image": "/daily/2026-09-22/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2085435111592481307/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2085431823555941539",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-22/news/03-25bd1b83ff3248f4.md",
+          "bytes": 2267,
+          "preview_image": "/daily/2026-09-22/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2085431823555941539/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2085443714160267485",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-22/news/04-95af90f5f1943f14.md",
+          "bytes": 2502,
+          "preview_image": "/daily/2026-09-22/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2085443714160267485/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F21%2Ffaa-to-deploy-875m-ai-system-to-address-air-traffic-control-shortage%2F",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-22/news/05-89828c664844caf0.md",
+          "bytes": 2339,
+          "preview_image": "/daily/2026-09-22/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f21_2ffaa-to-deploy-875m-ai-system-to-address-air-traffic-control-shortage_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F21%2Fgoogle-launches-deepmind-institute-on-agi-safety-expands-ai-agent-cc-for-family-coordination%2F",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-22/news/06-34484d408036bd52.md",
+          "bytes": 2663,
+          "preview_image": "/daily/2026-09-22/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f21_2fgoogle-launches-deepmind-institute-on-agi-safety-expands-ai-agent-cc-for-family-coordination_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-21-7",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-22/news/07-bcfa925f3b00d35c.md",
+          "bytes": 1866,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-21%2F%23story-0001",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-22/policy/01-cfacbb9f55b664ac.md",
+          "bytes": 3927,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-21%2F%23story-0006",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-22/policy/02-471c6b6d3794a790.md",
+          "bytes": 3426,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-21%2F%23story-0022",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-22/policy/03-8a8094c304461110.md",
+          "bytes": 3032,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.21461",
+      "path": "docs/public/daily/2026-09-22/assets/arxiv--2609.21461/preview.png",
+      "bytes": 307916
+    },
+    {
+      "candidate_id": "arxiv--2609.21983",
+      "path": "docs/public/daily/2026-09-22/assets/arxiv--2609.21983/preview.png",
+      "bytes": 1392767
+    },
+    {
+      "candidate_id": "arxiv--2609.22085",
+      "path": "docs/public/daily/2026-09-22/assets/arxiv--2609.22085/preview.png",
+      "bytes": 459365
+    },
+    {
+      "candidate_id": "arxiv--2609.21112",
+      "path": "docs/public/daily/2026-09-22/assets/arxiv--2609.21112/preview.png",
+      "bytes": 6772723
+    },
+    {
+      "candidate_id": "arxiv--2609.21572",
+      "path": "docs/public/daily/2026-09-22/assets/arxiv--2609.21572/preview.png",
+      "bytes": 1374430
+    },
+    {
+      "candidate_id": "arxiv--2609.21447",
+      "path": "docs/public/daily/2026-09-22/assets/arxiv--2609.21447/preview.png",
+      "bytes": 14943078
+    },
+    {
+      "candidate_id": "arxiv--2609.21948",
+      "path": "docs/public/daily/2026-09-22/assets/arxiv--2609.21948/preview.png",
+      "bytes": 430301
+    },
+    {
+      "candidate_id": "arxiv--2609.21449",
+      "path": "docs/public/daily/2026-09-22/assets/arxiv--2609.21449/preview.png",
+      "bytes": 172565
+    },
+    {
+      "candidate_id": "arxiv--2609.20980",
+      "path": "docs/public/daily/2026-09-22/assets/arxiv--2609.20980/preview.png",
+      "bytes": 1106641
+    },
+    {
+      "candidate_id": "arxiv--2609.21597",
+      "path": "docs/public/daily/2026-09-22/assets/arxiv--2609.21597/preview.png",
+      "bytes": 64995
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-09-21-11",
+      "path": "docs/public/daily/2026-09-22/assets/url--https_3a_2f_2fwww.jiqizhixin.com_2farticles_2f2026-09-21-11/preview.png",
+      "bytes": 289373
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2085435111592481307",
+      "path": "docs/public/daily/2026-09-22/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2085435111592481307/preview.png",
+      "bytes": 312264
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2085431823555941539",
+      "path": "docs/public/daily/2026-09-22/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2085431823555941539/preview.png",
+      "bytes": 33489
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2085443714160267485",
+      "path": "docs/public/daily/2026-09-22/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2085443714160267485/preview.png",
+      "bytes": 737978
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F21%2Ffaa-to-deploy-875m-ai-system-to-address-air-traffic-control-shortage%2F",
+      "path": "docs/public/daily/2026-09-22/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f21_2ffaa-to-deploy-875m-ai-system-to-address-air-traffic-control-shortage_2f/preview.png",
+      "bytes": 254117
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F21%2Fgoogle-launches-deepmind-institute-on-agi-safety-expands-ai-agent-cc-for-family-coordination%2F",
+      "path": "docs/public/daily/2026-09-22/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f21_2fgoogle-launches-deepmind-institute-on-agi-safety-expands-ai-agent-cc-for-family-coordination_2f/preview.png",
+      "bytes": 90891
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-22T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
