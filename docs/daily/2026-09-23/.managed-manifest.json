@@ -1,0 +1,278 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-23",
+  "display_date": "2026-09-23",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.23863",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-23/paper/01-661fc3dc51cf85ee.md",
+          "bytes": 7305,
+          "preview_image": "/daily/2026-09-23/assets/arxiv--2609.23863/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.10706",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-23/paper/02-b9a2dc3bbd738ff9.md",
+          "bytes": 6796,
+          "preview_image": "/daily/2026-09-23/assets/arxiv--2609.10706/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.24526",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-23/paper/03-c2f37f3279b21225.md",
+          "bytes": 6998,
+          "preview_image": "/daily/2026-09-23/assets/arxiv--2609.24526/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.22966",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-23/paper/04-4bd5ea3f099d7dab.md",
+          "bytes": 6993,
+          "preview_image": "/daily/2026-09-23/assets/arxiv--2609.22966/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.24411",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-23/paper/05-881a2994ddae0e79.md",
+          "bytes": 7298,
+          "preview_image": "/daily/2026-09-23/assets/arxiv--2609.24411/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.24976",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-23/paper/06-9801acc322c190db.md",
+          "bytes": 7526,
+          "preview_image": "/daily/2026-09-23/assets/arxiv--2609.24976/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.24984",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-23/paper/07-fbaec2452c048f6b.md",
+          "bytes": 7848,
+          "preview_image": "/daily/2026-09-23/assets/arxiv--2609.24984/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.13231",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-09-23/paper/08-420da53f040e23dd.md",
+          "bytes": 6929,
+          "preview_image": "/daily/2026-09-23/assets/arxiv--2609.13231/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.23755",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-09-23/paper/09-a2eb91d6d0c2e80b.md",
+          "bytes": 7316,
+          "preview_image": "/daily/2026-09-23/assets/arxiv--2609.23755/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.24682",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-09-23/paper/10-1c44286670f5774b.md",
+          "bytes": 7778,
+          "preview_image": "/daily/2026-09-23/assets/arxiv--2609.24682/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F494179.html",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-23/news/01-042f4b547abecc2d.md",
+          "bytes": 5455,
+          "preview_image": "/daily/2026-09-23/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f494179.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fisaac-ros-5-0-agentic-open-source-robotics%2F",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-23/news/02-6bddf41f521a1e33.md",
+          "bytes": 5025,
+          "preview_image": "/daily/2026-09-23/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fisaac-ros-5-0-agentic-open-source-robotics_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2085773237070439619",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-23/news/03-b5f7ef53af9f9b30.md",
+          "bytes": 5007,
+          "preview_image": "/daily/2026-09-23/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2085773237070439619/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-ed2fd0a1e0b57c6c24bbe9dd29041575",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-23/news/04-156bfa502e9f6576.md",
+          "bytes": 5897,
+          "preview_image": "/daily/2026-09-23/assets/url--aiera.com.cn-ed2fd0a1e0b57c6c24bbe9dd29041575/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F493625.html",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-23/news/05-e37b6d8ff139a5af.md",
+          "bytes": 4597,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-16020f7383f4c033e106b90d5ca42ea1",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-23/news/06-3b8c3bd6978ea84e.md",
+          "bytes": 5596,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F22%2Fgoogles-intrinsic-open-sources-core-robotics-software-for-industrial-ai%2F",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-23/news/07-86e42388ea520579.md",
+          "bytes": 5010,
+          "preview_image": "/daily/2026-09-23/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f22_2fgoogles-intrinsic-open-sources-core-robotics-software-for-industrial-ai_2f/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-22%2F%23story-0003",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-23/policy/01-cc05bee5864dc383.md",
+          "bytes": 10286,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-22%2F%23story-0024",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-23/policy/02-07ae95c2ee93e174.md",
+          "bytes": 9665,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-22%2F%23story-0006",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-23/policy/03-7910dfd4f039100f.md",
+          "bytes": 7995,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.23863",
+      "path": "docs/public/daily/2026-09-23/assets/arxiv--2609.23863/preview.png",
+      "bytes": 1143234
+    },
+    {
+      "candidate_id": "arxiv--2609.10706",
+      "path": "docs/public/daily/2026-09-23/assets/arxiv--2609.10706/preview.png",
+      "bytes": 1097046
+    },
+    {
+      "candidate_id": "arxiv--2609.24526",
+      "path": "docs/public/daily/2026-09-23/assets/arxiv--2609.24526/preview.png",
+      "bytes": 685367
+    },
+    {
+      "candidate_id": "arxiv--2609.22966",
+      "path": "docs/public/daily/2026-09-23/assets/arxiv--2609.22966/preview.png",
+      "bytes": 323155
+    },
+    {
+      "candidate_id": "arxiv--2609.24411",
+      "path": "docs/public/daily/2026-09-23/assets/arxiv--2609.24411/preview.png",
+      "bytes": 730982
+    },
+    {
+      "candidate_id": "arxiv--2609.24976",
+      "path": "docs/public/daily/2026-09-23/assets/arxiv--2609.24976/preview.png",
+      "bytes": 851532
+    },
+    {
+      "candidate_id": "arxiv--2609.24984",
+      "path": "docs/public/daily/2026-09-23/assets/arxiv--2609.24984/preview.png",
+      "bytes": 2511101
+    },
+    {
+      "candidate_id": "arxiv--2609.13231",
+      "path": "docs/public/daily/2026-09-23/assets/arxiv--2609.13231/preview.png",
+      "bytes": 366710
+    },
+    {
+      "candidate_id": "arxiv--2609.23755",
+      "path": "docs/public/daily/2026-09-23/assets/arxiv--2609.23755/preview.png",
+      "bytes": 819750
+    },
+    {
+      "candidate_id": "arxiv--2609.24682",
+      "path": "docs/public/daily/2026-09-23/assets/arxiv--2609.24682/preview.png",
+      "bytes": 166487
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F494179.html",
+      "path": "docs/public/daily/2026-09-23/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f494179.html/preview.png",
+      "bytes": 56885
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fisaac-ros-5-0-agentic-open-source-robotics%2F",
+      "path": "docs/public/daily/2026-09-23/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fisaac-ros-5-0-agentic-open-source-robotics_2f/preview.png",
+      "bytes": 1238059
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2085773237070439619",
+      "path": "docs/public/daily/2026-09-23/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2085773237070439619/preview.png",
+      "bytes": 250579
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-ed2fd0a1e0b57c6c24bbe9dd29041575",
+      "path": "docs/public/daily/2026-09-23/assets/url--aiera.com.cn-ed2fd0a1e0b57c6c24bbe9dd29041575/preview.png",
+      "bytes": 559754
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F22%2Fgoogles-intrinsic-open-sources-core-robotics-software-for-industrial-ai%2F",
+      "path": "docs/public/daily/2026-09-23/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f22_2fgoogles-intrinsic-open-sources-core-robotics-software-for-industrial-ai_2f/preview.png",
+      "bytes": 326313
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-23T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
