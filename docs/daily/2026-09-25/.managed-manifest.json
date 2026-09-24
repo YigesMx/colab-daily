@@ -1,0 +1,293 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-25",
+  "display_date": "2026-09-25",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.27656",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-25/paper/01-6b8701d110772dfd.md",
+          "bytes": 8312,
+          "preview_image": "/daily/2026-09-25/assets/arxiv--2609.27656/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.28258",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-25/paper/02-2d3cfd7b93dfd001.md",
+          "bytes": 5500,
+          "preview_image": "/daily/2026-09-25/assets/arxiv--2609.28258/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.27450",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-25/paper/03-0304ddf1100ea3f2.md",
+          "bytes": 6167,
+          "preview_image": "/daily/2026-09-25/assets/arxiv--2609.27450/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.24308",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-25/paper/04-aab84daaff5f41e2.md",
+          "bytes": 6265,
+          "preview_image": "/daily/2026-09-25/assets/arxiv--2609.24308/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.27468",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-25/paper/05-3c7bbf1a7f357073.md",
+          "bytes": 5718,
+          "preview_image": "/daily/2026-09-25/assets/arxiv--2609.27468/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.28429",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-25/paper/06-00192de734bc75fa.md",
+          "bytes": 6132,
+          "preview_image": "/daily/2026-09-25/assets/arxiv--2609.28429/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.27308",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-25/paper/07-e13656d7c8dcf8d4.md",
+          "bytes": 6535,
+          "preview_image": "/daily/2026-09-25/assets/arxiv--2609.27308/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.28393",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-09-25/paper/08-f78011aa90921b26.md",
+          "bytes": 6230,
+          "preview_image": "/daily/2026-09-25/assets/arxiv--2609.28393/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.24815",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-09-25/paper/09-390a64faeaa37978.md",
+          "bytes": 6647,
+          "preview_image": "/daily/2026-09-25/assets/arxiv--2609.24815/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.28247",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-09-25/paper/10-c6bcc23333c3c78c.md",
+          "bytes": 6221,
+          "preview_image": "/daily/2026-09-25/assets/arxiv--2609.28247/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fopen-protein-dataset%2F",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-25/news/01-90bceb1524c44bb2.md",
+          "bytes": 5127,
+          "preview_image": "/daily/2026-09-25/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fopen-protein-dataset_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2086467284181182033",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-25/news/02-e12821495702f2fd.md",
+          "bytes": 5123,
+          "preview_image": "/daily/2026-09-25/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2086467284181182033/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F496767.html",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-25/news/03-73cb7ca76565c8a9.md",
+          "bytes": 5789,
+          "preview_image": "/daily/2026-09-25/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f496767.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2086393269076898154",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-25/news/04-928f0dcbd9a05ffa.md",
+          "bytes": 6263,
+          "preview_image": "/daily/2026-09-25/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2086393269076898154/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgemini-models%2Fgemini-3-8-live-with-live-avatar%2F",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-25/news/05-ac68215cc8d41573.md",
+          "bytes": 4466,
+          "preview_image": "/daily/2026-09-25/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgemini-models_2fgemini-3-8-live-with-live-avatar_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fdeepmind.google%2Fblog%2Fadvancing-private-ai-compute-with-secure-server-side-memory%2F",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-25/news/06-b67dbfcbbe0c4af4.md",
+          "bytes": 5066,
+          "preview_image": "/daily/2026-09-25/assets/url--https_3a_2f_2fdeepmind.google_2fblog_2fadvancing-private-ai-compute-with-secure-server-side-memory_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-38e92ea5eb806de0d28b03e285b9a272",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-25/news/07-8de7a4bf4987e6a6.md",
+          "bytes": 7019,
+          "preview_image": "/daily/2026-09-25/assets/url--aiera.com.cn-38e92ea5eb806de0d28b03e285b9a272/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-24%2F%23story-0015",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-25/policy/01-fd118d9541580980.md",
+          "bytes": 9880,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-24%2F%23story-0005",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-25/policy/02-c14b5d6ddb9003bd.md",
+          "bytes": 11479,
+          "preview_image": "/daily/2026-09-25/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-09-24_2f_23story-0005/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-24%2F%23story-0007",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-25/policy/03-de89c2a95d838612.md",
+          "bytes": 12165,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.27656",
+      "path": "docs/public/daily/2026-09-25/assets/arxiv--2609.27656/preview.png",
+      "bytes": 880362
+    },
+    {
+      "candidate_id": "arxiv--2609.28258",
+      "path": "docs/public/daily/2026-09-25/assets/arxiv--2609.28258/preview.png",
+      "bytes": 410295
+    },
+    {
+      "candidate_id": "arxiv--2609.27450",
+      "path": "docs/public/daily/2026-09-25/assets/arxiv--2609.27450/preview.png",
+      "bytes": 311630
+    },
+    {
+      "candidate_id": "arxiv--2609.24308",
+      "path": "docs/public/daily/2026-09-25/assets/arxiv--2609.24308/preview.png",
+      "bytes": 3361116
+    },
+    {
+      "candidate_id": "arxiv--2609.27468",
+      "path": "docs/public/daily/2026-09-25/assets/arxiv--2609.27468/preview.png",
+      "bytes": 350908
+    },
+    {
+      "candidate_id": "arxiv--2609.28429",
+      "path": "docs/public/daily/2026-09-25/assets/arxiv--2609.28429/preview.png",
+      "bytes": 69760
+    },
+    {
+      "candidate_id": "arxiv--2609.27308",
+      "path": "docs/public/daily/2026-09-25/assets/arxiv--2609.27308/preview.png",
+      "bytes": 364656
+    },
+    {
+      "candidate_id": "arxiv--2609.28393",
+      "path": "docs/public/daily/2026-09-25/assets/arxiv--2609.28393/preview.png",
+      "bytes": 132047
+    },
+    {
+      "candidate_id": "arxiv--2609.24815",
+      "path": "docs/public/daily/2026-09-25/assets/arxiv--2609.24815/preview.png",
+      "bytes": 506453
+    },
+    {
+      "candidate_id": "arxiv--2609.28247",
+      "path": "docs/public/daily/2026-09-25/assets/arxiv--2609.28247/preview.png",
+      "bytes": 268621
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fopen-protein-dataset%2F",
+      "path": "docs/public/daily/2026-09-25/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fopen-protein-dataset_2f/preview.png",
+      "bytes": 385604
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2086467284181182033",
+      "path": "docs/public/daily/2026-09-25/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2086467284181182033/preview.png",
+      "bytes": 1205742
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F496767.html",
+      "path": "docs/public/daily/2026-09-25/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f496767.html/preview.png",
+      "bytes": 69523
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2086393269076898154",
+      "path": "docs/public/daily/2026-09-25/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2086393269076898154/preview.png",
+      "bytes": 1055991
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgemini-models%2Fgemini-3-8-live-with-live-avatar%2F",
+      "path": "docs/public/daily/2026-09-25/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgemini-models_2fgemini-3-8-live-with-live-avatar_2f/preview.png",
+      "bytes": 1072465
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fdeepmind.google%2Fblog%2Fadvancing-private-ai-compute-with-secure-server-side-memory%2F",
+      "path": "docs/public/daily/2026-09-25/assets/url--https_3a_2f_2fdeepmind.google_2fblog_2fadvancing-private-ai-compute-with-secure-server-side-memory_2f/preview.png",
+      "bytes": 415022
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-38e92ea5eb806de0d28b03e285b9a272",
+      "path": "docs/public/daily/2026-09-25/assets/url--aiera.com.cn-38e92ea5eb806de0d28b03e285b9a272/preview.png",
+      "bytes": 180077
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-24%2F%23story-0005",
+      "path": "docs/public/daily/2026-09-25/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-09-24_2f_23story-0005/preview.png",
+      "bytes": 291260
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-25T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
