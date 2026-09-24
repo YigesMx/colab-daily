@@ -1,0 +1,288 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-24",
+  "display_date": "2026-09-24",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.26292",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-24/paper/01-9b2261e006326ea1.md",
+          "bytes": 8384,
+          "preview_image": "/daily/2026-09-24/assets/arxiv--2609.26292/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.25627",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-24/paper/02-33d3bae21b1d7f13.md",
+          "bytes": 8461,
+          "preview_image": "/daily/2026-09-24/assets/arxiv--2609.25627/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.25636",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-24/paper/03-ec0e67ac1bb1db68.md",
+          "bytes": 7626,
+          "preview_image": "/daily/2026-09-24/assets/arxiv--2609.25636/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.25187",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-24/paper/04-4b631bd5b732c4d5.md",
+          "bytes": 8187,
+          "preview_image": "/daily/2026-09-24/assets/arxiv--2609.25187/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.25363",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-24/paper/05-9d59f8b1a69abf68.md",
+          "bytes": 8099,
+          "preview_image": "/daily/2026-09-24/assets/arxiv--2609.25363/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.25562",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-24/paper/06-82c8f94dba90f8c4.md",
+          "bytes": 7984,
+          "preview_image": "/daily/2026-09-24/assets/arxiv--2609.25562/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.25036",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-24/paper/07-0026b32e41b92e1e.md",
+          "bytes": 8716,
+          "preview_image": "/daily/2026-09-24/assets/arxiv--2609.25036/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.25625",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-09-24/paper/08-966cd17c5016432f.md",
+          "bytes": 9471,
+          "preview_image": "/daily/2026-09-24/assets/arxiv--2609.25625/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.26314",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-09-24/paper/09-4e95e281c916aa63.md",
+          "bytes": 7704,
+          "preview_image": "/daily/2026-09-24/assets/arxiv--2609.26314/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.25606",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-09-24/paper/10-c86beb12afdaa6ea.md",
+          "bytes": 9308,
+          "preview_image": "/daily/2026-09-24/assets/arxiv--2609.25606/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--aiera.com.cn-733e6251ddc4e1449d26522a56bd424f",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-24/news/01-f57039fb1cb3141b.md",
+          "bytes": 6478,
+          "preview_image": "/daily/2026-09-24/assets/url--aiera.com.cn-733e6251ddc4e1449d26522a56bd424f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fopenai.com%2Findex%2Fintroducing-gpt-6-sol-and-luna",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-24/news/02-f59d5bf9dec458c9.md",
+          "bytes": 3233,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F23%2Fanthropic-launches-claude-opus-5-5-with-stronger-coding-performance-and-lower-pricing%2F",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-24/news/03-7c8d889d1d377df2.md",
+          "bytes": 6010,
+          "preview_image": "/daily/2026-09-24/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f23_2fanthropic-launches-claude-opus-5-5-with-stronger-coding-performance-and-lower-pricing_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F496393.html",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-24/news/04-9d290a86870c81e8.md",
+          "bytes": 6854,
+          "preview_image": "/daily/2026-09-24/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f496393.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-96f342fcffd39456364754af1326be2f",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-24/news/05-0c285fd655df094a.md",
+          "bytes": 6494,
+          "preview_image": "/daily/2026-09-24/assets/url--aiera.com.cn-96f342fcffd39456364754af1326be2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgemini-models%2Fgemini-3-8-text-to-speech%2F",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-24/news/06-54d662a19af3bd90.md",
+          "bytes": 5507,
+          "preview_image": "/daily/2026-09-24/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgemini-models_2fgemini-3-8-text-to-speech_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-e59067d728fd16567eb3424f33b673e6",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-24/news/07-f404b9904f332bb0.md",
+          "bytes": 7043,
+          "preview_image": "/daily/2026-09-24/assets/url--aiera.com.cn-e59067d728fd16567eb3424f33b673e6/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-23%2F%23story-0015",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-24/policy/01-149c52368928c216.md",
+          "bytes": 9716,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-23%2F%23story-0014",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-24/policy/02-0c5109408390fcae.md",
+          "bytes": 7950,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-23%2F%23story-0003",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-24/policy/03-e6bb655b3df0d4d1.md",
+          "bytes": 9786,
+          "preview_image": "/daily/2026-09-24/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-09-23_2f_23story-0003/preview.png"
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.26292",
+      "path": "docs/public/daily/2026-09-24/assets/arxiv--2609.26292/preview.png",
+      "bytes": 12579246
+    },
+    {
+      "candidate_id": "arxiv--2609.25627",
+      "path": "docs/public/daily/2026-09-24/assets/arxiv--2609.25627/preview.png",
+      "bytes": 631513
+    },
+    {
+      "candidate_id": "arxiv--2609.25636",
+      "path": "docs/public/daily/2026-09-24/assets/arxiv--2609.25636/preview.png",
+      "bytes": 3556358
+    },
+    {
+      "candidate_id": "arxiv--2609.25187",
+      "path": "docs/public/daily/2026-09-24/assets/arxiv--2609.25187/preview.png",
+      "bytes": 507742
+    },
+    {
+      "candidate_id": "arxiv--2609.25363",
+      "path": "docs/public/daily/2026-09-24/assets/arxiv--2609.25363/preview.png",
+      "bytes": 2226089
+    },
+    {
+      "candidate_id": "arxiv--2609.25562",
+      "path": "docs/public/daily/2026-09-24/assets/arxiv--2609.25562/preview.png",
+      "bytes": 2143796
+    },
+    {
+      "candidate_id": "arxiv--2609.25036",
+      "path": "docs/public/daily/2026-09-24/assets/arxiv--2609.25036/preview.png",
+      "bytes": 90407
+    },
+    {
+      "candidate_id": "arxiv--2609.25625",
+      "path": "docs/public/daily/2026-09-24/assets/arxiv--2609.25625/preview.png",
+      "bytes": 3730843
+    },
+    {
+      "candidate_id": "arxiv--2609.26314",
+      "path": "docs/public/daily/2026-09-24/assets/arxiv--2609.26314/preview.png",
+      "bytes": 696525
+    },
+    {
+      "candidate_id": "arxiv--2609.25606",
+      "path": "docs/public/daily/2026-09-24/assets/arxiv--2609.25606/preview.png",
+      "bytes": 358054
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-733e6251ddc4e1449d26522a56bd424f",
+      "path": "docs/public/daily/2026-09-24/assets/url--aiera.com.cn-733e6251ddc4e1449d26522a56bd424f/preview.png",
+      "bytes": 62583
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F09%2F23%2Fanthropic-launches-claude-opus-5-5-with-stronger-coding-performance-and-lower-pricing%2F",
+      "path": "docs/public/daily/2026-09-24/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f09_2f23_2fanthropic-launches-claude-opus-5-5-with-stronger-coding-performance-and-lower-pricing_2f/preview.png",
+      "bytes": 776100
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F09%2F496393.html",
+      "path": "docs/public/daily/2026-09-24/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f09_2f496393.html/preview.png",
+      "bytes": 228199
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-96f342fcffd39456364754af1326be2f",
+      "path": "docs/public/daily/2026-09-24/assets/url--aiera.com.cn-96f342fcffd39456364754af1326be2f/preview.png",
+      "bytes": 1059778
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgemini-models%2Fgemini-3-8-text-to-speech%2F",
+      "path": "docs/public/daily/2026-09-24/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgemini-models_2fgemini-3-8-text-to-speech_2f/preview.png",
+      "bytes": 980659
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-e59067d728fd16567eb3424f33b673e6",
+      "path": "docs/public/daily/2026-09-24/assets/url--aiera.com.cn-e59067d728fd16567eb3424f33b673e6/preview.png",
+      "bytes": 235006
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-23%2F%23story-0003",
+      "path": "docs/public/daily/2026-09-24/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-09-23_2f_23story-0003/preview.png",
+      "bytes": 11768302
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-24T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
