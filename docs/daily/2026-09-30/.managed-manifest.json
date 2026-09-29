@@ -1,0 +1,258 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-09-30",
+  "display_date": "2026-09-30",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.32193",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-30/paper/01-daddef0aa56bb76f.md",
+          "bytes": 3637,
+          "preview_image": "/daily/2026-09-30/assets/arxiv--2609.32193/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.32069",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-30/paper/02-16a67ca575001d3d.md",
+          "bytes": 3089,
+          "preview_image": "/daily/2026-09-30/assets/arxiv--2609.32069/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.34414",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-30/paper/03-8f8dce009093e6e9.md",
+          "bytes": 2834,
+          "preview_image": "/daily/2026-09-30/assets/arxiv--2609.34414/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.34199",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-30/paper/04-70b81ba04aa2ca56.md",
+          "bytes": 2756,
+          "preview_image": "/daily/2026-09-30/assets/arxiv--2609.34199/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.35709",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-30/paper/05-e49178420b8dc38d.md",
+          "bytes": 2893,
+          "preview_image": "/daily/2026-09-30/assets/arxiv--2609.35709/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.31760",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-30/paper/06-b2ebdea39a9f3948.md",
+          "bytes": 3116,
+          "preview_image": "/daily/2026-09-30/assets/arxiv--2609.31760/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.33148",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-30/paper/07-a3297f3051035269.md",
+          "bytes": 2751,
+          "preview_image": "/daily/2026-09-30/assets/arxiv--2609.33148/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.33973",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-09-30/paper/08-00844b339b1a732c.md",
+          "bytes": 2754,
+          "preview_image": "/daily/2026-09-30/assets/arxiv--2609.33973/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.33581",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-09-30/paper/09-28b9bfd8eddbc6f1.md",
+          "bytes": 2624,
+          "preview_image": "/daily/2026-09-30/assets/arxiv--2609.33581/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.31770",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-09-30/paper/10-13c86578d02e857b.md",
+          "bytes": 3065,
+          "preview_image": "/daily/2026-09-30/assets/arxiv--2609.31770/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--openai-cancels-gpt6-1-astra",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-30/news/01-16fd6386214538a1.md",
+          "bytes": 3239,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--amd-world-labs-acquisition",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-30/news/02-d6ed05dd3dcc934a.md",
+          "bytes": 2902,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--anthropic-sonnet-5-5-release",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-30/news/03-39edbf249b30fd27.md",
+          "bytes": 3278,
+          "preview_image": "/daily/2026-09-30/assets/url--anthropic-sonnet-5-5-release/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-ae4ac04d47494085e0ef73ac9257c9f1",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-09-30/news/04-f28c48d7d6f134cc.md",
+          "bytes": 3232,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fglm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-09-30/news/05-4752eee60b22a327.md",
+          "bytes": 2614,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--openai-australia-agents-response",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-09-30/news/06-507a65db068ffed2.md",
+          "bytes": 2874,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2088283250137494233",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-09-30/news/07-97805965ed4a780d.md",
+          "bytes": 2820,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-29%2F%23story-0022",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-09-30/policy/01-ecd6187f34a2eff0.md",
+          "bytes": 3308,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-29%2F%23story-0005",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-09-30/policy/02-6d9d9b6a3f85a27e.md",
+          "bytes": 3044,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-09-29%2F%23story-0013",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-09-30/policy/03-d081cce584eebd1f.md",
+          "bytes": 2935,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.32193",
+      "path": "docs/public/daily/2026-09-30/assets/arxiv--2609.32193/preview.png",
+      "bytes": 341347
+    },
+    {
+      "candidate_id": "arxiv--2609.32069",
+      "path": "docs/public/daily/2026-09-30/assets/arxiv--2609.32069/preview.png",
+      "bytes": 100994
+    },
+    {
+      "candidate_id": "arxiv--2609.34414",
+      "path": "docs/public/daily/2026-09-30/assets/arxiv--2609.34414/preview.png",
+      "bytes": 6278866
+    },
+    {
+      "candidate_id": "arxiv--2609.34199",
+      "path": "docs/public/daily/2026-09-30/assets/arxiv--2609.34199/preview.png",
+      "bytes": 590685
+    },
+    {
+      "candidate_id": "arxiv--2609.35709",
+      "path": "docs/public/daily/2026-09-30/assets/arxiv--2609.35709/preview.png",
+      "bytes": 125480
+    },
+    {
+      "candidate_id": "arxiv--2609.31760",
+      "path": "docs/public/daily/2026-09-30/assets/arxiv--2609.31760/preview.png",
+      "bytes": 36908
+    },
+    {
+      "candidate_id": "arxiv--2609.33148",
+      "path": "docs/public/daily/2026-09-30/assets/arxiv--2609.33148/preview.png",
+      "bytes": 330794
+    },
+    {
+      "candidate_id": "arxiv--2609.33973",
+      "path": "docs/public/daily/2026-09-30/assets/arxiv--2609.33973/preview.png",
+      "bytes": 765369
+    },
+    {
+      "candidate_id": "arxiv--2609.33581",
+      "path": "docs/public/daily/2026-09-30/assets/arxiv--2609.33581/preview.png",
+      "bytes": 377373
+    },
+    {
+      "candidate_id": "arxiv--2609.31770",
+      "path": "docs/public/daily/2026-09-30/assets/arxiv--2609.31770/preview.png",
+      "bytes": 268561
+    },
+    {
+      "candidate_id": "url--anthropic-sonnet-5-5-release",
+      "path": "docs/public/daily/2026-09-30/assets/url--anthropic-sonnet-5-5-release/preview.png",
+      "bytes": 79035
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-09-30T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
