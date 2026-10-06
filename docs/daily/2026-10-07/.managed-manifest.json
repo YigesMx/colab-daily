@@ -1,0 +1,208 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-07",
+  "display_date": "2026-10-07",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2610.04009",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-07/paper/01-74a172037b74eac2.md",
+          "bytes": 3967,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2610.05882",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-07/paper/02-b62a994957f9712c.md",
+          "bytes": 4118,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2610.03959",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-07/paper/03-2d40d74372bea6c5.md",
+          "bytes": 3714,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2610.03861",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-07/paper/04-c38347f0482ce683.md",
+          "bytes": 3829,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2610.03997",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-07/paper/05-54f46b3a914aeb61.md",
+          "bytes": 3585,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2610.05483",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-07/paper/06-18a10947b792b8a5.md",
+          "bytes": 3716,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2610.05719",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-07/paper/07-e0da7c89b2e05cd6.md",
+          "bytes": 3645,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2610.04363",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-07/paper/08-9780786bc7b4dce2.md",
+          "bytes": 3574,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2610.03924",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-07/paper/09-29209beab0b0db06.md",
+          "bytes": 3716,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2610.06617",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-07/paper/10-ef4783d1094a4d4a.md",
+          "bytes": 3859,
+          "preview_image": null
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Ftiiuae%2Ffalcon-emirati",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-07/news/01-c4c467e0115f6f16.md",
+          "bytes": 3329,
+          "preview_image": "/daily/2026-10-07/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2ftiiuae_2ffalcon-emirati/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Ftelecom-operators-open-models%2F",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-07/news/02-cdd19964fbd8b451.md",
+          "bytes": 3315,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F06%2Fminerva-humanoids-emerges-from-stealth-with-10m-in-funding-to-develop-robots-for-hazardous-work%2F",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-07/news/03-f7b76e9699474d69.md",
+          "bytes": 3664,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F06%2Fsupabase-announces-150m-in-new-funding-and-turso-acquisition%2F",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-07/news/04-2783612044ad6aab.md",
+          "bytes": 3605,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-06%2F%23story-0011",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-07/news/05-c8ca3590f8b5d541.md",
+          "bytes": 3669,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F06%2Fapple-tightens-consent-controls-on-mac-full-disk-access-as-ai-agents-raise-privacy-risks%2F",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-07/news/06-d22e30ab9951482c.md",
+          "bytes": 3357,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.jiqizhixin.com%2Farticles%2F2026-10-06-2",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-07/news/07-2d6a84ed6e35383a.md",
+          "bytes": 3233,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F06%2Fdoosan-robotics-selected-for-two-south-korean-physical-ai-projects-with-nearly-74m-rd-budget%2F",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-07/policy/01-35e859d2df14b4c2.md",
+          "bytes": 6430,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-06%2F%23story-0015",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-07/policy/02-4068b7b746b222c0.md",
+          "bytes": 6226,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-06%2F%23story-0001",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-07/policy/03-d060429a6d79d1b3.md",
+          "bytes": 7685,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Ftiiuae%2Ffalcon-emirati",
+      "path": "docs/public/daily/2026-10-07/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2ftiiuae_2ffalcon-emirati/preview.png",
+      "bytes": 151005
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-07T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
