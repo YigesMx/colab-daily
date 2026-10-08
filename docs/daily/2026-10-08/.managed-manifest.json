@@ -1,0 +1,283 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-08",
+  "display_date": "2026-10-08",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2610.07922",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-08/paper/01-d6de37ab3a897be3.md",
+          "bytes": 6969,
+          "preview_image": "/daily/2026-10-08/assets/arxiv--2610.07922/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.08789",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-08/paper/02-c87493e9c9783e5d.md",
+          "bytes": 6319,
+          "preview_image": "/daily/2026-10-08/assets/arxiv--2610.08789/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.37334",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-08/paper/03-0bfac64af0937c5b.md",
+          "bytes": 5814,
+          "preview_image": "/daily/2026-10-08/assets/arxiv--2609.37334/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.08726",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-08/paper/04-a86e0a2168998e38.md",
+          "bytes": 6041,
+          "preview_image": "/daily/2026-10-08/assets/arxiv--2610.08726/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.03607",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-08/paper/05-a956857a50676346.md",
+          "bytes": 6281,
+          "preview_image": "/daily/2026-10-08/assets/arxiv--2610.03607/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.08780",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-08/paper/06-da57a3c71e1203e4.md",
+          "bytes": 6202,
+          "preview_image": "/daily/2026-10-08/assets/arxiv--2610.08780/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.08150",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-08/paper/07-d47b288257ff567c.md",
+          "bytes": 6018,
+          "preview_image": "/daily/2026-10-08/assets/arxiv--2610.08150/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.06965",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-08/paper/08-4195cbcd4c2a46ab.md",
+          "bytes": 6320,
+          "preview_image": "/daily/2026-10-08/assets/arxiv--2610.06965/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.04933",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-08/paper/09-94ef45c17457210c.md",
+          "bytes": 6026,
+          "preview_image": "/daily/2026-10-08/assets/arxiv--2610.04933/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.06926",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-08/paper/10-0ba63381baefa151.md",
+          "bytes": 5749,
+          "preview_image": "/daily/2026-10-08/assets/arxiv--2610.06926/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Ftechnology%2Fdevelopers-tools%2Fembeddinggemma-2%2F",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-08/news/01-f41c5d696a77ba28.md",
+          "bytes": 5075,
+          "preview_image": "/daily/2026-10-08/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2ftechnology_2fdevelopers-tools_2fembeddinggemma-2_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fnews%2Fcyber-verification-program",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-08/news/02-33d3775649b9f380.md",
+          "bytes": 6117,
+          "preview_image": "/daily/2026-10-08/assets/url--https_3a_2f_2fwww.anthropic.com_2fnews_2fcyber-verification-program/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Fnvidia%2Fnemotron-ioi-and-imo-2026",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-08/news/03-64b7ad0f05abc07c.md",
+          "bytes": 5971,
+          "preview_image": "/daily/2026-10-08/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2fnvidia_2fnemotron-ioi-and-imo-2026/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Ftechnology%2Fai%2Fplayground-experimental-gaming-platform%2F",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-08/news/04-268f8f95998f6359.md",
+          "bytes": 4734,
+          "preview_image": "/daily/2026-10-08/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2ftechnology_2fai_2fplayground-experimental-gaming-platform_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fabout.fb.com%2Fnews%2F2026%2F10%2Fmeasures-weve-put-in-place-to-fight-child-exploitation%2F",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-08/news/05-f7cf396145d43eb1.md",
+          "bytes": 5156,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-07%2F%23story-0012",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-08/news/06-bf4d10b88f247f26.md",
+          "bytes": 6894,
+          "preview_image": "/daily/2026-10-08/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-10-07_2f_23story-0012/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F07%2Fboston-dynamics-hires-former-amazon-ai-executive-rohit-prasad-as-ceo%2F",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-08/news/07-ee78f3441118cb0e.md",
+          "bytes": 5274,
+          "preview_image": "/daily/2026-10-08/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f07_2fboston-dynamics-hires-former-amazon-ai-executive-rohit-prasad-as-ceo_2f/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-07%2F%23story-0008",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-08/policy/01-08297eebadcf4199.md",
+          "bytes": 9978,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-07%2F%23story-0009",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-08/policy/02-3f90466164705bd1.md",
+          "bytes": 10200,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-07%2F%23story-0003",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-08/policy/03-b86c7dd890fb2d80.md",
+          "bytes": 9605,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2610.07922",
+      "path": "docs/public/daily/2026-10-08/assets/arxiv--2610.07922/preview.png",
+      "bytes": 866669
+    },
+    {
+      "candidate_id": "arxiv--2610.08789",
+      "path": "docs/public/daily/2026-10-08/assets/arxiv--2610.08789/preview.png",
+      "bytes": 1963637
+    },
+    {
+      "candidate_id": "arxiv--2609.37334",
+      "path": "docs/public/daily/2026-10-08/assets/arxiv--2609.37334/preview.png",
+      "bytes": 1346088
+    },
+    {
+      "candidate_id": "arxiv--2610.08726",
+      "path": "docs/public/daily/2026-10-08/assets/arxiv--2610.08726/preview.png",
+      "bytes": 1331613
+    },
+    {
+      "candidate_id": "arxiv--2610.03607",
+      "path": "docs/public/daily/2026-10-08/assets/arxiv--2610.03607/preview.png",
+      "bytes": 432653
+    },
+    {
+      "candidate_id": "arxiv--2610.08780",
+      "path": "docs/public/daily/2026-10-08/assets/arxiv--2610.08780/preview.png",
+      "bytes": 185134
+    },
+    {
+      "candidate_id": "arxiv--2610.08150",
+      "path": "docs/public/daily/2026-10-08/assets/arxiv--2610.08150/preview.png",
+      "bytes": 176297
+    },
+    {
+      "candidate_id": "arxiv--2610.06965",
+      "path": "docs/public/daily/2026-10-08/assets/arxiv--2610.06965/preview.png",
+      "bytes": 457508
+    },
+    {
+      "candidate_id": "arxiv--2610.04933",
+      "path": "docs/public/daily/2026-10-08/assets/arxiv--2610.04933/preview.png",
+      "bytes": 455966
+    },
+    {
+      "candidate_id": "arxiv--2610.06926",
+      "path": "docs/public/daily/2026-10-08/assets/arxiv--2610.06926/preview.png",
+      "bytes": 43691
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Ftechnology%2Fdevelopers-tools%2Fembeddinggemma-2%2F",
+      "path": "docs/public/daily/2026-10-08/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2ftechnology_2fdevelopers-tools_2fembeddinggemma-2_2f/preview.png",
+      "bytes": 1353754
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fnews%2Fcyber-verification-program",
+      "path": "docs/public/daily/2026-10-08/assets/url--https_3a_2f_2fwww.anthropic.com_2fnews_2fcyber-verification-program/preview.png",
+      "bytes": 50197
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Fnvidia%2Fnemotron-ioi-and-imo-2026",
+      "path": "docs/public/daily/2026-10-08/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2fnvidia_2fnemotron-ioi-and-imo-2026/preview.png",
+      "bytes": 73700
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Ftechnology%2Fai%2Fplayground-experimental-gaming-platform%2F",
+      "path": "docs/public/daily/2026-10-08/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2ftechnology_2fai_2fplayground-experimental-gaming-platform_2f/preview.png",
+      "bytes": 1670341
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-07%2F%23story-0012",
+      "path": "docs/public/daily/2026-10-08/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-10-07_2f_23story-0012/preview.png",
+      "bytes": 196728
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F07%2Fboston-dynamics-hires-former-amazon-ai-executive-rohit-prasad-as-ceo%2F",
+      "path": "docs/public/daily/2026-10-08/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f07_2fboston-dynamics-hires-former-amazon-ai-executive-rohit-prasad-as-ceo_2f/preview.png",
+      "bytes": 683360
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-08T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
