@@ -1,0 +1,263 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-09",
+  "display_date": "2026-10-09",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2610.10270",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-09/paper/01-6988513de9b1d74a.md",
+          "bytes": 7455,
+          "preview_image": "/daily/2026-10-09/assets/arxiv--2610.10270/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.10515",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-09/paper/02-c8cb6522cd053c52.md",
+          "bytes": 7622,
+          "preview_image": "/daily/2026-10-09/assets/arxiv--2610.10515/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.10528",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-09/paper/03-e535d10d22ee7bab.md",
+          "bytes": 7962,
+          "preview_image": "/daily/2026-10-09/assets/arxiv--2610.10528/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.09117",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-09/paper/04-6daf25ace50a722e.md",
+          "bytes": 7194,
+          "preview_image": "/daily/2026-10-09/assets/arxiv--2610.09117/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.02054",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-09/paper/05-fae8b54937797648.md",
+          "bytes": 8076,
+          "preview_image": "/daily/2026-10-09/assets/arxiv--2610.02054/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.08970",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-09/paper/06-6b7467c2d9568646.md",
+          "bytes": 7039,
+          "preview_image": "/daily/2026-10-09/assets/arxiv--2610.08970/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.08995",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-09/paper/07-44218a541f2c3b75.md",
+          "bytes": 6913,
+          "preview_image": "/daily/2026-10-09/assets/arxiv--2610.08995/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.09228",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-09/paper/08-27a35b557216af47.md",
+          "bytes": 7758,
+          "preview_image": "/daily/2026-10-09/assets/arxiv--2610.09228/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.09335",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-09/paper/09-bc47878531270230.md",
+          "bytes": 7194,
+          "preview_image": "/daily/2026-10-09/assets/arxiv--2610.09335/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.09254",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-09/paper/10-87c3adf7936e638a.md",
+          "bytes": 7699,
+          "preview_image": "/daily/2026-10-09/assets/arxiv--2610.09254/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--aiera.com.cn-99ba3b5a43d9d2084a26af8e70896ad7",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-09/news/01-56c3833851f6da0b.md",
+          "bytes": 4812,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F10%2F501834.html",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-09/news/02-c029758ab6dbadf6.md",
+          "bytes": 4936,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-d2615c2dee1d6bf197bef683b61c6f6b",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-09/news/03-34e1557cf5b003fd.md",
+          "bytes": 5470,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-ed55aa129c6435be7e4318592274c0b1",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-09/news/04-e43e6c6dc2288d93.md",
+          "bytes": 4838,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F10%2F501832.html",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-09/news/05-3213ce820f92efab.md",
+          "bytes": 4709,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Flocal-ai-rtx-spark-microsoft-windows-event%2F",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-09/news/06-dc55a0ff152e2c5e.md",
+          "bytes": 4757,
+          "preview_image": "/daily/2026-10-09/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2flocal-ai-rtx-spark-microsoft-windows-event_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F08%2Faws-launches-open-source-physical-ai-toolchain-for-robotics-development%2F",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-09/news/07-2db2238a70f3397f.md",
+          "bytes": 4908,
+          "preview_image": "/daily/2026-10-09/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f08_2faws-launches-open-source-physical-ai-toolchain-for-robotics-development_2f/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-08%2F%23story-0008",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-09/policy/01-6eec0d03bfd55ba5.md",
+          "bytes": 5533,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-08%2F%23story-0003",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-09/policy/02-7a65e097f0c7d346.md",
+          "bytes": 5565,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-08%2F%23story-0002",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-09/policy/03-74f68172331bd20f.md",
+          "bytes": 5011,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2610.10270",
+      "path": "docs/public/daily/2026-10-09/assets/arxiv--2610.10270/preview.png",
+      "bytes": 456454
+    },
+    {
+      "candidate_id": "arxiv--2610.10515",
+      "path": "docs/public/daily/2026-10-09/assets/arxiv--2610.10515/preview.png",
+      "bytes": 109408
+    },
+    {
+      "candidate_id": "arxiv--2610.10528",
+      "path": "docs/public/daily/2026-10-09/assets/arxiv--2610.10528/preview.png",
+      "bytes": 475701
+    },
+    {
+      "candidate_id": "arxiv--2610.09117",
+      "path": "docs/public/daily/2026-10-09/assets/arxiv--2610.09117/preview.png",
+      "bytes": 1524222
+    },
+    {
+      "candidate_id": "arxiv--2610.02054",
+      "path": "docs/public/daily/2026-10-09/assets/arxiv--2610.02054/preview.png",
+      "bytes": 1149490
+    },
+    {
+      "candidate_id": "arxiv--2610.08970",
+      "path": "docs/public/daily/2026-10-09/assets/arxiv--2610.08970/preview.png",
+      "bytes": 778445
+    },
+    {
+      "candidate_id": "arxiv--2610.08995",
+      "path": "docs/public/daily/2026-10-09/assets/arxiv--2610.08995/preview.png",
+      "bytes": 1329678
+    },
+    {
+      "candidate_id": "arxiv--2610.09228",
+      "path": "docs/public/daily/2026-10-09/assets/arxiv--2610.09228/preview.png",
+      "bytes": 182455
+    },
+    {
+      "candidate_id": "arxiv--2610.09335",
+      "path": "docs/public/daily/2026-10-09/assets/arxiv--2610.09335/preview.png",
+      "bytes": 513817
+    },
+    {
+      "candidate_id": "arxiv--2610.09254",
+      "path": "docs/public/daily/2026-10-09/assets/arxiv--2610.09254/preview.png",
+      "bytes": 951638
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Flocal-ai-rtx-spark-microsoft-windows-event%2F",
+      "path": "docs/public/daily/2026-10-09/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2flocal-ai-rtx-spark-microsoft-windows-event_2f/preview.png",
+      "bytes": 2016541
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F08%2Faws-launches-open-source-physical-ai-toolchain-for-robotics-development%2F",
+      "path": "docs/public/daily/2026-10-09/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f08_2faws-launches-open-source-physical-ai-toolchain-for-robotics-development_2f/preview.png",
+      "bytes": 4558836
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-09T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
