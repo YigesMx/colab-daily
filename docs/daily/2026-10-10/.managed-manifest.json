@@ -1,0 +1,278 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-10",
+  "display_date": "2026-10-10",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2610.11283",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-10/paper/01-29186c498c0618a4.md",
+          "bytes": 3439,
+          "preview_image": "/daily/2026-10-10/assets/arxiv--2610.11283/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.12468",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-10/paper/02-50b0adcc90a50e45.md",
+          "bytes": 3325,
+          "preview_image": "/daily/2026-10-10/assets/arxiv--2610.12468/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.11248",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-10/paper/03-5e317d0e5b80682c.md",
+          "bytes": 2981,
+          "preview_image": "/daily/2026-10-10/assets/arxiv--2610.11248/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.12299",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-10/paper/04-09311fbbe86ef92e.md",
+          "bytes": 3432,
+          "preview_image": "/daily/2026-10-10/assets/arxiv--2610.12299/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.12465",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-10/paper/05-1c223ae486ad3531.md",
+          "bytes": 3334,
+          "preview_image": "/daily/2026-10-10/assets/arxiv--2610.12465/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.12026",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-10/paper/06-5d58bbbd702805f0.md",
+          "bytes": 3196,
+          "preview_image": "/daily/2026-10-10/assets/arxiv--2610.12026/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.12126",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-10/paper/07-113ca83fb774c17c.md",
+          "bytes": 3230,
+          "preview_image": "/daily/2026-10-10/assets/arxiv--2610.12126/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.06100",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-10/paper/08-dbfaa1c396f75a47.md",
+          "bytes": 3091,
+          "preview_image": "/daily/2026-10-10/assets/arxiv--2610.06100/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.10846",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-10/paper/09-14e7c223c2c3145d.md",
+          "bytes": 3239,
+          "preview_image": "/daily/2026-10-10/assets/arxiv--2610.10846/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.12374",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-10/paper/10-8b36bf37bc317f7c.md",
+          "bytes": 3462,
+          "preview_image": "/daily/2026-10-10/assets/arxiv--2610.12374/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--aiera.com.cn-314c1e39d1bac0a6f5af4675aec4adde",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-10/news/01-f06ab6bf9545f425.md",
+          "bytes": 2640,
+          "preview_image": "/daily/2026-10-10/assets/url--aiera.com.cn-314c1e39d1bac0a6f5af4675aec4adde/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Flaunching-opt-in-vuln-finding-service-for-open-source",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-10/news/02-1f6aef63b719c3b0.md",
+          "bytes": 2453,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-8358a17f83bce9c4a64bc3af4e1e6218",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-10/news/03-e72b2f327de7bdf7.md",
+          "bytes": 2900,
+          "preview_image": "/daily/2026-10-10/assets/url--aiera.com.cn-8358a17f83bce9c4a64bc3af4e1e6218/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-d5b74bc43f09b33856310a3d92e3ab53",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-10/news/04-e3617d27830f4804.md",
+          "bytes": 2796,
+          "preview_image": "/daily/2026-10-10/assets/url--aiera.com.cn-d5b74bc43f09b33856310a3d92e3ab53/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fthe-missing-map-of-the-sky",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-10/news/05-9e1c02e53cd51849.md",
+          "bytes": 2516,
+          "preview_image": "/daily/2026-10-10/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2fthe-missing-map-of-the-sky/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F10%2F502125.html",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-10/news/06-fcb4138aeb4d4561.md",
+          "bytes": 2423,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-bf6f9ca18bd8239dd768d2e84d1dd99f",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-10/news/07-8aec3df77723c01f.md",
+          "bytes": 2958,
+          "preview_image": "/daily/2026-10-10/assets/url--aiera.com.cn-bf6f9ca18bd8239dd768d2e84d1dd99f/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fdigital-strategy.ec.europa.eu%2Fen%2Fnews%2Fcommission-holds-special-meeting-scientific-panel-frontier-ai-safety-and-risks",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-10/policy/01-29d01774dec9599a.md",
+          "bytes": 3673,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-09%2F%23story-0001",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-10/policy/02-6ca205120456e37e.md",
+          "bytes": 3967,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-09%2F%23story-0012",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-10/policy/03-78875acc9b415a4d.md",
+          "bytes": 3240,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2610.11283",
+      "path": "docs/public/daily/2026-10-10/assets/arxiv--2610.11283/preview.png",
+      "bytes": 83043
+    },
+    {
+      "candidate_id": "arxiv--2610.12468",
+      "path": "docs/public/daily/2026-10-10/assets/arxiv--2610.12468/preview.png",
+      "bytes": 1075938
+    },
+    {
+      "candidate_id": "arxiv--2610.11248",
+      "path": "docs/public/daily/2026-10-10/assets/arxiv--2610.11248/preview.png",
+      "bytes": 260109
+    },
+    {
+      "candidate_id": "arxiv--2610.12299",
+      "path": "docs/public/daily/2026-10-10/assets/arxiv--2610.12299/preview.png",
+      "bytes": 1720778
+    },
+    {
+      "candidate_id": "arxiv--2610.12465",
+      "path": "docs/public/daily/2026-10-10/assets/arxiv--2610.12465/preview.png",
+      "bytes": 2668843
+    },
+    {
+      "candidate_id": "arxiv--2610.12026",
+      "path": "docs/public/daily/2026-10-10/assets/arxiv--2610.12026/preview.png",
+      "bytes": 65539
+    },
+    {
+      "candidate_id": "arxiv--2610.12126",
+      "path": "docs/public/daily/2026-10-10/assets/arxiv--2610.12126/preview.png",
+      "bytes": 2047183
+    },
+    {
+      "candidate_id": "arxiv--2610.06100",
+      "path": "docs/public/daily/2026-10-10/assets/arxiv--2610.06100/preview.png",
+      "bytes": 22442
+    },
+    {
+      "candidate_id": "arxiv--2610.10846",
+      "path": "docs/public/daily/2026-10-10/assets/arxiv--2610.10846/preview.png",
+      "bytes": 1595623
+    },
+    {
+      "candidate_id": "arxiv--2610.12374",
+      "path": "docs/public/daily/2026-10-10/assets/arxiv--2610.12374/preview.png",
+      "bytes": 796871
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-314c1e39d1bac0a6f5af4675aec4adde",
+      "path": "docs/public/daily/2026-10-10/assets/url--aiera.com.cn-314c1e39d1bac0a6f5af4675aec4adde/preview.png",
+      "bytes": 301616
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-8358a17f83bce9c4a64bc3af4e1e6218",
+      "path": "docs/public/daily/2026-10-10/assets/url--aiera.com.cn-8358a17f83bce9c4a64bc3af4e1e6218/preview.png",
+      "bytes": 267722
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-d5b74bc43f09b33856310a3d92e3ab53",
+      "path": "docs/public/daily/2026-10-10/assets/url--aiera.com.cn-d5b74bc43f09b33856310a3d92e3ab53/preview.png",
+      "bytes": 273694
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fthe-missing-map-of-the-sky",
+      "path": "docs/public/daily/2026-10-10/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2fthe-missing-map-of-the-sky/preview.png",
+      "bytes": 1427504
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-bf6f9ca18bd8239dd768d2e84d1dd99f",
+      "path": "docs/public/daily/2026-10-10/assets/url--aiera.com.cn-bf6f9ca18bd8239dd768d2e84d1dd99f/preview.png",
+      "bytes": 268728
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-10T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
