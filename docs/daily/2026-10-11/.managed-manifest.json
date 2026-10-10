@@ -1,0 +1,182 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-11",
+  "display_date": "2026-10-11",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2092323391902691340",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-11/paper/01-08953b6a04a8ed8d.md",
+          "bytes": 7847,
+          "preview_image": "/daily/2026-10-11/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2092323391902691340/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2092315223361319898",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-11/paper/02-b6c924c666315995.md",
+          "bytes": 7982,
+          "preview_image": "/daily/2026-10-11/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2092315223361319898/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-bab90ff3627f7ace12f7c1d8c92cc030",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-11/paper/03-837d305c3dde2228.md",
+          "bytes": 8060,
+          "preview_image": "/daily/2026-10-11/assets/url--aiera.com.cn-bab90ff3627f7ace12f7c1d8c92cc030/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Finvestigating-unintended-model-actions",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-11/news/01-f61c84628cb5480b.md",
+          "bytes": 3441,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2092273640884773866",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-11/news/02-6d3c1bf7caa360e2.md",
+          "bytes": 3768,
+          "preview_image": "/daily/2026-10-11/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2092273640884773866/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-dc2cfcd15c4b54d5fc507621deedb4d0",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-11/news/03-731fd0897dc61e56.md",
+          "bytes": 4241,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-032f545fca50ee5b98b91bf04f6a5014",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-11/news/04-5b2d175970a4d4d7.md",
+          "bytes": 4161,
+          "preview_image": "/daily/2026-10-11/assets/url--aiera.com.cn-032f545fca50ee5b98b91bf04f6a5014/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F09%2Fopenai-faces-scrutiny-over-math-proof-standards-and-revenue-figures-reportedly-20b-below-earlier-estimates%2F",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-11/news/05-860269d535e95968.md",
+          "bytes": 4090,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-7a40796a68501bca328c114b461ea050",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-11/news/06-73e48d86195d0db6.md",
+          "bytes": 3573,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F09%2Frein-security-raises-25m-to-secure-the-ai-agents-enterprises-build-and-stop-the-ones-that-attack-them%2F",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-11/news/07-049f1b08e291a029.md",
+          "bytes": 3998,
+          "preview_image": "/daily/2026-10-11/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f09_2frein-security-raises-25m-to-secure-the-ai-agents-enterprises-build-and-stop-the-ones-that-attack-them_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F10%2F10%2Fother%2Fadmin%2F117904%2F01-%25e5%2586%2599%25e5%259c%25a8%25e5%2589%258d%25e9%259d%25a2%2F",
+          "category": "News",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-11/news/08-047907a49dfb90c7.md",
+          "bytes": 4289,
+          "preview_image": "/daily/2026-10-11/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f10_2f10_2fother_2fadmin_2f117904_2f01-_25e5_2586_2599_25e5_259c_25a8_25e5_2589_258d_25e9_259d_25a2_2f/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.miit.gov.cn%2Fzwgk%2Fzcwj%2Fwjfb%2Ftz%2Fart%2F2026%2Fart_8b73e672a24644bebd8d2514a10e1e0f.html",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-11/policy/01-3ec816741c3af1c8.md",
+          "bytes": 5466,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-02d9f0112e36c2a3e647d997b9da18bb",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-11/policy/02-c3d76a9837cd28e6.md",
+          "bytes": 7648,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2092323391902691340",
+      "path": "docs/public/daily/2026-10-11/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2092323391902691340/preview.png",
+      "bytes": 763549
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2092315223361319898",
+      "path": "docs/public/daily/2026-10-11/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2092315223361319898/preview.png",
+      "bytes": 4858702
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-bab90ff3627f7ace12f7c1d8c92cc030",
+      "path": "docs/public/daily/2026-10-11/assets/url--aiera.com.cn-bab90ff3627f7ace12f7c1d8c92cc030/preview.png",
+      "bytes": 2672459
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2092273640884773866",
+      "path": "docs/public/daily/2026-10-11/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2092273640884773866/preview.png",
+      "bytes": 93036
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-032f545fca50ee5b98b91bf04f6a5014",
+      "path": "docs/public/daily/2026-10-11/assets/url--aiera.com.cn-032f545fca50ee5b98b91bf04f6a5014/preview.png",
+      "bytes": 223735
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F09%2Frein-security-raises-25m-to-secure-the-ai-agents-enterprises-build-and-stop-the-ones-that-attack-them%2F",
+      "path": "docs/public/daily/2026-10-11/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f09_2frein-security-raises-25m-to-secure-the-ai-agents-enterprises-build-and-stop-the-ones-that-attack-them_2f/preview.png",
+      "bytes": 426689
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faiera.com.cn%2F2026%2F10%2F10%2Fother%2Fadmin%2F117904%2F01-%25e5%2586%2599%25e5%259c%25a8%25e5%2589%258d%25e9%259d%25a2%2F",
+      "path": "docs/public/daily/2026-10-11/assets/url--https_3a_2f_2faiera.com.cn_2f2026_2f10_2f10_2fother_2fadmin_2f117904_2f01-_25e5_2586_2599_25e5_259c_25a8_25e5_2589_258d_25e9_259d_25a2_2f/preview.png",
+      "bytes": 303591
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-11T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 3,
+    "news_count": 8,
+    "policy_count": 2,
+    "selected_total": 13,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 8,
+    "news_fallback_used": 3
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
