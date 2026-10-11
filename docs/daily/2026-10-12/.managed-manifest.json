@@ -1,0 +1,161 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-12",
+  "display_date": "2026-10-12",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": []
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F10%2F502584.html",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-12/news/01-d0838c11b908c64e.md",
+          "bytes": 3370,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-99fff93a2850a1add648a185fd85e88c",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-12/news/02-120f30e5cd578109.md",
+          "bytes": 3826,
+          "preview_image": "/daily/2026-10-12/assets/url--aiera.com.cn-99fff93a2850a1add648a185fd85e88c/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-6969910899bdd93be72242b5b74f0c20",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-12/news/03-7e7681a99e95242f.md",
+          "bytes": 3821,
+          "preview_image": "/daily/2026-10-12/assets/url--aiera.com.cn-6969910899bdd93be72242b5b74f0c20/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-05a072747ac82f274f1daa82be9a9777",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-12/news/04-2994f2b7b1b0b88b.md",
+          "bytes": 3709,
+          "preview_image": "/daily/2026-10-12/assets/url--aiera.com.cn-05a072747ac82f274f1daa82be9a9777/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-53380808b4cd24e4155b510bba0264ac",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-12/news/05-aef104af7b012177.md",
+          "bytes": 3706,
+          "preview_image": "/daily/2026-10-12/assets/url--aiera.com.cn-53380808b4cd24e4155b510bba0264ac/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-1cf8f3b2024b844815f82f49a8effe67",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-12/news/06-096cbebc1135e372.md",
+          "bytes": 3721,
+          "preview_image": "/daily/2026-10-12/assets/url--aiera.com.cn-1cf8f3b2024b844815f82f49a8effe67/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-454af240c1f5c95046aa9dcb98f93a7a",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-12/news/07-f7e8cee4f805f536.md",
+          "bytes": 3985,
+          "preview_image": "/daily/2026-10-12/assets/url--aiera.com.cn-454af240c1f5c95046aa9dcb98f93a7a/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-ef15a6a9b466f895db2fa901e8e58be5",
+          "category": "News",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-12/news/08-78980684937e850b.md",
+          "bytes": 3488,
+          "preview_image": "/daily/2026-10-12/assets/url--aiera.com.cn-ef15a6a9b466f895db2fa901e8e58be5/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F10%2F502585.html",
+          "category": "News",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-12/news/09-f893dd2f952195dc.md",
+          "bytes": 3219,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-b2f91b31ed66975b25931e0efb59350c",
+          "category": "News",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-12/news/10-a2c3321aac1296ff.md",
+          "bytes": 3538,
+          "preview_image": "/daily/2026-10-12/assets/url--aiera.com.cn-b2f91b31ed66975b25931e0efb59350c/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "url--aiera.com.cn-99fff93a2850a1add648a185fd85e88c",
+      "path": "docs/public/daily/2026-10-12/assets/url--aiera.com.cn-99fff93a2850a1add648a185fd85e88c/preview.png",
+      "bytes": 295849
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-6969910899bdd93be72242b5b74f0c20",
+      "path": "docs/public/daily/2026-10-12/assets/url--aiera.com.cn-6969910899bdd93be72242b5b74f0c20/preview.png",
+      "bytes": 280949
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-05a072747ac82f274f1daa82be9a9777",
+      "path": "docs/public/daily/2026-10-12/assets/url--aiera.com.cn-05a072747ac82f274f1daa82be9a9777/preview.png",
+      "bytes": 313745
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-53380808b4cd24e4155b510bba0264ac",
+      "path": "docs/public/daily/2026-10-12/assets/url--aiera.com.cn-53380808b4cd24e4155b510bba0264ac/preview.png",
+      "bytes": 242951
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-1cf8f3b2024b844815f82f49a8effe67",
+      "path": "docs/public/daily/2026-10-12/assets/url--aiera.com.cn-1cf8f3b2024b844815f82f49a8effe67/preview.png",
+      "bytes": 263712
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-454af240c1f5c95046aa9dcb98f93a7a",
+      "path": "docs/public/daily/2026-10-12/assets/url--aiera.com.cn-454af240c1f5c95046aa9dcb98f93a7a/preview.png",
+      "bytes": 266129
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-ef15a6a9b466f895db2fa901e8e58be5",
+      "path": "docs/public/daily/2026-10-12/assets/url--aiera.com.cn-ef15a6a9b466f895db2fa901e8e58be5/preview.png",
+      "bytes": 264146
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-b2f91b31ed66975b25931e0efb59350c",
+      "path": "docs/public/daily/2026-10-12/assets/url--aiera.com.cn-b2f91b31ed66975b25931e0efb59350c/preview.png",
+      "bytes": 300171
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-12T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 0,
+    "news_count": 10,
+    "policy_count": 0,
+    "selected_total": 10,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 10,
+    "news_fallback_used": 5
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
