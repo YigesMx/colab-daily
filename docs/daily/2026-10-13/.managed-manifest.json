@@ -1,0 +1,243 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-13",
+  "display_date": "2026-10-13",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2610.12772",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-13/paper/01-c13dc03ddbd46799.md",
+          "bytes": 4333,
+          "preview_image": "/daily/2026-10-13/assets/arxiv--2610.12772/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.10288",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-13/paper/02-0a790c99e713e0c1.md",
+          "bytes": 4079,
+          "preview_image": "/daily/2026-10-13/assets/arxiv--2610.10288/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.13021",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-13/paper/03-b92cd35009294d3f.md",
+          "bytes": 3849,
+          "preview_image": "/daily/2026-10-13/assets/arxiv--2610.13021/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.13912",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-13/paper/04-1c4c528a9465a860.md",
+          "bytes": 4153,
+          "preview_image": "/daily/2026-10-13/assets/arxiv--2610.13912/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.13527",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-13/paper/05-5447ab9bdfc93f92.md",
+          "bytes": 3537,
+          "preview_image": "/daily/2026-10-13/assets/arxiv--2610.13527/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.12572",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-13/paper/06-b325a86f9c52852d.md",
+          "bytes": 3928,
+          "preview_image": "/daily/2026-10-13/assets/arxiv--2610.12572/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.13947",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-13/paper/07-206e85e9d808ae46.md",
+          "bytes": 3896,
+          "preview_image": "/daily/2026-10-13/assets/arxiv--2610.13947/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.11215",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-13/paper/08-399a19cd8448e014.md",
+          "bytes": 4037,
+          "preview_image": "/daily/2026-10-13/assets/arxiv--2610.11215/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.12611",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-13/paper/09-c92d9ddcee226863.md",
+          "bytes": 3752,
+          "preview_image": "/daily/2026-10-13/assets/arxiv--2610.12611/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.08966",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-13/paper/10-06704531def5347c.md",
+          "bytes": 4098,
+          "preview_image": "/daily/2026-10-13/assets/arxiv--2610.08966/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fdistillation-defenses",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-13/news/01-8d97c20935e452b9.md",
+          "bytes": 2222,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Focp-global-summit-vera-rubin-scale-ai-factories%2F",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-13/news/02-40d1432b41720591.md",
+          "bytes": 2271,
+          "preview_image": "/daily/2026-10-13/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2focp-global-summit-vera-rubin-scale-ai-factories_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--theaiinsider.tech-b155606c53ac5ca6e9ae3f0d5330f880",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-13/news/03-61960fa69c657803.md",
+          "bytes": 2389,
+          "preview_image": "/daily/2026-10-13/assets/url--theaiinsider.tech-b155606c53ac5ca6e9ae3f0d5330f880/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F10%2F502654.html",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-13/news/04-edd2a6844db6f0f6.md",
+          "bytes": 2235,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F12%2Fsiemens-opens-factory-testbeds-in-china-to-advance-physical-ai%2F",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-13/news/05-9835fe1f57a2a96a.md",
+          "bytes": 2401,
+          "preview_image": "/daily/2026-10-13/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f12_2fsiemens-opens-factory-testbeds-in-china-to-advance-physical-ai_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F12%2Fapple-expands-ai-ambitions-with-huxe-talent-deal-and-siri-powered-homeview-smart-home-hub%2F",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-13/news/06-d1ba171f7c549b08.md",
+          "bytes": 2217,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F12%2Fstryker-to-invest-400m-in-cmr-surgical-gains-u-s-sales-rights-and-acquisition-option%2F",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-13/news/07-d0678606969769b8.md",
+          "bytes": 2186,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2610.12772",
+      "path": "docs/public/daily/2026-10-13/assets/arxiv--2610.12772/preview.png",
+      "bytes": 164345
+    },
+    {
+      "candidate_id": "arxiv--2610.10288",
+      "path": "docs/public/daily/2026-10-13/assets/arxiv--2610.10288/preview.png",
+      "bytes": 1249722
+    },
+    {
+      "candidate_id": "arxiv--2610.13021",
+      "path": "docs/public/daily/2026-10-13/assets/arxiv--2610.13021/preview.png",
+      "bytes": 794164
+    },
+    {
+      "candidate_id": "arxiv--2610.13912",
+      "path": "docs/public/daily/2026-10-13/assets/arxiv--2610.13912/preview.png",
+      "bytes": 4243294
+    },
+    {
+      "candidate_id": "arxiv--2610.13527",
+      "path": "docs/public/daily/2026-10-13/assets/arxiv--2610.13527/preview.png",
+      "bytes": 78871
+    },
+    {
+      "candidate_id": "arxiv--2610.12572",
+      "path": "docs/public/daily/2026-10-13/assets/arxiv--2610.12572/preview.png",
+      "bytes": 238591
+    },
+    {
+      "candidate_id": "arxiv--2610.13947",
+      "path": "docs/public/daily/2026-10-13/assets/arxiv--2610.13947/preview.png",
+      "bytes": 285531
+    },
+    {
+      "candidate_id": "arxiv--2610.11215",
+      "path": "docs/public/daily/2026-10-13/assets/arxiv--2610.11215/preview.png",
+      "bytes": 1231416
+    },
+    {
+      "candidate_id": "arxiv--2610.12611",
+      "path": "docs/public/daily/2026-10-13/assets/arxiv--2610.12611/preview.png",
+      "bytes": 516295
+    },
+    {
+      "candidate_id": "arxiv--2610.08966",
+      "path": "docs/public/daily/2026-10-13/assets/arxiv--2610.08966/preview.png",
+      "bytes": 129593
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Focp-global-summit-vera-rubin-scale-ai-factories%2F",
+      "path": "docs/public/daily/2026-10-13/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2focp-global-summit-vera-rubin-scale-ai-factories_2f/preview.png",
+      "bytes": 2297646
+    },
+    {
+      "candidate_id": "url--theaiinsider.tech-b155606c53ac5ca6e9ae3f0d5330f880",
+      "path": "docs/public/daily/2026-10-13/assets/url--theaiinsider.tech-b155606c53ac5ca6e9ae3f0d5330f880/preview.png",
+      "bytes": 37363
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F12%2Fsiemens-opens-factory-testbeds-in-china-to-advance-physical-ai%2F",
+      "path": "docs/public/daily/2026-10-13/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f12_2fsiemens-opens-factory-testbeds-in-china-to-advance-physical-ai_2f/preview.png",
+      "bytes": 516641
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-13T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 0,
+    "selected_total": 17,
+    "news_policy_total": 7,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 10,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
