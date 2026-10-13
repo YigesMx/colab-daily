@@ -1,0 +1,288 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-14",
+  "display_date": "2026-10-14",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2609.39601",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-14/paper/01-0a18762e76b20922.md",
+          "bytes": 7014,
+          "preview_image": "/daily/2026-10-14/assets/arxiv--2609.39601/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.35965",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-14/paper/02-68c254fa7e106efa.md",
+          "bytes": 6432,
+          "preview_image": "/daily/2026-10-14/assets/arxiv--2609.35965/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.39600",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-14/paper/03-c6af9332d4561260.md",
+          "bytes": 6897,
+          "preview_image": "/daily/2026-10-14/assets/arxiv--2609.39600/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.13166",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-14/paper/04-9feb23b2e286fe8f.md",
+          "bytes": 6381,
+          "preview_image": "/daily/2026-10-14/assets/arxiv--2610.13166/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.13832",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-14/paper/05-5fede639304d7da2.md",
+          "bytes": 6257,
+          "preview_image": "/daily/2026-10-14/assets/arxiv--2610.13832/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.09116",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-14/paper/06-e9de0f7f6c563fba.md",
+          "bytes": 6599,
+          "preview_image": "/daily/2026-10-14/assets/arxiv--2610.09116/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2609.33304",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-14/paper/07-29b86ad7a5dd9473.md",
+          "bytes": 6230,
+          "preview_image": "/daily/2026-10-14/assets/arxiv--2609.33304/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.11765",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-14/paper/08-e7314ebc5ec28575.md",
+          "bytes": 6441,
+          "preview_image": "/daily/2026-10-14/assets/arxiv--2610.11765/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.12933",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-14/paper/09-3980eb5e2253ac89.md",
+          "bytes": 6211,
+          "preview_image": "/daily/2026-10-14/assets/arxiv--2610.12933/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.13361",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-14/paper/10-68a6bf4569b2c5d2.md",
+          "bytes": 6327,
+          "preview_image": "/daily/2026-10-14/assets/arxiv--2610.13361/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fself-replicating-ai",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-14/news/01-0185c148d097204e.md",
+          "bytes": 4552,
+          "preview_image": "/daily/2026-10-14/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2fself-replicating-ai/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fabout.fb.com%2Fnews%2F2026%2F10%2Fintroducing-muse-wonder-models%2F",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-14/news/02-e7a3fe114a756ce0.md",
+          "bytes": 4172,
+          "preview_image": "/daily/2026-10-14/assets/url--https_3a_2f_2fabout.fb.com_2fnews_2f2026_2f10_2fintroducing-muse-wonder-models_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-bc5b21d798cde5f32a4b12d47d13d8e6",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-14/news/03-0ada432edd7bee1d.md",
+          "bytes": 5002,
+          "preview_image": "/daily/2026-10-14/assets/url--aiera.com.cn-bc5b21d798cde5f32a4b12d47d13d8e6/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Flocal-ai-rtx-spark-laptops-software-updates%2F",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-14/news/04-ad9c6f95d6cfd183.md",
+          "bytes": 4364,
+          "preview_image": "/daily/2026-10-14/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2flocal-ai-rtx-spark-laptops-software-updates_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fengineering%2Fredesigning-source-control",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-14/news/05-2548884a1340fd65.md",
+          "bytes": 4343,
+          "preview_image": "/daily/2026-10-14/assets/url--https_3a_2f_2fwww.anthropic.com_2fengineering_2fredesigning-source-control/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Ffrance-ecosystem-agentic-computing%2F",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-14/news/06-2f8f9222af71ddc3.md",
+          "bytes": 4448,
+          "preview_image": "/daily/2026-10-14/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2ffrance-ecosystem-agentic-computing_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-2d99eb733d09bcac993c4ce55fb84cd0",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-14/news/07-e710e50b0c86e9fa.md",
+          "bytes": 5318,
+          "preview_image": "/daily/2026-10-14/assets/url--aiera.com.cn-2d99eb733d09bcac993c4ce55fb84cd0/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-13%2F%23story-0004",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-14/policy/01-70675736e5a945aa.md",
+          "bytes": 5972,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-13%2F%23story-0003",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-14/policy/02-47e6edcbe67517d0.md",
+          "bytes": 6169,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-13%2F%23story-0013",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-14/policy/03-9c28d59c46a5acce.md",
+          "bytes": 6108,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2609.39601",
+      "path": "docs/public/daily/2026-10-14/assets/arxiv--2609.39601/preview.png",
+      "bytes": 323428
+    },
+    {
+      "candidate_id": "arxiv--2609.35965",
+      "path": "docs/public/daily/2026-10-14/assets/arxiv--2609.35965/preview.png",
+      "bytes": 536328
+    },
+    {
+      "candidate_id": "arxiv--2609.39600",
+      "path": "docs/public/daily/2026-10-14/assets/arxiv--2609.39600/preview.png",
+      "bytes": 276033
+    },
+    {
+      "candidate_id": "arxiv--2610.13166",
+      "path": "docs/public/daily/2026-10-14/assets/arxiv--2610.13166/preview.png",
+      "bytes": 303080
+    },
+    {
+      "candidate_id": "arxiv--2610.13832",
+      "path": "docs/public/daily/2026-10-14/assets/arxiv--2610.13832/preview.png",
+      "bytes": 481716
+    },
+    {
+      "candidate_id": "arxiv--2610.09116",
+      "path": "docs/public/daily/2026-10-14/assets/arxiv--2610.09116/preview.png",
+      "bytes": 4132649
+    },
+    {
+      "candidate_id": "arxiv--2609.33304",
+      "path": "docs/public/daily/2026-10-14/assets/arxiv--2609.33304/preview.png",
+      "bytes": 43491
+    },
+    {
+      "candidate_id": "arxiv--2610.11765",
+      "path": "docs/public/daily/2026-10-14/assets/arxiv--2610.11765/preview.png",
+      "bytes": 99412
+    },
+    {
+      "candidate_id": "arxiv--2610.12933",
+      "path": "docs/public/daily/2026-10-14/assets/arxiv--2610.12933/preview.png",
+      "bytes": 145264
+    },
+    {
+      "candidate_id": "arxiv--2610.13361",
+      "path": "docs/public/daily/2026-10-14/assets/arxiv--2610.13361/preview.png",
+      "bytes": 58010
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fself-replicating-ai",
+      "path": "docs/public/daily/2026-10-14/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2fself-replicating-ai/preview.png",
+      "bytes": 82634
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fabout.fb.com%2Fnews%2F2026%2F10%2Fintroducing-muse-wonder-models%2F",
+      "path": "docs/public/daily/2026-10-14/assets/url--https_3a_2f_2fabout.fb.com_2fnews_2f2026_2f10_2fintroducing-muse-wonder-models_2f/preview.png",
+      "bytes": 367240
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-bc5b21d798cde5f32a4b12d47d13d8e6",
+      "path": "docs/public/daily/2026-10-14/assets/url--aiera.com.cn-bc5b21d798cde5f32a4b12d47d13d8e6/preview.png",
+      "bytes": 299531
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Flocal-ai-rtx-spark-laptops-software-updates%2F",
+      "path": "docs/public/daily/2026-10-14/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2flocal-ai-rtx-spark-laptops-software-updates_2f/preview.png",
+      "bytes": 694123
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fengineering%2Fredesigning-source-control",
+      "path": "docs/public/daily/2026-10-14/assets/url--https_3a_2f_2fwww.anthropic.com_2fengineering_2fredesigning-source-control/preview.png",
+      "bytes": 210413
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Ffrance-ecosystem-agentic-computing%2F",
+      "path": "docs/public/daily/2026-10-14/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2ffrance-ecosystem-agentic-computing_2f/preview.png",
+      "bytes": 269276
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-2d99eb733d09bcac993c4ce55fb84cd0",
+      "path": "docs/public/daily/2026-10-14/assets/url--aiera.com.cn-2d99eb733d09bcac993c4ce55fb84cd0/preview.png",
+      "bytes": 224869
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-14T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
