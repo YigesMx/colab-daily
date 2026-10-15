@@ -1,0 +1,288 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-16",
+  "display_date": "2026-10-16",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2610.19155",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-16/paper/01-da584402c41250be.md",
+          "bytes": 6922,
+          "preview_image": "/daily/2026-10-16/assets/arxiv--2610.19155/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.18950",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-16/paper/02-487f267d9142d923.md",
+          "bytes": 6953,
+          "preview_image": "/daily/2026-10-16/assets/arxiv--2610.18950/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.20429",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-16/paper/03-0b58ee64af7da0ee.md",
+          "bytes": 6569,
+          "preview_image": "/daily/2026-10-16/assets/arxiv--2610.20429/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.19495",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-16/paper/04-587293d262174df4.md",
+          "bytes": 6877,
+          "preview_image": "/daily/2026-10-16/assets/arxiv--2610.19495/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.19600",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-16/paper/05-2df559d9b01e9c78.md",
+          "bytes": 6546,
+          "preview_image": "/daily/2026-10-16/assets/arxiv--2610.19600/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.20320",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-16/paper/06-725d3db1e2ceab6c.md",
+          "bytes": 7370,
+          "preview_image": "/daily/2026-10-16/assets/arxiv--2610.20320/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.18991",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-16/paper/07-c73c762b9de8452e.md",
+          "bytes": 7298,
+          "preview_image": "/daily/2026-10-16/assets/arxiv--2610.18991/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.19122",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-16/paper/08-664c7a87b8a79a90.md",
+          "bytes": 6668,
+          "preview_image": "/daily/2026-10-16/assets/arxiv--2610.19122/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.20552",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-16/paper/09-64091207e75850cb.md",
+          "bytes": 7437,
+          "preview_image": "/daily/2026-10-16/assets/arxiv--2610.20552/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.19201",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-16/paper/10-f168167af1308a44.md",
+          "bytes": 6911,
+          "preview_image": "/daily/2026-10-16/assets/arxiv--2610.19201/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--aiera.com.cn-4428ed41f692753cccb9bdf7d7f516a3",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-16/news/01-56d4398b82efe832.md",
+          "bytes": 4869,
+          "preview_image": "/daily/2026-10-16/assets/url--aiera.com.cn-4428ed41f692753cccb9bdf7d7f516a3/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Fmeta-muse-spark-open",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-16/news/02-c8ad73f558b7fbd8.md",
+          "bytes": 3582,
+          "preview_image": "/daily/2026-10-16/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2fmeta-muse-spark-open/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-33d4a7241ef9304720c7144f6f9ed8ea",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-16/news/03-3e6cc21bc8352cc7.md",
+          "bytes": 4040,
+          "preview_image": "/daily/2026-10-16/assets/url--aiera.com.cn-33d4a7241ef9304720c7144f6f9ed8ea/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-272d5382f0692bb72b9c90f2c00adb8b",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-16/news/04-667d8e04795bb9de.md",
+          "bytes": 4190,
+          "preview_image": "/daily/2026-10-16/assets/url--aiera.com.cn-272d5382f0692bb72b9c90f2c00adb8b/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fnemotron-3-5-super-vl%2F",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-16/news/05-da9ae2c34ab2dd77.md",
+          "bytes": 3760,
+          "preview_image": "/daily/2026-10-16/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fnemotron-3-5-super-vl_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-e9f8eccc28c36ceed054cd4ba0c1ccf2",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-16/news/06-bb9087abb0c5255c.md",
+          "bytes": 4079,
+          "preview_image": "/daily/2026-10-16/assets/url--aiera.com.cn-e9f8eccc28c36ceed054cd4ba0c1ccf2/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fnews%2F2026-us-midterms",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-16/news/07-c19a10da50007c93.md",
+          "bytes": 3636,
+          "preview_image": "/daily/2026-10-16/assets/url--https_3a_2f_2fwww.anthropic.com_2fnews_2f2026-us-midterms/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-15%2F%23story-0002",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-16/policy/01-1f5144ba55acb356.md",
+          "bytes": 5519,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-15%2F%23story-0010",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-16/policy/02-276fb04a3855cba5.md",
+          "bytes": 5462,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-15%2F%23story-0012",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-16/policy/03-0d175e91d88a8a16.md",
+          "bytes": 5978,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2610.19155",
+      "path": "docs/public/daily/2026-10-16/assets/arxiv--2610.19155/preview.png",
+      "bytes": 522143
+    },
+    {
+      "candidate_id": "arxiv--2610.18950",
+      "path": "docs/public/daily/2026-10-16/assets/arxiv--2610.18950/preview.png",
+      "bytes": 1327773
+    },
+    {
+      "candidate_id": "arxiv--2610.20429",
+      "path": "docs/public/daily/2026-10-16/assets/arxiv--2610.20429/preview.png",
+      "bytes": 583306
+    },
+    {
+      "candidate_id": "arxiv--2610.19495",
+      "path": "docs/public/daily/2026-10-16/assets/arxiv--2610.19495/preview.png",
+      "bytes": 511150
+    },
+    {
+      "candidate_id": "arxiv--2610.19600",
+      "path": "docs/public/daily/2026-10-16/assets/arxiv--2610.19600/preview.png",
+      "bytes": 241205
+    },
+    {
+      "candidate_id": "arxiv--2610.20320",
+      "path": "docs/public/daily/2026-10-16/assets/arxiv--2610.20320/preview.png",
+      "bytes": 858971
+    },
+    {
+      "candidate_id": "arxiv--2610.18991",
+      "path": "docs/public/daily/2026-10-16/assets/arxiv--2610.18991/preview.png",
+      "bytes": 5260277
+    },
+    {
+      "candidate_id": "arxiv--2610.19122",
+      "path": "docs/public/daily/2026-10-16/assets/arxiv--2610.19122/preview.png",
+      "bytes": 7374527
+    },
+    {
+      "candidate_id": "arxiv--2610.20552",
+      "path": "docs/public/daily/2026-10-16/assets/arxiv--2610.20552/preview.png",
+      "bytes": 321340
+    },
+    {
+      "candidate_id": "arxiv--2610.19201",
+      "path": "docs/public/daily/2026-10-16/assets/arxiv--2610.19201/preview.png",
+      "bytes": 310224
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-4428ed41f692753cccb9bdf7d7f516a3",
+      "path": "docs/public/daily/2026-10-16/assets/url--aiera.com.cn-4428ed41f692753cccb9bdf7d7f516a3/preview.png",
+      "bytes": 182767
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Fmeta-muse-spark-open",
+      "path": "docs/public/daily/2026-10-16/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2fmeta-muse-spark-open/preview.png",
+      "bytes": 791178
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-33d4a7241ef9304720c7144f6f9ed8ea",
+      "path": "docs/public/daily/2026-10-16/assets/url--aiera.com.cn-33d4a7241ef9304720c7144f6f9ed8ea/preview.png",
+      "bytes": 270972
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-272d5382f0692bb72b9c90f2c00adb8b",
+      "path": "docs/public/daily/2026-10-16/assets/url--aiera.com.cn-272d5382f0692bb72b9c90f2c00adb8b/preview.png",
+      "bytes": 283559
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fnemotron-3-5-super-vl%2F",
+      "path": "docs/public/daily/2026-10-16/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fnemotron-3-5-super-vl_2f/preview.png",
+      "bytes": 1899803
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-e9f8eccc28c36ceed054cd4ba0c1ccf2",
+      "path": "docs/public/daily/2026-10-16/assets/url--aiera.com.cn-e9f8eccc28c36ceed054cd4ba0c1ccf2/preview.png",
+      "bytes": 317415
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fnews%2F2026-us-midterms",
+      "path": "docs/public/daily/2026-10-16/assets/url--https_3a_2f_2fwww.anthropic.com_2fnews_2f2026-us-midterms/preview.png",
+      "bytes": 2951432
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-16T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
