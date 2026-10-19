@@ -1,0 +1,166 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-18",
+  "display_date": "2026-10-18",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": []
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F16%2Fmeta-releases-muse-spark-open-an-816b-parameter-open-weight-ai-model-built-to-run-on-macs%2F",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-18/news/01-df947a11d25ec442.md",
+          "bytes": 4293,
+          "preview_image": "/daily/2026-10-18/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f16_2fmeta-releases-muse-spark-open-an-816b-parameter-open-weight-ai-model-built-to-run-on-macs_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fdesigning-efficient-quantum-circuits",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-18/news/02-74a4226caa1d5dfe.md",
+          "bytes": 3443,
+          "preview_image": "/daily/2026-10-18/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2fdesigning-efficient-quantum-circuits/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fecdsa-curve-origins",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-18/news/03-2ed520bd280f0887.md",
+          "bytes": 3486,
+          "preview_image": "/daily/2026-10-18/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2fecdsa-curve-origins/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Femployment-at-anthropic",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-18/news/04-f91a23f5f94035bf.md",
+          "bytes": 3614,
+          "preview_image": "/daily/2026-10-18/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2femployment-at-anthropic/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-f838a316e69ce592e7a64725a43b5644",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-18/news/05-8f5b2c3e26e822ed.md",
+          "bytes": 3317,
+          "preview_image": "/daily/2026-10-18/assets/url--aiera.com.cn-f838a316e69ce592e7a64725a43b5644/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fai-expectations-gap",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-18/news/06-5a8b81cdc1186778.md",
+          "bytes": 3411,
+          "preview_image": "/daily/2026-10-18/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2fai-expectations-gap/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-57c55e42b08f9442d3e8f7099d524483",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-18/news/07-3597f9128df1ab63.md",
+          "bytes": 3681,
+          "preview_image": "/daily/2026-10-18/assets/url--aiera.com.cn-57c55e42b08f9442d3e8f7099d524483/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F17%2Fcanadas-promise-robotics-signs-multi-year-deal-with-us-homebuilder-dr-horton-for-robotic-homebuilding%2F",
+          "category": "News",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-18/news/08-598232353bfa1a28.md",
+          "bytes": 3308,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F17%2Faimoga-to-open-global-pre-orders-for-mobo-home-humanoid-robot%2F",
+          "category": "News",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-18/news/09-594e7de00f96ffd8.md",
+          "bytes": 3276,
+          "preview_image": "/daily/2026-10-18/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f17_2faimoga-to-open-global-pre-orders-for-mobo-home-humanoid-robot_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-82eafce8f9624a9948d44e824780046b",
+          "category": "News",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-18/news/10-cfe9ed850e443371.md",
+          "bytes": 4492,
+          "preview_image": "/daily/2026-10-18/assets/url--aiera.com.cn-82eafce8f9624a9948d44e824780046b/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F16%2Fmeta-releases-muse-spark-open-an-816b-parameter-open-weight-ai-model-built-to-run-on-macs%2F",
+      "path": "docs/public/daily/2026-10-18/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f16_2fmeta-releases-muse-spark-open-an-816b-parameter-open-weight-ai-model-built-to-run-on-macs_2f/preview.png",
+      "bytes": 189266
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fdesigning-efficient-quantum-circuits",
+      "path": "docs/public/daily/2026-10-18/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2fdesigning-efficient-quantum-circuits/preview.png",
+      "bytes": 2637148
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fecdsa-curve-origins",
+      "path": "docs/public/daily/2026-10-18/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2fecdsa-curve-origins/preview.png",
+      "bytes": 933175
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Femployment-at-anthropic",
+      "path": "docs/public/daily/2026-10-18/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2femployment-at-anthropic/preview.png",
+      "bytes": 93655
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-f838a316e69ce592e7a64725a43b5644",
+      "path": "docs/public/daily/2026-10-18/assets/url--aiera.com.cn-f838a316e69ce592e7a64725a43b5644/preview.png",
+      "bytes": 282652
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fai-expectations-gap",
+      "path": "docs/public/daily/2026-10-18/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2fai-expectations-gap/preview.png",
+      "bytes": 6334714
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-57c55e42b08f9442d3e8f7099d524483",
+      "path": "docs/public/daily/2026-10-18/assets/url--aiera.com.cn-57c55e42b08f9442d3e8f7099d524483/preview.png",
+      "bytes": 275636
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F17%2Faimoga-to-open-global-pre-orders-for-mobo-home-humanoid-robot%2F",
+      "path": "docs/public/daily/2026-10-18/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f17_2faimoga-to-open-global-pre-orders-for-mobo-home-humanoid-robot_2f/preview.png",
+      "bytes": 915513
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-82eafce8f9624a9948d44e824780046b",
+      "path": "docs/public/daily/2026-10-18/assets/url--aiera.com.cn-82eafce8f9624a9948d44e824780046b/preview.png",
+      "bytes": 310149
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-18T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 0,
+    "news_count": 10,
+    "policy_count": 0,
+    "selected_total": 10,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 10,
+    "news_fallback_used": 5
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
