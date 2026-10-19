@@ -1,0 +1,303 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-20",
+  "display_date": "2026-10-20",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2610.22471",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-20/paper/01-961745d7118562ef.md",
+          "bytes": 7078,
+          "preview_image": "/daily/2026-10-20/assets/arxiv--2610.22471/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.22496",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-20/paper/02-8028e88fcb2dae26.md",
+          "bytes": 5882,
+          "preview_image": "/daily/2026-10-20/assets/arxiv--2610.22496/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2604.20012",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-20/paper/03-56de6ffaf14b3c1a.md",
+          "bytes": 4964,
+          "preview_image": "/daily/2026-10-20/assets/arxiv--2604.20012/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.22619",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-20/paper/04-c36aefc63f9ad480.md",
+          "bytes": 5332,
+          "preview_image": "/daily/2026-10-20/assets/arxiv--2610.22619/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.23423",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-20/paper/05-93f1a7f18bd47174.md",
+          "bytes": 5434,
+          "preview_image": "/daily/2026-10-20/assets/arxiv--2610.23423/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.23334",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-20/paper/06-85ff67599d333868.md",
+          "bytes": 5221,
+          "preview_image": "/daily/2026-10-20/assets/arxiv--2610.23334/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.23127",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-20/paper/07-300d9f8845c4939c.md",
+          "bytes": 5168,
+          "preview_image": "/daily/2026-10-20/assets/arxiv--2610.23127/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.22932",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-20/paper/08-fc46739476c78d65.md",
+          "bytes": 5226,
+          "preview_image": "/daily/2026-10-20/assets/arxiv--2610.22932/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.22852",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-20/paper/09-cf7c27c7e76835cd.md",
+          "bytes": 5072,
+          "preview_image": "/daily/2026-10-20/assets/arxiv--2610.22852/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.20019",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-20/paper/10-bfc96b861e01013a.md",
+          "bytes": 5575,
+          "preview_image": "/daily/2026-10-20/assets/arxiv--2610.20019/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fnews%2Fpublic-benefit-fund",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-20/news/01-c81027729472532b.md",
+          "bytes": 6253,
+          "preview_image": "/daily/2026-10-20/assets/url--https_3a_2f_2fwww.anthropic.com_2fnews_2fpublic-benefit-fund/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-2c387346b63316fba4ef0754fb4f1d0c",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-20/news/02-10022a6197997f4c.md",
+          "bytes": 5764,
+          "preview_image": "/daily/2026-10-20/assets/url--aiera.com.cn-2c387346b63316fba4ef0754fb4f1d0c/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-3d99787b108c09c05a61cec10f9eff7f",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-20/news/03-3acc52c21e179bc3.md",
+          "bytes": 7566,
+          "preview_image": "/daily/2026-10-20/assets/url--aiera.com.cn-3d99787b108c09c05a61cec10f9eff7f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-e94dcead5397066eb74ae6ff5f89c96c",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-20/news/04-664af3677f123587.md",
+          "bytes": 6982,
+          "preview_image": "/daily/2026-10-20/assets/url--aiera.com.cn-e94dcead5397066eb74ae6ff5f89c96c/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-8b2d6d731385c86f35eda56fad55fb0d",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-20/news/05-ba789d50bdc1ed40.md",
+          "bytes": 7806,
+          "preview_image": "/daily/2026-10-20/assets/url--aiera.com.cn-8b2d6d731385c86f35eda56fad55fb0d/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.technologyreview.com%2F2026%2F10%2F19%2F1147095%2Fai-stranded-claude-virtual-desert-island-play%2F",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-20/news/06-17e8d2e5021d2c37.md",
+          "bytes": 6615,
+          "preview_image": "/daily/2026-10-20/assets/url--https_3a_2f_2fwww.technologyreview.com_2f2026_2f10_2f19_2f1147095_2fai-stranded-claude-virtual-desert-island-play_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F19%2Fdisney-agrees-to-hire-majority-of-character-ai-workforce-following-chatbot-startups-bankruptcy%2F",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-20/news/07-94896e348c04bd66.md",
+          "bytes": 7039,
+          "preview_image": "/daily/2026-10-20/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f19_2fdisney-agrees-to-hire-majority-of-character-ai-workforce-following-chatbot-startups-bankruptcy_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fmedia-agentic-security-european-public-service-broadcasting-global-content-production%2F",
+          "category": "News",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-20/news/08-8108af37ff49ca8e.md",
+          "bytes": 6930,
+          "preview_image": "/daily/2026-10-20/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fmedia-agentic-security-european-public-service-broadcasting-global-content-production_2f/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fdigital-strategy.ec.europa.eu%2Fen%2Flibrary%2Ffirst-harmonised-standard-supporting-ai-act-published-official-journal",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-20/policy/01-69a2cfdb0f8453fe.md",
+          "bytes": 5471,
+          "preview_image": "/daily/2026-10-20/assets/url--https_3a_2f_2fdigital-strategy.ec.europa.eu_2fen_2flibrary_2ffirst-harmonised-standard-supporting-ai-act-published-official-journal/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-19%2F%23story-0003",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-20/policy/02-212d92c8a35699f7.md",
+          "bytes": 9456,
+          "preview_image": "/daily/2026-10-20/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-10-19_2f_23story-0003/preview.png"
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2610.22471",
+      "path": "docs/public/daily/2026-10-20/assets/arxiv--2610.22471/preview.png",
+      "bytes": 91274
+    },
+    {
+      "candidate_id": "arxiv--2610.22496",
+      "path": "docs/public/daily/2026-10-20/assets/arxiv--2610.22496/preview.png",
+      "bytes": 666999
+    },
+    {
+      "candidate_id": "arxiv--2604.20012",
+      "path": "docs/public/daily/2026-10-20/assets/arxiv--2604.20012/preview.png",
+      "bytes": 54319
+    },
+    {
+      "candidate_id": "arxiv--2610.22619",
+      "path": "docs/public/daily/2026-10-20/assets/arxiv--2610.22619/preview.png",
+      "bytes": 1216693
+    },
+    {
+      "candidate_id": "arxiv--2610.23423",
+      "path": "docs/public/daily/2026-10-20/assets/arxiv--2610.23423/preview.png",
+      "bytes": 355344
+    },
+    {
+      "candidate_id": "arxiv--2610.23334",
+      "path": "docs/public/daily/2026-10-20/assets/arxiv--2610.23334/preview.png",
+      "bytes": 950532
+    },
+    {
+      "candidate_id": "arxiv--2610.23127",
+      "path": "docs/public/daily/2026-10-20/assets/arxiv--2610.23127/preview.png",
+      "bytes": 473147
+    },
+    {
+      "candidate_id": "arxiv--2610.22932",
+      "path": "docs/public/daily/2026-10-20/assets/arxiv--2610.22932/preview.png",
+      "bytes": 358326
+    },
+    {
+      "candidate_id": "arxiv--2610.22852",
+      "path": "docs/public/daily/2026-10-20/assets/arxiv--2610.22852/preview.png",
+      "bytes": 349849
+    },
+    {
+      "candidate_id": "arxiv--2610.20019",
+      "path": "docs/public/daily/2026-10-20/assets/arxiv--2610.20019/preview.png",
+      "bytes": 504230
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fnews%2Fpublic-benefit-fund",
+      "path": "docs/public/daily/2026-10-20/assets/url--https_3a_2f_2fwww.anthropic.com_2fnews_2fpublic-benefit-fund/preview.png",
+      "bytes": 1565253
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-2c387346b63316fba4ef0754fb4f1d0c",
+      "path": "docs/public/daily/2026-10-20/assets/url--aiera.com.cn-2c387346b63316fba4ef0754fb4f1d0c/preview.png",
+      "bytes": 265702
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-3d99787b108c09c05a61cec10f9eff7f",
+      "path": "docs/public/daily/2026-10-20/assets/url--aiera.com.cn-3d99787b108c09c05a61cec10f9eff7f/preview.png",
+      "bytes": 292060
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-e94dcead5397066eb74ae6ff5f89c96c",
+      "path": "docs/public/daily/2026-10-20/assets/url--aiera.com.cn-e94dcead5397066eb74ae6ff5f89c96c/preview.png",
+      "bytes": 290504
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-8b2d6d731385c86f35eda56fad55fb0d",
+      "path": "docs/public/daily/2026-10-20/assets/url--aiera.com.cn-8b2d6d731385c86f35eda56fad55fb0d/preview.png",
+      "bytes": 273852
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.technologyreview.com%2F2026%2F10%2F19%2F1147095%2Fai-stranded-claude-virtual-desert-island-play%2F",
+      "path": "docs/public/daily/2026-10-20/assets/url--https_3a_2f_2fwww.technologyreview.com_2f2026_2f10_2f19_2f1147095_2fai-stranded-claude-virtual-desert-island-play_2f/preview.png",
+      "bytes": 10438541
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F19%2Fdisney-agrees-to-hire-majority-of-character-ai-workforce-following-chatbot-startups-bankruptcy%2F",
+      "path": "docs/public/daily/2026-10-20/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f19_2fdisney-agrees-to-hire-majority-of-character-ai-workforce-following-chatbot-startups-bankruptcy_2f/preview.png",
+      "bytes": 1602706
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fmedia-agentic-security-european-public-service-broadcasting-global-content-production%2F",
+      "path": "docs/public/daily/2026-10-20/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fmedia-agentic-security-european-public-service-broadcasting-global-content-production_2f/preview.png",
+      "bytes": 2605542
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fdigital-strategy.ec.europa.eu%2Fen%2Flibrary%2Ffirst-harmonised-standard-supporting-ai-act-published-official-journal",
+      "path": "docs/public/daily/2026-10-20/assets/url--https_3a_2f_2fdigital-strategy.ec.europa.eu_2fen_2flibrary_2ffirst-harmonised-standard-supporting-ai-act-published-official-journal/preview.png",
+      "bytes": 101915
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-19%2F%23story-0003",
+      "path": "docs/public/daily/2026-10-20/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-10-19_2f_23story-0003/preview.png",
+      "bytes": 359871
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-20T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 8,
+    "policy_count": 2,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 8,
+    "news_fallback_used": 3
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
