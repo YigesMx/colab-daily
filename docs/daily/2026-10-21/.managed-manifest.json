@@ -1,0 +1,293 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-21",
+  "display_date": "2026-10-21",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2610.26855",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-21/paper/01-b5861e085f99e2c8.md",
+          "bytes": 5468,
+          "preview_image": "/daily/2026-10-21/assets/arxiv--2610.26855/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.24981",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-21/paper/02-53e8930576c693c3.md",
+          "bytes": 4935,
+          "preview_image": "/daily/2026-10-21/assets/arxiv--2610.24981/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.26549",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-21/paper/03-b7f793b5b5d50095.md",
+          "bytes": 4494,
+          "preview_image": "/daily/2026-10-21/assets/arxiv--2610.26549/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.26765",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-21/paper/04-f5bba9c2292946d5.md",
+          "bytes": 4832,
+          "preview_image": "/daily/2026-10-21/assets/arxiv--2610.26765/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.25666",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-21/paper/05-b0c7fda6b9214eef.md",
+          "bytes": 5325,
+          "preview_image": "/daily/2026-10-21/assets/arxiv--2610.25666/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.25407",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-21/paper/06-074bd78a6ef1d4e6.md",
+          "bytes": 4780,
+          "preview_image": "/daily/2026-10-21/assets/arxiv--2610.25407/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.25959",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-21/paper/07-d5ae750c4d85bf27.md",
+          "bytes": 4831,
+          "preview_image": "/daily/2026-10-21/assets/arxiv--2610.25959/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.25690",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-21/paper/08-0e66d615aaa97515.md",
+          "bytes": 5392,
+          "preview_image": "/daily/2026-10-21/assets/arxiv--2610.25690/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.24241",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-21/paper/09-61b7e0829d07d717.md",
+          "bytes": 4752,
+          "preview_image": "/daily/2026-10-21/assets/arxiv--2610.24241/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.26846",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-21/paper/10-35ebf594eee1768c.md",
+          "bytes": 5182,
+          "preview_image": "/daily/2026-10-21/assets/arxiv--2610.26846/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fgermany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help%2F",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-21/news/01-08b5008c7abd387a.md",
+          "bytes": 6025,
+          "preview_image": "/daily/2026-10-21/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fgermany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fclaude-scorpion-toxin-binder-design",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-21/news/02-273d1d26b040bdff.md",
+          "bytes": 5487,
+          "preview_image": "/daily/2026-10-21/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2fclaude-scorpion-toxin-binder-design/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-3c6fff1e5fc13bcd4e9b3b07172c1f4b",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-21/news/03-d6862e274c89f806.md",
+          "bytes": 6050,
+          "preview_image": "/daily/2026-10-21/assets/url--aiera.com.cn-3c6fff1e5fc13bcd4e9b3b07172c1f4b/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-a375982aeebe98587caf9aec8caf4db1",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-21/news/04-d24694dae7222eff.md",
+          "bytes": 5149,
+          "preview_image": "/daily/2026-10-21/assets/url--aiera.com.cn-a375982aeebe98587caf9aec8caf4db1/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F20%2Fhumanoids-making-humanoids-as-schaeffler-opens-lighthouse-factory-in-china%2F",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-21/news/05-622a87fb437e94fe.md",
+          "bytes": 5303,
+          "preview_image": "/daily/2026-10-21/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f20_2fhumanoids-making-humanoids-as-schaeffler-opens-lighthouse-factory-in-china_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-0f649764b6ffeb1fd4c787f12b01eac8",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-21/news/06-429a2eaaffa518fa.md",
+          "bytes": 6014,
+          "preview_image": "/daily/2026-10-21/assets/url--aiera.com.cn-0f649764b6ffeb1fd4c787f12b01eac8/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.technologyreview.com%2F2026%2F10%2F19%2F1147149%2Fwe-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world%2F",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-21/news/07-fcb94bfea78f8a7d.md",
+          "bytes": 5808,
+          "preview_image": "/daily/2026-10-21/assets/url--https_3a_2f_2fwww.technologyreview.com_2f2026_2f10_2f19_2f1147149_2fwe-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world_2f/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--www.federalregister.gov-fdde44cb77dc3421627ed2d9b8a5f928",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-21/policy/01-27d8e22449186891.md",
+          "bytes": 9182,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-20%2F%23story-0003",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-21/policy/02-e850624daf43bf89.md",
+          "bytes": 7811,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fdigital-strategy.ec.europa.eu%2Fen%2Flibrary%2Fdigital-services-act-study-financial-scams-online-platforms-and-ways-counter-them",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-21/policy/03-badba7159c53aef1.md",
+          "bytes": 8169,
+          "preview_image": "/daily/2026-10-21/assets/url--https_3a_2f_2fdigital-strategy.ec.europa.eu_2fen_2flibrary_2fdigital-services-act-study-financial-scams-online-platforms-and-ways-counter-them/preview.png"
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2610.26855",
+      "path": "docs/public/daily/2026-10-21/assets/arxiv--2610.26855/preview.png",
+      "bytes": 309268
+    },
+    {
+      "candidate_id": "arxiv--2610.24981",
+      "path": "docs/public/daily/2026-10-21/assets/arxiv--2610.24981/preview.png",
+      "bytes": 138415
+    },
+    {
+      "candidate_id": "arxiv--2610.26549",
+      "path": "docs/public/daily/2026-10-21/assets/arxiv--2610.26549/preview.png",
+      "bytes": 1491463
+    },
+    {
+      "candidate_id": "arxiv--2610.26765",
+      "path": "docs/public/daily/2026-10-21/assets/arxiv--2610.26765/preview.png",
+      "bytes": 273644
+    },
+    {
+      "candidate_id": "arxiv--2610.25666",
+      "path": "docs/public/daily/2026-10-21/assets/arxiv--2610.25666/preview.png",
+      "bytes": 808874
+    },
+    {
+      "candidate_id": "arxiv--2610.25407",
+      "path": "docs/public/daily/2026-10-21/assets/arxiv--2610.25407/preview.png",
+      "bytes": 900734
+    },
+    {
+      "candidate_id": "arxiv--2610.25959",
+      "path": "docs/public/daily/2026-10-21/assets/arxiv--2610.25959/preview.png",
+      "bytes": 5334920
+    },
+    {
+      "candidate_id": "arxiv--2610.25690",
+      "path": "docs/public/daily/2026-10-21/assets/arxiv--2610.25690/preview.png",
+      "bytes": 1041828
+    },
+    {
+      "candidate_id": "arxiv--2610.24241",
+      "path": "docs/public/daily/2026-10-21/assets/arxiv--2610.24241/preview.png",
+      "bytes": 3370591
+    },
+    {
+      "candidate_id": "arxiv--2610.26846",
+      "path": "docs/public/daily/2026-10-21/assets/arxiv--2610.26846/preview.png",
+      "bytes": 52202
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fgermany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help%2F",
+      "path": "docs/public/daily/2026-10-21/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fgermany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help_2f/preview.png",
+      "bytes": 1445207
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fclaude-scorpion-toxin-binder-design",
+      "path": "docs/public/daily/2026-10-21/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2fclaude-scorpion-toxin-binder-design/preview.png",
+      "bytes": 1133428
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-3c6fff1e5fc13bcd4e9b3b07172c1f4b",
+      "path": "docs/public/daily/2026-10-21/assets/url--aiera.com.cn-3c6fff1e5fc13bcd4e9b3b07172c1f4b/preview.png",
+      "bytes": 1125199
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-a375982aeebe98587caf9aec8caf4db1",
+      "path": "docs/public/daily/2026-10-21/assets/url--aiera.com.cn-a375982aeebe98587caf9aec8caf4db1/preview.png",
+      "bytes": 279162
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F20%2Fhumanoids-making-humanoids-as-schaeffler-opens-lighthouse-factory-in-china%2F",
+      "path": "docs/public/daily/2026-10-21/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f20_2fhumanoids-making-humanoids-as-schaeffler-opens-lighthouse-factory-in-china_2f/preview.png",
+      "bytes": 945057
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-0f649764b6ffeb1fd4c787f12b01eac8",
+      "path": "docs/public/daily/2026-10-21/assets/url--aiera.com.cn-0f649764b6ffeb1fd4c787f12b01eac8/preview.png",
+      "bytes": 411633
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.technologyreview.com%2F2026%2F10%2F19%2F1147149%2Fwe-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world%2F",
+      "path": "docs/public/daily/2026-10-21/assets/url--https_3a_2f_2fwww.technologyreview.com_2f2026_2f10_2f19_2f1147149_2fwe-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world_2f/preview.png",
+      "bytes": 1392803
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fdigital-strategy.ec.europa.eu%2Fen%2Flibrary%2Fdigital-services-act-study-financial-scams-online-platforms-and-ways-counter-them",
+      "path": "docs/public/daily/2026-10-21/assets/url--https_3a_2f_2fdigital-strategy.ec.europa.eu_2fen_2flibrary_2fdigital-services-act-study-financial-scams-online-platforms-and-ways-counter-them/preview.png",
+      "bytes": 343062
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-21T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
