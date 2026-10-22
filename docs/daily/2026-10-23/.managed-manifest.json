@@ -1,0 +1,288 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-23",
+  "display_date": "2026-10-23",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2610.28948",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-23/paper/01-8e2d7104dd46336c.md",
+          "bytes": 5826,
+          "preview_image": "/daily/2026-10-23/assets/arxiv--2610.28948/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.28814",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-23/paper/02-6b18a75f4d71b8d7.md",
+          "bytes": 5737,
+          "preview_image": "/daily/2026-10-23/assets/arxiv--2610.28814/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.28880",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-23/paper/03-1fd7388c85a1b8a9.md",
+          "bytes": 6594,
+          "preview_image": "/daily/2026-10-23/assets/arxiv--2610.28880/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.30136",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-23/paper/04-b259e2c95d6122b7.md",
+          "bytes": 6871,
+          "preview_image": "/daily/2026-10-23/assets/arxiv--2610.30136/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.29845",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-23/paper/05-3ccf50d31c01d44d.md",
+          "bytes": 6291,
+          "preview_image": "/daily/2026-10-23/assets/arxiv--2610.29845/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.27040",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-23/paper/06-ef5c940e38740768.md",
+          "bytes": 7067,
+          "preview_image": "/daily/2026-10-23/assets/arxiv--2610.27040/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.29716",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-23/paper/07-3621d087f2c9a242.md",
+          "bytes": 7067,
+          "preview_image": "/daily/2026-10-23/assets/arxiv--2610.29716/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.29586",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-23/paper/08-e0ad9142a964bf32.md",
+          "bytes": 6501,
+          "preview_image": "/daily/2026-10-23/assets/arxiv--2610.29586/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.29699",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-23/paper/09-59fdd760911f2c49.md",
+          "bytes": 6828,
+          "preview_image": "/daily/2026-10-23/assets/arxiv--2610.29699/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.28589",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-23/paper/10-3c7b531c64c6d735.md",
+          "bytes": 6897,
+          "preview_image": "/daily/2026-10-23/assets/arxiv--2610.28589/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F22%2Ftesla-begins-optimus-production-in-fremont-working-toward-20k-robots-per-week%2F",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-23/news/01-f681d26593537b83.md",
+          "bytes": 7096,
+          "preview_image": "/daily/2026-10-23/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f22_2ftesla-begins-optimus-production-in-fremont-working-toward-20k-robots-per-week_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F22%2Fnvidia-expands-physical-ai-stack-across-robotics-humanoids-and-factory-automation%2F",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-23/news/02-dbfdb425734c5a3e.md",
+          "bytes": 7037,
+          "preview_image": "/daily/2026-10-23/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f22_2fnvidia-expands-physical-ai-stack-across-robotics-humanoids-and-factory-automation_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-370869e1e2925dd4d18688695cbaf1e7",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-23/news/03-c687f79246abf1f1.md",
+          "bytes": 7807,
+          "preview_image": "/daily/2026-10-23/assets/url--aiera.com.cn-370869e1e2925dd4d18688695cbaf1e7/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fcosmos-open-train-evaluate-deploy-world-models%2F",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-23/news/04-71d7063fc379f7fe.md",
+          "bytes": 6893,
+          "preview_image": "/daily/2026-10-23/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fcosmos-open-train-evaluate-deploy-world-models_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F22%2Fgermanys-agile-robots-launches-agile-one-sn-humanoid-research-platform-built-on-nvidia-gr00t%2F",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-23/news/05-69d221cf0ec73a58.md",
+          "bytes": 7628,
+          "preview_image": "/daily/2026-10-23/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f22_2fgermanys-agile-robots-launches-agile-one-sn-humanoid-research-platform-built-on-nvidia-gr00t_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-c4e3c958966eb347f3ed08c18f011cfe",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-23/news/06-9a68757dc6eb1aa9.md",
+          "bytes": 7172,
+          "preview_image": "/daily/2026-10-23/assets/url--aiera.com.cn-c4e3c958966eb347f3ed08c18f011cfe/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-0b7fbab08cb0bd09f7f3b38c013ff184",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-23/news/07-bc50fc950e6e7a21.md",
+          "bytes": 8036,
+          "preview_image": "/daily/2026-10-23/assets/url--aiera.com.cn-0b7fbab08cb0bd09f7f3b38c013ff184/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-22%2F%23story-0007",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-23/policy/01-3701b9df68e39165.md",
+          "bytes": 13857,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-22%2F%23story-0012",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-23/policy/02-6cc6afe41d721dbc.md",
+          "bytes": 8120,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-22%2F%23story-0013",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-23/policy/03-c6b49e724de0abae.md",
+          "bytes": 12712,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2610.28948",
+      "path": "docs/public/daily/2026-10-23/assets/arxiv--2610.28948/preview.png",
+      "bytes": 10003001
+    },
+    {
+      "candidate_id": "arxiv--2610.28814",
+      "path": "docs/public/daily/2026-10-23/assets/arxiv--2610.28814/preview.png",
+      "bytes": 1090501
+    },
+    {
+      "candidate_id": "arxiv--2610.28880",
+      "path": "docs/public/daily/2026-10-23/assets/arxiv--2610.28880/preview.png",
+      "bytes": 395188
+    },
+    {
+      "candidate_id": "arxiv--2610.30136",
+      "path": "docs/public/daily/2026-10-23/assets/arxiv--2610.30136/preview.png",
+      "bytes": 1123574
+    },
+    {
+      "candidate_id": "arxiv--2610.29845",
+      "path": "docs/public/daily/2026-10-23/assets/arxiv--2610.29845/preview.png",
+      "bytes": 2417828
+    },
+    {
+      "candidate_id": "arxiv--2610.27040",
+      "path": "docs/public/daily/2026-10-23/assets/arxiv--2610.27040/preview.png",
+      "bytes": 721864
+    },
+    {
+      "candidate_id": "arxiv--2610.29716",
+      "path": "docs/public/daily/2026-10-23/assets/arxiv--2610.29716/preview.png",
+      "bytes": 1761916
+    },
+    {
+      "candidate_id": "arxiv--2610.29586",
+      "path": "docs/public/daily/2026-10-23/assets/arxiv--2610.29586/preview.png",
+      "bytes": 1036579
+    },
+    {
+      "candidate_id": "arxiv--2610.29699",
+      "path": "docs/public/daily/2026-10-23/assets/arxiv--2610.29699/preview.png",
+      "bytes": 1607847
+    },
+    {
+      "candidate_id": "arxiv--2610.28589",
+      "path": "docs/public/daily/2026-10-23/assets/arxiv--2610.28589/preview.png",
+      "bytes": 535878
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F22%2Ftesla-begins-optimus-production-in-fremont-working-toward-20k-robots-per-week%2F",
+      "path": "docs/public/daily/2026-10-23/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f22_2ftesla-begins-optimus-production-in-fremont-working-toward-20k-robots-per-week_2f/preview.png",
+      "bytes": 122210
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F22%2Fnvidia-expands-physical-ai-stack-across-robotics-humanoids-and-factory-automation%2F",
+      "path": "docs/public/daily/2026-10-23/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f22_2fnvidia-expands-physical-ai-stack-across-robotics-humanoids-and-factory-automation_2f/preview.png",
+      "bytes": 438088
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-370869e1e2925dd4d18688695cbaf1e7",
+      "path": "docs/public/daily/2026-10-23/assets/url--aiera.com.cn-370869e1e2925dd4d18688695cbaf1e7/preview.png",
+      "bytes": 1133428
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fcosmos-open-train-evaluate-deploy-world-models%2F",
+      "path": "docs/public/daily/2026-10-23/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fcosmos-open-train-evaluate-deploy-world-models_2f/preview.png",
+      "bytes": 2586839
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F22%2Fgermanys-agile-robots-launches-agile-one-sn-humanoid-research-platform-built-on-nvidia-gr00t%2F",
+      "path": "docs/public/daily/2026-10-23/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f22_2fgermanys-agile-robots-launches-agile-one-sn-humanoid-research-platform-built-on-nvidia-gr00t_2f/preview.png",
+      "bytes": 1013595
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-c4e3c958966eb347f3ed08c18f011cfe",
+      "path": "docs/public/daily/2026-10-23/assets/url--aiera.com.cn-c4e3c958966eb347f3ed08c18f011cfe/preview.png",
+      "bytes": 213094
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-0b7fbab08cb0bd09f7f3b38c013ff184",
+      "path": "docs/public/daily/2026-10-23/assets/url--aiera.com.cn-0b7fbab08cb0bd09f7f3b38c013ff184/preview.png",
+      "bytes": 310648
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-23T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
