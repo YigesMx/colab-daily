@@ -1,0 +1,273 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-24",
+  "display_date": "2026-10-24",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2610.27851",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-24/paper/01-263a41f80887e9c0.md",
+          "bytes": 9567,
+          "preview_image": "/daily/2026-10-24/assets/arxiv--2610.27851/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.30814",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-24/paper/02-b4cc5ebab0e56da3.md",
+          "bytes": 8439,
+          "preview_image": "/daily/2026-10-24/assets/arxiv--2610.30814/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.30781",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-24/paper/03-db4e13616ab70f5e.md",
+          "bytes": 8540,
+          "preview_image": "/daily/2026-10-24/assets/arxiv--2610.30781/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.22951",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-24/paper/04-f51d83ce585a31fc.md",
+          "bytes": 7956,
+          "preview_image": "/daily/2026-10-24/assets/arxiv--2610.22951/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.30991",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-24/paper/05-a39e191ce5b74625.md",
+          "bytes": 8524,
+          "preview_image": "/daily/2026-10-24/assets/arxiv--2610.30991/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.30320",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-24/paper/06-3255be4a496a2171.md",
+          "bytes": 8313,
+          "preview_image": "/daily/2026-10-24/assets/arxiv--2610.30320/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.31371",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-24/paper/07-54cb2b1db160071b.md",
+          "bytes": 8686,
+          "preview_image": "/daily/2026-10-24/assets/arxiv--2610.31371/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.25376",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-24/paper/08-61615c79677ac711.md",
+          "bytes": 8180,
+          "preview_image": "/daily/2026-10-24/assets/arxiv--2610.25376/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.31166",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-24/paper/09-1eb76c6c9052c989.md",
+          "bytes": 8763,
+          "preview_image": "/daily/2026-10-24/assets/arxiv--2610.31166/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.31661",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-24/paper/10-8d64e2bf9fc9c9b3.md",
+          "bytes": 9517,
+          "preview_image": "/daily/2026-10-24/assets/arxiv--2610.31661/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Falignment-assessment-ukaisi",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-24/news/01-7ddb9e198f53367a.md",
+          "bytes": 6955,
+          "preview_image": "/daily/2026-10-24/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2falignment-assessment-ukaisi/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-2b1cae9acdff50c56159a3c988a6b226",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-24/news/02-7796415a110aef18.md",
+          "bytes": 6200,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-1a5dabac0001dfb4e7618d76bcdeb3fc",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-24/news/03-b6be64d4b4a2e174.md",
+          "bytes": 5999,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-26e98c18be2c095e4bb778a0021f540a",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-24/news/04-b43610942026b205.md",
+          "bytes": 6560,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-823e4b2dd62cf7d5238babe897618e83",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-24/news/05-b504dc2d6fdc9fb2.md",
+          "bytes": 5784,
+          "preview_image": "/daily/2026-10-24/assets/url--aiera.com.cn-823e4b2dd62cf7d5238babe897618e83/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F23%2Fmicrosofts-ai-diagnostic-system-outperforms-generalist-doctors-on-complex-cases-science-study-finds%2F",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-24/news/06-f6b5d68136095067.md",
+          "bytes": 6047,
+          "preview_image": "/daily/2026-10-24/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f23_2fmicrosofts-ai-diagnostic-system-outperforms-generalist-doctors-on-complex-cases-science-study-finds_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F10%2F504905.html",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-24/news/07-d41f2918e7ae733a.md",
+          "bytes": 6171,
+          "preview_image": "/daily/2026-10-24/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f10_2f504905.html/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-23%2F%23story-0001",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-24/policy/01-895d4271810a8684.md",
+          "bytes": 11908,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-23%2F%23story-0007",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-24/policy/02-fe70b4ce178bc78f.md",
+          "bytes": 12199,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-23%2F%23story-0014",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-24/policy/03-88f2da68ab7ccd85.md",
+          "bytes": 10809,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2610.27851",
+      "path": "docs/public/daily/2026-10-24/assets/arxiv--2610.27851/preview.png",
+      "bytes": 221092
+    },
+    {
+      "candidate_id": "arxiv--2610.30814",
+      "path": "docs/public/daily/2026-10-24/assets/arxiv--2610.30814/preview.png",
+      "bytes": 581867
+    },
+    {
+      "candidate_id": "arxiv--2610.30781",
+      "path": "docs/public/daily/2026-10-24/assets/arxiv--2610.30781/preview.png",
+      "bytes": 559291
+    },
+    {
+      "candidate_id": "arxiv--2610.22951",
+      "path": "docs/public/daily/2026-10-24/assets/arxiv--2610.22951/preview.png",
+      "bytes": 62440
+    },
+    {
+      "candidate_id": "arxiv--2610.30991",
+      "path": "docs/public/daily/2026-10-24/assets/arxiv--2610.30991/preview.png",
+      "bytes": 393998
+    },
+    {
+      "candidate_id": "arxiv--2610.30320",
+      "path": "docs/public/daily/2026-10-24/assets/arxiv--2610.30320/preview.png",
+      "bytes": 85579
+    },
+    {
+      "candidate_id": "arxiv--2610.31371",
+      "path": "docs/public/daily/2026-10-24/assets/arxiv--2610.31371/preview.png",
+      "bytes": 315727
+    },
+    {
+      "candidate_id": "arxiv--2610.25376",
+      "path": "docs/public/daily/2026-10-24/assets/arxiv--2610.25376/preview.png",
+      "bytes": 213181
+    },
+    {
+      "candidate_id": "arxiv--2610.31166",
+      "path": "docs/public/daily/2026-10-24/assets/arxiv--2610.31166/preview.png",
+      "bytes": 353681
+    },
+    {
+      "candidate_id": "arxiv--2610.31661",
+      "path": "docs/public/daily/2026-10-24/assets/arxiv--2610.31661/preview.png",
+      "bytes": 167316
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Falignment-assessment-ukaisi",
+      "path": "docs/public/daily/2026-10-24/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2falignment-assessment-ukaisi/preview.png",
+      "bytes": 328465
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-823e4b2dd62cf7d5238babe897618e83",
+      "path": "docs/public/daily/2026-10-24/assets/url--aiera.com.cn-823e4b2dd62cf7d5238babe897618e83/preview.png",
+      "bytes": 632536
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F23%2Fmicrosofts-ai-diagnostic-system-outperforms-generalist-doctors-on-complex-cases-science-study-finds%2F",
+      "path": "docs/public/daily/2026-10-24/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f23_2fmicrosofts-ai-diagnostic-system-outperforms-generalist-doctors-on-complex-cases-science-study-finds_2f/preview.png",
+      "bytes": 610729
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F10%2F504905.html",
+      "path": "docs/public/daily/2026-10-24/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f10_2f504905.html/preview.png",
+      "bytes": 2272785
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-24T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
