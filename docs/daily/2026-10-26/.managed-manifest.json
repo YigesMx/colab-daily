@@ -1,0 +1,146 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-26",
+  "display_date": "2026-10-26",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": []
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--aiera.com.cn-05d2ac00d6e14553c2e20327e7856693",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-26/news/01-4ef87b92db733797.md",
+          "bytes": 4985,
+          "preview_image": "/daily/2026-10-26/assets/url--aiera.com.cn-05d2ac00d6e14553c2e20327e7856693/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-9e33aa9ab9ffc2a75b26da1af5d398ff",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-26/news/02-1e9e615fda7f2532.md",
+          "bytes": 4043,
+          "preview_image": "/daily/2026-10-26/assets/url--aiera.com.cn-9e33aa9ab9ffc2a75b26da1af5d398ff/preview.png"
+        },
+        {
+          "candidate_id": "url--theaiinsider.tech-5598b8d25c3c7b5b3ccda9e75b471bee",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-26/news/03-ff0a842b61fe9d07.md",
+          "bytes": 4554,
+          "preview_image": "/daily/2026-10-26/assets/url--theaiinsider.tech-5598b8d25c3c7b5b3ccda9e75b471bee/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F24%2Fchinese-hackers-use-ai-agents-to-breach-thousands-of-companies-via-connectwise%2F",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-26/news/04-c38e9a06a7f7ea14.md",
+          "bytes": 3499,
+          "preview_image": "/daily/2026-10-26/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f24_2fchinese-hackers-use-ai-agents-to-breach-thousands-of-companies-via-connectwise_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-475d61eb6bf5129fe1e1100dc043ead3",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-26/news/05-c37c1f8579660d15.md",
+          "bytes": 4278,
+          "preview_image": "/daily/2026-10-26/assets/url--aiera.com.cn-475d61eb6bf5129fe1e1100dc043ead3/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-3df8bffaa7d57e6527304876715ea6a9",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-26/news/06-9b670fc57020834d.md",
+          "bytes": 4334,
+          "preview_image": "/daily/2026-10-26/assets/url--aiera.com.cn-3df8bffaa7d57e6527304876715ea6a9/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F25%2Fcanva-enters-ai-image-generation-race-with-in-house-canva-craft-model%2F",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-26/news/07-a66f606bc4fde38f.md",
+          "bytes": 3537,
+          "preview_image": "/daily/2026-10-26/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f25_2fcanva-enters-ai-image-generation-race-with-in-house-canva-craft-model_2f/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F25%2Fuk-commits-600m-to-counter-ai-driven-health-and-security-threats%2F",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-26/policy/01-6a307f8e79d23e16.md",
+          "bytes": 12056,
+          "preview_image": "/daily/2026-10-26/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f25_2fuk-commits-600m-to-counter-ai-driven-health-and-security-threats_2f/preview.png"
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "url--aiera.com.cn-05d2ac00d6e14553c2e20327e7856693",
+      "path": "docs/public/daily/2026-10-26/assets/url--aiera.com.cn-05d2ac00d6e14553c2e20327e7856693/preview.png",
+      "bytes": 237813
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-9e33aa9ab9ffc2a75b26da1af5d398ff",
+      "path": "docs/public/daily/2026-10-26/assets/url--aiera.com.cn-9e33aa9ab9ffc2a75b26da1af5d398ff/preview.png",
+      "bytes": 194897
+    },
+    {
+      "candidate_id": "url--theaiinsider.tech-5598b8d25c3c7b5b3ccda9e75b471bee",
+      "path": "docs/public/daily/2026-10-26/assets/url--theaiinsider.tech-5598b8d25c3c7b5b3ccda9e75b471bee/preview.png",
+      "bytes": 1411028
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F24%2Fchinese-hackers-use-ai-agents-to-breach-thousands-of-companies-via-connectwise%2F",
+      "path": "docs/public/daily/2026-10-26/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f24_2fchinese-hackers-use-ai-agents-to-breach-thousands-of-companies-via-connectwise_2f/preview.png",
+      "bytes": 570308
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-475d61eb6bf5129fe1e1100dc043ead3",
+      "path": "docs/public/daily/2026-10-26/assets/url--aiera.com.cn-475d61eb6bf5129fe1e1100dc043ead3/preview.png",
+      "bytes": 232480
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-3df8bffaa7d57e6527304876715ea6a9",
+      "path": "docs/public/daily/2026-10-26/assets/url--aiera.com.cn-3df8bffaa7d57e6527304876715ea6a9/preview.png",
+      "bytes": 232379
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F25%2Fcanva-enters-ai-image-generation-race-with-in-house-canva-craft-model%2F",
+      "path": "docs/public/daily/2026-10-26/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f25_2fcanva-enters-ai-image-generation-race-with-in-house-canva-craft-model_2f/preview.png",
+      "bytes": 148842
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F25%2Fuk-commits-600m-to-counter-ai-driven-health-and-security-threats%2F",
+      "path": "docs/public/daily/2026-10-26/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f25_2fuk-commits-600m-to-counter-ai-driven-health-and-security-threats_2f/preview.png",
+      "bytes": 776758
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-26T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 0,
+    "news_count": 7,
+    "policy_count": 1,
+    "selected_total": 8,
+    "news_policy_total": 8,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 9,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
