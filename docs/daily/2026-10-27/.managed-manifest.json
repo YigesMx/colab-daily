@@ -1,0 +1,268 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-27",
+  "display_date": "2026-10-27",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2610.31762",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-27/paper/01-ea432c0053c15e1b.md",
+          "bytes": 8448,
+          "preview_image": "/daily/2026-10-27/assets/arxiv--2610.31762/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.31779",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-27/paper/02-6781f6316a4ae518.md",
+          "bytes": 8146,
+          "preview_image": "/daily/2026-10-27/assets/arxiv--2610.31779/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.32965",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-27/paper/03-7551029b4ac78fa2.md",
+          "bytes": 8805,
+          "preview_image": "/daily/2026-10-27/assets/arxiv--2610.32965/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.32177",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-27/paper/04-80fabc8e55723feb.md",
+          "bytes": 8558,
+          "preview_image": "/daily/2026-10-27/assets/arxiv--2610.32177/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.32966",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-27/paper/05-45cd70ce9390d50b.md",
+          "bytes": 7529,
+          "preview_image": "/daily/2026-10-27/assets/arxiv--2610.32966/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.31845",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-27/paper/06-02ddcee3bb2e6457.md",
+          "bytes": 8098,
+          "preview_image": "/daily/2026-10-27/assets/arxiv--2610.31845/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.32102",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-27/paper/07-59f32a650640617e.md",
+          "bytes": 8176,
+          "preview_image": "/daily/2026-10-27/assets/arxiv--2610.32102/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.32969",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-27/paper/08-c55b8f35636bcbd6.md",
+          "bytes": 7984,
+          "preview_image": "/daily/2026-10-27/assets/arxiv--2610.32969/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.32312",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-27/paper/09-6264118de6e3f770.md",
+          "bytes": 7238,
+          "preview_image": "/daily/2026-10-27/assets/arxiv--2610.32312/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.31834",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-27/paper/10-b02a132e7095b8c4.md",
+          "bytes": 7727,
+          "preview_image": "/daily/2026-10-27/assets/arxiv--2610.31834/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--aiera.com.cn-9bf20c3444289807157a394c88aec478",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-27/news/01-f6b0c6028768cf4c.md",
+          "bytes": 7068,
+          "preview_image": "/daily/2026-10-27/assets/url--aiera.com.cn-9bf20c3444289807157a394c88aec478/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-21cd5d466d19a39279bf16d457e8bd08",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-27/news/02-34943e8e04a47663.md",
+          "bytes": 6658,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fnews%2Fs1-sec",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-27/news/03-24dcfb356ce764ae.md",
+          "bytes": 4100,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F26%2Fanthropic-files-for-ipo-revenue-surges-to-16-3-billion%2F",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-27/news/04-9d1200808f37fd7c.md",
+          "bytes": 5799,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F26%2Fmeta-plans-up-to-95b-stock-offering-to-fund-ai-buildout%2F",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-27/news/05-03f919b5e4d8c822.md",
+          "bytes": 6699,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F26%2Fgxo-agility-robotics-expand-digit-humanoid-deployments-to-two-more-u-s-warehouses%2F",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-27/news/06-ec48da6f135d37d6.md",
+          "bytes": 5622,
+          "preview_image": "/daily/2026-10-27/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f26_2fgxo-agility-robotics-expand-digit-humanoid-deployments-to-two-more-u-s-warehouses_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-be0b038b93a85766bbd9f81afc6007f6",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-27/news/07-a2e4174525481b03.md",
+          "bytes": 6238,
+          "preview_image": "/daily/2026-10-27/assets/url--aiera.com.cn-be0b038b93a85766bbd9f81afc6007f6/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-26%2F%23story-0006",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-27/policy/01-ea688429512206d8.md",
+          "bytes": 9978,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-26%2F%23story-0007",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-27/policy/02-8fd71a3346c4aa11.md",
+          "bytes": 10292,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-26%2F%23story-0016",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-27/policy/03-f631aaf200269b00.md",
+          "bytes": 8405,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2610.31762",
+      "path": "docs/public/daily/2026-10-27/assets/arxiv--2610.31762/preview.png",
+      "bytes": 1524995
+    },
+    {
+      "candidate_id": "arxiv--2610.31779",
+      "path": "docs/public/daily/2026-10-27/assets/arxiv--2610.31779/preview.png",
+      "bytes": 522009
+    },
+    {
+      "candidate_id": "arxiv--2610.32965",
+      "path": "docs/public/daily/2026-10-27/assets/arxiv--2610.32965/preview.png",
+      "bytes": 725774
+    },
+    {
+      "candidate_id": "arxiv--2610.32177",
+      "path": "docs/public/daily/2026-10-27/assets/arxiv--2610.32177/preview.png",
+      "bytes": 6047045
+    },
+    {
+      "candidate_id": "arxiv--2610.32966",
+      "path": "docs/public/daily/2026-10-27/assets/arxiv--2610.32966/preview.png",
+      "bytes": 3897201
+    },
+    {
+      "candidate_id": "arxiv--2610.31845",
+      "path": "docs/public/daily/2026-10-27/assets/arxiv--2610.31845/preview.png",
+      "bytes": 212970
+    },
+    {
+      "candidate_id": "arxiv--2610.32102",
+      "path": "docs/public/daily/2026-10-27/assets/arxiv--2610.32102/preview.png",
+      "bytes": 89339
+    },
+    {
+      "candidate_id": "arxiv--2610.32969",
+      "path": "docs/public/daily/2026-10-27/assets/arxiv--2610.32969/preview.png",
+      "bytes": 3757904
+    },
+    {
+      "candidate_id": "arxiv--2610.32312",
+      "path": "docs/public/daily/2026-10-27/assets/arxiv--2610.32312/preview.png",
+      "bytes": 847977
+    },
+    {
+      "candidate_id": "arxiv--2610.31834",
+      "path": "docs/public/daily/2026-10-27/assets/arxiv--2610.31834/preview.png",
+      "bytes": 2079706
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-9bf20c3444289807157a394c88aec478",
+      "path": "docs/public/daily/2026-10-27/assets/url--aiera.com.cn-9bf20c3444289807157a394c88aec478/preview.png",
+      "bytes": 172058
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F26%2Fgxo-agility-robotics-expand-digit-humanoid-deployments-to-two-more-u-s-warehouses%2F",
+      "path": "docs/public/daily/2026-10-27/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f26_2fgxo-agility-robotics-expand-digit-humanoid-deployments-to-two-more-u-s-warehouses_2f/preview.png",
+      "bytes": 1119424
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-be0b038b93a85766bbd9f81afc6007f6",
+      "path": "docs/public/daily/2026-10-27/assets/url--aiera.com.cn-be0b038b93a85766bbd9f81afc6007f6/preview.png",
+      "bytes": 80032
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-27T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
