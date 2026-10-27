@@ -1,0 +1,248 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-28",
+  "display_date": "2026-10-28",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2610.34356",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-28/paper/01-a60d6c9ff585c498.md",
+          "bytes": 7248,
+          "preview_image": "/daily/2026-10-28/assets/arxiv--2610.34356/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.33685",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-28/paper/02-f363fc7f0aa4d66a.md",
+          "bytes": 6639,
+          "preview_image": "/daily/2026-10-28/assets/arxiv--2610.33685/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.35075",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-28/paper/03-5661114e58c44cc5.md",
+          "bytes": 7119,
+          "preview_image": "/daily/2026-10-28/assets/arxiv--2610.35075/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.34186",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-28/paper/04-4c175d1903193597.md",
+          "bytes": 6651,
+          "preview_image": "/daily/2026-10-28/assets/arxiv--2610.34186/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.34663",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-28/paper/05-6808200ef468faab.md",
+          "bytes": 6501,
+          "preview_image": "/daily/2026-10-28/assets/arxiv--2610.34663/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.34105",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-28/paper/06-77bdc942043c027e.md",
+          "bytes": 6660,
+          "preview_image": "/daily/2026-10-28/assets/arxiv--2610.34105/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.34453",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-28/paper/07-b411f7e2335b1c15.md",
+          "bytes": 6447,
+          "preview_image": "/daily/2026-10-28/assets/arxiv--2610.34453/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.35817",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-28/paper/08-a758f35ef3a33d52.md",
+          "bytes": 6639,
+          "preview_image": "/daily/2026-10-28/assets/arxiv--2610.35817/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.33863",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-28/paper/09-74d72a365cbfc797.md",
+          "bytes": 6708,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "arxiv--2610.35066",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-28/paper/10-70a1a21ce215e0da.md",
+          "bytes": 6753,
+          "preview_image": "/daily/2026-10-28/assets/arxiv--2610.35066/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fdiscovering-vulnerabilities-with-claude",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-28/news/01-7ade47ba1a7ec418.md",
+          "bytes": 6864,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F10%2F505551.html",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-28/news/02-573b5f726a8d720e.md",
+          "bytes": 5126,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-d3a0f9ed7fe2b3ead7b125a7a3942e6e",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-28/news/03-4cef802b30f63ffe.md",
+          "bytes": 4278,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F27%2Fopenai-opens-three-ai-research-claims-to-academic-examination%2F",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-28/news/04-cf4898541af816f5.md",
+          "bytes": 5247,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-638334e84ec99b3f9218ed93cbfe0f9d",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-28/news/05-5025b7f2aa86a0b8.md",
+          "bytes": 4225,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fagents-judgment-calls",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-28/news/06-6cbf8ae8d28997d6.md",
+          "bytes": 4982,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-d081f02e97627099a7baf12bc0a83bea",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-28/news/07-5c353348033d40f7.md",
+          "bytes": 4349,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-27%2F%23story-0002",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-28/policy/01-e837a8341b452696.md",
+          "bytes": 3888,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-27%2F%23story-0001",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-28/policy/02-06fba41360392f93.md",
+          "bytes": 3503,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-27%2F%23story-0008",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-28/policy/03-fd23b4bb16250cd6.md",
+          "bytes": 3312,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2610.34356",
+      "path": "docs/public/daily/2026-10-28/assets/arxiv--2610.34356/preview.png",
+      "bytes": 9871
+    },
+    {
+      "candidate_id": "arxiv--2610.33685",
+      "path": "docs/public/daily/2026-10-28/assets/arxiv--2610.33685/preview.png",
+      "bytes": 125469
+    },
+    {
+      "candidate_id": "arxiv--2610.35075",
+      "path": "docs/public/daily/2026-10-28/assets/arxiv--2610.35075/preview.png",
+      "bytes": 2001868
+    },
+    {
+      "candidate_id": "arxiv--2610.34186",
+      "path": "docs/public/daily/2026-10-28/assets/arxiv--2610.34186/preview.png",
+      "bytes": 593237
+    },
+    {
+      "candidate_id": "arxiv--2610.34663",
+      "path": "docs/public/daily/2026-10-28/assets/arxiv--2610.34663/preview.png",
+      "bytes": 52710
+    },
+    {
+      "candidate_id": "arxiv--2610.34105",
+      "path": "docs/public/daily/2026-10-28/assets/arxiv--2610.34105/preview.png",
+      "bytes": 81873
+    },
+    {
+      "candidate_id": "arxiv--2610.34453",
+      "path": "docs/public/daily/2026-10-28/assets/arxiv--2610.34453/preview.png",
+      "bytes": 208649
+    },
+    {
+      "candidate_id": "arxiv--2610.35817",
+      "path": "docs/public/daily/2026-10-28/assets/arxiv--2610.35817/preview.png",
+      "bytes": 232808
+    },
+    {
+      "candidate_id": "arxiv--2610.35066",
+      "path": "docs/public/daily/2026-10-28/assets/arxiv--2610.35066/preview.png",
+      "bytes": 378818
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-28T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
