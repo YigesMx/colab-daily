@@ -1,0 +1,288 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-29",
+  "display_date": "2026-10-29",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2610.36011",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-29/paper/01-e8040bf02ff628c5.md",
+          "bytes": 5147,
+          "preview_image": "/daily/2026-10-29/assets/arxiv--2610.36011/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.36068",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-29/paper/02-698f8423a2414adb.md",
+          "bytes": 5268,
+          "preview_image": "/daily/2026-10-29/assets/arxiv--2610.36068/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.37666",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-29/paper/03-e1bb1e57bb8aeaec.md",
+          "bytes": 4945,
+          "preview_image": "/daily/2026-10-29/assets/arxiv--2610.37666/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.36013",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-29/paper/04-26ac9769e8116dd0.md",
+          "bytes": 4806,
+          "preview_image": "/daily/2026-10-29/assets/arxiv--2610.36013/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.36791",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-29/paper/05-d000b66bde7937fc.md",
+          "bytes": 4934,
+          "preview_image": "/daily/2026-10-29/assets/arxiv--2610.36791/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.36823",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-29/paper/06-c4c631c16e158d7c.md",
+          "bytes": 4806,
+          "preview_image": "/daily/2026-10-29/assets/arxiv--2610.36823/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.37381",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-29/paper/07-da4c9952503fe643.md",
+          "bytes": 4125,
+          "preview_image": "/daily/2026-10-29/assets/arxiv--2610.37381/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.36270",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-10-29/paper/08-cf7d3c9b7fd7f1ea.md",
+          "bytes": 4382,
+          "preview_image": "/daily/2026-10-29/assets/arxiv--2610.36270/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fdeepmind.google%2Fblog%2Fgenie-4-a-new-generation-of-world-simulation%2F",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-10-29/paper/09-cbf169c036f5bdad.md",
+          "bytes": 4566,
+          "preview_image": "/daily/2026-10-29/assets/url--https_3a_2f_2fdeepmind.google_2fblog_2fgenie-4-a-new-generation-of-world-simulation_2f/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.37652",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-10-29/paper/10-be154d131fb8fdee.md",
+          "bytes": 4280,
+          "preview_image": "/daily/2026-10-29/assets/arxiv--2610.37652/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--aiera.com.cn-bbc6147963850483a66a4f5035e59d2a",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-29/news/01-3c79f6bd7e0d8497.md",
+          "bytes": 7252,
+          "preview_image": "/daily/2026-10-29/assets/url--aiera.com.cn-bbc6147963850483a66a4f5035e59d2a/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-878b90cf276d979fc661688d8246a3b2",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-29/news/02-023eef252becf553.md",
+          "bytes": 6588,
+          "preview_image": "/daily/2026-10-29/assets/url--aiera.com.cn-878b90cf276d979fc661688d8246a3b2/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-08c8d379543cbddf7d53363a8bf22a14",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-29/news/03-9964f687e92e2f93.md",
+          "bytes": 6702,
+          "preview_image": "/daily/2026-10-29/assets/url--aiera.com.cn-08c8d379543cbddf7d53363a8bf22a14/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F28%2Fgoogle-cloud-nasa-test-ai-powered-robot-for-deep-space-missions%2F",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-29/news/04-1a98837132e30630.md",
+          "bytes": 5499,
+          "preview_image": "/daily/2026-10-29/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f28_2fgoogle-cloud-nasa-test-ai-powered-robot-for-deep-space-missions_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-01bfd9224f162e2be936f76106d2c18b",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-29/news/05-d22eb48baf1bab82.md",
+          "bytes": 6662,
+          "preview_image": "/daily/2026-10-29/assets/url--aiera.com.cn-01bfd9224f162e2be936f76106d2c18b/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-ec3b8c515f8bf0c7fd33b9a122b271ba",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-29/news/06-14f865bac1a97927.md",
+          "bytes": 6359,
+          "preview_image": "/daily/2026-10-29/assets/url--aiera.com.cn-ec3b8c515f8bf0c7fd33b9a122b271ba/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-380f47d3513e389a64771a97663d7bbc",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-29/news/07-cb05b6b1385b900f.md",
+          "bytes": 5958,
+          "preview_image": "/daily/2026-10-29/assets/url--aiera.com.cn-380f47d3513e389a64771a97663d7bbc/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F28%2Fsouth-korea-plans-to-deploy-1700-ai-robots-across-public-sector-in-2027%2F",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-29/policy/01-91cace4f744335aa.md",
+          "bytes": 5579,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-28%2F%23story-0021",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-29/policy/02-59ca2bdd1aab4d59.md",
+          "bytes": 6410,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-28%2F%23story-0002",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-29/policy/03-d9bfa1e158f7d79c.md",
+          "bytes": 6623,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2610.36011",
+      "path": "docs/public/daily/2026-10-29/assets/arxiv--2610.36011/preview.png",
+      "bytes": 353816
+    },
+    {
+      "candidate_id": "arxiv--2610.36068",
+      "path": "docs/public/daily/2026-10-29/assets/arxiv--2610.36068/preview.png",
+      "bytes": 1183685
+    },
+    {
+      "candidate_id": "arxiv--2610.37666",
+      "path": "docs/public/daily/2026-10-29/assets/arxiv--2610.37666/preview.png",
+      "bytes": 427251
+    },
+    {
+      "candidate_id": "arxiv--2610.36013",
+      "path": "docs/public/daily/2026-10-29/assets/arxiv--2610.36013/preview.png",
+      "bytes": 4634052
+    },
+    {
+      "candidate_id": "arxiv--2610.36791",
+      "path": "docs/public/daily/2026-10-29/assets/arxiv--2610.36791/preview.png",
+      "bytes": 1624333
+    },
+    {
+      "candidate_id": "arxiv--2610.36823",
+      "path": "docs/public/daily/2026-10-29/assets/arxiv--2610.36823/preview.png",
+      "bytes": 324119
+    },
+    {
+      "candidate_id": "arxiv--2610.37381",
+      "path": "docs/public/daily/2026-10-29/assets/arxiv--2610.37381/preview.png",
+      "bytes": 197084
+    },
+    {
+      "candidate_id": "arxiv--2610.36270",
+      "path": "docs/public/daily/2026-10-29/assets/arxiv--2610.36270/preview.png",
+      "bytes": 435008
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fdeepmind.google%2Fblog%2Fgenie-4-a-new-generation-of-world-simulation%2F",
+      "path": "docs/public/daily/2026-10-29/assets/url--https_3a_2f_2fdeepmind.google_2fblog_2fgenie-4-a-new-generation-of-world-simulation_2f/preview.png",
+      "bytes": 682944
+    },
+    {
+      "candidate_id": "arxiv--2610.37652",
+      "path": "docs/public/daily/2026-10-29/assets/arxiv--2610.37652/preview.png",
+      "bytes": 146280
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-bbc6147963850483a66a4f5035e59d2a",
+      "path": "docs/public/daily/2026-10-29/assets/url--aiera.com.cn-bbc6147963850483a66a4f5035e59d2a/preview.png",
+      "bytes": 233060
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-878b90cf276d979fc661688d8246a3b2",
+      "path": "docs/public/daily/2026-10-29/assets/url--aiera.com.cn-878b90cf276d979fc661688d8246a3b2/preview.png",
+      "bytes": 221247
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-08c8d379543cbddf7d53363a8bf22a14",
+      "path": "docs/public/daily/2026-10-29/assets/url--aiera.com.cn-08c8d379543cbddf7d53363a8bf22a14/preview.png",
+      "bytes": 223751
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F28%2Fgoogle-cloud-nasa-test-ai-powered-robot-for-deep-space-missions%2F",
+      "path": "docs/public/daily/2026-10-29/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f28_2fgoogle-cloud-nasa-test-ai-powered-robot-for-deep-space-missions_2f/preview.png",
+      "bytes": 2494796
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-01bfd9224f162e2be936f76106d2c18b",
+      "path": "docs/public/daily/2026-10-29/assets/url--aiera.com.cn-01bfd9224f162e2be936f76106d2c18b/preview.png",
+      "bytes": 236290
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-ec3b8c515f8bf0c7fd33b9a122b271ba",
+      "path": "docs/public/daily/2026-10-29/assets/url--aiera.com.cn-ec3b8c515f8bf0c7fd33b9a122b271ba/preview.png",
+      "bytes": 251125
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-380f47d3513e389a64771a97663d7bbc",
+      "path": "docs/public/daily/2026-10-29/assets/url--aiera.com.cn-380f47d3513e389a64771a97663d7bbc/preview.png",
+      "bytes": 224831
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-29T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
