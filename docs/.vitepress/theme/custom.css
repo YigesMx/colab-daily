@@ -1,22 +1,102 @@
+/* VitePress owns the persisted/system theme choice via html.dark. Keep the
+   default palette light, and share these tokens with the scoped daily index. */
 :root {
+  color-scheme: light;
+  --vp-c-bg: #f5f7fb;
+  --vp-c-bg-alt: #edf2f8;
+  --vp-c-bg-soft: #edf2f8;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-text-1: #18243a;
+  --vp-c-text-2: #46566c;
+  --vp-c-text-3: #627187;
+  --vp-c-border: #d6deea;
+  --vp-c-divider: #dfe6ef;
+  --vp-c-gutter: #dfe6ef;
+  --vp-c-brand-1: #245bc4;
+  --vp-c-brand-2: #1d4ed8;
+  --vp-c-brand-3: #1e40af;
+  --vp-c-brand-soft: rgba(36, 91, 196, 0.1);
+  --daily-surface: #ffffff;
+  --daily-nav-bg: rgba(245, 247, 251, 0.94);
+  --daily-border-strong: #b7c5d8;
+  --daily-page-glow: rgba(59, 130, 246, 0.07);
+  --daily-page-glow-secondary: rgba(13, 148, 136, 0.04);
+  --daily-paper: #245bc4;
+  --daily-paper-soft: rgba(36, 91, 196, 0.07);
+  --daily-paper-active: #245bc4;
+  --daily-news: #087b59;
+  --daily-news-soft: rgba(8, 123, 89, 0.07);
+  --daily-news-active: #087b59;
+  --daily-policy: #7544b7;
+  --daily-policy-soft: rgba(117, 68, 183, 0.07);
+  --daily-policy-active: #7544b7;
+  --daily-gold: #925000;
+  --daily-gold-border: rgba(146, 80, 0, 0.45);
+  --daily-gold-soft: rgba(180, 110, 0, 0.08);
+  --daily-gold-surface: #fff8e8;
+  --daily-filter-bg: #087b59;
+  --daily-filter-text: #ffffff;
+  --daily-preview-bg: #edf2f8;
+  --daily-cover-bg: #edf3fb;
+  --daily-grid-line: rgba(37, 61, 94, 0.14);
+  --daily-tag-bg: #f1f5fa;
+  --daily-source-hover: #18243a;
+  --daily-card-shadow: 0 8px 24px rgba(32, 56, 85, 0.07);
+  --daily-card-shadow-hover: 0 16px 36px rgba(32, 56, 85, 0.13);
+  --daily-menu-shadow: 0 16px 36px rgba(32, 56, 85, 0.16);
+}
+
+.dark {
+  color-scheme: dark;
   --vp-c-bg: #0f1117;
   --vp-c-bg-alt: #141821;
   --vp-c-bg-soft: #191e28;
+  --vp-c-bg-elv: #191e28;
   --vp-c-text-1: #eef2f7;
   --vp-c-text-2: #a8b0bf;
-  --vp-c-text-3: #788294;
+  --vp-c-text-3: #8f99aa;
   --vp-c-border: #2b3341;
+  --vp-c-divider: #2b3341;
+  --vp-c-gutter: #2b3341;
   --vp-c-brand-1: #60a5fa;
   --vp-c-brand-2: #3b82f6;
   --vp-c-brand-3: #2563eb;
-  color-scheme: dark;
+  --vp-c-brand-soft: rgba(96, 165, 250, 0.16);
+  --daily-surface: #191e28;
+  --daily-nav-bg: rgba(15, 17, 23, 0.9);
+  --daily-border-strong: #536077;
+  --daily-page-glow: rgba(59, 130, 246, 0.18);
+  --daily-page-glow-secondary: rgba(45, 212, 191, 0.09);
+  --daily-paper: #60a5fa;
+  --daily-paper-soft: rgba(96, 165, 250, 0.12);
+  --daily-paper-active: #b7d0ff;
+  --daily-news: #5ee2b4;
+  --daily-news-soft: rgba(94, 226, 180, 0.1);
+  --daily-news-active: #a7f3d6;
+  --daily-policy: #c4a7ff;
+  --daily-policy-soft: rgba(196, 167, 255, 0.1);
+  --daily-policy-active: #ddd0ff;
+  --daily-gold: #fbbf24;
+  --daily-gold-border: rgba(245, 158, 11, 0.58);
+  --daily-gold-soft: rgba(245, 158, 11, 0.1);
+  --daily-gold-surface: #24212a;
+  --daily-filter-bg: #4fd1a5;
+  --daily-filter-text: #06251a;
+  --daily-preview-bg: #111620;
+  --daily-cover-bg: #111722;
+  --daily-grid-line: rgba(255, 255, 255, 0.08);
+  --daily-tag-bg: #131923;
+  --daily-source-hover: #edf6ff;
+  --daily-card-shadow: 0 16px 36px rgba(0, 0, 0, 0.2);
+  --daily-card-shadow-hover: 0 22px 44px rgba(0, 0, 0, 0.28);
+  --daily-menu-shadow: 0 18px 36px rgba(0, 0, 0, 0.4);
 }
 
 html,
 body,
 #app {
   min-height: 100%;
-  background: #0f1117;
+  background: var(--vp-c-bg);
 }
 
 body {
@@ -27,30 +107,30 @@ body {
 }
 
 .VPNavBar {
-  border-bottom-color: #2b3341 !important;
-  background: rgba(15, 17, 23, 0.9) !important;
+  border-bottom-color: var(--vp-c-border) !important;
+  background: var(--daily-nav-bg) !important;
   backdrop-filter: blur(12px);
 }
 
 .VPNavBar .title {
-  color: #f1f5f9 !important;
+  color: var(--vp-c-text-1) !important;
   font-weight: 900;
 }
 
 .VPLocalSearchBox .titles .title:not(.main) {
-  color: #f1f5f9;
+  color: var(--vp-c-text-1);
   font-weight: 900;
 }
 
 .VPLocalSearchBox .titles .title.main {
-  color: #fbbf24;
+  color: var(--daily-gold);
   font-weight: 800;
 }
 
 .VPContent,
 .VPPage,
 .VPDoc {
-  background: #0f1117 !important;
+  background: var(--vp-c-bg) !important;
 }
 
 .VPDoc .container {
@@ -66,7 +146,7 @@ body {
 }
 
 .vp-doc h2 {
-  border-top-color: #2b3341;
+  border-top-color: var(--vp-c-border);
 }
 
 .vp-doc a {
@@ -75,6 +155,6 @@ body {
 
 .vp-doc blockquote {
   padding: 12px 18px;
-  border-left-color: #60a5fa;
-  background: #171d27;
+  border-left-color: var(--vp-c-brand-1);
+  background: var(--vp-c-bg-soft);
 }

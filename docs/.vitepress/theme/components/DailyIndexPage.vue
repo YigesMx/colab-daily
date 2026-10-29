@@ -282,10 +282,10 @@ function scoreLabel(article: DailyArticle): string {
   min-height: calc(100vh - var(--vp-nav-height));
   padding: 44px 32px 80px;
   background:
-    radial-gradient(circle at 12% -10%, rgba(59, 130, 246, 0.18), transparent 28%),
-    radial-gradient(circle at 92% 12%, rgba(45, 212, 191, 0.09), transparent 22%),
-    #0f1117;
-  color: #eef2f7;
+    radial-gradient(circle at 12% -10%, var(--daily-page-glow), transparent 28%),
+    radial-gradient(circle at 92% 12%, var(--daily-page-glow-secondary), transparent 22%),
+    var(--vp-c-bg);
+  color: var(--vp-c-text-1);
 }
 
 .daily-header,
@@ -305,12 +305,12 @@ function scoreLabel(article: DailyArticle): string {
   justify-content: space-between;
   gap: 32px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #2b3341;
+  border-bottom: 1px solid var(--vp-c-border);
 }
 
 .daily-header__eyebrow {
   margin: 0 0 9px;
-  color: #60a5fa;
+  color: var(--daily-paper);
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 11px;
   font-weight: 900;
@@ -319,7 +319,7 @@ function scoreLabel(article: DailyArticle): string {
 
 .daily-header h1 {
   margin: 0;
-  color: #f6f8fb;
+  color: var(--vp-c-text-1);
   font-size: clamp(34px, 5vw, 62px);
   line-height: 0.98;
   letter-spacing: -0.045em;
@@ -333,7 +333,7 @@ function scoreLabel(article: DailyArticle): string {
 }
 
 .daily-header__edition > span {
-  color: #8f99aa;
+  color: var(--vp-c-text-3);
   font-size: 13px;
   font-weight: 800;
 }
@@ -356,10 +356,10 @@ function scoreLabel(article: DailyArticle): string {
   height: 42px;
   box-sizing: border-box;
   padding: 0 12px 0 14px;
-  border: 1px solid rgba(245, 158, 11, 0.58);
+  border: 1px solid var(--daily-gold-border);
   border-radius: 7px;
-  background: #191e28;
-  color: #fbbf24;
+  background: var(--daily-surface);
+  color: var(--daily-gold);
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 14px;
   font-weight: 900;
@@ -368,12 +368,12 @@ function scoreLabel(article: DailyArticle): string {
 
 .date-picker__button:hover,
 .date-picker[open] .date-picker__button {
-  border-color: #fbbf24;
-  background: #24212a;
+  border-color: var(--daily-gold);
+  background: var(--daily-gold-surface);
 }
 
 .date-picker__chevron {
-  color: #f59e0b;
+  color: var(--daily-gold);
   font-size: 18px;
   line-height: 1;
   transform: translateY(-2px);
@@ -389,10 +389,10 @@ function scoreLabel(article: DailyArticle): string {
   overflow-y: auto;
   overscroll-behavior: contain;
   padding: 6px;
-  border: 1px solid #3c4555;
+  border: 1px solid var(--daily-border-strong);
   border-radius: 8px;
-  background: #191e28;
-  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.4);
+  background: var(--daily-surface);
+  box-shadow: var(--daily-menu-shadow);
 }
 
 .date-picker__menu button {
@@ -405,7 +405,7 @@ function scoreLabel(article: DailyArticle): string {
   border: 0;
   border-radius: 5px;
   background: transparent;
-  color: #dbe3ee;
+  color: var(--vp-c-text-2);
   font: inherit;
   font-size: 13px;
   font-weight: 800;
@@ -415,12 +415,12 @@ function scoreLabel(article: DailyArticle): string {
 
 .date-picker__menu button:hover,
 .date-picker__option--active {
-  background: rgba(245, 158, 11, 0.14) !important;
-  color: #fbbf24 !important;
+  background: var(--daily-gold-soft) !important;
+  color: var(--daily-gold) !important;
 }
 
 .date-picker__menu small {
-  color: #8994a5;
+  color: var(--vp-c-text-3);
   font-size: 11px;
   font-weight: 700;
 }
@@ -439,10 +439,10 @@ function scoreLabel(article: DailyArticle): string {
   min-width: 132px;
   min-height: 38px;
   padding: 0 18px;
-  border: 1px solid #303949;
+  border: 1px solid var(--vp-c-border);
   border-radius: 999px;
-  background: #171c25;
-  color: #d6dde8;
+  background: var(--daily-surface);
+  color: var(--vp-c-text-2);
   font: inherit;
   font-size: 13px;
   font-weight: 850;
@@ -453,16 +453,16 @@ function scoreLabel(article: DailyArticle): string {
 
 .quick-nav__button + .quick-nav__button { margin-left: 10px; }
 
-.quick-nav__button:hover { transform: translateY(-1px); border-color: #59667d; color: #fff; }
-.quick-nav__button span { color: #7f8a9b; font-size: 11px; }
-.quick-nav__button--paper.quick-nav__button--active { border-color: #60a5fa; background: rgba(96,165,250,.16); color: #b7d0ff; }
-.quick-nav__button--news.quick-nav__button--active { border-color: #5ee2b4; background: rgba(94,226,180,.14); color: #a7f3d6; }
-.quick-nav__button--policy.quick-nav__button--active { border-color: #c4a7ff; background: rgba(196,167,255,.14); color: #ddd0ff; }
-.quick-nav__button--active span { color: currentColor; opacity: .72; }
+.quick-nav__button:hover { transform: translateY(-1px); border-color: var(--daily-border-strong); color: var(--vp-c-text-1); }
+.quick-nav__button span { color: var(--vp-c-text-3); font-size: 11px; }
+.quick-nav__button--paper.quick-nav__button--active { border-color: var(--daily-paper); background: var(--daily-paper-soft); color: var(--daily-paper-active); }
+.quick-nav__button--news.quick-nav__button--active { border-color: var(--daily-news); background: var(--daily-news-soft); color: var(--daily-news-active); }
+.quick-nav__button--policy.quick-nav__button--active { border-color: var(--daily-policy); background: var(--daily-policy-soft); color: var(--daily-policy-active); }
+.quick-nav__button--active span { color: currentColor; }
 
 .facets {
   padding: 18px 0;
-  border-bottom: 1px solid #242c39;
+  border-bottom: 1px solid var(--vp-c-divider);
 }
 
 .facet-row {
@@ -475,7 +475,7 @@ function scoreLabel(article: DailyArticle): string {
 .facet-row h2 {
   margin: 0;
   padding-top: 8px;
-  color: #8f99aa;
+  color: var(--vp-c-text-3);
   font-size: 12px;
   font-weight: 900;
   letter-spacing: 0.08em;
@@ -491,10 +491,10 @@ function scoreLabel(article: DailyArticle): string {
 .facet {
   min-height: 32px;
   padding: 0 12px;
-  border: 1px solid #303949;
+  border: 1px solid var(--vp-c-border);
   border-radius: 999px;
-  background: #191e28;
-  color: #c5cdd9;
+  background: var(--daily-surface);
+  color: var(--vp-c-text-2);
   font: inherit;
   font-size: 13px;
   font-weight: 800;
@@ -504,29 +504,28 @@ function scoreLabel(article: DailyArticle): string {
 
 .facet:hover {
   transform: translateY(-1px);
-  border-color: #536077;
+  border-color: var(--daily-border-strong);
 }
 
 .facet span {
   margin-left: 4px;
-  color: #7f8a9b;
+  color: var(--vp-c-text-3);
   font-size: 11px;
 }
 
 .facet--active {
-  border-color: #5ee2b4;
-  background: #4fd1a5;
-  color: #06251a;
+  border-color: var(--daily-news);
+  background: var(--daily-filter-bg);
+  color: var(--daily-filter-text);
 }
 
 .facet--active span {
   color: currentColor;
-  opacity: 0.72;
 }
 
 .result-line {
   margin-top: 20px;
-  color: #8f99aa;
+  color: var(--vp-c-text-3);
   font-size: 13px;
   font-weight: 800;
 }
@@ -538,19 +537,19 @@ function scoreLabel(article: DailyArticle): string {
 }
 
 .category-section {
-  --section-accent: #60a5fa;
-  --section-glow: rgba(96, 165, 250, 0.12);
+  --section-accent: var(--daily-paper);
+  --section-glow: var(--daily-paper-soft);
   scroll-margin-top: calc(var(--vp-nav-height) + 20px);
 }
 
 .category-section--news {
-  --section-accent: #5ee2b4;
-  --section-glow: rgba(94, 226, 180, 0.1);
+  --section-accent: var(--daily-news);
+  --section-glow: var(--daily-news-soft);
 }
 
 .category-section--policy {
-  --section-accent: #c4a7ff;
-  --section-glow: rgba(196, 167, 255, 0.1);
+  --section-accent: var(--daily-policy);
+  --section-glow: var(--daily-policy-soft);
 }
 
 .category-section__header {
@@ -560,7 +559,7 @@ function scoreLabel(article: DailyArticle): string {
   gap: 20px;
   margin-bottom: 16px;
   padding: 0 2px 13px;
-  border-bottom: 1px solid color-mix(in srgb, var(--section-accent) 38%, #2b3341);
+  border-bottom: 1px solid color-mix(in srgb, var(--section-accent) 38%, var(--vp-c-border));
 }
 
 .category-section__header > div {
@@ -589,7 +588,7 @@ function scoreLabel(article: DailyArticle): string {
 
 .category-section__header h2 {
   margin: 0;
-  color: #f2f5f9;
+  color: var(--vp-c-text-1);
   font-size: clamp(24px, 3vw, 32px);
   line-height: 1;
   letter-spacing: -0.035em;
@@ -603,7 +602,7 @@ function scoreLabel(article: DailyArticle): string {
 }
 
 .category-section__count small {
-  color: #788294;
+  color: var(--vp-c-text-3);
   font-size: 12px;
 }
 
@@ -619,31 +618,31 @@ function scoreLabel(article: DailyArticle): string {
   min-width: 0;
   overflow: hidden;
   flex-direction: column;
-  border: 1px solid #2b3341;
+  border: 1px solid var(--vp-c-border);
   border-top: 2px solid var(--section-accent);
   border-radius: 9px;
-  background: linear-gradient(180deg, var(--section-glow), transparent 95px), #191e28;
-  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(180deg, var(--section-glow), transparent 95px), var(--daily-surface);
+  box-shadow: var(--daily-card-shadow);
   transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
 }
 
 .article-card--top {
   border-top-width: 3px;
-  border-top-color: #f59e0b;
-  background: linear-gradient(180deg, rgba(245, 158, 11, 0.1), transparent 110px), #191e28;
+  border-top-color: var(--daily-gold);
+  background: linear-gradient(180deg, var(--daily-gold-soft), transparent 110px), var(--daily-surface);
 }
 
 .article-card:hover {
   transform: translateY(-3px);
-  border-color: #465269;
+  border-color: var(--daily-border-strong);
   border-top-color: var(--section-accent);
-  box-shadow: 0 22px 44px rgba(0, 0, 0, 0.28);
+  box-shadow: var(--daily-card-shadow-hover);
 }
 
-.article-card--top:hover { border-top-color: #fbbf24; }
+.article-card--top:hover { border-top-color: var(--daily-gold); }
 
 .article-card:focus-within {
-  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.22), 0 22px 44px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 0 0 3px var(--vp-c-brand-1), var(--daily-card-shadow-hover);
 }
 
 .article-card__topline {
@@ -665,13 +664,13 @@ function scoreLabel(article: DailyArticle): string {
 }
 
 .article-card__rank--top {
-  color: #f59e0b;
+  color: var(--daily-gold);
   font-size: 15px;
   font-weight: 950;
 }
 
 .article-card__rank-arrow {
-  color: #f59e0b;
+  color: var(--daily-gold);
   font-family: ui-sans-serif, system-ui, sans-serif;
   font-size: 20px;
   font-weight: 950;
@@ -689,17 +688,17 @@ function scoreLabel(article: DailyArticle): string {
 }
 
 .article-card--top .article-card__score {
-  border-color: rgba(245, 158, 11, 0.4);
-  color: #fbbf24;
+  border-color: var(--daily-gold-border);
+  color: var(--daily-gold);
 }
 
 .article-card__preview {
   aspect-ratio: 1.8;
   margin: 0 18px;
   overflow: hidden;
-  border: 1px solid #30394a;
+  border: 1px solid var(--vp-c-border);
   border-radius: 7px;
-  background: #111620;
+  background: var(--daily-preview-bg);
 }
 
 .article-card__preview img {
@@ -719,7 +718,7 @@ function scoreLabel(article: DailyArticle): string {
   flex-direction: column;
   justify-content: space-between;
   padding: 18px;
-  background: linear-gradient(135deg, var(--section-glow), transparent 55%), #111722;
+  background: linear-gradient(135deg, var(--section-glow), transparent 55%), var(--daily-cover-bg);
 }
 
 .pseudo-cover::after {
@@ -738,8 +737,8 @@ function scoreLabel(article: DailyArticle): string {
   inset: 0;
   opacity: 0.28;
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+    linear-gradient(var(--daily-grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--daily-grid-line) 1px, transparent 1px);
   background-size: 24px 24px;
   mask-image: linear-gradient(to right, black, transparent 80%);
 }
@@ -750,7 +749,7 @@ function scoreLabel(article: DailyArticle): string {
 
 .pseudo-cover span,
 .pseudo-cover small {
-  color: #8ea0b9;
+  color: var(--vp-c-text-3);
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 10px;
   font-weight: 800;
@@ -759,7 +758,7 @@ function scoreLabel(article: DailyArticle): string {
 
 .pseudo-cover strong {
   max-width: 80%;
-  color: #eef5ff;
+  color: var(--vp-c-text-1);
   font-size: clamp(22px, 3vw, 34px);
   line-height: 1;
   letter-spacing: -0.04em;
@@ -778,7 +777,7 @@ function scoreLabel(article: DailyArticle): string {
   display: -webkit-box;
   margin: 0 0 6px;
   overflow: hidden;
-  color: #8692a4;
+  color: var(--vp-c-text-3);
   font-size: 12px;
   font-weight: 700;
   -webkit-box-orient: vertical;
@@ -787,7 +786,7 @@ function scoreLabel(article: DailyArticle): string {
 
 .article-card h3 {
   margin: 0;
-  color: #edf1f7;
+  color: var(--vp-c-text-1);
   font-size: 20px;
   line-height: 1.3;
   letter-spacing: -0.015em;
@@ -808,7 +807,7 @@ function scoreLabel(article: DailyArticle): string {
   display: -webkit-box;
   margin: 11px 0 17px;
   overflow: hidden;
-  color: #c5cdd8;
+  color: var(--vp-c-text-2);
   font-size: 14px;
   line-height: 1.65;
   -webkit-box-orient: vertical;
@@ -824,10 +823,10 @@ function scoreLabel(article: DailyArticle): string {
 
 .article-card__keywords span {
   padding: 4px 8px;
-  border: 1px solid #334054;
+  border: 1px solid var(--vp-c-border);
   border-radius: 999px;
-  background: #131923;
-  color: #aab6c7;
+  background: var(--daily-tag-bg);
+  color: var(--vp-c-text-2);
   font-size: 11px;
   font-weight: 800;
 }
@@ -839,7 +838,7 @@ function scoreLabel(article: DailyArticle): string {
   flex-wrap: wrap;
   gap: 7px;
   padding: 13px 18px 16px;
-  border-top: 1px solid #2a3240;
+  border-top: 1px solid var(--vp-c-divider);
 }
 
 .article-card__sources a {
@@ -857,7 +856,7 @@ function scoreLabel(article: DailyArticle): string {
 .article-card__sources a:focus-visible {
   border-color: var(--section-accent);
   background: color-mix(in srgb, var(--section-accent) 18%, transparent);
-  color: #edf6ff;
+  color: var(--daily-source-hover);
 }
 
 .section-empty {
@@ -865,14 +864,14 @@ function scoreLabel(article: DailyArticle): string {
   min-height: 150px;
   place-content: center;
   gap: 5px;
-  border: 1px dashed color-mix(in srgb, var(--section-accent) 35%, #344052);
+  border: 1px dashed color-mix(in srgb, var(--section-accent) 35%, var(--daily-border-strong));
   border-radius: 8px;
   background: linear-gradient(135deg, var(--section-glow), transparent 55%);
-  color: #8f99aa;
+  color: var(--vp-c-text-3);
   text-align: center;
 }
 
-.section-empty strong { color: #dce3ec; font-size: 17px; }
+.section-empty strong { color: var(--vp-c-text-1); font-size: 17px; }
 .section-empty span { font-size: 13px; }
 
 .empty-state {
@@ -880,9 +879,9 @@ function scoreLabel(article: DailyArticle): string {
   min-height: 260px;
   margin-top: 24px;
   place-content: center;
-  border: 1px dashed #344052;
+  border: 1px dashed var(--daily-border-strong);
   border-radius: 8px;
-  color: #e8edf5;
+  color: var(--vp-c-text-1);
   text-align: center;
 }
 
@@ -894,6 +893,11 @@ function scoreLabel(article: DailyArticle): string {
   clip: rect(0, 0, 0, 0);
   clip-path: inset(50%);
   white-space: nowrap;
+}
+
+.daily-index :is(button, summary, .quick-nav__button, .article-card__sources a):focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 3px;
 }
 
 @media (max-width: 1120px) {
