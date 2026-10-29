@@ -1,0 +1,212 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-10-30",
+  "display_date": "2026-10-30",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2610.31670",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-30/paper/01-578d338c235fb47a.md",
+          "bytes": 6758,
+          "preview_image": "/daily/2026-10-30/assets/arxiv--2610.31670/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.29702",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-30/paper/02-50d7c16cadd145c4.md",
+          "bytes": 6816,
+          "preview_image": "/daily/2026-10-30/assets/arxiv--2610.29702/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2610.34186",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-30/paper/03-4c175d1903193597.md",
+          "bytes": 7724,
+          "preview_image": "/daily/2026-10-30/assets/arxiv--2610.34186/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgemini-models%2Fintroducing-gemini-4-carbon%2F",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-30/news/01-596ab877757cac9b.md",
+          "bytes": 5465,
+          "preview_image": "/daily/2026-10-30/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgemini-models_2fintroducing-gemini-4-carbon_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-14b7f0ce245ff7d2590c2aa3df1e2a2c",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-30/news/02-66b2dc473e21f909.md",
+          "bytes": 6162,
+          "preview_image": "/daily/2026-10-30/assets/url--aiera.com.cn-14b7f0ce245ff7d2590c2aa3df1e2a2c/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-861bd8138a1b6a5f210f18125304a6f0",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-30/news/03-df17d3b3069f989f.md",
+          "bytes": 5989,
+          "preview_image": "/daily/2026-10-30/assets/url--aiera.com.cn-861bd8138a1b6a5f210f18125304a6f0/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F10%2F506227.html",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-10-30/news/04-9bb149d3bbed217b.md",
+          "bytes": 5433,
+          "preview_image": "/daily/2026-10-30/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f10_2f506227.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-275d50145bc308c820867f562cc140b5",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-10-30/news/05-d6621e0d68a31e4c.md",
+          "bytes": 6637,
+          "preview_image": "/daily/2026-10-30/assets/url--aiera.com.cn-275d50145bc308c820867f562cc140b5/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F29%2Fagibot-introduces-worken-metric-to-measure-productive-robot-labor%2F",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-10-30/news/06-4296b7f04f993385.md",
+          "bytes": 5824,
+          "preview_image": "/daily/2026-10-30/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f29_2fagibot-introduces-worken-metric-to-measure-productive-robot-labor_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-7ac9fe97f389b9b4a7c9e8b8ad3cf3f4",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-10-30/news/07-8b31a0d6d49c1f11.md",
+          "bytes": 7046,
+          "preview_image": "/daily/2026-10-30/assets/url--aiera.com.cn-7ac9fe97f389b9b4a7c9e8b8ad3cf3f4/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-29%2F%23story-0004",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-10-30/policy/01-e2676bc69c6a39b4.md",
+          "bytes": 7380,
+          "preview_image": "/daily/2026-10-30/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-10-29_2f_23story-0004/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-29%2F%23story-0019",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-10-30/policy/02-532aa5f0a6a30c1a.md",
+          "bytes": 6847,
+          "preview_image": "/daily/2026-10-30/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-10-29_2f_23story-0019/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fdigital-strategy.ec.europa.eu%2Fen%2Fevents%2Flocal-digital-twins-citiverse-edic-joins-smart-city-expo-world-congress-2026",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-10-30/policy/03-c0f8a0b381529b20.md",
+          "bytes": 6563,
+          "preview_image": "/daily/2026-10-30/assets/url--https_3a_2f_2fdigital-strategy.ec.europa.eu_2fen_2fevents_2flocal-digital-twins-citiverse-edic-joins-smart-city-expo-world-congress-2026/preview.png"
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2610.31670",
+      "path": "docs/public/daily/2026-10-30/assets/arxiv--2610.31670/preview.png",
+      "bytes": 422190
+    },
+    {
+      "candidate_id": "arxiv--2610.29702",
+      "path": "docs/public/daily/2026-10-30/assets/arxiv--2610.29702/preview.png",
+      "bytes": 743237
+    },
+    {
+      "candidate_id": "arxiv--2610.34186",
+      "path": "docs/public/daily/2026-10-30/assets/arxiv--2610.34186/preview.png",
+      "bytes": 593237
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgemini-models%2Fintroducing-gemini-4-carbon%2F",
+      "path": "docs/public/daily/2026-10-30/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgemini-models_2fintroducing-gemini-4-carbon_2f/preview.png",
+      "bytes": 985849
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-14b7f0ce245ff7d2590c2aa3df1e2a2c",
+      "path": "docs/public/daily/2026-10-30/assets/url--aiera.com.cn-14b7f0ce245ff7d2590c2aa3df1e2a2c/preview.png",
+      "bytes": 235812
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-861bd8138a1b6a5f210f18125304a6f0",
+      "path": "docs/public/daily/2026-10-30/assets/url--aiera.com.cn-861bd8138a1b6a5f210f18125304a6f0/preview.png",
+      "bytes": 350374
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F10%2F506227.html",
+      "path": "docs/public/daily/2026-10-30/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f10_2f506227.html/preview.png",
+      "bytes": 985849
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-275d50145bc308c820867f562cc140b5",
+      "path": "docs/public/daily/2026-10-30/assets/url--aiera.com.cn-275d50145bc308c820867f562cc140b5/preview.png",
+      "bytes": 893995
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F10%2F29%2Fagibot-introduces-worken-metric-to-measure-productive-robot-labor%2F",
+      "path": "docs/public/daily/2026-10-30/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f10_2f29_2fagibot-introduces-worken-metric-to-measure-productive-robot-labor_2f/preview.png",
+      "bytes": 1912187
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-7ac9fe97f389b9b4a7c9e8b8ad3cf3f4",
+      "path": "docs/public/daily/2026-10-30/assets/url--aiera.com.cn-7ac9fe97f389b9b4a7c9e8b8ad3cf3f4/preview.png",
+      "bytes": 1168698
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-29%2F%23story-0004",
+      "path": "docs/public/daily/2026-10-30/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-10-29_2f_23story-0004/preview.png",
+      "bytes": 97979
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-10-29%2F%23story-0019",
+      "path": "docs/public/daily/2026-10-30/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-10-29_2f_23story-0019/preview.png",
+      "bytes": 2193966
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fdigital-strategy.ec.europa.eu%2Fen%2Fevents%2Flocal-digital-twins-citiverse-edic-joins-smart-city-expo-world-congress-2026",
+      "path": "docs/public/daily/2026-10-30/assets/url--https_3a_2f_2fdigital-strategy.ec.europa.eu_2fen_2fevents_2flocal-digital-twins-citiverse-edic-joins-smart-city-expo-world-congress-2026/preview.png",
+      "bytes": 1640866
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-10-30T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 3,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 13,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
