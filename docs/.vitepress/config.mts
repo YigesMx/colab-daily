@@ -7,6 +7,9 @@ if (!/^\/(?:[A-Za-z0-9._~-]+\/)*$/.test(base) || base.split('/').some(x => x ===
 export default defineConfig({
   lang: 'zh-CN', title: 'Colab Daily', description: '每日研究、新闻与政策正式报告',
   base, cleanUrls: true, lastUpdated: false,
+  // Share routing/site metadata instead of embedding the whole archive map in
+  // every HTML page. The content-hashed chunk is part of the normal site artifact.
+  metaChunk: true,
   vite: {
     build: {
       rollupOptions: {

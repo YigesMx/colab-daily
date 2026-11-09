@@ -1,3 +1,13 @@
+# Formal daily site deployment.
+#
+# Bounded published history (owner-approved 2026-11-09): the production deploy
+# (`python -m colab_daily.publication deploy`) already keeps this repository's
+# committed preview images under COLAB_SITE_IMAGE_BUDGET_MB (default 800 MB) by
+# replacing the oldest prior days' `docs/public/daily/*/assets/*/preview.*` with
+# tiny same-format placeholders in the same managed commit. This workflow only
+# builds and publishes the already-bounded tree, keeping the uploaded artifact
+# below the GitHub Pages 1 GB deployment ceiling; history pages keep their
+# image references (placeholders render in place of archived previews).
 name: Deploy formal daily site
 on:
   push:
@@ -40,3 +50,7 @@ jobs:
     steps:
       - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
         id: deployment
+        with:
+          # Headroom for near-budget artifacts; first observed 10-min default
+          # timeout aborting a 1.12 GB deployment on 2026-11-05.
+          timeout: 15
