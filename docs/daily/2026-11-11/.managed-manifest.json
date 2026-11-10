@@ -1,0 +1,303 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-11-11",
+  "display_date": "2026-11-11",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2611.12885",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-11/paper/01-41e5651a614241db.md",
+          "bytes": 6687,
+          "preview_image": "/daily/2026-11-11/assets/arxiv--2611.12885/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.12087",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-11/paper/02-ab651970f1d706ee.md",
+          "bytes": 6932,
+          "preview_image": "/daily/2026-11-11/assets/arxiv--2611.12087/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.11085",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-11/paper/03-52bd93530ff7468c.md",
+          "bytes": 6966,
+          "preview_image": "/daily/2026-11-11/assets/arxiv--2611.11085/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.12870",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-11/paper/04-2ac6488cd318c677.md",
+          "bytes": 7137,
+          "preview_image": "/daily/2026-11-11/assets/arxiv--2611.12870/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.11854",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-11/paper/05-86d2d1666ca2fc07.md",
+          "bytes": 7388,
+          "preview_image": "/daily/2026-11-11/assets/arxiv--2611.11854/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.12806",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-11/paper/06-4398c03ee061bba0.md",
+          "bytes": 7521,
+          "preview_image": "/daily/2026-11-11/assets/arxiv--2611.12806/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.10894",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-11/paper/07-9521381395943a8b.md",
+          "bytes": 6681,
+          "preview_image": "/daily/2026-11-11/assets/arxiv--2611.10894/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.12286",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-11-11/paper/08-c395be182848cc95.md",
+          "bytes": 7339,
+          "preview_image": "/daily/2026-11-11/assets/arxiv--2611.12286/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.01112",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-11-11/paper/09-f4a2f6be60999b04.md",
+          "bytes": 7529,
+          "preview_image": "/daily/2026-11-11/assets/arxiv--2611.01112/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.10872",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-11-11/paper/10-257d6e1a0b01dc45.md",
+          "bytes": 7333,
+          "preview_image": "/daily/2026-11-11/assets/arxiv--2611.10872/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fdeepmind.google%2Fblog%2Fintroducing-alphaproof-code%2F",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-11/news/01-c5541ce6f037f9b0.md",
+          "bytes": 7095,
+          "preview_image": "/daily/2026-11-11/assets/url--https_3a_2f_2fdeepmind.google_2fblog_2fintroducing-alphaproof-code_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F508919.html",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-11/news/02-96f52b4667be0f6e.md",
+          "bytes": 8475,
+          "preview_image": "/daily/2026-11-11/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f508919.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-ddefbd2e700b780b503589ad12bb34af",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-11/news/03-0d267b0db57f81c9.md",
+          "bytes": 7067,
+          "preview_image": "/daily/2026-11-11/assets/url--aiera.com.cn-ddefbd2e700b780b503589ad12bb34af/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F508912.html",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-11/news/04-af8906acd359b82e.md",
+          "bytes": 6633,
+          "preview_image": "/daily/2026-11-11/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f508912.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Finfrastructure-and-cloud%2Fgoogle-cloud%2Fgemini-for-healthcare%2F",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-11/news/05-a9eb7e563f8cacb2.md",
+          "bytes": 6939,
+          "preview_image": "/daily/2026-11-11/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2finfrastructure-and-cloud_2fgoogle-cloud_2fgemini-for-healthcare_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F508828.html",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-11/news/06-5b073b44f5024f35.md",
+          "bytes": 6269,
+          "preview_image": "/daily/2026-11-11/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f508828.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-2cd5219ac0398dca173429fd8230b9c7",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-11/news/07-69755b0a609e3797.md",
+          "bytes": 8817,
+          "preview_image": "/daily/2026-11-11/assets/url--aiera.com.cn-2cd5219ac0398dca173429fd8230b9c7/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-10%2F%23story-0003",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-11/policy/01-37f03f74ada51356.md",
+          "bytes": 8753,
+          "preview_image": "/daily/2026-11-11/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-10_2f_23story-0003/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-10%2F%23story-0001",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-11/policy/02-42c57d37db938909.md",
+          "bytes": 8711,
+          "preview_image": "/daily/2026-11-11/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-10_2f_23story-0001/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-10%2F%23story-0022",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-11/policy/03-90444453ab033cb7.md",
+          "bytes": 8866,
+          "preview_image": "/daily/2026-11-11/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-10_2f_23story-0022/preview.png"
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2611.12885",
+      "path": "docs/public/daily/2026-11-11/assets/arxiv--2611.12885/preview.png",
+      "bytes": 241983
+    },
+    {
+      "candidate_id": "arxiv--2611.12087",
+      "path": "docs/public/daily/2026-11-11/assets/arxiv--2611.12087/preview.png",
+      "bytes": 12588835
+    },
+    {
+      "candidate_id": "arxiv--2611.11085",
+      "path": "docs/public/daily/2026-11-11/assets/arxiv--2611.11085/preview.png",
+      "bytes": 1521740
+    },
+    {
+      "candidate_id": "arxiv--2611.12870",
+      "path": "docs/public/daily/2026-11-11/assets/arxiv--2611.12870/preview.png",
+      "bytes": 2470578
+    },
+    {
+      "candidate_id": "arxiv--2611.11854",
+      "path": "docs/public/daily/2026-11-11/assets/arxiv--2611.11854/preview.png",
+      "bytes": 1659565
+    },
+    {
+      "candidate_id": "arxiv--2611.12806",
+      "path": "docs/public/daily/2026-11-11/assets/arxiv--2611.12806/preview.png",
+      "bytes": 965651
+    },
+    {
+      "candidate_id": "arxiv--2611.10894",
+      "path": "docs/public/daily/2026-11-11/assets/arxiv--2611.10894/preview.png",
+      "bytes": 119789
+    },
+    {
+      "candidate_id": "arxiv--2611.12286",
+      "path": "docs/public/daily/2026-11-11/assets/arxiv--2611.12286/preview.png",
+      "bytes": 529072
+    },
+    {
+      "candidate_id": "arxiv--2611.01112",
+      "path": "docs/public/daily/2026-11-11/assets/arxiv--2611.01112/preview.png",
+      "bytes": 2793320
+    },
+    {
+      "candidate_id": "arxiv--2611.10872",
+      "path": "docs/public/daily/2026-11-11/assets/arxiv--2611.10872/preview.png",
+      "bytes": 267242
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fdeepmind.google%2Fblog%2Fintroducing-alphaproof-code%2F",
+      "path": "docs/public/daily/2026-11-11/assets/url--https_3a_2f_2fdeepmind.google_2fblog_2fintroducing-alphaproof-code_2f/preview.png",
+      "bytes": 180307
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F508919.html",
+      "path": "docs/public/daily/2026-11-11/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f508919.html/preview.png",
+      "bytes": 372019
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-ddefbd2e700b780b503589ad12bb34af",
+      "path": "docs/public/daily/2026-11-11/assets/url--aiera.com.cn-ddefbd2e700b780b503589ad12bb34af/preview.png",
+      "bytes": 150734
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F508912.html",
+      "path": "docs/public/daily/2026-11-11/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f508912.html/preview.png",
+      "bytes": 260843
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Finfrastructure-and-cloud%2Fgoogle-cloud%2Fgemini-for-healthcare%2F",
+      "path": "docs/public/daily/2026-11-11/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2finfrastructure-and-cloud_2fgoogle-cloud_2fgemini-for-healthcare_2f/preview.png",
+      "bytes": 86148
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F508828.html",
+      "path": "docs/public/daily/2026-11-11/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f508828.html/preview.png",
+      "bytes": 284510
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-2cd5219ac0398dca173429fd8230b9c7",
+      "path": "docs/public/daily/2026-11-11/assets/url--aiera.com.cn-2cd5219ac0398dca173429fd8230b9c7/preview.png",
+      "bytes": 378774
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-10%2F%23story-0003",
+      "path": "docs/public/daily/2026-11-11/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-10_2f_23story-0003/preview.png",
+      "bytes": 385907
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-10%2F%23story-0001",
+      "path": "docs/public/daily/2026-11-11/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-10_2f_23story-0001/preview.png",
+      "bytes": 1674419
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-10%2F%23story-0022",
+      "path": "docs/public/daily/2026-11-11/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-10_2f_23story-0022/preview.png",
+      "bytes": 1868182
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-11-11T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
