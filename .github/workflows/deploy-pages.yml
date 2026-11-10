@@ -51,7 +51,7 @@ jobs:
       - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
         id: deployment
         with:
-          # deploy-pages `timeout` is in SECONDS (default 600). The 2026-11-05
-          # 1.12 GB deployment aborted at the 10-minute default, so keep 15
-          # minutes of headroom: 900 seconds, NOT 15.
-          timeout: 900
+          # deploy-pages `timeout` is in MILLISECONDS (default 600000 = 10 min).
+          # The 2026-11-05 1.12 GB deployment aborted at the 10-minute default,
+          # so keep 15 minutes of headroom: 900000 ms.
+          timeout: 900000
