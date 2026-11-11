@@ -1,0 +1,302 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-11-12",
+  "display_date": "2026-11-12",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2611.14048",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-12/paper/01-f3b374bcf2413121.md",
+          "bytes": 8178,
+          "preview_image": "/daily/2026-11-12/assets/arxiv--2611.14048/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.14365",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-12/paper/02-7aaa0bd15810b45a.md",
+          "bytes": 7426,
+          "preview_image": "/daily/2026-11-12/assets/arxiv--2611.14365/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.13732",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-12/paper/03-58790774c5997c05.md",
+          "bytes": 8285,
+          "preview_image": "/daily/2026-11-12/assets/arxiv--2611.13732/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.11166",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-12/paper/04-5c098d954dc8a783.md",
+          "bytes": 8618,
+          "preview_image": "/daily/2026-11-12/assets/arxiv--2611.11166/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.13034",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-12/paper/05-f049632764ba1f9a.md",
+          "bytes": 7940,
+          "preview_image": "/daily/2026-11-12/assets/arxiv--2611.13034/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.13039",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-12/paper/06-f1b7290d291d356a.md",
+          "bytes": 8413,
+          "preview_image": "/daily/2026-11-12/assets/arxiv--2611.13039/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.14420",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-12/paper/07-f7099049e9ac621e.md",
+          "bytes": 9473,
+          "preview_image": "/daily/2026-11-12/assets/arxiv--2611.14420/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.14257",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-11-12/paper/08-9962b6c119ab7521.md",
+          "bytes": 8657,
+          "preview_image": "/daily/2026-11-12/assets/arxiv--2611.14257/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.13818",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-11-12/paper/09-f845802a741c018a.md",
+          "bytes": 8716,
+          "preview_image": "/daily/2026-11-12/assets/arxiv--2611.13818/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.14488",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-11-12/paper/10-abc4cbe24a3cb948.md",
+          "bytes": 9232,
+          "preview_image": "/daily/2026-11-12/assets/arxiv--2611.14488/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--aiera.com.cn-0118220b162d681afece48d40e9b3502",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-12/news/01-6239ae294caef783.md",
+          "bytes": 6405,
+          "preview_image": "/daily/2026-11-12/assets/url--aiera.com.cn-0118220b162d681afece48d40e9b3502/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2103888222136832199",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-12/news/02-6026bbaf32f064f2.md",
+          "bytes": 5245,
+          "preview_image": "/daily/2026-11-12/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2103888222136832199/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2103536647686174305",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-12/news/03-25840af242abbf37.md",
+          "bytes": 6711,
+          "preview_image": "/daily/2026-11-12/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2103536647686174305/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgemini-models%2Fgemini-4-carbon-now-available%2F",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-12/news/04-dcbec8aa77a39031.md",
+          "bytes": 6592,
+          "preview_image": "/daily/2026-11-12/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgemini-models_2fgemini-4-carbon-now-available_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fdeepmind.google%2Fblog%2Falphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease%2F",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-12/news/05-ecc73e937090c544.md",
+          "bytes": 6071,
+          "preview_image": "/daily/2026-11-12/assets/url--https_3a_2f_2fdeepmind.google_2fblog_2falphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-7c8ec079a88fa9d22b0559096e1c12ef",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-12/news/06-38306085d02a42be.md",
+          "bytes": 6484,
+          "preview_image": "/daily/2026-11-12/assets/url--aiera.com.cn-7c8ec079a88fa9d22b0559096e1c12ef/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-93b9fc0dd31d1dc981a0a3cfbd24b41c",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-12/news/07-f2c507c3f7355748.md",
+          "bytes": 7365,
+          "preview_image": "/daily/2026-11-12/assets/url--aiera.com.cn-93b9fc0dd31d1dc981a0a3cfbd24b41c/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-2026de5345ebaaff9ea64a4f08692413",
+          "category": "News",
+          "group_rank": 8,
+          "path": "docs/daily/2026-11-12/news/08-2ac633c2f951f058.md",
+          "bytes": 5419,
+          "preview_image": "/daily/2026-11-12/assets/url--aiera.com.cn-2026de5345ebaaff9ea64a4f08692413/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F11%2F11%2Fgoogle-expands-tpu-line-with-confidential-computing-and-high-memory-ai-chips%2F",
+          "category": "News",
+          "group_rank": 9,
+          "path": "docs/daily/2026-11-12/news/09-391402651f9bfe93.md",
+          "bytes": 3942,
+          "preview_image": "/daily/2026-11-12/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f11_2f11_2fgoogle-expands-tpu-line-with-confidential-computing-and-high-memory-ai-chips_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fopen-source-openshell-infrastructure%2F",
+          "category": "News",
+          "group_rank": 10,
+          "path": "docs/daily/2026-11-12/news/10-26a98ba3d01eafd5.md",
+          "bytes": 5244,
+          "preview_image": "/daily/2026-11-12/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fopen-source-openshell-infrastructure_2f/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2611.14048",
+      "path": "docs/public/daily/2026-11-12/assets/arxiv--2611.14048/preview.png",
+      "bytes": 283802
+    },
+    {
+      "candidate_id": "arxiv--2611.14365",
+      "path": "docs/public/daily/2026-11-12/assets/arxiv--2611.14365/preview.png",
+      "bytes": 120536
+    },
+    {
+      "candidate_id": "arxiv--2611.13732",
+      "path": "docs/public/daily/2026-11-12/assets/arxiv--2611.13732/preview.png",
+      "bytes": 491584
+    },
+    {
+      "candidate_id": "arxiv--2611.11166",
+      "path": "docs/public/daily/2026-11-12/assets/arxiv--2611.11166/preview.png",
+      "bytes": 554529
+    },
+    {
+      "candidate_id": "arxiv--2611.13034",
+      "path": "docs/public/daily/2026-11-12/assets/arxiv--2611.13034/preview.png",
+      "bytes": 258696
+    },
+    {
+      "candidate_id": "arxiv--2611.13039",
+      "path": "docs/public/daily/2026-11-12/assets/arxiv--2611.13039/preview.png",
+      "bytes": 1393791
+    },
+    {
+      "candidate_id": "arxiv--2611.14420",
+      "path": "docs/public/daily/2026-11-12/assets/arxiv--2611.14420/preview.png",
+      "bytes": 1248047
+    },
+    {
+      "candidate_id": "arxiv--2611.14257",
+      "path": "docs/public/daily/2026-11-12/assets/arxiv--2611.14257/preview.png",
+      "bytes": 1678834
+    },
+    {
+      "candidate_id": "arxiv--2611.13818",
+      "path": "docs/public/daily/2026-11-12/assets/arxiv--2611.13818/preview.png",
+      "bytes": 365675
+    },
+    {
+      "candidate_id": "arxiv--2611.14488",
+      "path": "docs/public/daily/2026-11-12/assets/arxiv--2611.14488/preview.png",
+      "bytes": 466998
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-0118220b162d681afece48d40e9b3502",
+      "path": "docs/public/daily/2026-11-12/assets/url--aiera.com.cn-0118220b162d681afece48d40e9b3502/preview.png",
+      "bytes": 260843
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2103888222136832199",
+      "path": "docs/public/daily/2026-11-12/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2103888222136832199/preview.png",
+      "bytes": 146135
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2103536647686174305",
+      "path": "docs/public/daily/2026-11-12/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2103536647686174305/preview.png",
+      "bytes": 1677864
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgemini-models%2Fgemini-4-carbon-now-available%2F",
+      "path": "docs/public/daily/2026-11-12/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgemini-models_2fgemini-4-carbon-now-available_2f/preview.png",
+      "bytes": 608950
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fdeepmind.google%2Fblog%2Falphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease%2F",
+      "path": "docs/public/daily/2026-11-12/assets/url--https_3a_2f_2fdeepmind.google_2fblog_2falphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease_2f/preview.png",
+      "bytes": 618883
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-7c8ec079a88fa9d22b0559096e1c12ef",
+      "path": "docs/public/daily/2026-11-12/assets/url--aiera.com.cn-7c8ec079a88fa9d22b0559096e1c12ef/preview.png",
+      "bytes": 220164
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-93b9fc0dd31d1dc981a0a3cfbd24b41c",
+      "path": "docs/public/daily/2026-11-12/assets/url--aiera.com.cn-93b9fc0dd31d1dc981a0a3cfbd24b41c/preview.png",
+      "bytes": 2186027
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-2026de5345ebaaff9ea64a4f08692413",
+      "path": "docs/public/daily/2026-11-12/assets/url--aiera.com.cn-2026de5345ebaaff9ea64a4f08692413/preview.png",
+      "bytes": 221223
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F11%2F11%2Fgoogle-expands-tpu-line-with-confidential-computing-and-high-memory-ai-chips%2F",
+      "path": "docs/public/daily/2026-11-12/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f11_2f11_2fgoogle-expands-tpu-line-with-confidential-computing-and-high-memory-ai-chips_2f/preview.png",
+      "bytes": 1039264
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fopen-source-openshell-infrastructure%2F",
+      "path": "docs/public/daily/2026-11-12/assets/url--https_3a_2f_2fblogs.nvidia.com_2fblog_2fopen-source-openshell-infrastructure_2f/preview.png",
+      "bytes": 2311607
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-11-12T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 10,
+    "policy_count": 0,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 10,
+    "news_fallback_used": 5
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
