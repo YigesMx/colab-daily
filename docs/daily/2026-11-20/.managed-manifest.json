@@ -1,0 +1,278 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-11-20",
+  "display_date": "2026-11-20",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2611.22925",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-20/paper/01-0b609d5a2db8b7af.md",
+          "bytes": 8583,
+          "preview_image": "/daily/2026-11-20/assets/arxiv--2611.22925/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.23499",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-20/paper/02-2062462f9aa61ac7.md",
+          "bytes": 7894,
+          "preview_image": "/daily/2026-11-20/assets/arxiv--2611.23499/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.24408",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-20/paper/03-b040999c12eafc51.md",
+          "bytes": 9106,
+          "preview_image": "/daily/2026-11-20/assets/arxiv--2611.24408/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.24869",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-20/paper/04-7842904d1c079d57.md",
+          "bytes": 9025,
+          "preview_image": "/daily/2026-11-20/assets/arxiv--2611.24869/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.24789",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-20/paper/05-25a9c98609462c74.md",
+          "bytes": 8343,
+          "preview_image": "/daily/2026-11-20/assets/arxiv--2611.24789/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.21366",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-20/paper/06-cbfb9f5f1cb4b826.md",
+          "bytes": 8410,
+          "preview_image": "/daily/2026-11-20/assets/arxiv--2611.21366/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.24154",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-20/paper/07-cabd0471b2258f3a.md",
+          "bytes": 9251,
+          "preview_image": "/daily/2026-11-20/assets/arxiv--2611.24154/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.23068",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-11-20/paper/08-56fadea4a65c87cf.md",
+          "bytes": 8870,
+          "preview_image": "/daily/2026-11-20/assets/arxiv--2611.23068/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.24161",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-11-20/paper/09-dccb3cd46b8e7de4.md",
+          "bytes": 8602,
+          "preview_image": "/daily/2026-11-20/assets/arxiv--2611.24161/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.23751",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-11-20/paper/10-d16e111341ef8c61.md",
+          "bytes": 10290,
+          "preview_image": "/daily/2026-11-20/assets/arxiv--2611.23751/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgemini-models%2Fintroducing-gemini-4-neon%2F",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-20/news/01-d6e9367b4e46853a.md",
+          "bytes": 7050,
+          "preview_image": "/daily/2026-11-20/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgemini-models_2fintroducing-gemini-4-neon_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-7f40d764cc87478cb8b6111dc2032f94",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-20/news/02-1710ddea8ff33678.md",
+          "bytes": 6848,
+          "preview_image": "/daily/2026-11-20/assets/url--aiera.com.cn-7f40d764cc87478cb8b6111dc2032f94/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgoogle-deepmind%2Fgenie-4-now-available-project-genie%2F",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-20/news/03-0471c866e2bddcca.md",
+          "bytes": 6446,
+          "preview_image": "/daily/2026-11-20/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgoogle-deepmind_2fgenie-4-now-available-project-genie_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F11%2F19%2Fanthropics-s-1-dissected-part-2-the-offering-and-the-valuation%2F",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-20/news/04-a830accac9b0bb97.md",
+          "bytes": 7670,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2FRadixArk%2Fdaisyrose-27b-pushing-the-frontier-of-post-trainin",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-20/news/05-eb46af44bdb7609b.md",
+          "bytes": 5874,
+          "preview_image": "/daily/2026-11-20/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2fRadixArk_2fdaisyrose-27b-pushing-the-frontier-of-post-trainin/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F11%2F19%2Famazon-and-google-set-to-own-nearly-30-of-anthropic-after-ipo-filing-shows%2F",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-20/news/06-24183c3ed8a1de3d.md",
+          "bytes": 6737,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F11%2F19%2Fkress-reins-in-nvidias-ai-dealmaking-as-delayed-filing-deepens-scrutiny%2F",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-20/news/07-8945f1151210e926.md",
+          "bytes": 7476,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.federalregister.gov%2Fdocuments%2F2026%2F11%2F19%2F2026-23529%2Faddressing-remote-access-to-advanced-semiconductors",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-20/policy/01-d8985c1c41437529.md",
+          "bytes": 10685,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--www.federalregister.gov-3aefdc757dd970e5ae99824c096dae5e",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-20/policy/02-ab678cb7e39fa078.md",
+          "bytes": 8510,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-19%2F%23story-0004",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-20/policy/03-7927671821a58b25.md",
+          "bytes": 11078,
+          "preview_image": "/daily/2026-11-20/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-19_2f_23story-0004/preview.png"
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2611.22925",
+      "path": "docs/public/daily/2026-11-20/assets/arxiv--2611.22925/preview.png",
+      "bytes": 2306673
+    },
+    {
+      "candidate_id": "arxiv--2611.23499",
+      "path": "docs/public/daily/2026-11-20/assets/arxiv--2611.23499/preview.png",
+      "bytes": 6835985
+    },
+    {
+      "candidate_id": "arxiv--2611.24408",
+      "path": "docs/public/daily/2026-11-20/assets/arxiv--2611.24408/preview.png",
+      "bytes": 568395
+    },
+    {
+      "candidate_id": "arxiv--2611.24869",
+      "path": "docs/public/daily/2026-11-20/assets/arxiv--2611.24869/preview.png",
+      "bytes": 1664868
+    },
+    {
+      "candidate_id": "arxiv--2611.24789",
+      "path": "docs/public/daily/2026-11-20/assets/arxiv--2611.24789/preview.png",
+      "bytes": 256625
+    },
+    {
+      "candidate_id": "arxiv--2611.21366",
+      "path": "docs/public/daily/2026-11-20/assets/arxiv--2611.21366/preview.png",
+      "bytes": 1074268
+    },
+    {
+      "candidate_id": "arxiv--2611.24154",
+      "path": "docs/public/daily/2026-11-20/assets/arxiv--2611.24154/preview.png",
+      "bytes": 2997030
+    },
+    {
+      "candidate_id": "arxiv--2611.23068",
+      "path": "docs/public/daily/2026-11-20/assets/arxiv--2611.23068/preview.png",
+      "bytes": 700774
+    },
+    {
+      "candidate_id": "arxiv--2611.24161",
+      "path": "docs/public/daily/2026-11-20/assets/arxiv--2611.24161/preview.png",
+      "bytes": 221228
+    },
+    {
+      "candidate_id": "arxiv--2611.23751",
+      "path": "docs/public/daily/2026-11-20/assets/arxiv--2611.23751/preview.png",
+      "bytes": 259409
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgemini-models%2Fintroducing-gemini-4-neon%2F",
+      "path": "docs/public/daily/2026-11-20/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgemini-models_2fintroducing-gemini-4-neon_2f/preview.png",
+      "bytes": 1104938
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-7f40d764cc87478cb8b6111dc2032f94",
+      "path": "docs/public/daily/2026-11-20/assets/url--aiera.com.cn-7f40d764cc87478cb8b6111dc2032f94/preview.png",
+      "bytes": 143037
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgoogle-deepmind%2Fgenie-4-now-available-project-genie%2F",
+      "path": "docs/public/daily/2026-11-20/assets/url--https_3a_2f_2fblog.google_2finnovation-and-ai_2fmodels-and-research_2fgoogle-deepmind_2fgenie-4-now-available-project-genie_2f/preview.png",
+      "bytes": 767667
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2FRadixArk%2Fdaisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "path": "docs/public/daily/2026-11-20/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2fRadixArk_2fdaisyrose-27b-pushing-the-frontier-of-post-trainin/preview.png",
+      "bytes": 1294466
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-19%2F%23story-0004",
+      "path": "docs/public/daily/2026-11-20/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-19_2f_23story-0004/preview.png",
+      "bytes": 108567
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-11-20T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
