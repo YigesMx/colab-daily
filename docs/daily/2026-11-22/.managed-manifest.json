@@ -1,0 +1,171 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-11-22",
+  "display_date": "2026-11-22",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": []
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--aiera.com.cn-1ec51400dc445a2e995e862c1a5095b8",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-22/news/01-da611d84fa7b569e.md",
+          "bytes": 5994,
+          "preview_image": "/daily/2026-11-22/assets/url--aiera.com.cn-1ec51400dc445a2e995e862c1a5095b8/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F511727.html",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-22/news/02-cce17277a29e3ecd.md",
+          "bytes": 5277,
+          "preview_image": "/daily/2026-11-22/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f511727.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-6bd260a48db2274ada2af717c2f57eed",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-22/news/03-8db60649994501c8.md",
+          "bytes": 6258,
+          "preview_image": "/daily/2026-11-22/assets/url--aiera.com.cn-6bd260a48db2274ada2af717c2f57eed/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F511779.html",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-22/news/04-112df03aed5a8fb5.md",
+          "bytes": 5280,
+          "preview_image": "/daily/2026-11-22/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f511779.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-4ccbf2d8b0339794a85ad4c2286397d3",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-22/news/05-115cca5f36b48992.md",
+          "bytes": 6132,
+          "preview_image": "/daily/2026-11-22/assets/url--aiera.com.cn-4ccbf2d8b0339794a85ad4c2286397d3/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-04e55af46ec4d0988fe7c984edd8df2e",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-22/news/06-0f590ae87bb94683.md",
+          "bytes": 5463,
+          "preview_image": "/daily/2026-11-22/assets/url--aiera.com.cn-04e55af46ec4d0988fe7c984edd8df2e/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.technologyreview.com%2F2026%2F11%2F20%2F1149399%2Fthe-most-misunderstood-graph-in-ai-just-got-a-major-update%2F",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-22/news/07-ec8228f67798ba98.md",
+          "bytes": 5315,
+          "preview_image": "/daily/2026-11-22/assets/url--https_3a_2f_2fwww.technologyreview.com_2f2026_2f11_2f20_2f1149399_2fthe-most-misunderstood-graph-in-ai-just-got-a-major-update_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-b14fd39812cac38f3b6dc5443541456d",
+          "category": "News",
+          "group_rank": 8,
+          "path": "docs/daily/2026-11-22/news/08-0cbfb52e4d60b6fb.md",
+          "bytes": 5820,
+          "preview_image": "/daily/2026-11-22/assets/url--aiera.com.cn-b14fd39812cac38f3b6dc5443541456d/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fabout.fb.com%2Fnews%2F2026%2F11%2Fadvancing-science-together-highlights-from-the-open-source-ai-for-science-summit%2F",
+          "category": "News",
+          "group_rank": 9,
+          "path": "docs/daily/2026-11-22/news/09-9e9aab0c4a115878.md",
+          "bytes": 5381,
+          "preview_image": "/daily/2026-11-22/assets/url--https_3a_2f_2fabout.fb.com_2fnews_2f2026_2f11_2fadvancing-science-together-highlights-from-the-open-source-ai-for-science-summit_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F511740.html",
+          "category": "News",
+          "group_rank": 10,
+          "path": "docs/daily/2026-11-22/news/10-c024d40dba36dca2.md",
+          "bytes": 5397,
+          "preview_image": "/daily/2026-11-22/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f511740.html/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "url--aiera.com.cn-1ec51400dc445a2e995e862c1a5095b8",
+      "path": "docs/public/daily/2026-11-22/assets/url--aiera.com.cn-1ec51400dc445a2e995e862c1a5095b8/preview.png",
+      "bytes": 394718
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F511727.html",
+      "path": "docs/public/daily/2026-11-22/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f511727.html/preview.png",
+      "bytes": 121529
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-6bd260a48db2274ada2af717c2f57eed",
+      "path": "docs/public/daily/2026-11-22/assets/url--aiera.com.cn-6bd260a48db2274ada2af717c2f57eed/preview.png",
+      "bytes": 539662
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F511779.html",
+      "path": "docs/public/daily/2026-11-22/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f511779.html/preview.png",
+      "bytes": 229160
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-4ccbf2d8b0339794a85ad4c2286397d3",
+      "path": "docs/public/daily/2026-11-22/assets/url--aiera.com.cn-4ccbf2d8b0339794a85ad4c2286397d3/preview.png",
+      "bytes": 579603
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-04e55af46ec4d0988fe7c984edd8df2e",
+      "path": "docs/public/daily/2026-11-22/assets/url--aiera.com.cn-04e55af46ec4d0988fe7c984edd8df2e/preview.png",
+      "bytes": 1266624
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.technologyreview.com%2F2026%2F11%2F20%2F1149399%2Fthe-most-misunderstood-graph-in-ai-just-got-a-major-update%2F",
+      "path": "docs/public/daily/2026-11-22/assets/url--https_3a_2f_2fwww.technologyreview.com_2f2026_2f11_2f20_2f1149399_2fthe-most-misunderstood-graph-in-ai-just-got-a-major-update_2f/preview.png",
+      "bytes": 1447863
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-b14fd39812cac38f3b6dc5443541456d",
+      "path": "docs/public/daily/2026-11-22/assets/url--aiera.com.cn-b14fd39812cac38f3b6dc5443541456d/preview.png",
+      "bytes": 539662
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fabout.fb.com%2Fnews%2F2026%2F11%2Fadvancing-science-together-highlights-from-the-open-source-ai-for-science-summit%2F",
+      "path": "docs/public/daily/2026-11-22/assets/url--https_3a_2f_2fabout.fb.com_2fnews_2f2026_2f11_2fadvancing-science-together-highlights-from-the-open-source-ai-for-science-summit_2f/preview.png",
+      "bytes": 1195765
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F511740.html",
+      "path": "docs/public/daily/2026-11-22/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f511740.html/preview.png",
+      "bytes": 759066
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-11-22T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 0,
+    "news_count": 10,
+    "policy_count": 0,
+    "selected_total": 10,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 10,
+    "news_fallback_used": 5
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
