@@ -1,0 +1,127 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-11-23",
+  "display_date": "2026-11-23",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": []
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--aiera.com.cn-6ba8dd1325f671bfa25250c3321ec912",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-23/news/01-19a960e88d2d0877.md",
+          "bytes": 5723,
+          "preview_image": "/daily/2026-11-23/assets/url--aiera.com.cn-6ba8dd1325f671bfa25250c3321ec912/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F511870.html",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-23/news/02-b645b1247a3d478e.md",
+          "bytes": 5584,
+          "preview_image": "/daily/2026-11-23/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f511870.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-f901cfa7cde0de3751d21d7bf12afdf4",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-23/news/03-44d3e6613aa4f742.md",
+          "bytes": 5214,
+          "preview_image": "/daily/2026-11-23/assets/url--aiera.com.cn-f901cfa7cde0de3751d21d7bf12afdf4/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-1f05a657c3667de3e1ef5573b60c0f35",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-23/news/04-3261c469f32c2d8c.md",
+          "bytes": 5127,
+          "preview_image": "/daily/2026-11-23/assets/url--aiera.com.cn-1f05a657c3667de3e1ef5573b60c0f35/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-981876e3192a75122e4be73e58c400b5",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-23/news/05-5773281f1449780a.md",
+          "bytes": 6154,
+          "preview_image": "/daily/2026-11-23/assets/url--aiera.com.cn-981876e3192a75122e4be73e58c400b5/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-b9f54cdefc086285e1bda537d8ed8e49",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-23/news/06-116aa90fd15a3c5e.md",
+          "bytes": 5463,
+          "preview_image": "/daily/2026-11-23/assets/url--aiera.com.cn-b9f54cdefc086285e1bda537d8ed8e49/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fpub.towardsai.net%2Fclaude-may-have-proved-the-riemann-hypothesis-2916aed384a8",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-23/news/07-ef155b974c2890ce.md",
+          "bytes": 5272,
+          "preview_image": null
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "url--aiera.com.cn-6ba8dd1325f671bfa25250c3321ec912",
+      "path": "docs/public/daily/2026-11-23/assets/url--aiera.com.cn-6ba8dd1325f671bfa25250c3321ec912/preview.png",
+      "bytes": 568178
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F511870.html",
+      "path": "docs/public/daily/2026-11-23/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f511870.html/preview.png",
+      "bytes": 463301
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-f901cfa7cde0de3751d21d7bf12afdf4",
+      "path": "docs/public/daily/2026-11-23/assets/url--aiera.com.cn-f901cfa7cde0de3751d21d7bf12afdf4/preview.png",
+      "bytes": 311795
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-1f05a657c3667de3e1ef5573b60c0f35",
+      "path": "docs/public/daily/2026-11-23/assets/url--aiera.com.cn-1f05a657c3667de3e1ef5573b60c0f35/preview.png",
+      "bytes": 395896
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-981876e3192a75122e4be73e58c400b5",
+      "path": "docs/public/daily/2026-11-23/assets/url--aiera.com.cn-981876e3192a75122e4be73e58c400b5/preview.png",
+      "bytes": 519843
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-b9f54cdefc086285e1bda537d8ed8e49",
+      "path": "docs/public/daily/2026-11-23/assets/url--aiera.com.cn-b9f54cdefc086285e1bda537d8ed8e49/preview.png",
+      "bytes": 785942
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-11-23T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 0,
+    "news_count": 7,
+    "policy_count": 0,
+    "selected_total": 7,
+    "news_policy_total": 7,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 10,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
