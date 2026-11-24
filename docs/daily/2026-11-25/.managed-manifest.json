@@ -1,0 +1,298 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-11-25",
+  "display_date": "2026-11-25",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2611.31002",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-25/paper/01-6a35541bcea6a81e.md",
+          "bytes": 13737,
+          "preview_image": "/daily/2026-11-25/assets/arxiv--2611.31002/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.30898",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-25/paper/02-94e8a5ca80a5cab2.md",
+          "bytes": 13142,
+          "preview_image": "/daily/2026-11-25/assets/arxiv--2611.30898/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.30209",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-25/paper/03-94cc554258df5ac4.md",
+          "bytes": 11744,
+          "preview_image": "/daily/2026-11-25/assets/arxiv--2611.30209/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.30179",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-25/paper/04-6237db97cef9cc92.md",
+          "bytes": 13424,
+          "preview_image": "/daily/2026-11-25/assets/arxiv--2611.30179/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.30907",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-25/paper/05-a9c8df67a57b0cc3.md",
+          "bytes": 11751,
+          "preview_image": "/daily/2026-11-25/assets/arxiv--2611.30907/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.30963",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-25/paper/06-e9d0244f46a6e33c.md",
+          "bytes": 11291,
+          "preview_image": "/daily/2026-11-25/assets/arxiv--2611.30963/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.28873",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-25/paper/07-16fa2f3685f858d8.md",
+          "bytes": 11457,
+          "preview_image": "/daily/2026-11-25/assets/arxiv--2611.28873/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.30572",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-11-25/paper/08-145167866af75b47.md",
+          "bytes": 11062,
+          "preview_image": "/daily/2026-11-25/assets/arxiv--2611.30572/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.30449",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-11-25/paper/09-126049e5c200a191.md",
+          "bytes": 11187,
+          "preview_image": "/daily/2026-11-25/assets/arxiv--2611.30449/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.31098",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-11-25/paper/10-f64f39a13bd3b565.md",
+          "bytes": 13572,
+          "preview_image": "/daily/2026-11-25/assets/arxiv--2611.31098/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Fabout.fb.com%2Fnews%2F2026%2F11%2Fintroducing-muse-in-the-uk-a-personal-ai-agent-you-control%2F",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-25/news/01-84ffc98a36fbc0b9.md",
+          "bytes": 5928,
+          "preview_image": "/daily/2026-11-25/assets/url--https_3a_2f_2fabout.fb.com_2fnews_2f2026_2f11_2fintroducing-muse-in-the-uk-a-personal-ai-agent-you-control_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-c7d93f76ffcf4cce9ceeb34455366607",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-25/news/02-fbee8a8ceacb7a20.md",
+          "bytes": 6587,
+          "preview_image": "/daily/2026-11-25/assets/url--aiera.com.cn-c7d93f76ffcf4cce9ceeb34455366607/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fdeepmind.google%2Fblog%2Ffinding-faster-quantum-algorithms-with-agents-and-formal-verification%2F",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-25/news/03-88f93d0ecae2a407.md",
+          "bytes": 5521,
+          "preview_image": "/daily/2026-11-25/assets/url--https_3a_2f_2fdeepmind.google_2fblog_2ffinding-faster-quantum-algorithms-with-agents-and-formal-verification_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F512264.html",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-25/news/04-569ffba7d4f06027.md",
+          "bytes": 6378,
+          "preview_image": "/daily/2026-11-25/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f512264.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-1b1fa3740dcbd9b7aad07404e40c8022",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-25/news/05-5fd9b5ab61a5cd56.md",
+          "bytes": 5896,
+          "preview_image": "/daily/2026-11-25/assets/url--aiera.com.cn-1b1fa3740dcbd9b7aad07404e40c8022/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-6dfebe09dda0186d3a18868e28eee202",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-25/news/06-d953c8e17dccc39a.md",
+          "bytes": 6611,
+          "preview_image": "/daily/2026-11-25/assets/url--aiera.com.cn-6dfebe09dda0186d3a18868e28eee202/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-c9ce36dbfc9d82c40ec92c0ff50729c9",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-25/news/07-048047a20ffde9a7.md",
+          "bytes": 6246,
+          "preview_image": "/daily/2026-11-25/assets/url--aiera.com.cn-c9ce36dbfc9d82c40ec92c0ff50729c9/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-24%2F%23story-0006",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-25/policy/01-a27c545640b61b8c.md",
+          "bytes": 11950,
+          "preview_image": "/daily/2026-11-25/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-24_2f_23story-0006/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-24%2F%23story-0021",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-25/policy/02-d7419a795f563957.md",
+          "bytes": 11586,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-24%2F%23story-0019",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-25/policy/03-0372f39733162b72.md",
+          "bytes": 12786,
+          "preview_image": "/daily/2026-11-25/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-24_2f_23story-0019/preview.png"
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2611.31002",
+      "path": "docs/public/daily/2026-11-25/assets/arxiv--2611.31002/preview.png",
+      "bytes": 910212
+    },
+    {
+      "candidate_id": "arxiv--2611.30898",
+      "path": "docs/public/daily/2026-11-25/assets/arxiv--2611.30898/preview.png",
+      "bytes": 815626
+    },
+    {
+      "candidate_id": "arxiv--2611.30209",
+      "path": "docs/public/daily/2026-11-25/assets/arxiv--2611.30209/preview.png",
+      "bytes": 559558
+    },
+    {
+      "candidate_id": "arxiv--2611.30179",
+      "path": "docs/public/daily/2026-11-25/assets/arxiv--2611.30179/preview.png",
+      "bytes": 3541265
+    },
+    {
+      "candidate_id": "arxiv--2611.30907",
+      "path": "docs/public/daily/2026-11-25/assets/arxiv--2611.30907/preview.png",
+      "bytes": 5420864
+    },
+    {
+      "candidate_id": "arxiv--2611.30963",
+      "path": "docs/public/daily/2026-11-25/assets/arxiv--2611.30963/preview.png",
+      "bytes": 460344
+    },
+    {
+      "candidate_id": "arxiv--2611.28873",
+      "path": "docs/public/daily/2026-11-25/assets/arxiv--2611.28873/preview.png",
+      "bytes": 296601
+    },
+    {
+      "candidate_id": "arxiv--2611.30572",
+      "path": "docs/public/daily/2026-11-25/assets/arxiv--2611.30572/preview.png",
+      "bytes": 384592
+    },
+    {
+      "candidate_id": "arxiv--2611.30449",
+      "path": "docs/public/daily/2026-11-25/assets/arxiv--2611.30449/preview.png",
+      "bytes": 763596
+    },
+    {
+      "candidate_id": "arxiv--2611.31098",
+      "path": "docs/public/daily/2026-11-25/assets/arxiv--2611.31098/preview.png",
+      "bytes": 6990268
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fabout.fb.com%2Fnews%2F2026%2F11%2Fintroducing-muse-in-the-uk-a-personal-ai-agent-you-control%2F",
+      "path": "docs/public/daily/2026-11-25/assets/url--https_3a_2f_2fabout.fb.com_2fnews_2f2026_2f11_2fintroducing-muse-in-the-uk-a-personal-ai-agent-you-control_2f/preview.png",
+      "bytes": 2663589
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-c7d93f76ffcf4cce9ceeb34455366607",
+      "path": "docs/public/daily/2026-11-25/assets/url--aiera.com.cn-c7d93f76ffcf4cce9ceeb34455366607/preview.png",
+      "bytes": 335892
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fdeepmind.google%2Fblog%2Ffinding-faster-quantum-algorithms-with-agents-and-formal-verification%2F",
+      "path": "docs/public/daily/2026-11-25/assets/url--https_3a_2f_2fdeepmind.google_2fblog_2ffinding-faster-quantum-algorithms-with-agents-and-formal-verification_2f/preview.png",
+      "bytes": 501553
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F512264.html",
+      "path": "docs/public/daily/2026-11-25/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f512264.html/preview.png",
+      "bytes": 476319
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-1b1fa3740dcbd9b7aad07404e40c8022",
+      "path": "docs/public/daily/2026-11-25/assets/url--aiera.com.cn-1b1fa3740dcbd9b7aad07404e40c8022/preview.png",
+      "bytes": 425980
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-6dfebe09dda0186d3a18868e28eee202",
+      "path": "docs/public/daily/2026-11-25/assets/url--aiera.com.cn-6dfebe09dda0186d3a18868e28eee202/preview.png",
+      "bytes": 498764
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-c9ce36dbfc9d82c40ec92c0ff50729c9",
+      "path": "docs/public/daily/2026-11-25/assets/url--aiera.com.cn-c9ce36dbfc9d82c40ec92c0ff50729c9/preview.png",
+      "bytes": 201967
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-24%2F%23story-0006",
+      "path": "docs/public/daily/2026-11-25/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-24_2f_23story-0006/preview.png",
+      "bytes": 167809
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-24%2F%23story-0019",
+      "path": "docs/public/daily/2026-11-25/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-24_2f_23story-0019/preview.png",
+      "bytes": 175353
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-11-25T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
