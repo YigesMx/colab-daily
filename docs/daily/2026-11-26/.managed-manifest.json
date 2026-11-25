@@ -1,0 +1,288 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-11-26",
+  "display_date": "2026-11-26",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2611.33158",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-26/paper/01-2e1f92ac1a2183c6.md",
+          "bytes": 11871,
+          "preview_image": "/daily/2026-11-26/assets/arxiv--2611.33158/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.31535",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-26/paper/02-a6154c26433e0d52.md",
+          "bytes": 10875,
+          "preview_image": "/daily/2026-11-26/assets/arxiv--2611.31535/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.31822",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-26/paper/03-b408e6e46999cac8.md",
+          "bytes": 12988,
+          "preview_image": "/daily/2026-11-26/assets/arxiv--2611.31822/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.32654",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-26/paper/04-1dc1912b2d4a9421.md",
+          "bytes": 10108,
+          "preview_image": "/daily/2026-11-26/assets/arxiv--2611.32654/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.31894",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-26/paper/05-7cea11e2cc8ead89.md",
+          "bytes": 12740,
+          "preview_image": "/daily/2026-11-26/assets/arxiv--2611.31894/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.32665",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-26/paper/06-48dbcca554aa1980.md",
+          "bytes": 13134,
+          "preview_image": "/daily/2026-11-26/assets/arxiv--2611.32665/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.31452",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-26/paper/07-4cf5121c64cf8660.md",
+          "bytes": 11971,
+          "preview_image": "/daily/2026-11-26/assets/arxiv--2611.31452/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.33010",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-11-26/paper/08-091dd7157c10ab4e.md",
+          "bytes": 11796,
+          "preview_image": "/daily/2026-11-26/assets/arxiv--2611.33010/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.32786",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-11-26/paper/09-6ea89c272846b40d.md",
+          "bytes": 13688,
+          "preview_image": "/daily/2026-11-26/assets/arxiv--2611.32786/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.32016",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-11-26/paper/10-a96cccf071b155a3.md",
+          "bytes": 12325,
+          "preview_image": "/daily/2026-11-26/assets/arxiv--2611.32016/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--aiera.com.cn-d191be1168414378f6d58f955e0e4912",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-26/news/01-30078af1706859a4.md",
+          "bytes": 7331,
+          "preview_image": "/daily/2026-11-26/assets/url--aiera.com.cn-d191be1168414378f6d58f955e0e4912/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-3c7257db700165abb6f8a8b954cab6d9",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-26/news/02-2d579678046c9185.md",
+          "bytes": 7628,
+          "preview_image": "/daily/2026-11-26/assets/url--aiera.com.cn-3c7257db700165abb6f8a8b954cab6d9/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fmigrating-api-to-rust",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-26/news/03-a6ab91d15639dbde.md",
+          "bytes": 7088,
+          "preview_image": "/daily/2026-11-26/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2fmigrating-api-to-rust/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F512538.html",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-26/news/04-66179aeabd88dcc3.md",
+          "bytes": 7611,
+          "preview_image": "/daily/2026-11-26/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f512538.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-c20d640317524053fd99701cd8ae9e2b",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-26/news/05-a6176ab41c7beaea.md",
+          "bytes": 7455,
+          "preview_image": "/daily/2026-11-26/assets/url--aiera.com.cn-c20d640317524053fd99701cd8ae9e2b/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F11%2F25%2Fwalmart-opens-black-friday-deals-to-metas-muse-ai-agent%2F",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-26/news/06-e3f9df5acc67bc27.md",
+          "bytes": 6448,
+          "preview_image": "/daily/2026-11-26/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f11_2f25_2fwalmart-opens-black-friday-deals-to-metas-muse-ai-agent_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Fnvidia%2Fmicroduck-obstacle-avoidance",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-26/news/07-c97f623df62a1b44.md",
+          "bytes": 6531,
+          "preview_image": "/daily/2026-11-26/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2fnvidia_2fmicroduck-obstacle-avoidance/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-25%2F%23story-0006",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-26/policy/01-840d8375cb72ea51.md",
+          "bytes": 14337,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-25%2F%23story-0022",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-26/policy/02-d087e86997552ad2.md",
+          "bytes": 15438,
+          "preview_image": null
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-25%2F%23story-0005",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-26/policy/03-cd3f16dcbf56ebfa.md",
+          "bytes": 14568,
+          "preview_image": null
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2611.33158",
+      "path": "docs/public/daily/2026-11-26/assets/arxiv--2611.33158/preview.png",
+      "bytes": 1841903
+    },
+    {
+      "candidate_id": "arxiv--2611.31535",
+      "path": "docs/public/daily/2026-11-26/assets/arxiv--2611.31535/preview.png",
+      "bytes": 1737208
+    },
+    {
+      "candidate_id": "arxiv--2611.31822",
+      "path": "docs/public/daily/2026-11-26/assets/arxiv--2611.31822/preview.png",
+      "bytes": 187359
+    },
+    {
+      "candidate_id": "arxiv--2611.32654",
+      "path": "docs/public/daily/2026-11-26/assets/arxiv--2611.32654/preview.png",
+      "bytes": 2440725
+    },
+    {
+      "candidate_id": "arxiv--2611.31894",
+      "path": "docs/public/daily/2026-11-26/assets/arxiv--2611.31894/preview.png",
+      "bytes": 2919753
+    },
+    {
+      "candidate_id": "arxiv--2611.32665",
+      "path": "docs/public/daily/2026-11-26/assets/arxiv--2611.32665/preview.png",
+      "bytes": 1935445
+    },
+    {
+      "candidate_id": "arxiv--2611.31452",
+      "path": "docs/public/daily/2026-11-26/assets/arxiv--2611.31452/preview.png",
+      "bytes": 302863
+    },
+    {
+      "candidate_id": "arxiv--2611.33010",
+      "path": "docs/public/daily/2026-11-26/assets/arxiv--2611.33010/preview.png",
+      "bytes": 608830
+    },
+    {
+      "candidate_id": "arxiv--2611.32786",
+      "path": "docs/public/daily/2026-11-26/assets/arxiv--2611.32786/preview.png",
+      "bytes": 563747
+    },
+    {
+      "candidate_id": "arxiv--2611.32016",
+      "path": "docs/public/daily/2026-11-26/assets/arxiv--2611.32016/preview.png",
+      "bytes": 574351
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-d191be1168414378f6d58f955e0e4912",
+      "path": "docs/public/daily/2026-11-26/assets/url--aiera.com.cn-d191be1168414378f6d58f955e0e4912/preview.png",
+      "bytes": 27549
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-3c7257db700165abb6f8a8b954cab6d9",
+      "path": "docs/public/daily/2026-11-26/assets/url--aiera.com.cn-3c7257db700165abb6f8a8b954cab6d9/preview.png",
+      "bytes": 987402
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.anthropic.com%2Fresearch%2Fmigrating-api-to-rust",
+      "path": "docs/public/daily/2026-11-26/assets/url--https_3a_2f_2fwww.anthropic.com_2fresearch_2fmigrating-api-to-rust/preview.png",
+      "bytes": 101447
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F512538.html",
+      "path": "docs/public/daily/2026-11-26/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f512538.html/preview.png",
+      "bytes": 456888
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-c20d640317524053fd99701cd8ae9e2b",
+      "path": "docs/public/daily/2026-11-26/assets/url--aiera.com.cn-c20d640317524053fd99701cd8ae9e2b/preview.png",
+      "bytes": 1115250
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Ftheaiinsider.tech%2F2026%2F11%2F25%2Fwalmart-opens-black-friday-deals-to-metas-muse-ai-agent%2F",
+      "path": "docs/public/daily/2026-11-26/assets/url--https_3a_2f_2ftheaiinsider.tech_2f2026_2f11_2f25_2fwalmart-opens-black-friday-deals-to-metas-muse-ai-agent_2f/preview.png",
+      "bytes": 763912
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fhuggingface.co%2Fblog%2Fnvidia%2Fmicroduck-obstacle-avoidance",
+      "path": "docs/public/daily/2026-11-26/assets/url--https_3a_2f_2fhuggingface.co_2fblog_2fnvidia_2fmicroduck-obstacle-avoidance/preview.png",
+      "bytes": 536272
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-11-26T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
