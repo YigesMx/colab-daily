@@ -1,0 +1,302 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-11-27",
+  "display_date": "2026-11-27",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2611.34449",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-27/paper/01-42caf838591af843.md",
+          "bytes": 11773,
+          "preview_image": "/daily/2026-11-27/assets/arxiv--2611.34449/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.33144",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-27/paper/02-722e6ed83bef8d06.md",
+          "bytes": 13658,
+          "preview_image": "/daily/2026-11-27/assets/arxiv--2611.33144/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.34914",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-27/paper/03-21ddfe8a4669af77.md",
+          "bytes": 12790,
+          "preview_image": "/daily/2026-11-27/assets/arxiv--2611.34914/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.33914",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-27/paper/04-ff90240484804d72.md",
+          "bytes": 10834,
+          "preview_image": "/daily/2026-11-27/assets/arxiv--2611.33914/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.33925",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-27/paper/05-d1421c3e2541871d.md",
+          "bytes": 10856,
+          "preview_image": "/daily/2026-11-27/assets/arxiv--2611.33925/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.34435",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-27/paper/06-44331ae32304bfd9.md",
+          "bytes": 10164,
+          "preview_image": "/daily/2026-11-27/assets/arxiv--2611.34435/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.33915",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-27/paper/07-23a5e8559954fed2.md",
+          "bytes": 13625,
+          "preview_image": "/daily/2026-11-27/assets/arxiv--2611.33915/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.34671",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-11-27/paper/08-6834078c0014981b.md",
+          "bytes": 13132,
+          "preview_image": "/daily/2026-11-27/assets/arxiv--2611.34671/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.34675",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-11-27/paper/09-95c31ff5bc704e30.md",
+          "bytes": 12405,
+          "preview_image": "/daily/2026-11-27/assets/arxiv--2611.34675/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.34124",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-11-27/paper/10-cc07d6d97cbb9c7a.md",
+          "bytes": 14041,
+          "preview_image": "/daily/2026-11-27/assets/arxiv--2611.34124/preview.png"
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--aiera.com.cn-07dfaf61ecb9886e73b70de37ae0f935",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-27/news/01-14c02de73c3fb7f8.md",
+          "bytes": 6478,
+          "preview_image": "/daily/2026-11-27/assets/url--aiera.com.cn-07dfaf61ecb9886e73b70de37ae0f935/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fdeepmind.google%2Fblog%2Finterpreting-mass-spectra-with-google-antigravity%2F",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-27/news/02-5c2fe10e5cbf6c3f.md",
+          "bytes": 6180,
+          "preview_image": "/daily/2026-11-27/assets/url--https_3a_2f_2fdeepmind.google_2fblog_2finterpreting-mass-spectra-with-google-antigravity_2f/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-d149155c5ee02bcc1975f448de558e5e",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-27/news/03-cae6aabf83de4ebc.md",
+          "bytes": 6975,
+          "preview_image": "/daily/2026-11-27/assets/url--aiera.com.cn-d149155c5ee02bcc1975f448de558e5e/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F512819.html",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-27/news/04-fafd756932550554.md",
+          "bytes": 6330,
+          "preview_image": "/daily/2026-11-27/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f512819.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F512916.html",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-27/news/05-8ee007ab10818ad0.md",
+          "bytes": 6434,
+          "preview_image": "/daily/2026-11-27/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f512916.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F512840.html",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-27/news/06-2ca9521c6d190870.md",
+          "bytes": 7514,
+          "preview_image": "/daily/2026-11-27/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f512840.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-c3995794de7546962c04db047362d743",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-27/news/07-0eb5cb1180f9ecc6.md",
+          "bytes": 7188,
+          "preview_image": "/daily/2026-11-27/assets/url--aiera.com.cn-c3995794de7546962c04db047362d743/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F512897.html",
+          "category": "News",
+          "group_rank": 8,
+          "path": "docs/daily/2026-11-27/news/08-606281513131bf43.md",
+          "bytes": 7521,
+          "preview_image": "/daily/2026-11-27/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f512897.html/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2109214340687713739",
+          "category": "News",
+          "group_rank": 9,
+          "path": "docs/daily/2026-11-27/news/09-20ebe0314e0d2581.md",
+          "bytes": 8396,
+          "preview_image": "/daily/2026-11-27/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2109214340687713739/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2109340146592113220",
+          "category": "News",
+          "group_rank": 10,
+          "path": "docs/daily/2026-11-27/news/10-6a8574a89c1234d0.md",
+          "bytes": 9193,
+          "preview_image": "/daily/2026-11-27/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2109340146592113220/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": []
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2611.34449",
+      "path": "docs/public/daily/2026-11-27/assets/arxiv--2611.34449/preview.png",
+      "bytes": 98318
+    },
+    {
+      "candidate_id": "arxiv--2611.33144",
+      "path": "docs/public/daily/2026-11-27/assets/arxiv--2611.33144/preview.png",
+      "bytes": 289116
+    },
+    {
+      "candidate_id": "arxiv--2611.34914",
+      "path": "docs/public/daily/2026-11-27/assets/arxiv--2611.34914/preview.png",
+      "bytes": 507082
+    },
+    {
+      "candidate_id": "arxiv--2611.33914",
+      "path": "docs/public/daily/2026-11-27/assets/arxiv--2611.33914/preview.png",
+      "bytes": 331070
+    },
+    {
+      "candidate_id": "arxiv--2611.33925",
+      "path": "docs/public/daily/2026-11-27/assets/arxiv--2611.33925/preview.png",
+      "bytes": 950198
+    },
+    {
+      "candidate_id": "arxiv--2611.34435",
+      "path": "docs/public/daily/2026-11-27/assets/arxiv--2611.34435/preview.png",
+      "bytes": 1396985
+    },
+    {
+      "candidate_id": "arxiv--2611.33915",
+      "path": "docs/public/daily/2026-11-27/assets/arxiv--2611.33915/preview.png",
+      "bytes": 481966
+    },
+    {
+      "candidate_id": "arxiv--2611.34671",
+      "path": "docs/public/daily/2026-11-27/assets/arxiv--2611.34671/preview.png",
+      "bytes": 940477
+    },
+    {
+      "candidate_id": "arxiv--2611.34675",
+      "path": "docs/public/daily/2026-11-27/assets/arxiv--2611.34675/preview.png",
+      "bytes": 327224
+    },
+    {
+      "candidate_id": "arxiv--2611.34124",
+      "path": "docs/public/daily/2026-11-27/assets/arxiv--2611.34124/preview.png",
+      "bytes": 304698
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-07dfaf61ecb9886e73b70de37ae0f935",
+      "path": "docs/public/daily/2026-11-27/assets/url--aiera.com.cn-07dfaf61ecb9886e73b70de37ae0f935/preview.png",
+      "bytes": 584801
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fdeepmind.google%2Fblog%2Finterpreting-mass-spectra-with-google-antigravity%2F",
+      "path": "docs/public/daily/2026-11-27/assets/url--https_3a_2f_2fdeepmind.google_2fblog_2finterpreting-mass-spectra-with-google-antigravity_2f/preview.png",
+      "bytes": 278378
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-d149155c5ee02bcc1975f448de558e5e",
+      "path": "docs/public/daily/2026-11-27/assets/url--aiera.com.cn-d149155c5ee02bcc1975f448de558e5e/preview.png",
+      "bytes": 132350
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F512819.html",
+      "path": "docs/public/daily/2026-11-27/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f512819.html/preview.png",
+      "bytes": 338478
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F512916.html",
+      "path": "docs/public/daily/2026-11-27/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f512916.html/preview.png",
+      "bytes": 1451799
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F512840.html",
+      "path": "docs/public/daily/2026-11-27/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f512840.html/preview.png",
+      "bytes": 1178401
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-c3995794de7546962c04db047362d743",
+      "path": "docs/public/daily/2026-11-27/assets/url--aiera.com.cn-c3995794de7546962c04db047362d743/preview.png",
+      "bytes": 389478
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F512897.html",
+      "path": "docs/public/daily/2026-11-27/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f512897.html/preview.png",
+      "bytes": 485097
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2109214340687713739",
+      "path": "docs/public/daily/2026-11-27/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2109214340687713739/preview.png",
+      "bytes": 6197377
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2109340146592113220",
+      "path": "docs/public/daily/2026-11-27/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2109340146592113220/preview.png",
+      "bytes": 1888215
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-11-27T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 10,
+    "policy_count": 0,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 10,
+    "news_fallback_used": 5
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
