@@ -1,0 +1,298 @@
+{
+  "schema_version": 3,
+  "quota_contract": "three-track-v3",
+  "quota_revision": "policy3",
+  "cycle_id": "daily-2026-11-28",
+  "display_date": "2026-11-28",
+  "selection_limit": 20,
+  "groups": {
+    "Paper": {
+      "candidates": [
+        {
+          "candidate_id": "arxiv--2611.32238",
+          "category": "Paper",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-28/paper/01-177d29c0e549ba68.md",
+          "bytes": 6382,
+          "preview_image": "/daily/2026-11-28/assets/arxiv--2611.32238/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.34693",
+          "category": "Paper",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-28/paper/02-a1846671b77a2183.md",
+          "bytes": 6617,
+          "preview_image": "/daily/2026-11-28/assets/arxiv--2611.34693/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.34232",
+          "category": "Paper",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-28/paper/03-04f508537d25ddb0.md",
+          "bytes": 8433,
+          "preview_image": "/daily/2026-11-28/assets/arxiv--2611.34232/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.34813",
+          "category": "Paper",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-28/paper/04-715ef5ea9f2db649.md",
+          "bytes": 7018,
+          "preview_image": "/daily/2026-11-28/assets/arxiv--2611.34813/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.34457",
+          "category": "Paper",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-28/paper/05-f57aa1d674ed3597.md",
+          "bytes": 6311,
+          "preview_image": "/daily/2026-11-28/assets/arxiv--2611.34457/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.28849",
+          "category": "Paper",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-28/paper/06-e8fce720f0b37ce9.md",
+          "bytes": 7364,
+          "preview_image": "/daily/2026-11-28/assets/arxiv--2611.28849/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.34852",
+          "category": "Paper",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-28/paper/07-b1f6cb186eaf270d.md",
+          "bytes": 5993,
+          "preview_image": "/daily/2026-11-28/assets/arxiv--2611.34852/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.34290",
+          "category": "Paper",
+          "group_rank": 8,
+          "path": "docs/daily/2026-11-28/paper/08-8829d9714ab1b914.md",
+          "bytes": 6465,
+          "preview_image": "/daily/2026-11-28/assets/arxiv--2611.34290/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.30494",
+          "category": "Paper",
+          "group_rank": 9,
+          "path": "docs/daily/2026-11-28/paper/09-5290fc6966e2096a.md",
+          "bytes": 6172,
+          "preview_image": "/daily/2026-11-28/assets/arxiv--2611.30494/preview.png"
+        },
+        {
+          "candidate_id": "arxiv--2611.30483",
+          "category": "Paper",
+          "group_rank": 10,
+          "path": "docs/daily/2026-11-28/paper/10-a1429e7676050209.md",
+          "bytes": 8906,
+          "preview_image": null
+        }
+      ]
+    },
+    "News": {
+      "candidates": [
+        {
+          "candidate_id": "url--aiera.com.cn-4e00b71022acc2dcc7b0f8e16f9d6806",
+          "category": "News",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-28/news/01-9571f682c00f8a04.md",
+          "bytes": 8102,
+          "preview_image": "/daily/2026-11-28/assets/url--aiera.com.cn-4e00b71022acc2dcc7b0f8e16f9d6806/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F513227.html",
+          "category": "News",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-28/news/02-45e87544f54644c2.md",
+          "bytes": 9135,
+          "preview_image": "/daily/2026-11-28/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f513227.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-51f55e4403ad2d6b4a1c479e3c3e618d",
+          "category": "News",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-28/news/03-61524f757b08d6cb.md",
+          "bytes": 7437,
+          "preview_image": "/daily/2026-11-28/assets/url--aiera.com.cn-51f55e4403ad2d6b4a1c479e3c3e618d/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-2672e6a713b821bca105c657ebb2a902",
+          "category": "News",
+          "group_rank": 4,
+          "path": "docs/daily/2026-11-28/news/04-83653c5696b8df8e.md",
+          "bytes": 7329,
+          "preview_image": "/daily/2026-11-28/assets/url--aiera.com.cn-2672e6a713b821bca105c657ebb2a902/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2109344073312224240",
+          "category": "News",
+          "group_rank": 5,
+          "path": "docs/daily/2026-11-28/news/05-2f8ce44656c8218b.md",
+          "bytes": 8605,
+          "preview_image": "/daily/2026-11-28/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2109344073312224240/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F513163.html",
+          "category": "News",
+          "group_rank": 6,
+          "path": "docs/daily/2026-11-28/news/06-dc1cc7cd1ab75e08.md",
+          "bytes": 8908,
+          "preview_image": "/daily/2026-11-28/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f513163.html/preview.png"
+        },
+        {
+          "candidate_id": "url--aiera.com.cn-c1f945eaba77c138c53c5274db50ce08",
+          "category": "News",
+          "group_rank": 7,
+          "path": "docs/daily/2026-11-28/news/07-9089b877a026da5a.md",
+          "bytes": 9039,
+          "preview_image": "/daily/2026-11-28/assets/url--aiera.com.cn-c1f945eaba77c138c53c5274db50ce08/preview.png"
+        }
+      ]
+    },
+    "Policy": {
+      "candidates": [
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-27%2F%23story-0003",
+          "category": "Policy",
+          "group_rank": 1,
+          "path": "docs/daily/2026-11-28/policy/01-97be0d70b5e8edd3.md",
+          "bytes": 12034,
+          "preview_image": "/daily/2026-11-28/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-27_2f_23story-0003/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-27%2F%23story-0025",
+          "category": "Policy",
+          "group_rank": 2,
+          "path": "docs/daily/2026-11-28/policy/02-c61e4ef76722a8e6.md",
+          "bytes": 8315,
+          "preview_image": "/daily/2026-11-28/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-27_2f_23story-0025/preview.png"
+        },
+        {
+          "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-27%2F%23story-0014",
+          "category": "Policy",
+          "group_rank": 3,
+          "path": "docs/daily/2026-11-28/policy/03-23d6cac59edf02ec.md",
+          "bytes": 9113,
+          "preview_image": "/daily/2026-11-28/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-27_2f_23story-0014/preview.png"
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "candidate_id": "arxiv--2611.32238",
+      "path": "docs/public/daily/2026-11-28/assets/arxiv--2611.32238/preview.png",
+      "bytes": 242058
+    },
+    {
+      "candidate_id": "arxiv--2611.34693",
+      "path": "docs/public/daily/2026-11-28/assets/arxiv--2611.34693/preview.png",
+      "bytes": 720370
+    },
+    {
+      "candidate_id": "arxiv--2611.34232",
+      "path": "docs/public/daily/2026-11-28/assets/arxiv--2611.34232/preview.png",
+      "bytes": 1220115
+    },
+    {
+      "candidate_id": "arxiv--2611.34813",
+      "path": "docs/public/daily/2026-11-28/assets/arxiv--2611.34813/preview.png",
+      "bytes": 695907
+    },
+    {
+      "candidate_id": "arxiv--2611.34457",
+      "path": "docs/public/daily/2026-11-28/assets/arxiv--2611.34457/preview.png",
+      "bytes": 1189511
+    },
+    {
+      "candidate_id": "arxiv--2611.28849",
+      "path": "docs/public/daily/2026-11-28/assets/arxiv--2611.28849/preview.png",
+      "bytes": 94534
+    },
+    {
+      "candidate_id": "arxiv--2611.34852",
+      "path": "docs/public/daily/2026-11-28/assets/arxiv--2611.34852/preview.png",
+      "bytes": 181371
+    },
+    {
+      "candidate_id": "arxiv--2611.34290",
+      "path": "docs/public/daily/2026-11-28/assets/arxiv--2611.34290/preview.png",
+      "bytes": 2359767
+    },
+    {
+      "candidate_id": "arxiv--2611.30494",
+      "path": "docs/public/daily/2026-11-28/assets/arxiv--2611.30494/preview.png",
+      "bytes": 1062219
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-4e00b71022acc2dcc7b0f8e16f9d6806",
+      "path": "docs/public/daily/2026-11-28/assets/url--aiera.com.cn-4e00b71022acc2dcc7b0f8e16f9d6806/preview.png",
+      "bytes": 903170
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F513227.html",
+      "path": "docs/public/daily/2026-11-28/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f513227.html/preview.png",
+      "bytes": 383139
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-51f55e4403ad2d6b4a1c479e3c3e618d",
+      "path": "docs/public/daily/2026-11-28/assets/url--aiera.com.cn-51f55e4403ad2d6b4a1c479e3c3e618d/preview.png",
+      "bytes": 248491
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-2672e6a713b821bca105c657ebb2a902",
+      "path": "docs/public/daily/2026-11-28/assets/url--aiera.com.cn-2672e6a713b821bca105c657ebb2a902/preview.png",
+      "bytes": 5114713
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F2109344073312224240",
+      "path": "docs/public/daily/2026-11-28/assets/url--https_3a_2f_2fzhuanlan.zhihu.com_2fp_2f2109344073312224240/preview.png",
+      "bytes": 340330
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Fwww.qbitai.com%2F2026%2F11%2F513163.html",
+      "path": "docs/public/daily/2026-11-28/assets/url--https_3a_2f_2fwww.qbitai.com_2f2026_2f11_2f513163.html/preview.png",
+      "bytes": 350432
+    },
+    {
+      "candidate_id": "url--aiera.com.cn-c1f945eaba77c138c53c5274db50ce08",
+      "path": "docs/public/daily/2026-11-28/assets/url--aiera.com.cn-c1f945eaba77c138c53c5274db50ce08/preview.png",
+      "bytes": 36934
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-27%2F%23story-0003",
+      "path": "docs/public/daily/2026-11-28/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-27_2f_23story-0003/preview.png",
+      "bytes": 304440
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-27%2F%23story-0025",
+      "path": "docs/public/daily/2026-11-28/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-27_2f_23story-0025/preview.png",
+      "bytes": 145252
+    },
+    {
+      "candidate_id": "url--https%3A%2F%2Faipolicydaily.org%2Farchive%2Fdaily%2F2026-11-27%2F%23story-0014",
+      "path": "docs/public/daily/2026-11-28/assets/url--https_3a_2f_2faipolicydaily.org_2farchive_2fdaily_2f2026-11-27_2f_23story-0014/preview.png",
+      "bytes": 1028650
+    }
+  ],
+  "detached_legacy_pages": [],
+  "generated_at": "2026-11-28T00:00:00+08:00",
+  "public_fields": "rank-display-v1",
+  "quota_proof": {
+    "selection_limit": 20,
+    "paper_count": 10,
+    "news_count": 7,
+    "policy_count": 3,
+    "selected_total": 20,
+    "news_policy_total": 10,
+    "paper_capacity": 10,
+    "policy_capacity": 3,
+    "news_final_capacity": 7,
+    "news_fallback_used": 2
+  },
+  "compatibility_checks": {
+    "detached_legacy_page_count": 0,
+    "detached_legacy_asset_count": 0
+  }
+}
